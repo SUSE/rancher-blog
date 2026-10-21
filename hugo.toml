@@ -2,9 +2,29 @@ baseURL = "https://www.rancher.com/"
 title = "Rancher Blog"
 locale = "en-US"
 enableRobotsTXT = true
+capitalizeListTitles = false
 
+[params]
+  description = "Hands-on posts from the Rancher community: Kubernetes, K3s, RKE2, Longhorn, Fleet, Harvester, NeuVector and more."
+  enterpriseURL = "https://www.suse.com/products/rancher/"
+  # filter pills on the blog home: current projects only
+  featuredProducts = ["Rancher Manager", "K3s", "RKE2", "Longhorn", "Fleet", "Harvester", "NeuVector", "Rancher Desktop", "Kubewarden", "Elemental"]
+
+[pagination]
+  pagerSize = 12
+
+# CloudFront only routes /blog/* to this site, so every page lives under /blog/
 [permalinks]
-  blog = "/blog/:slug/"
+  [permalinks.page]
+    blog = "/blog/:slug/"
+  [permalinks.section]
+    blog = "/blog/"
+  [permalinks.taxonomy]
+    products = "/blog/products/"
+    tags = "/blog/tags/"
+  [permalinks.term]
+    products = "/blog/products/:slug/"
+    tags = "/blog/tags/:slug/"
 
 [taxonomies]
   tag = "tags"

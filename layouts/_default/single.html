@@ -1,7 +1,28 @@
 {{ define "main" }}
-<article>
-  <h1>{{ .Title }}</h1>
-  <p><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>{{ with .Params.author }} · {{ . }}{{ end }}</p>
-  {{ .Content }}
+<article class="post">
+  <header class="post-head wrap-narrow">
+    <p class="eyebrow">
+      {{- with .GetTerms "products" }}{{ range first 1 . }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}{{ else }}<a href="/blog/">Blog</a>{{ end -}}
+    </p>
+    <h1>{{ .Title }}</h1>
+    <p class="post-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>{{ with .Params.author }} · {{ . }}{{ end }} · {{ .ReadingTime }} min read</p>
+  </header>
+  {{- /* show the WordPress featured image only when the body does not already include it */ -}}
+  {{- $feat := and .Params.image (not (strings.Contains .RawContent (path.Base .Params.image))) }}
+  {{- with and $feat (partial "thumb.html" (dict "page" . "w" 1200 "h" 0 "featuredOnly" true)) }}
+  <figure class="post-hero wrap-narrow"><img src="{{ .RelPermalink }}" alt="" width="{{ .Width }}" height="{{ .Height }}"></figure>
+  {{- end }}
+  <div class="prose wrap-narrow">
+    {{ .Content }}
+  </div>
+  <footer class="post-foot wrap-narrow">
+    {{- with .GetTerms "tags" }}
+    <ul class="pills" aria-label="Tags">{{ range . }}<li><a class="pill" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>{{ end }}</ul>
+    {{- end }}
+    <nav class="post-nav">
+      {{- with .NextInSection }}<a href="{{ .RelPermalink }}"><span class="eyebrow">Newer</span>{{ .Title }}</a>{{ else }}<span></span>{{ end }}
+      {{- with .PrevInSection }}<a class="older" href="{{ .RelPermalink }}"><span class="eyebrow">Older</span>{{ .Title }}</a>{{ end }}
+    </nav>
+  </footer>
 </article>
 {{ end }}

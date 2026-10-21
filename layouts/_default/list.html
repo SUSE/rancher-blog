@@ -1,5 +1,47 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-<ul>{{ range .Paginator.Pages }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <time>{{ .Date.Format "2006-01-02" }}</time></li>{{ end }}</ul>
-{{ template "_internal/pagination.html" . }}
+{{- $isBlog := eq .Section "blog" }}
+<section class="hero">
+  <div class="wrap">
+    {{- if eq .Kind "term" }}
+    <p class="eyebrow">{{ cond (eq .Data.Plural "products") "Project" "Tag" }}</p>
+    <h1>{{ .Title }}</h1>
+    <p class="lede">{{ len .Pages }} posts</p>
+    {{- else if eq .Kind "taxonomy" }}
+    <p class="eyebrow">Rancher blog</p>
+    <h1>Browse by {{ cond (eq .Data.Plural "products") "project" "tag" }}</h1>
+    {{- else }}
+    <p class="eyebrow">Rancher blog</p>
+    <h1><span class="light">Notes from the people</span> who run Rancher</h1>
+    <p class="lede">How-tos, engineering deep dives and release notes for Rancher Manager, K3s, RKE2, Longhorn, Fleet, Harvester, NeuVector and the rest of the stack.</p>
+    {{- end }}
+    {{- if ne .Kind "taxonomy" }}
+    <nav class="pills" aria-label="Projects">
+      <a class="pill{{ if $isBlog }} active{{ end }}" href="/blog/">All</a>
+      {{- range site.Params.featuredProducts }}
+      {{- with site.GetPage (printf "/products/%s" (urlize .)) }}
+      <a class="pill{{ if eq $.RelPermalink .RelPermalink }} active{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{- end }}
+      {{- end }}
+      <a class="pill more" href="/blog/products/">More</a>
+    </nav>
+    {{- end }}
+  </div>
+</section>
+
+<section class="wrap section">
+  {{- if eq .Kind "taxonomy" }}
+  <ul class="term-list">
+    {{- range .Data.Terms.ByCount }}
+    <li><a class="pill" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <span>{{ .Count }}</span></a></li>
+    {{- end }}
+  </ul>
+  {{- else }}
+  {{- $pages := where .Pages "Section" "blog" }}
+  {{- $pager := .Paginate $pages }}
+  <div class="grid">
+    {{- range $pager.Pages }}{{ partial "card.html" . }}{{ end }}
+  </div>
+  {{ partial "pagination.html" . }}
+  {{- end }}
+</section>
 {{ end }}

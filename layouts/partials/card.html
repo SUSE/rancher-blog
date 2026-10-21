@@ -1,0 +1,14 @@
+{{- $img := partial "thumb.html" (dict "page" . "w" 640 "h" 336) -}}
+<article class="card">
+  <a class="card-link" href="{{ .RelPermalink }}">
+    <div class="card-media">
+      {{- with $img }}<img src="{{ .RelPermalink }}" alt="" width="{{ .Width }}" height="{{ .Height }}" loading="lazy">
+      {{- else }}<span class="card-fallback">{{ index (.Params.products | default (slice "Rancher")) 0 }}</span>{{ end }}
+    </div>
+    <div class="card-body">
+      {{- with .Params.products }}<p class="eyebrow">{{ index . 0 }}</p>{{ end }}
+      <h3 class="card-title">{{ .Title }}</h3>
+      <p class="card-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>{{ with .Params.author }} · {{ . }}{{ end }}</p>
+    </div>
+  </a>
+</article>

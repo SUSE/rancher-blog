@@ -3,11 +3,25 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
-<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}">
+{{- $title := cond .IsHome site.Title (printf "%s | %s" .Title site.Title) }}
+{{- $desc := site.Params.description }}
+{{- if .IsPage }}{{ $desc = or .Description (.Summary | plainify | truncate 160) }}{{ end }}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
 <link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:type" content="{{ cond .IsPage "article" "website" }}">
+{{- with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="{{ site.Title }}">{{ end }}
+<link rel="icon" href="/blog/assets/img/favicon.png">
+<link rel="preload" href="/blog/assets/fonts/poppins-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/blog/assets/css/rancher-blog.css">
 </head>
 <body>
-<main>{{ block "main" . }}{{ end }}</main>
+<a class="skip" href="#main">Skip to content</a>
+{{ partial "header.html" . }}
+<main id="main">{{ block "main" . }}{{ end }}</main>
+{{ partial "footer.html" . }}
 </body>
 </html>

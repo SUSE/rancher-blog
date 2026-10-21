@@ -1,0 +1,18 @@
+{{- /* Returns a webp of the post's featured image (or, unless featuredOnly, its first raster image), or nothing.
+     h > 0 crops to w x h for cards; h = 0 scales down to width w without cropping. */ -}}
+{{- $p := .page -}}
+{{- $src := "" -}}
+{{- with $p.Params.image }}{{ $src = $p.Resources.Get . }}{{ end -}}
+{{- if and (not $src) (not $.featuredOnly) }}{{ range $p.Resources.ByType "image" }}{{ if and (not $src) (in (slice "png" "jpg" "jpeg" "webp") .MediaType.SubType) }}{{ $src = . }}{{ end }}{{ end }}{{ end -}}
+{{- $out := "" -}}
+{{- with $src -}}
+  {{- if in (slice "png" "jpeg" "jpg" "webp") .MediaType.SubType -}}
+    {{- $op := printf "fill %dx%d Center webp q75" $.w $.h -}}
+    {{- if eq $.h 0 }}{{ $op = cond (gt .Width $.w) (printf "resize %dx webp q80" $.w) "resize webp q80" }}{{ end -}}
+    {{- if eq $op "resize webp q80" }}{{ $op = printf "resize %dx webp q80" .Width }}{{ end -}}
+    {{- with try (.Process $op) -}}
+      {{- if .Err }}{{ warnf "thumb skipped for %s: %s" $p.RelPermalink .Err }}{{ else }}{{ $out = .Value }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}
