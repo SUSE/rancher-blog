@@ -1,6 +1,6 @@
 # Builds the blog with Hugo and publishes it to GitHub Pages on every push to main.
-# The site is built for https://www.rancher.com/ (not the github.io URL): CloudFront serves
-# rancher.com/blog/* from this Pages origin, with origin path /rancher-blog.
+# Pages serves it at opensource.suse.com/rancher-blog/. Links are relative (relativeURLs in hugo.toml),
+# so CloudFront can serve the same files at rancher.com/blog/* with origin path /rancher-blog.
 name: Deploy blog to GitHub Pages
 
 on:

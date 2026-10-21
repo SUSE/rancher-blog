@@ -1,12 +1,12 @@
 /* Rancher blog. Values measured on the live rancher.com (computed styles, 21 Oct 2026). */
-@font-face{font-family:"Poppins";font-weight:300;font-display:swap;src:url(/blog/assets/fonts/poppins-latin-300-normal.woff2) format("woff2")}
-@font-face{font-family:"Poppins";font-weight:400;font-display:swap;src:url(/blog/assets/fonts/poppins-latin-400-normal.woff2) format("woff2")}
-@font-face{font-family:"Poppins";font-weight:500;font-display:swap;src:url(/blog/assets/fonts/poppins-latin-500-normal.woff2) format("woff2")}
-@font-face{font-family:"Poppins";font-weight:600;font-display:swap;src:url(/blog/assets/fonts/poppins-latin-600-normal.woff2) format("woff2")}
-@font-face{font-family:"Poppins";font-weight:700;font-display:swap;src:url(/blog/assets/fonts/poppins-latin-700-normal.woff2) format("woff2")}
-@font-face{font-family:"Poppins";font-weight:800;font-display:swap;src:url(/blog/assets/fonts/poppins-latin-800-normal.woff2) format("woff2")}
-@font-face{font-family:"Source Code Pro";font-weight:400;font-display:swap;src:url(/blog/assets/fonts/source-code-pro-latin-400-normal.woff2) format("woff2")}
-@font-face{font-family:"Source Code Pro";font-weight:700;font-display:swap;src:url(/blog/assets/fonts/source-code-pro-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Poppins";font-weight:300;font-display:swap;src:url(../fonts/poppins-latin-300-normal.woff2) format("woff2")}
+@font-face{font-family:"Poppins";font-weight:400;font-display:swap;src:url(../fonts/poppins-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Poppins";font-weight:500;font-display:swap;src:url(../fonts/poppins-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Poppins";font-weight:600;font-display:swap;src:url(../fonts/poppins-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"Poppins";font-weight:700;font-display:swap;src:url(../fonts/poppins-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Poppins";font-weight:800;font-display:swap;src:url(../fonts/poppins-latin-800-normal.woff2) format("woff2")}
+@font-face{font-family:"Source Code Pro";font-weight:400;font-display:swap;src:url(../fonts/source-code-pro-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Source Code Pro";font-weight:700;font-display:swap;src:url(../fonts/source-code-pro-latin-700-normal.woff2) format("woff2")}
 
 :root{
   --blue:#2453ff; --blue-tint:#bdcbff; --midnight:#192072; --green:#30ba78;

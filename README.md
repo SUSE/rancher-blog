@@ -41,4 +41,4 @@ Open a pull request against `main`. Merging publishes the post.
 
 ## Publishing
 
-`.github/workflows/hugo.yml` builds the site on every push to `main` and deploys it to GitHub Pages. The build targets `https://www.rancher.com/`, so the github.io URL is only the origin behind CloudFront and will not render styles on its own.
+`.github/workflows/hugo.yml` builds the site on every push to `main` and deploys it to GitHub Pages at https://opensource.suse.com/rancher-blog/blog/. Links are relative, so the same build is served on https://www.rancher.com/blog/ through CloudFront.

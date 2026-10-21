@@ -2,6 +2,8 @@ baseURL = "https://www.rancher.com/"
 title = "Rancher Blog"
 locale = "en-US"
 enableRobotsTXT = true
+# relative links so the same build works on rancher.com/blog and on the Pages origin (opensource.suse.com/rancher-blog)
+relativeURLs = true
 capitalizeListTitles = false
 removePathAccents = true
 
