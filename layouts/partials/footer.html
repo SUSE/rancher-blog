@@ -1,22 +1,38 @@
+{{- /* Mirrors the rancher.com footer columns (checked 21 Oct 2026) */ -}}
 <footer class="site-footer">
   <div class="wrap footer-grid">
     <div>
-      <span class="logo-chip"><img src="/blog/assets/img/rancher-logo.svg" alt="Rancher by SUSE" width="130" height="31"></span>
-      <p>Open source tools to run Kubernetes everywhere, built in the open with the community.</p>
-    </div>
-    <div>
-      <p class="eyebrow">Get involved</p>
-      <a href="https://www.rancher.com/community">Community</a>
+      <p class="foot-head">Connect with us</p>
       <a href="https://github.com/rancher">GitHub</a>
-      <a href="https://ranchermanager.docs.rancher.com/">Docs</a>
+      <a href="https://www.rancher.com/community">Community</a>
+      <a href="/blog/index.xml">Blog RSS</a>
     </div>
     <div>
-      <p class="eyebrow">Blog</p>
-      <a href="/blog/">All posts</a>
-      <a href="/blog/products/">By project</a>
-      <a href="/blog/authors/">By author</a>
-      <a href="/blog/index.xml">RSS feed</a>
+      <p class="foot-head">Our platform</p>
+      <a href="https://www.rancher.com/products">Overview</a>
+      <a href="https://www.rancher.com/categories/cloud-native-infrastructure">Cloud-Native Infrastructure</a>
+      <a href="https://www.rancher.com/categories/security-observability">Security &amp; Performance</a>
+      <a href="https://www.rancher.com/categories/app-deployment">Application Development</a>
+      <a href="https://www.rancher.com/categories/distributions">Kubernetes Distributions</a>
+    </div>
+    <div>
+      <p class="foot-head">Learn</p>
+      <a href="/blog/">Blog</a>
+      <a href="/blog/products/">Blog by project</a>
+      <a href="/blog/authors/">Blog by author</a>
+      <a href="https://www.rancher.academy/">Rancher Academy</a>
+    </div>
+    <div>
+      <p class="foot-head">Support</p>
+      <a href="https://www.rancher.com/support">Rancher Support</a>
+      <a href="https://ranchermanager.docs.rancher.com/">Documentation</a>
+    </div>
+    <div>
+      <p class="foot-head">About</p>
+      <a href="https://www.rancher.com/about">About Rancher</a>
+      <a href="https://www.rancher.com/events">Events</a>
+      <a href="https://www.rancher.com/contact">Contact Us</a>
     </div>
   </div>
-  <div class="wrap footer-legal">&copy; {{ now.Year }} SUSE. Rancher and the Rancher logo are trademarks of SUSE.</div>
+  <div class="wrap footer-legal">&copy; {{ now.Year }} SUSE. All rights reserved.</div>
 </footer>
