@@ -2,7 +2,7 @@
 title: "NeuVector UI Extension for Rancher Enhances Secure Cloud Native Stack"
 date: 2024-03-14T17:22:52
 slug: "neuvector-ui-extension-for-rancher-enhances-secure-cloud-native-stack"
-author: "Glen Kosaka"
+authors: ["Glen Kosaka"]
 image: "images/NeuVector_symbol_horizontal_color.jpg"
 products: ["NeuVector"]
 tags: ["security"]

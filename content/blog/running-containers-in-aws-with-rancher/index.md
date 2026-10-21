@@ -2,7 +2,7 @@
 title: "Running Containers in AWS with Rancher"
 date: 2020-03-10T09:58:00
 slug: "running-containers-in-aws-with-rancher"
-author: "Tom Callway"
+authors: ["Tom Callway"]
 image: "images/rancher_blog_amazon-containers-01.png"
 products: ["Rancher Manager"]
 tags: ["aws", "multi-cluster", "cloud"]

@@ -2,7 +2,7 @@
 title: "SUSE Rancher Prime Meets Cluster API: From theory to practice"
 date: 2025-03-28T09:26:46
 slug: "suse-rancher-prime-meets-cluster-api-from-theory-to-practice"
-author: "Nuno Do Carmo"
+authors: ["Nuno Do Carmo"]
 image: "images/AdobeStock_191448631-2100x1181-dd7a3839-3a54-45c1-887b-1beb47ae5daf.png"
 products: ["Rancher Manager"]
 tags: ["multi-cluster", "gitops", "aws"]

@@ -2,7 +2,7 @@
 title: "Harvester: A Modern Infrastructure for a Modern Platform"
 date: 2021-12-21T02:00:52
 slug: "harvester-a-modern-infrastructure-for-a-modern-platform"
-author: "Robert Sirchia"
+authors: ["Robert Sirchia"]
 description: "Harvester is a simple, elegant, and light hyperconverged infrastructure (HCI) solution built for running virtual machines and Kubernetes clusters on bare metal servers. With Harvester reaching General Availability, we can now manage our host with the same concepts and management plane as our cluster"
 image: "images/Harvester-Symbol.jpeg"
 products: ["Harvester"]

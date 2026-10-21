@@ -2,7 +2,7 @@
 title: "DockerCon EU Impressions"
 date: 2017-10-20T11:28:00
 slug: "dockercon-eu-impressions"
-author: "Sheng Liang"
+authors: ["Sheng Liang"]
 products: ["Company/community"]
 tags: ["developer-experience"]
 content_type: "event"

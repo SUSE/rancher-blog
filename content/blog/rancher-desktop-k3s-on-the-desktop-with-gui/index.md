@@ -2,7 +2,7 @@
 title: "Rancher Desktop: K3s on the Desktop (with GUI)"
 date: 2021-07-14T16:57:15
 slug: "rancher-desktop-k3s-on-the-desktop-with-gui"
-author: "nuno.carmo@suse.com"
+authors: ["Nuno Do Carmo"]
 products: ["Rancher Desktop"]
 tags: ["windows", "developer-experience"]
 content_type: "tutorial"

@@ -2,7 +2,7 @@
 title: "Getting Hands on with Harvester HCI"
 date: 2022-05-02T16:27:28
 slug: "getting-hands-on-with-harvester-hci"
-author: "Andrés Valero"
+authors: ["Andrés Valero"]
 image: "images/Harvester-Symbol.jpeg"
 products: ["Harvester"]
 tags: ["virtualization", "installation"]

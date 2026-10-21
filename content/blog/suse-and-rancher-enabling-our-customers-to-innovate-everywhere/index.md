@@ -2,7 +2,7 @@
 title: "SUSE and Rancher – Enabling our Customers to Innovate Everywhere"
 date: 2020-12-01T10:10:00
 slug: "suse-and-rancher-enabling-our-customers-to-innovate-everywhere"
-author: "Sheng Liang"
+authors: ["Sheng Liang"]
 image: "images/rancher_blog_suse-day1-featured.jpg"
 products: ["Company/community"]
 tags: []

@@ -2,7 +2,7 @@
 title: "SUSE Edge 2.0: A Cloud Native Solution to Manage Edge"
 date: 2022-10-25T12:48:36
 slug: "suse-edge-2-0-a-cloud-native-solution-to-manage-edge"
-author: "Raj Meel"
+authors: ["Raj Meel"]
 image: "images/SUSE_Edge_Computing_Image.png"
 products: ["Other"]
 tags: ["edge"]

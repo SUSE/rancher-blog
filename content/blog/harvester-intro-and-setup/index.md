@@ -2,7 +2,7 @@
 title: "Harvester: Intro and Setup    "
 date: 2021-08-17T13:58:17
 slug: "harvester-intro-and-setup"
-author: "Jamie Phillips"
+authors: ["Jamie Phillips"]
 image: "images/Harvester-Symbol.png"
 products: ["Harvester"]
 tags: ["virtualization", "installation"]

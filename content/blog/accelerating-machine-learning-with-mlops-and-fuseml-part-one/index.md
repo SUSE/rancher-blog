@@ -2,7 +2,7 @@
 title: "Accelerating Machine Learning with MLOps and FuseML: Part One"
 date: 2021-07-25T20:50:38
 slug: "accelerating-machine-learning-with-mlops-and-fuseml-part-one"
-author: "Stefan Nica"
+authors: ["Stefan Nica"]
 image: "images/mlops-fuseml-featured.png"
 products: ["Other"]
 tags: ["ai"]

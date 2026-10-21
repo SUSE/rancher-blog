@@ -2,7 +2,7 @@
 title: "Ending the IngressNightmare: How SUSE Secures Your Kubernetes Clusters from External and Internal Threats"
 date: 2025-04-01T14:36:28
 slug: "ending-the-ingressnightmare-how-suse-secures-your-kubernetes-clusters-from-external-and-internal-threats"
-author: "Jeroen van Erp"
+authors: ["Jeroen van Erp"]
 image: "images/AdobeStock_106004614-2100x1558-dcf09439-e35a-4cad-b0bb-8b6e59fa38c4.png"
 products: ["Other"]
 tags: ["security", "networking", "policy"]

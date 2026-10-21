@@ -2,7 +2,7 @@
 title: "Refactoring Isn't the Same for All    "
 date: 2021-11-09T20:09:34
 slug: "refactoring-isnt-the-same-for-all"
-author: "Robert Sirchia"
+authors: ["Robert Sirchia"]
 products: ["Kubernetes (generic)"]
 tags: ["cloud"]
 content_type: "opinion"

@@ -2,7 +2,7 @@
 title: "Zero Trust: The New Security Model for Cloud Native Applications and Infrastructure"
 date: 2022-08-22T17:56:12
 slug: "zero-trust-the-new-security-model-for-cloud-native-applications-and-infrastructure"
-author: "Glen Kosaka"
+authors: ["Glen Kosaka"]
 image: "images/SUSE-ZeroContainer-Security-Magazine-Mockup-Standing.png"
 products: ["NeuVector"]
 tags: ["security"]

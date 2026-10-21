@@ -2,7 +2,7 @@
 title: "Multiplatform Kubewarden"
 date: 2022-02-04T16:49:56
 slug: "multiplatform-kubewarden"
-author: "Rafael Fernández López"
+authors: ["Rafael Fernández López"]
 products: ["Kubewarden"]
 tags: ["policy"]
 content_type: "release"

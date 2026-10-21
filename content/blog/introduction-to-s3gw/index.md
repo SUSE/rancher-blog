@@ -2,7 +2,7 @@
 title: "Introduction to s3gw"
 date: 2022-11-21T15:32:49
 slug: "introduction-to-s3gw"
-author: "Jesus Herman"
+authors: ["Jesus Herman"]
 image: "images/logo-xl.png"
 products: ["Other"]
 tags: ["storage", "installation"]

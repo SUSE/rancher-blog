@@ -2,7 +2,7 @@
 title: "Announcing k3OS: A Kubernetes Operating System"
 date: 2019-04-24T09:05:00
 slug: "announcing-k3os-a-kubernetes-operating-system"
-author: "Sheng Liang"
+authors: ["Sheng Liang"]
 image: "images/rancher_blog_featured-images_storage.svg"
 products: ["K3s"]
 tags: ["edge"]

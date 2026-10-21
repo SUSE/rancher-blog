@@ -2,7 +2,7 @@
 title: "SUSE Launches Dedicated Rancher Prime Knowledgebase in its Growing Customer Loyalty Program"
 date: 2023-04-18T00:28:47
 slug: "suse-launches-dedicated-rancher-prime-knowledgebase"
-author: "Huw Wigley"
+authors: ["Huw Wigley"]
 image: "images/rancher-prime-logo-vert-color-652x720-8d2bf12c-6089-454c-b915-8cbd92b1bff5.jpg"
 products: ["Rancher Prime"]
 tags: []

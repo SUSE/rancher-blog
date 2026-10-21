@@ -2,7 +2,7 @@
 title: "What's New in Rancher 2.7"
 date: 2022-11-24T08:03:07
 slug: "whats-new-in-rancher-2-7"
-author: "Wendie Cheung"
+authors: ["Wendie Cheung"]
 products: ["Rancher Manager"]
 tags: ["upgrades"]
 content_type: "release"

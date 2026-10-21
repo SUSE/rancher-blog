@@ -2,7 +2,7 @@
 title: "Epinio Meets s3gw"
 date: 2023-03-01T19:34:01
 slug: "epino-meets-s3gw"
-author: "Giuseppe Baccini"
+authors: ["Giuseppe Baccini"]
 image: "images/download.png"
 products: ["Epinio"]
 tags: ["storage"]

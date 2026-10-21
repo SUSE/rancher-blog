@@ -2,7 +2,7 @@
 title: "Fleet Introduces OCI Support for Helm Charts"
 date: 2022-11-29T15:49:31
 slug: "fleet-introduces-oci-support-for-helm-charts"
-author: "Mario Manno"
+authors: ["Mario Manno"]
 image: "images/icon-fleet.png"
 products: ["Fleet"]
 tags: ["gitops"]

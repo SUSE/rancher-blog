@@ -2,7 +2,7 @@
 title: "Scaling Kubernetes GitOps with Fleet: Experiment Results and Lessons Learnt"
 date: 2025-12-18T10:25:18
 slug: "scaling-kubernetes-gitops-with-fleet-experiment-results-and-lessons-learnt"
-author: "Mario Manno"
+authors: ["Mario Manno"]
 products: ["Fleet"]
 tags: ["gitops", "multi-cluster"]
 content_type: "explainer"

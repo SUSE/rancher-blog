@@ -2,7 +2,7 @@
 title: "Upgrading Your Rancher Downstream Clusters to Kubernetes v1.25"
 date: 2023-05-03T16:57:11
 slug: "upgrading-your-rancher-downstream-clusters-to-kubernetes-v1-25"
-author: "Mauren Berti"
+authors: ["Mauren Berti"]
 image: "images/Kubernetes_logo_without_workmark.svg.png"
 products: ["Rancher Manager"]
 tags: ["upgrades", "security"]

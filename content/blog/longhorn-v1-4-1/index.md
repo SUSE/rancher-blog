@@ -2,7 +2,7 @@
 title: "Longhorn 1.4.1"
 date: 2023-03-14T09:25:04
 slug: "longhorn-v1-4-1"
-author: "David Ko"
+authors: ["David Ko"]
 image: "images/longhorn-icon-color.png"
 products: ["Longhorn"]
 tags: ["storage"]

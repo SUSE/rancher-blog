@@ -2,7 +2,7 @@
 title: "Harvester Integrates with Rancher: What Does This Mean for You?"
 date: 2021-10-21T14:28:14
 slug: "harvester-integrates-with-rancher"
-author: "Wendie Cheung"
+authors: ["Wendie Cheung"]
 products: ["Harvester"]
 tags: ["virtualization"]
 content_type: "company-news"

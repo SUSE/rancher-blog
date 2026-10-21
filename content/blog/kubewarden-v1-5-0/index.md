@@ -2,7 +2,7 @@
 title: "Kubewarden v1.5.0"
 date: 2023-01-31T17:00:09
 slug: "kubewarden-v1-5-0"
-author: "José Guilherme Vanz"
+authors: ["José Guilherme Vanz"]
 image: "images/m7brY_b9_400x400.jpg"
 products: ["Kubewarden"]
 tags: ["security", "policy"]

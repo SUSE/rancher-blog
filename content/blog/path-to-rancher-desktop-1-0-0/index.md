@@ -2,7 +2,7 @@
 title: "Path To Rancher Desktop 1.0.0"
 date: 2022-01-06T19:11:21
 slug: "path-to-rancher-desktop-1-0-0"
-author: "Matt Farina"
+authors: ["Matt Farina"]
 image: "images/rancher-desktop.jpeg"
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]

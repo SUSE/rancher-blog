@@ -2,7 +2,7 @@
 title: "Gain Competitive Advantage Through Cloud Native Technology"
 date: 2022-10-20T21:07:03
 slug: "gain-competitive-advantage-through-cloud-native-technology"
-author: "Wendie Cheung"
+authors: ["Wendie Cheung"]
 image: "images/Cloud-Native.jpg"
 products: ["Company/community"]
 tags: ["cloud"]

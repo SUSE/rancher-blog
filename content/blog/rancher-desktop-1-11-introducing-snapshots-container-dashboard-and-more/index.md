@@ -2,7 +2,7 @@
 title: "Rancher Desktop 1.11: Introducing Snapshots, Container Dashboard and More"
 date: 2023-11-06T19:26:46
 slug: "rancher-desktop-1-11-introducing-snapshots-container-dashboard-and-more"
-author: "Gunasekhar Matamalam"
+authors: ["Gunasekhar Matamalam"]
 image: "images/download-copy.png"
 products: ["Rancher Desktop"]
 tags: ["developer-experience", "backup"]

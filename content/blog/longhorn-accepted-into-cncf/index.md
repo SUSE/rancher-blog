@@ -2,7 +2,7 @@
 title: "Longhorn Accepted into CNCF"
 date: 2019-10-29T09:07:00
 slug: "longhorn-accepted-into-cncf"
-author: "Sheng Yang"
+authors: ["Sheng Yang"]
 image: "images/rancher_blog_longhorn-how-it-works.png"
 products: ["Longhorn"]
 tags: ["storage"]

@@ -2,7 +2,7 @@
 title: "Fix What Matters: SUSE Application Collection Adds Real Context to CVEs With OpenVEX"
 date: 2025-05-28T13:26:00
 slug: "fix-what-matters-suse-application-collection-adds-real-context-to-cves-with-openvex"
-author: "François-Xavier \"FX\" Houard"
+authors: ["François-Xavier \"FX\" Houard"]
 image: "images/rancher-blog-vex-youtube-tumbnail.jpg"
 products: ["Other"]
 tags: ["security", "policy"]

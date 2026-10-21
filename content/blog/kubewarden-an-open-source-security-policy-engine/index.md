@@ -2,7 +2,7 @@
 title: "Introducing Kubewarden, an Open Source Policy Engine"
 date: 2021-05-16T10:14:00
 slug: "kubewarden-an-open-source-security-policy-engine"
-author: "Flavio Castelli"
+authors: ["Flavio Castelli"]
 image: "images/rancher_blog_kubewarden-featured.png"
 products: ["Kubewarden"]
 tags: ["security", "policy"]

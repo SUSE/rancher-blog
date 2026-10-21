@@ -2,7 +2,7 @@
 title: "Rancher Desktop 1.8: Now with Additional Configuration Options and More"
 date: 2023-03-23T19:39:52
 slug: "rancher-desktop-1-8-now-with-additional-configuration-options-and-more"
-author: "Gunasekhar Matamalam"
+authors: ["Gunasekhar Matamalam"]
 image: "images/download-copy.png"
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]

@@ -2,7 +2,7 @@
 title: "Canary Releases with Rancher Continuous Delivery"
 date: 2021-04-22T18:22:50
 slug: "canary-releases-with-rancher-continuous-delivery"
-author: "Gaurav Mehta"
+authors: ["Gaurav Mehta"]
 products: ["Fleet"]
 tags: ["gitops", "ci-cd"]
 content_type: "tutorial"

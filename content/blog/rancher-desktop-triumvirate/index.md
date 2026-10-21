@@ -2,7 +2,7 @@
 title: "Rancher Desktop Triumvirate    "
 date: 2021-12-09T19:23:36
 slug: "rancher-desktop-triumvirate"
-author: "nuno.carmo@suse.com"
+authors: ["Nuno Do Carmo"]
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]
 content_type: "release"

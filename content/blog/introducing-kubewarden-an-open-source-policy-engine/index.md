@@ -2,7 +2,7 @@
 title: "Introducing Kubewarden: An Open Source Policy Engine"
 date: 2021-05-04T17:36:58
 slug: "introducing-kubewarden-an-open-source-policy-engine"
-author: "Mackenzie Berube"
+authors: ["Mackenzie Berube"]
 image: "images/m7brY_b9_400x400.jpg"
 products: ["Kubewarden"]
 tags: ["security", "policy"]

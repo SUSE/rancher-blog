@@ -2,7 +2,7 @@
 title: "Announcing the Rancher Kubernetes API"
 date: 2024-01-05T21:24:13
 slug: "announcing-the-rancher-kubernetes-api"
-author: "Caleb Bron"
+authors: ["Caleb Bron"]
 image: "images/Kubernetes_logo_without_workmark.svg.png"
 products: ["Rancher Manager"]
 tags: ["gitops", "developer-experience"]

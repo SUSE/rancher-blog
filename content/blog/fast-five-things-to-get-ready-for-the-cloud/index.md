@@ -2,7 +2,7 @@
 title: "Fast Five Things to Get Ready for the Cloud"
 date: 2021-11-30T15:04:59
 slug: "fast-five-things-to-get-ready-for-the-cloud"
-author: "Robert Sirchia"
+authors: ["Robert Sirchia"]
 products: ["Kubernetes (generic)"]
 tags: ["cloud"]
 content_type: "explainer"

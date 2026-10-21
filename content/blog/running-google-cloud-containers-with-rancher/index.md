@@ -2,7 +2,7 @@
 title: "Running Google Cloud Containers with Rancher"
 date: 2020-04-13T10:08:00
 slug: "running-google-cloud-containers-with-rancher"
-author: "Wendie Cheung"
+authors: ["Wendie Cheung"]
 image: "images/rancher_blog_google-cloud-featured.png"
 products: ["Rancher Manager"]
 tags: ["gcp", "cloud", "installation"]

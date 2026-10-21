@@ -2,7 +2,7 @@
 title: "Multi-cloud Kubernetes era has arrived!"
 date: 2019-04-09T09:05:00
 slug: "multi-cloud-kubernetes-era-has-arrived"
-author: "Sheng Liang"
+authors: ["Sheng Liang"]
 image: "images/rancher_blog_featured-images_containers.svg"
 products: ["Rancher Manager"]
 tags: ["multi-cluster", "cloud"]

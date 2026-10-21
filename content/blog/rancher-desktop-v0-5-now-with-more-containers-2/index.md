@@ -2,7 +2,7 @@
 title: "Rancher Desktop v0.5 - Now With More Containers"
 date: 2021-09-27T20:15:05
 slug: "rancher-desktop-v0-5-now-with-more-containers-2"
-author: "Matt Farina"
+authors: ["Matt Farina"]
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]
 content_type: "release"

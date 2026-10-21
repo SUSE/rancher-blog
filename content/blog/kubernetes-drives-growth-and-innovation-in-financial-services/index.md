@@ -2,7 +2,7 @@
 title: "Kubernetes Drives Growth and Innovation in Financial Services"
 date: 2020-03-06T09:44:00
 slug: "kubernetes-drives-growth-and-innovation-in-financial-services"
-author: "Caroline Tarbett"
+authors: ["Caroline Tarbett"]
 image: "images/rancher_blog_cardano-blog-img.png"
 products: ["Rancher Manager"]
 tags: ["case-study", "enterprise"]

@@ -2,7 +2,7 @@
 title: "Secure Supply Chain: Securing Kubewarden Policies"
 date: 2022-05-04T16:18:03
 slug: "secure-supply-chain-securing-kubewarden-policies"
-author: "Víctor Cuadrado Juan"
+authors: ["Víctor Cuadrado Juan"]
 image: "images/rancher_blog_kubewarden.jpeg"
 products: ["Kubewarden"]
 tags: ["security", "policy"]

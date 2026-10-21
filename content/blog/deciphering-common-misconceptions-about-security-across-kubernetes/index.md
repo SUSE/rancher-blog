@@ -2,7 +2,7 @@
 title: "Deciphering Common Misconceptions about Security Across Kubernetes [Infographic]   "
 date: 2022-09-20T14:16:56
 slug: "deciphering-common-misconceptions-about-security-across-kubernetes"
-author: "Wendie Cheung"
+authors: ["Wendie Cheung"]
 image: "images/security.png"
 products: ["Kubernetes (generic)"]
 tags: ["security"]

@@ -2,7 +2,7 @@
 title: "Rancher Security: 2019 Recap"
 date: 2019-12-19T09:42:00
 slug: "rancher-security-2019-recap"
-author: "Bill Maxwell"
+authors: ["Bill Maxwell"]
 image: "images/rancher_blog_featured-images-inside-threats.png"
 products: ["Rancher Manager"]
 tags: ["security"]

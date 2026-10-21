@@ -2,7 +2,7 @@
 title: "Rancher Desktop: Now You Can Disable Kubernetes"
 date: 2022-03-02T22:33:46
 slug: "rancher-desktop-now-you-can-disable-kubernetes"
-author: "Matt Farina"
+authors: ["Matt Farina"]
 image: "images/Screen-Shot-2022-02-24-at-4.00.38-PM.png"
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]

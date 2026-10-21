@@ -2,7 +2,7 @@
 title: "Rancher-Istio will be deprecated in upcoming Rancher releases"
 date: 2025-02-05T19:54:28
 slug: "rancher-istio-will-be-deprecated-in-upcoming-rancher-releases"
-author: "Nuno Do Carmo"
+authors: ["Nuno Do Carmo"]
 products: ["Rancher Manager"]
 tags: ["upgrades"]
 content_type: "company-news"

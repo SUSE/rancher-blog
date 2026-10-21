@@ -2,7 +2,7 @@
 title: "Kubernetes in Docker Desktop Just Got Easier with Epinio"
 date: 2022-05-10T23:42:14
 slug: "kubernetes-in-docker-desktop-just-got-easier-with-epinio"
-author: "Mario Manno"
+authors: ["Mario Manno"]
 image: "images/icon-epinio.png"
 products: ["Epinio"]
 tags: ["developer-experience"]

@@ -2,7 +2,7 @@
 title: "Longhorn 1.4 - Starting A New Year With A New Release"
 date: 2023-01-09T07:59:26
 slug: "longhorn-1-4-starting-a-new-year-with-a-new-release"
-author: "William Jimenez"
+authors: ["William Jimenez"]
 image: "images/icon-longhorn.svg"
 products: ["Longhorn"]
 tags: ["storage"]

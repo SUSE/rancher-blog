@@ -2,7 +2,7 @@
 title: "What's New in Rancher 2.6.5?"
 date: 2022-05-17T07:55:58
 slug: "whats-new-in-rancher-2-6-5"
-author: "William Jimenez"
+authors: ["William Jimenez"]
 image: "images/rancher-logo-cow-blue-720x321-5532a813-e5d1-49c2-a682-bfc2a544421f-1.jpg"
 products: ["Rancher Manager"]
 tags: ["security"]

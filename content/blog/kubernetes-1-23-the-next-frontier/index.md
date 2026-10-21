@@ -2,7 +2,7 @@
 title: "Kubernetes 1.23: The Next Frontier    "
 date: 2021-12-07T20:37:06
 slug: "kubernetes-1-23-the-next-frontier"
-author: "rey.lejano@suse.com"
+authors: ["Rey Lejano"]
 products: ["Kubernetes (generic)"]
 tags: ["security"]
 content_type: "release"

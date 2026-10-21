@@ -2,7 +2,7 @@
 title: "Enterprise and Edge Scale Security with NeuVector Container Security 5.1"
 date: 2022-12-19T15:10:36
 slug: "enterprise-and-edge-scale-security-with-neuvector-container-security-5-1"
-author: "Glen Kosaka"
+authors: ["Glen Kosaka"]
 image: "images/Screen-Shot-2022-05-12-at-9.48.24-AM-1.png"
 products: ["NeuVector"]
 tags: ["security", "multi-cluster"]

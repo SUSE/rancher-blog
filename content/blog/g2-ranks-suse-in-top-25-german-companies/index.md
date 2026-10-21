@@ -2,7 +2,7 @@
 title: "G2 Ranks SUSE in Top 25 German Companies"
 date: 2023-02-08T15:14:14
 slug: "g2-ranks-suse-in-top-25-german-companies"
-author: "Dr. Thomas Di Giacomo"
+authors: ["Dr. Thomas Di Giacomo"]
 image: "images/1675944020307-e1676045684492.jpeg"
 products: ["Company/community"]
 tags: []

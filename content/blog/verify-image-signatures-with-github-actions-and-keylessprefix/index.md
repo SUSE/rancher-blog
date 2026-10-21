@@ -2,7 +2,7 @@
 title: "Verify Image Signatures with GitHub Actions and KeylessPrefix"
 date: 2022-07-21T09:07:41
 slug: "verify-image-signatures-with-github-actions-and-keylessprefix"
-author: "Raul Cabello"
+authors: ["Raul Cabello"]
 image: "images/rancher_blog_kubewarden.jpeg"
 products: ["Kubewarden"]
 tags: ["security", "ci-cd"]

@@ -2,7 +2,7 @@
 title: "Rancher 2.5 Delivers On \"Computing Everywhere\" Strategy"
 date: 2020-10-06T09:56:00
 slug: "rancher-2-5-delivers-on-computing-everywhere-strategy"
-author: "Tom Callway"
+authors: ["Tom Callway"]
 image: "images/rancher_blog_rancher-2-5-featured.png"
 products: ["Rancher Manager"]
 tags: ["multi-cluster", "edge"]

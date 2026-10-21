@@ -2,7 +2,7 @@
 title: "Rancher Desktop – An Open Source App for Desktop Kubernetes and Container Management"
 date: 2021-06-22T10:14:00
 slug: "rancher-desktop-an-open-source-app-for-desktop-kubernetes-and-container-management"
-author: "Matt Farina"
+authors: ["Matt Farina"]
 image: "images/rancher_blog_rancher-desktop-featured.png"
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]

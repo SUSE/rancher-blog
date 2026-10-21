@@ -2,7 +2,7 @@
 title: "Announcing the Harvester v1.3.0 release"
 date: 2024-03-25T06:05:21
 slug: "announcing-the-harvester-v1-3-0-release"
-author: "Alexandra Settle"
+authors: ["Alexandra Settle"]
 products: ["Harvester"]
 tags: ["virtualization", "edge"]
 content_type: "release"

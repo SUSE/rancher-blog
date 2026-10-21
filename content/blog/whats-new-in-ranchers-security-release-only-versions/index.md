@@ -2,7 +2,7 @@
 title: "What’s New in Rancher’s Security Release Only Versions"
 date: 2023-01-25T04:50:13
 slug: "whats-new-in-ranchers-security-release-only-versions"
-author: "Wendie Cheung"
+authors: ["Wendie Cheung"]
 products: ["Rancher Manager"]
 tags: ["security", "upgrades"]
 content_type: "release"

@@ -2,7 +2,7 @@
 title: "Rancher Desktop 1.4: Now With Credential Helpers and More"
 date: 2022-06-10T15:53:40
 slug: "rancher-desktop-1-4-now-with-credential-helpers-and-more"
-author: "Matt Farina"
+authors: ["Matt Farina"]
 image: "images/bulk-delete.png"
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]

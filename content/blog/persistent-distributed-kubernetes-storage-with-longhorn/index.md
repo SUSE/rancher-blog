@@ -2,7 +2,7 @@
 title: "Persistent, Distributed Kubernetes Storage with Longhorn"
 date: 2022-08-01T17:31:23
 slug: "persistent-distributed-kubernetes-storage-with-longhorn"
-author: "Juan Herrera Utande"
+authors: ["Juan Herrera Utande"]
 image: "images/longhorn-icon-color.png"
 products: ["Longhorn"]
 tags: ["storage"]

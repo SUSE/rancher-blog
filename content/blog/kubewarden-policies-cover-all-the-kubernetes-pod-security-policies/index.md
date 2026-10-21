@@ -2,7 +2,7 @@
 title: "Kubewarden policies cover all the Kubernetes Pod Security Policies"
 date: 2022-01-21T17:33:12
 slug: "kubewarden-policies-cover-all-the-kubernetes-pod-security-policies"
-author: "Flavio Castelli"
+authors: ["Flavio Castelli"]
 products: ["Kubewarden"]
 tags: ["policy", "security"]
 content_type: "release"

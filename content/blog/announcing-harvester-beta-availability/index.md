@@ -2,7 +2,7 @@
 title: "Announcing Harvester Beta Availability"
 date: 2021-05-28T10:13:00
 slug: "announcing-harvester-beta-availability"
-author: "Sheng Yang"
+authors: ["Sheng Yang"]
 image: "images/rancher_blog_image-01.jpg"
 products: ["Harvester"]
 tags: ["virtualization"]

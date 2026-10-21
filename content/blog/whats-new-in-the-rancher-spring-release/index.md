@@ -2,7 +2,7 @@
 title: "Driving Innovation with Extensible Interoperability in Rancher’s Spring ’23 Release"
 date: 2023-04-18T16:45:21
 slug: "whats-new-in-the-rancher-spring-release"
-author: "Wendie Cheung"
+authors: ["Wendie Cheung"]
 image: "images/rancher-prime-logo-vert-color-652x720-8d2bf12c-6089-454c-b915-8cbd92b1bff5.jpg"
 products: ["Rancher Manager"]
 tags: ["upgrades"]

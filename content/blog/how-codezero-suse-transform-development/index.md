@@ -2,7 +2,7 @@
 title: "Bridging the Development Gap: How CodeZero Transforms the Enterprise Kubernetes Experience with SUSE Rancher Prime"
 date: 2025-09-10T19:48:10
 slug: "how-codezero-suse-transform-development"
-author: "Ivan Tarin"
+authors: ["Ivan Tarin"]
 image: "images/ChatGPT-Image-Sep-10-2025-01_31_26-PM.png"
 products: ["Rancher Prime"]
 tags: ["developer-experience"]

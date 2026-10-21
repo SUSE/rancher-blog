@@ -3,6 +3,7 @@ title = "Rancher Blog"
 locale = "en-US"
 enableRobotsTXT = true
 capitalizeListTitles = false
+removePathAccents = true
 
 [params]
   description = "Hands-on posts from the Rancher community: Kubernetes, K3s, RKE2, Longhorn, Fleet, Harvester, NeuVector and more."
@@ -22,12 +23,15 @@ capitalizeListTitles = false
   [permalinks.taxonomy]
     products = "/blog/products/"
     tags = "/blog/tags/"
+    authors = "/blog/authors/"
   [permalinks.term]
     products = "/blog/products/:slug/"
     tags = "/blog/tags/:slug/"
+    authors = "/blog/authors/:slug/"
 
 [taxonomies]
   tag = "tags"
+  author = "authors"
   product = "products"
 
 [markup.goldmark.renderer]

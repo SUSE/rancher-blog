@@ -3,18 +3,20 @@
 <section class="hero">
   <div class="wrap">
     {{- if eq .Kind "term" }}
-    <p class="eyebrow">{{ cond (eq .Data.Plural "products") "Project" "Tag" }}</p>
+    {{- $kind := index (dict "products" "Project" "tags" "Tag" "authors" "Author") .Data.Plural }}
+    <p class="eyebrow">{{ $kind }}</p>
     <h1>{{ .Title }}</h1>
-    <p class="lede">{{ len .Pages }} posts</p>
+    {{- with .Content }}<div class="lede bio">{{ . }}</div>{{ end }}
+    <p class="lede">{{ len .Pages }} {{ cond (eq (len .Pages) 1) "post" "posts" }}</p>
     {{- else if eq .Kind "taxonomy" }}
     <p class="eyebrow">Rancher blog</p>
-    <h1>Browse by {{ cond (eq .Data.Plural "products") "project" "tag" }}</h1>
+    <h1>Browse by {{ index (dict "products" "project" "tags" "tag" "authors" "author") .Data.Plural }}</h1>
     {{- else }}
     <p class="eyebrow">Rancher blog</p>
     <h1><span class="light">Notes from the people</span> who run Rancher</h1>
     <p class="lede">How-tos, engineering deep dives and release notes for Rancher Manager, K3s, RKE2, Longhorn, Fleet, Harvester, NeuVector and the rest of the stack.</p>
     {{- end }}
-    {{- if ne .Kind "taxonomy" }}
+    {{- if and (ne .Kind "taxonomy") (ne .Data.Plural "authors") }}
     <nav class="pills" aria-label="Projects">
       <a class="pill{{ if $isBlog }} active{{ end }}" href="/blog/">All</a>
       {{- range site.Params.featuredProducts }}

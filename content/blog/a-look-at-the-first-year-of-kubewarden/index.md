@@ -2,7 +2,7 @@
 title: "A Look at the First year of Kubewarden"
 date: 2021-12-22T17:32:40
 slug: "a-look-at-the-first-year-of-kubewarden"
-author: "Flavio Castelli"
+authors: ["Flavio Castelli"]
 image: "images/icon-kubewarden-1.svg"
 products: ["Kubewarden"]
 tags: ["policy"]

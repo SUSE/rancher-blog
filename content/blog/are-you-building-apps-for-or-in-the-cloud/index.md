@@ -2,7 +2,7 @@
 title: "Are You Building Apps \"For\" or \"In\" the Cloud"
 date: 2021-08-26T18:39:20
 slug: "are-you-building-apps-for-or-in-the-cloud"
-author: "Robert Sirchia"
+authors: ["Robert Sirchia"]
 products: ["Kubernetes (generic)"]
 tags: ["cloud"]
 content_type: "opinion"

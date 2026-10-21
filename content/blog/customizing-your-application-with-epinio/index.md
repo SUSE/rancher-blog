@@ -2,7 +2,7 @@
 title: "Customizing your Application with Epinio"
 date: 2022-05-26T15:48:04
 slug: "customizing-your-application-with-epinio"
-author: "Andrew Gracey"
+authors: ["Andrew Gracey"]
 image: "images/epinio.png"
 products: ["Epinio"]
 tags: ["developer-experience"]

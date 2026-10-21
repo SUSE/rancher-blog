@@ -2,7 +2,7 @@
 title: "My First Impressions with SUSE Rancher Kubernetes Projects"
 date: 2022-01-24T16:29:10
 slug: "my-first-impressions-with-suse-rancher-kubernetes-projects"
-author: "Andrés Valero"
+authors: ["Andrés Valero"]
 image: "images/rancher_blog_kubernetes-everywhere-featured.png"
 products: ["Other"]
 tags: ["developer-experience"]

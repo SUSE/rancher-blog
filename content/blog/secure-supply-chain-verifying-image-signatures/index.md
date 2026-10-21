@@ -2,7 +2,7 @@
 title: "Secure Supply Chain: Verifying Image Signatures in Kubewarden"
 date: 2022-05-20T14:43:34
 slug: "secure-supply-chain-verifying-image-signatures"
-author: "Raul Cabello"
+authors: ["Raul Cabello"]
 image: "images/rancher_blog_kubewarden.jpeg"
 products: ["Kubewarden"]
 tags: ["security", "policy"]

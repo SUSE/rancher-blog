@@ -2,7 +2,7 @@
 title: "Kubewarden: Deep Dive into Policy Logging    "
 date: 2021-11-22T15:26:22
 slug: "kubewarden-deep-dive-into-policy-logging"
-author: "Rafael Fernández López"
+authors: ["Rafael Fernández López"]
 products: ["Kubewarden"]
 tags: ["policy", "observability"]
 content_type: "explainer"

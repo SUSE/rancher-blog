@@ -2,7 +2,7 @@
 title: "Introducing Hypper: Package Management For Cluster Admins"
 date: 2021-05-11T20:29:19
 slug: "introducing-hypper-package-management-for-cluster-admins"
-author: "Matt Farina"
+authors: ["Matt Farina"]
 products: ["Other"]
 tags: ["installation"]
 content_type: "release"

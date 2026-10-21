@@ -2,7 +2,7 @@
 title: "Rancher Desktop 1.17: With Open WebUI extension and more"
 date: 2025-01-08T18:20:32
 slug: "rancher-desktop-1-17-with-open-webui-extension-and-more"
-author: "Gunasekhar Matamalam"
+authors: ["Gunasekhar Matamalam"]
 products: ["Rancher Desktop"]
 tags: ["ai", "developer-experience"]
 content_type: "release"

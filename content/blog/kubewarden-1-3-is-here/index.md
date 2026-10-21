@@ -2,7 +2,7 @@
 title: "Kubewarden 1.3 is Here"
 date: 2022-10-27T18:51:16
 slug: "kubewarden-1-3-is-here"
-author: "Flavio Castelli"
+authors: ["Flavio Castelli"]
 image: "images/m7brY_b9_400x400.jpg"
 products: ["Kubewarden"]
 tags: ["policy", "ci-cd"]

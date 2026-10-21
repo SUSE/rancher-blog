@@ -2,7 +2,7 @@
 title: "GitOps with Microsoft Azure Arc and Rancher"
 date: 2020-05-20T09:50:00
 slug: "gitops-with-microsoft-azure-arc-and-rancher"
-author: "Bill Maxwell"
+authors: ["Bill Maxwell"]
 image: "images/rancher_blog_azure-arc-featured.png"
 products: ["Rancher Manager"]
 tags: ["gitops", "azure", "multi-cluster"]

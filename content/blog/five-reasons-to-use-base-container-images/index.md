@@ -2,7 +2,7 @@
 title: "Five Reasons to Use Base Container Images"
 date: 2022-10-19T17:38:50
 slug: "five-reasons-to-use-base-container-images"
-author: "German M. Yebenes"
+authors: ["German M. Yebenes"]
 products: ["Other"]
 tags: ["security", "developer-experience"]
 content_type: "explainer"

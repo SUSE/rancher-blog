@@ -2,7 +2,7 @@
 title: "Harvester 1.5 Extends Kubernetes-Native Virtualization to ARM64and CSI-Compliant Storage"
 date: 2025-05-20T20:05:11
 slug: "harvester-1-5-extends-kubernetes-native-virtualization-to-arm64and-csi-compliant-storage"
-author: "Alexandra Settle"
+authors: ["Alexandra Settle"]
 image: "images/HV1.5.png"
 products: ["Harvester"]
 tags: ["virtualization", "edge", "storage"]

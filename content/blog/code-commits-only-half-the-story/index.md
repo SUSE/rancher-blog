@@ -2,7 +2,7 @@
 title: "Code Commits: only half the story"
 date: 2019-08-05T09:06:00
 slug: "code-commits-only-half-the-story"
-author: "Tom Callway"
+authors: ["Tom Callway"]
 image: "images/rancher_blog_rancher-users-at-rancher-booth.jpg"
 products: ["Company/community"]
 tags: []

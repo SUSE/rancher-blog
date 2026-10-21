@@ -2,7 +2,7 @@
 title: "Competition or Coopetition in the Persistent Storage Market?"
 date: 2020-08-19T09:45:00
 slug: "competition-or-coopetition-in-the-persistent-storage-market"
-author: "Caroline Tarbett"
+authors: ["Caroline Tarbett"]
 image: "images/rancher_blog_longhorn-featured.png"
 products: ["Longhorn"]
 tags: ["storage"]

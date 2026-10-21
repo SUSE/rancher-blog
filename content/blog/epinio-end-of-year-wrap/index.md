@@ -2,7 +2,7 @@
 title: "Epinio End of Year Wrap"
 date: 2022-12-22T18:22:37
 slug: "epinio-end-of-year-wrap"
-author: "Enrico Candino"
+authors: ["Enrico Candino"]
 image: "images/download-1.png"
 products: ["Epinio"]
 tags: ["developer-experience"]

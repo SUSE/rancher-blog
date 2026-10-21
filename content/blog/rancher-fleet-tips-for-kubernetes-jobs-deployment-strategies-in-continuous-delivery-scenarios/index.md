@@ -2,7 +2,7 @@
 title: "Kubernetes Jobs Deployment Strategies in Continuous Delivery Scenarios"
 date: 2022-10-05T19:09:38
 slug: "rancher-fleet-tips-for-kubernetes-jobs-deployment-strategies-in-continuous-delivery-scenarios"
-author: "Juan Herrera Utande"
+authors: ["Juan Herrera Utande"]
 image: "images/Kubernetes-Logo.wine_.jpg"
 products: ["Fleet"]
 tags: ["gitops", "ci-cd"]

@@ -2,7 +2,7 @@
 title: "Rancher Desktop 1.9-Tech-Preview: With Support for Docker Extensions"
 date: 2023-04-24T17:13:16
 slug: "rancher-desktop-1-9-tech-preview-with-support-for-docker-extensions"
-author: "Gunasekhar Matamalam"
+authors: ["Gunasekhar Matamalam"]
 image: "images/download-copy.png"
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]

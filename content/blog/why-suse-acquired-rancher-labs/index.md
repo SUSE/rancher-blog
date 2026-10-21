@@ -2,7 +2,7 @@
 title: "Why SUSE Acquired Rancher Labs"
 date: 2020-07-09T09:55:00
 slug: "why-suse-acquired-rancher-labs"
-author: "Tom Callway"
+authors: ["Tom Callway"]
 image: "images/rancher_blog_OS-Agnostic-Blog-Graphic.png"
 products: ["Company/community"]
 tags: ["acquisition"]

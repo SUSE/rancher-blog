@@ -2,7 +2,7 @@
 title: "Clean Install Rancher Desktop    "
 date: 2022-01-18T14:35:07
 slug: "clean-install-rancher-desktop"
-author: "Robert Sirchia"
+authors: ["Robert Sirchia"]
 image: "images/rancher-desktop.jpeg"
 products: ["Rancher Desktop"]
 tags: ["installation"]

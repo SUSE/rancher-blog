@@ -2,7 +2,7 @@
 title: "Deploy Istio at Scale With Rancher"
 date: 2025-06-04T08:43:13
 slug: "deploy-istio-at-scale-with-rancher"
-author: "Mario Manno"
+authors: ["Mario Manno"]
 products: ["Fleet"]
 tags: ["gitops", "multi-cluster"]
 content_type: "tutorial"

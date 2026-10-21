@@ -2,7 +2,7 @@
 title: "Rancher 2.6.7 Delivers Kubernetes 1.24 and AWS Marketplace Support and RKE Encryption Key Rotation"
 date: 2022-08-23T20:28:09
 slug: "rancher-2-6-7-delivers-kubernetes-1-24-and-aws-marketplace-support-and-rke-encryption-key-rotation"
-author: "William Jimenez"
+authors: ["William Jimenez"]
 image: "images/rancher-logo-stacked-color-2.png"
 products: ["Rancher Manager"]
 tags: ["cloud", "aws"]

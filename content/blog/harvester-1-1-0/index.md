@@ -2,7 +2,7 @@
 title: "Harvester 1.1.0: The Latest Hyperconverged Infrastructure Solution"
 date: 2022-10-26T21:01:36
 slug: "harvester-1-1-0"
-author: "William Jimenez"
+authors: ["William Jimenez"]
 image: "images/images.png"
 products: ["Harvester"]
 tags: ["virtualization"]

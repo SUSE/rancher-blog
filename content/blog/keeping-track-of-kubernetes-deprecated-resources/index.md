@@ -2,7 +2,7 @@
 title: "Keeping Track of Kubernetes Deprecated Resources"
 date: 2022-11-09T23:12:30
 slug: "keeping-track-of-kubernetes-deprecated-resources"
-author: "Víctor Cuadrado Juan"
+authors: ["Víctor Cuadrado Juan"]
 image: "images/m7brY_b9_400x400.jpg"
 products: ["Kubewarden"]
 tags: ["policy", "upgrades", "security"]

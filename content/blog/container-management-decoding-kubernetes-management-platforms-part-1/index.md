@@ -2,7 +2,7 @@
 title: "Container Management - Decoding Kubernetes Management Platforms Part 1"
 date: 2023-05-12T10:44:08
 slug: "container-management-decoding-kubernetes-management-platforms-part-1"
-author: "Andrés Valero"
+authors: ["Andrés Valero"]
 image: "images/Kubernetes_logo_without_workmark.svg.png"
 products: ["Kubernetes (generic)"]
 tags: ["multi-cluster", "cloud"]

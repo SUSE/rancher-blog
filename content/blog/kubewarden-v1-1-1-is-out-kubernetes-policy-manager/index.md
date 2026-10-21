@@ -2,7 +2,7 @@
 title: "Kubewarden v1.1.1 Is Out: Policy Manager For Kubernetes"
 date: 2022-07-27T17:25:03
 slug: "kubewarden-v1-1-1-is-out-kubernetes-policy-manager"
-author: "Víctor Cuadrado Juan"
+authors: ["Víctor Cuadrado Juan"]
 image: "images/icon-kubewarden.png"
 products: ["Kubewarden"]
 tags: ["policy"]

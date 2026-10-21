@@ -2,7 +2,7 @@
 title: "Why is Open Source Important to Enterprise IT Leaders?"
 date: 2022-10-06T14:51:46
 slug: "why-is-open-source-important-to-enterprise-it-leaders"
-author: "Wendie Cheung"
+authors: ["Wendie Cheung"]
 image: "images/Cloud-Native-Tansformations_1.png"
 products: ["Company/community"]
 tags: []

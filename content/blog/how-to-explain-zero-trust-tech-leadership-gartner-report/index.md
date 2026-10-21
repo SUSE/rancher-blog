@@ -2,7 +2,7 @@
 title: "How to Explain Zero Trust to Your Tech Leadership: Gartner Report"
 date: 2022-08-24T17:34:48
 slug: "how-to-explain-zero-trust-tech-leadership-gartner-report"
-author: "Wendie Cheung"
+authors: ["Wendie Cheung"]
 image: "images/GettyImages-961226836_1920.jpg"
 products: ["NeuVector"]
 tags: ["security"]

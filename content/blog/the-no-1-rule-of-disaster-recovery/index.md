@@ -2,7 +2,7 @@
 title: "The No. 1 Rule of Disaster Recovery"
 date: 2020-08-07T09:55:00
 slug: "the-no-1-rule-of-disaster-recovery"
-author: "Mikhail Kozorovitskiy"
+authors: ["Mikhail Kozorovitskiy"]
 image: "images/rancher_blog_disaster-recovery-featured.png"
 products: ["Kubernetes (generic)"]
 tags: ["backup"]

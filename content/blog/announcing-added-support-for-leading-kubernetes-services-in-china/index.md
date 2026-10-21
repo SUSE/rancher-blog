@@ -2,7 +2,7 @@
 title: "Announcing Added Support for Leading Kubernetes Services in China"
 date: 2018-11-14T09:03:00
 slug: "announcing-added-support-for-leading-kubernetes-services-in-china"
-author: "Shannon Williams"
+authors: ["Shannon Williams"]
 products: ["Rancher Manager"]
 tags: ["cloud"]
 content_type: "release"

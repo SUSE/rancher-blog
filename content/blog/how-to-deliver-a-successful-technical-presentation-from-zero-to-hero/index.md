@@ -2,7 +2,7 @@
 title: "How to Deliver a Successful Technical Presentation: From Zero to Hero"
 date: 2022-10-12T15:35:36
 slug: "how-to-deliver-a-successful-technical-presentation-from-zero-to-hero"
-author: "German M. Yebenes"
+authors: ["German M. Yebenes"]
 image: "images/AdobeStock_371813952-scaled.jpeg"
 products: ["Company/community"]
 tags: ["developer-experience"]

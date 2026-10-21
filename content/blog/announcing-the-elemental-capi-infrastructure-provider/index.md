@@ -2,7 +2,7 @@
 title: "Announcing the Elemental CAPI Infrastructure Provider"
 date: 2023-12-14T17:44:38
 slug: "announcing-the-elemental-capi-infrastructure-provider"
-author: "andrea.mazzotti@suse.com"
+authors: ["Andrea Mazzotti"]
 products: ["Elemental"]
 tags: ["edge", "multi-cluster"]
 content_type: "release"

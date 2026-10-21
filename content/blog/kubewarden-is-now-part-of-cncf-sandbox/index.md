@@ -2,7 +2,7 @@
 title: "Kubewarden is Now Part of CNCF Sandbox"
 date: 2022-06-15T16:22:30
 slug: "kubewarden-is-now-part-of-cncf-sandbox"
-author: "Flavio Castelli"
+authors: ["Flavio Castelli"]
 image: "images/rancher_blog_kubewarden.jpeg"
 products: ["Kubewarden"]
 tags: ["policy"]

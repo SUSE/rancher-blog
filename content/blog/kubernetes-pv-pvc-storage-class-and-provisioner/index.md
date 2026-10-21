@@ -2,7 +2,7 @@
 title: "Kubernetes PV, PVC, Storage Class, and Provisioner"
 date: 2018-09-20T12:36:43
 slug: "kubernetes-pv-pvc-storage-class-and-provisioner"
-author: "Sheng Yang"
+authors: ["Sheng Yang"]
 products: ["Kubernetes (generic)"]
 tags: ["storage"]
 content_type: "explainer"

@@ -2,7 +2,7 @@
 title: "Unveiling Rancher 2.8 and Rancher Prime 2.0: Advancing Interoperability and Efficiency"
 date: 2023-11-07T06:52:59
 slug: "whats-new-rancher-2-8"
-author: "Wendie Cheung"
+authors: ["Wendie Cheung"]
 products: ["Rancher Prime"]
 tags: ["upgrades", "gitops", "security"]
 content_type: "release"

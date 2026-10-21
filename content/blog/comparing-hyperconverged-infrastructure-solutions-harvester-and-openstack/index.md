@@ -2,7 +2,7 @@
 title: "Comparing Hyperconverged Infrastructure Solutions: Harvester and OpenStack"
 date: 2022-08-10T16:01:07
 slug: "comparing-hyperconverged-infrastructure-solutions-harvester-and-openstack"
-author: "German M. Yebenes"
+authors: ["German M. Yebenes"]
 image: "images/Harvester-Symbol.png"
 products: ["Harvester"]
 tags: ["virtualization", "cloud"]

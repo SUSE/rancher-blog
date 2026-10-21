@@ -2,7 +2,7 @@
 title: "Zero Trust for Containerized Environments [Infographic]"
 date: 2022-08-30T18:28:17
 slug: "zero-trust-for-containerized-environments-infographic"
-author: "Mackenzie Berube"
+authors: ["Mackenzie Berube"]
 image: "images/what-is-zero-trust-400.jpg"
 products: ["NeuVector"]
 tags: ["security"]

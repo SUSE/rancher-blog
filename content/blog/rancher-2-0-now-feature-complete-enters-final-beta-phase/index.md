@@ -2,7 +2,7 @@
 title: "Rancher 2.0 Now Feature Complete, Enters Final Beta Phase"
 date: 2018-04-05T11:14:00
 slug: "rancher-2-0-now-feature-complete-enters-final-beta-phase"
-author: "Sheng Liang"
+authors: ["Sheng Liang"]
 products: ["Rancher Manager"]
 tags: []
 content_type: "release"

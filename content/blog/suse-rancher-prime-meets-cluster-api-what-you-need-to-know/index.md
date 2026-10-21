@@ -2,7 +2,7 @@
 title: "SUSE Rancher Prime Meets Cluster API: What You Need to Know"
 date: 2025-03-19T11:38:43
 slug: "suse-rancher-prime-meets-cluster-api-what-you-need-to-know"
-author: "Nuno Do Carmo"
+authors: ["Nuno Do Carmo"]
 products: ["Rancher Prime"]
 tags: ["multi-cluster", "gitops"]
 content_type: "explainer"

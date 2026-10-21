@@ -2,7 +2,7 @@
 title: "Rancher Desktop Now Includes the Rancher Dashboard"
 date: 2022-03-23T15:52:33
 slug: "rancher-desktop-now-includes-the-rancher-dashboard"
-author: "Matt Farina"
+authors: ["Matt Farina"]
 image: "images/Screen-Shot-2022-03-23-at-10.47.20-AM.png"
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]

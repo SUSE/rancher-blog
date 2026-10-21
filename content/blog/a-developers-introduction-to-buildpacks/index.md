@@ -2,7 +2,7 @@
 title: "A Developer's Introduction to Buildpacks"
 date: 2021-06-14T19:16:40
 slug: "a-developers-introduction-to-buildpacks"
-author: "Matthew Casperson"
+authors: ["Matthew Casperson"]
 products: ["Docker/containers (generic)"]
 tags: ["ci-cd", "developer-experience"]
 content_type: "explainer"

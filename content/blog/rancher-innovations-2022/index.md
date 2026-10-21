@@ -2,7 +2,7 @@
 title: "Rancher Wrap: Another Year of Innovation and Growth"
 date: 2022-12-12T13:59:41
 slug: "rancher-innovations-2022"
-author: "Peter Smails"
+authors: ["Peter Smails"]
 products: ["Company/community"]
 tags: ["security"]
 content_type: "company-news"

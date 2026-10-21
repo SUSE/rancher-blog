@@ -2,7 +2,7 @@
 title: "Lightning-Fast Kubernetes Management with Rancher’s Vai Project"
 date: 2025-09-22T19:45:06
 slug: "lightning-fast-kubernetes-management-with-ranchers-vai-project"
-author: "Silvio Moioli"
+authors: ["Silvio Moioli"]
 image: "images/Vai-Blog.png"
 products: ["Rancher Manager"]
 tags: ["multi-cluster", "developer-experience"]

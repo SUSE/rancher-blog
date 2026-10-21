@@ -2,7 +2,7 @@
 title: "What is new in Rancher Desktop 1.10"
 date: 2023-09-20T19:18:59
 slug: "rancher-desktop-1-10-proxy-deployment-profile-volume-mount"
-author: "Gunasekhar Matamalam"
+authors: ["Gunasekhar Matamalam"]
 image: "images/download-copy.png"
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]

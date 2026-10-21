@@ -2,7 +2,7 @@
 title: "Announcing Longhorn 1.6.0"
 date: 2024-02-08T03:55:40
 slug: "announcing-longhorn-1-6-0"
-author: "Alexandra Settle"
+authors: ["Alexandra Settle"]
 products: ["Longhorn"]
 tags: ["storage"]
 content_type: "release"

@@ -2,7 +2,7 @@
 title: "Is observing TLS traffic through eBPF a security risk?"
 date: 2025-05-19T19:16:54
 slug: "is-observing-tls-traffic-through-ebpf-a-security-risk"
-author: "Bram Schuur"
+authors: ["Bram Schuur"]
 image: "images/AdobeStock_139391293-scaled.jpeg"
 products: ["Other"]
 tags: ["observability", "security"]

@@ -2,7 +2,7 @@
 title: "Why Kubernetes is Changing Storage"
 date: 2020-06-02T09:52:00
 slug: "why-kubernetes-is-changing-storage"
-author: "Wendie Cheung"
+authors: ["Wendie Cheung"]
 image: "images/rancher_blog_longhorn-storage-featured.png"
 products: ["Longhorn"]
 tags: ["storage"]

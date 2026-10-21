@@ -2,7 +2,7 @@
 title: "From Conflicts to Control: The Case for Virtual Clusters in Kubernetes"
 date: 2025-03-24T07:48:01
 slug: "from-conflicts-to-control-the-case-for-virtual-clusters-in-kubernetes"
-author: "Andreas Prins"
+authors: ["Andreas Prins"]
 description: "Learn how K3k virtual clusters solve Kubernetes resource conflicts, improve isolation‌ and simplify multi-team management."
 image: "images/AdobeStock_303718064-2100x1181-44a88517-e9fa-4f04-bcb1-621f37772fbd.png"
 products: ["K3k"]

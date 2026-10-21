@@ -2,7 +2,7 @@
 title: "Deploying Highly Available K3s with External Database"
 date: 2022-05-27T16:37:44
 slug: "deploying_ha_k3s_external_database"
-author: "Venkata Krishna Rohit Sakala"
+authors: ["Venkata Krishna Rohit Sakala"]
 image: "images/k3s-icon-color-1.png"
 products: ["K3s"]
 tags: ["installation", "edge"]

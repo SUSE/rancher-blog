@@ -2,7 +2,7 @@
 title: "Container Management: A Closer Look at Rancher Desktop's Settings"
 date: 2023-06-13T19:16:06
 slug: "container-management-a-closer-look-at-rancher-desktops-settings"
-author: "Lizbert Zapanta"
+authors: ["Lizbert Zapanta"]
 image: "images/download-copy.png"
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]

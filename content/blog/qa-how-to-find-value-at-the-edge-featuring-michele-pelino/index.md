@@ -2,7 +2,7 @@
 title: "Q&A: How to Find Value at the Edge Featuring Michele Pelino"
 date: 2022-12-06T20:39:13
 slug: "qa-how-to-find-value-at-the-edge-featuring-michele-pelino"
-author: "Mackenzie Berube"
+authors: ["Mackenzie Berube"]
 products: ["Other"]
 tags: ["edge"]
 content_type: "event"

@@ -2,7 +2,7 @@
 title: "Rancher Ranked #3 in 2020 Customer Happiness Awards"
 date: 2020-02-10T09:46:00
 slug: "rancher-ranked-3-in-2020-customer-happiness-awards"
-author: "Caroline Tarbett"
+authors: ["Caroline Tarbett"]
 image: "images/rancher_blog_customer-loyalty-award.png"
 products: ["Company/community"]
 tags: []

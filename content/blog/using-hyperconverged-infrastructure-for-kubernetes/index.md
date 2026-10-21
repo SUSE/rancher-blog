@@ -2,7 +2,7 @@
 title: "Using Hyperconverged Infrastructure for Kubernetes"
 date: 2023-02-07T17:42:37
 slug: "using-hyperconverged-infrastructure-for-kubernetes"
-author: "Damaso Sanoja"
+authors: ["Damaso Sanoja"]
 image: "images/Kubernetes_logo_without_workmark.svg.png"
 products: ["Harvester"]
 tags: ["virtualization", "storage"]

@@ -2,7 +2,7 @@
 title: "Debugging your Rancher Kubernetes Cluster the GenAI Way with k8sgpt, Ollama & Rancher Desktop"
 date: 2024-08-29T19:33:23
 slug: "debugging-your-rancher-kubernetes-cluster-the-genai-way-with-k8sgpt-ollama-rancher-desktop"
-author: "Gunasekhar Matamalam"
+authors: ["Gunasekhar Matamalam"]
 products: ["Rancher Desktop"]
 tags: ["ai", "developer-experience"]
 content_type: "tutorial"

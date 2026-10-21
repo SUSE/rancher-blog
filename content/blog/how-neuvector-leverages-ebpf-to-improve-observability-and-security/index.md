@@ -2,7 +2,7 @@
 title: "How NeuVector Leverages eBPF to Improve Observability and Security"
 date: 2024-03-15T19:02:07
 slug: "how-neuvector-leverages-ebpf-to-improve-observability-and-security"
-author: "Glen Kosaka"
+authors: ["Glen Kosaka"]
 image: "images/NeuVector_symbol_horizontal_color.jpg"
 products: ["NeuVector"]
 tags: ["security", "observability"]

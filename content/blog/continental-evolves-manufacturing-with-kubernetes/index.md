@@ -2,7 +2,7 @@
 title: "Continental Evolves Manufacturing with Kubernetes"
 date: 2020-09-21T09:45:00
 slug: "continental-evolves-manufacturing-with-kubernetes"
-author: "Caroline Tarbett"
+authors: ["Caroline Tarbett"]
 image: "images/rancher_blog_continental-featured.png"
 products: ["Rancher Manager"]
 tags: ["multi-cluster"]

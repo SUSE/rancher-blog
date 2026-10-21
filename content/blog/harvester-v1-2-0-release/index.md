@@ -2,7 +2,7 @@
 title: "Announcing the Harvester v1.2.0 Release"
 date: 2023-09-19T11:35:02
 slug: "harvester-v1-2-0-release"
-author: "Sheng Yang"
+authors: ["Sheng Yang"]
 products: ["Harvester"]
 tags: ["virtualization", "edge"]
 content_type: "release"

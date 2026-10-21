@@ -2,7 +2,7 @@
 title: "The Dark Secret of Cloud Native"
 date: 2021-11-24T18:43:43
 slug: "the-dark-secret-of-cloud-native"
-author: "Tim Irnich"
+authors: ["Tim Irnich"]
 products: ["Kubernetes (generic)"]
 tags: ["cloud"]
 content_type: "event"

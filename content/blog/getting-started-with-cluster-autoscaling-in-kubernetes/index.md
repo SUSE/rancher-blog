@@ -2,7 +2,7 @@
 title: "Getting Started with Cluster Autoscaling in Kubernetes"
 date: 2023-09-12T15:46:03
 slug: "getting-started-with-cluster-autoscaling-in-kubernetes"
-author: "Damaso Sanoja"
+authors: ["Damaso Sanoja"]
 image: "images/Kubernetes.png"
 products: ["Rancher Manager"]
 tags: ["multi-cluster", "cloud", "installation"]

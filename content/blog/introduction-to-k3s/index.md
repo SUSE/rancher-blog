@@ -2,7 +2,7 @@
 title: "Introduction to K3s"
 date: 2021-05-16T10:13:00
 slug: "introduction-to-k3s"
-author: "Hussein Galal"
+authors: ["Hussein Galal"]
 image: "images/rancher_blog_intro-k3s-featured.png"
 products: ["K3s"]
 tags: ["installation"]

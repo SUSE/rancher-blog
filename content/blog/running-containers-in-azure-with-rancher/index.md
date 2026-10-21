@@ -2,7 +2,7 @@
 title: "Running Containers in Azure with Rancher"
 date: 2020-02-24T10:08:00
 slug: "running-containers-in-azure-with-rancher"
-author: "Tom Callway"
+authors: ["Tom Callway"]
 image: "images/rancher_blog_Azure-Containers.png"
 products: ["Rancher Manager"]
 tags: ["azure", "multi-cluster"]

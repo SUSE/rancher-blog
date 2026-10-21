@@ -2,7 +2,7 @@
 title: "Maximize Monitoring in Rancher 2.5 with Prometheus"
 date: 2020-11-10T09:53:00
 slug: "maximize-monitoring-in-rancher-2-5-with-prometheus"
-author: "Gaurav Mehta"
+authors: ["Gaurav Mehta"]
 image: "images/rancher_blog_maximize-prometheus-featured.png"
 products: ["Rancher Manager"]
 tags: ["observability"]

@@ -2,7 +2,7 @@
 title: "SUSE Awarded 16 Badges in G2 Spring 2023 Report"
 date: 2023-05-11T15:33:39
 slug: "suse-awarded-16-badges-in-g2-spring-2023-report"
-author: "Tom Callway"
+authors: ["Tom Callway"]
 image: "images/InfrastructureasaServiceIaaS_HighPerformer_HighPerformer.png"
 products: ["Company/community"]
 tags: []

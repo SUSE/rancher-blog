@@ -2,7 +2,7 @@
 title: "Demystifying Container Orchestration: A Beginner's Guide"
 date: 2023-04-20T06:01:31
 slug: "demystifying-container-orchestration-a-beginners-guide"
-author: "Juan Herrera Utande"
+authors: ["Juan Herrera Utande"]
 image: "images/Demistifying-Container-Orchestration-Beginers-Guide-1-e1681367357275.jpg"
 products: ["Kubernetes (generic)"]
 tags: ["multi-cluster"]

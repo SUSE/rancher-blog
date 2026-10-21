@@ -2,7 +2,7 @@
 title: "Global Energy Leader Transforms Technology and Culture with Kubernetes"
 date: 2020-07-29T10:10:00
 slug: "global-energy-leader-transforms-technology-and-culture-with-kubernetes"
-author: "Caroline Tarbett"
+authors: ["Caroline Tarbett"]
 image: "images/rancher_blog_schneider-featured.png"
 products: ["Rancher Manager"]
 tags: ["multi-cluster"]

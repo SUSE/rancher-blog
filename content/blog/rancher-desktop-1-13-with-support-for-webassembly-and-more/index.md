@@ -2,7 +2,7 @@
 title: "Rancher Desktop 1.13: With Support for WebAssembly and More"
 date: 2024-03-15T18:17:51
 slug: "rancher-desktop-1-13-with-support-for-webassembly-and-more"
-author: "Gunasekhar Matamalam"
+authors: ["Gunasekhar Matamalam"]
 image: "images/download-copy.png"
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]

@@ -2,7 +2,7 @@
 title: "Forrester identifies Rancher as a Leader in Enterprise Container Management."
 date: 2018-10-22T09:03:00
 slug: "forrester-identifies-rancher-as-a-leader-in-enterprise-container-management"
-author: "Shannon Williams"
+authors: ["Shannon Williams"]
 image: "images/rancher_blog_forrester-new-wave.svg"
 products: ["Rancher Prime"]
 tags: []

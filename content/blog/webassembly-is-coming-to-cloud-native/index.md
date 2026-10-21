@@ -2,7 +2,7 @@
 title: "WebAssembly is Coming to Cloud Native    "
 date: 2021-07-16T19:47:39
 slug: "webassembly-is-coming-to-cloud-native"
-author: "Flavio Castelli"
+authors: ["Flavio Castelli"]
 products: ["Kubewarden"]
 tags: ["policy"]
 content_type: "opinion"

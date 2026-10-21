@@ -2,7 +2,7 @@
 title: "Deploy s3gw in Digital Ocean"
 date: 2023-01-25T20:34:36
 slug: "deploy-s3gw-in-digital-ocean"
-author: "Jesus Herman"
+authors: ["Jesus Herman"]
 image: "images/download.png"
 products: ["K3s"]
 tags: ["storage", "cloud", "installation"]

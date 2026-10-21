@@ -2,7 +2,7 @@
 title: "Custom Buildpacks with Epinio"
 date: 2021-11-17T19:54:51
 slug: "custom-buildpacks-with-epinio"
-author: "Matthew Casperson"
+authors: ["Matthew Casperson"]
 image: "images/rancher_blog_epinio.jpeg"
 products: ["Epinio"]
 tags: ["developer-experience"]

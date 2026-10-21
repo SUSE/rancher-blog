@@ -2,7 +2,7 @@
 title: "Tools To Develop Apps On Kubernetes"
 date: 2021-08-13T18:49:01
 slug: "tools-to-develop-apps-on-kubernetes-2"
-author: "Matt Farina"
+authors: ["Matt Farina"]
 products: ["Kubernetes (generic)"]
 tags: ["developer-experience"]
 content_type: "explainer"

@@ -2,7 +2,7 @@
 title: "New Ideas On How To Install Epinio"
 date: 2021-11-30T22:12:30
 slug: "new-ideas-on-how-to-install-epinio"
-author: "Mario Manno"
+authors: ["Mario Manno"]
 image: "images/epinio.png"
 products: ["Epinio"]
 tags: ["installation"]

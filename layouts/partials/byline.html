@@ -1,0 +1,7 @@
+{{- /* Author names for a page. link=true links each to its author page; generic accounts (author: string) never link. */ -}}
+{{- $p := .page -}}
+{{- with $p.GetTerms "authors" -}}
+  {{- range $i, $a := . }}{{ if $i }}, {{ end }}{{ if $.link }}<a href="{{ $a.RelPermalink }}">{{ $a.LinkTitle }}</a>{{ else }}{{ $a.LinkTitle }}{{ end }}{{ end -}}
+{{- else -}}
+  {{- $p.Params.author -}}
+{{- end -}}

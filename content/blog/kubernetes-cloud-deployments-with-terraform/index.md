@@ -2,7 +2,7 @@
 title: "Kubernetes Cloud Deployments with Terraform"
 date: 2022-03-28T19:50:20
 slug: "kubernetes-cloud-deployments-with-terraform"
-author: "Matthew Casperson"
+authors: ["Matthew Casperson"]
 image: "images/shutterstock_175600700.jpg"
 products: ["Kubernetes (generic)"]
 tags: ["cloud", "gitops"]

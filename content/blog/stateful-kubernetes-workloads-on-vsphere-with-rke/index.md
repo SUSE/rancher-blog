@@ -2,7 +2,7 @@
 title: "Stateful Kubernetes Workloads on vSphere with RKE"
 date: 2020-05-01T10:10:00
 slug: "stateful-kubernetes-workloads-on-vsphere-with-rke"
-author: "Gaurav Mehta"
+authors: ["Gaurav Mehta"]
 image: "images/rancher_blog_stateful-workload-featured.png"
 products: ["RKE1"]
 tags: ["storage", "cloud"]

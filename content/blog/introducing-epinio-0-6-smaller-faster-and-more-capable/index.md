@@ -2,7 +2,7 @@
 title: "Introducing Epinio 0.6:  Smaller, Faster *and* More Capable!"
 date: 2022-03-14T19:20:36
 slug: "introducing-epinio-0-6-smaller-faster-and-more-capable"
-author: "Andrew Gracey"
+authors: ["Andrew Gracey"]
 image: "images/icon-epinio.png"
 products: ["Epinio"]
 tags: ["developer-experience"]

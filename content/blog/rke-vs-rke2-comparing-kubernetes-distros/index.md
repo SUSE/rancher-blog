@@ -2,7 +2,7 @@
 title: "RKE vs. RKE2: Comparing Kubernetes Distros"
 date: 2022-06-15T19:30:08
 slug: "rke-vs-rke2-comparing-kubernetes-distros"
-author: "Andrés Valero"
+authors: ["Andrés Valero"]
 image: "images/RKE.jpeg"
 products: ["RKE1"]
 tags: ["installation"]

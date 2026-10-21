@@ -2,7 +2,7 @@
 title: "Why we're building a container infrastructure platform at Rancher Labs"
 date: 2015-06-09T11:30:00
 slug: "why-were-building-a-container-infrastructure-platform-at-rancher-labs"
-author: "Sheng Liang"
+authors: ["Sheng Liang"]
 products: ["Company/community"]
 tags: ["history", "docker"]
 content_type: "company-news"

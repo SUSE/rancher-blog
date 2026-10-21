@@ -2,7 +2,7 @@
 title: "Fewer Bindings, More Power: Rancher's RBAC Boost for Enhanced Performance and Scalability"
 date: 2025-06-18T00:00:47
 slug: "fewer-bindings-more-power-ranchers-rbac-boost-for-enhanced-performance-and-scalability"
-author: "Silvio Moioli"
+authors: ["Silvio Moioli"]
 image: "images/AdobeStock_294534296-1200x557-677b356.png"
 products: ["Rancher Manager"]
 tags: ["security", "multi-cluster"]

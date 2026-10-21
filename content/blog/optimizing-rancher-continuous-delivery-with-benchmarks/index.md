@@ -2,7 +2,7 @@
 title: "Stop Guessing, Start Measuring: Optimizing Rancher Continuous Delivery With Fleet Benchmarks"
 date: 2025-05-15T19:56:11
 slug: "optimizing-rancher-continuous-delivery-with-benchmarks"
-author: "Mario Manno"
+authors: ["Mario Manno"]
 description: "How to run a test suite to measure performance across different lifecycle phases of Rancher's Continuous Delivery GitOps component."
 products: ["Fleet"]
 tags: ["gitops", "multi-cluster", "observability"]

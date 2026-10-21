@@ -2,7 +2,7 @@
 title: "Disaster Recovery Preparedness for Your Kubernetes Clusters"
 date: 2020-08-26T18:58:34
 slug: "disaster-recovery-preparedness-for-your-kubernetes-clusters"
-author: "Cris Rusu"
+authors: ["Cris Rusu"]
 image: "images/rancher_blog_disaster-recovery-preparedness-featured.png"
 products: ["Rancher Manager"]
 tags: ["backup", "multi-cluster"]

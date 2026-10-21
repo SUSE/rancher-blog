@@ -2,7 +2,7 @@
 title: "Epinio and Crossplane: the Perfect Kubernetes Fit"
 date: 2022-08-18T14:43:50
 slug: "epinio-and-crossplane-the-perfect-kubernetes-fit"
-author: "Enrico Candino"
+authors: ["Enrico Candino"]
 image: "images/Last_Piece_in_puzzle.jpg"
 products: ["Epinio"]
 tags: ["developer-experience"]

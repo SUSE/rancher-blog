@@ -2,7 +2,7 @@
 title: "Rancher 2.4 Keeps Your Innovation Engine Running with Zero Downtime Upgrades"
 date: 2020-04-06T10:13:00
 slug: "rancher-2-4-keeps-your-innovation-engine-running-with-zero-downtime-upgrades"
-author: "Bill Maxwell"
+authors: ["Bill Maxwell"]
 image: "images/rancher_blog_zero-downtime-featured.png"
 products: ["Rancher Manager"]
 tags: ["upgrades"]

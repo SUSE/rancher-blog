@@ -2,7 +2,7 @@
 title: "Managing Harvester with Terraform "
 date: 2022-09-22T20:29:24
 slug: "managing-harvester-with-terraform"
-author: "Andrés Valero"
+authors: ["Andrés Valero"]
 image: "images/Harvester-Symbol.png"
 products: ["Harvester"]
 tags: ["virtualization", "ci-cd"]

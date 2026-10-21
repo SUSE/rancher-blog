@@ -2,7 +2,7 @@
 title: "Utilizing the New Rancher UI Extensions Framework"
 date: 2023-04-18T00:27:15
 slug: "utilizing-rancher-ui-extensions"
-author: "nwmacd"
+authors: ["nwmacd"]
 image: "images/rancher-logo-cow-blue.jpg"
 products: ["Rancher Manager"]
 tags: ["developer-experience"]

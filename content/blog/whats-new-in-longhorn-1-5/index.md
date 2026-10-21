@@ -2,7 +2,7 @@
 title: "What's new in Longhorn 1.5"
 date: 2023-08-10T12:29:32
 slug: "whats-new-in-longhorn-1-5"
-author: "David Ko"
+authors: ["David Ko"]
 image: "images/longhorn-icon-color.png"
 products: ["Longhorn"]
 tags: ["storage"]

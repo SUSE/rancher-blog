@@ -2,7 +2,7 @@
 title: "The Unexpected Kubernetes: Part 2: Volume and Many Ways of Persisting Data"
 date: 2018-10-11T09:03:00
 slug: "the-unexpected-kubernetes-part-2-volume-and-many-ways-of-persisting-data"
-author: "Sheng Yang"
+authors: ["Sheng Yang"]
 products: ["Kubernetes (generic)"]
 tags: ["storage"]
 content_type: "explainer"

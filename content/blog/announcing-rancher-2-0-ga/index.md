@@ -2,7 +2,7 @@
 title: "Announcing Rancher 2.0 GA"
 date: 2018-05-01T09:02:00
 slug: "announcing-rancher-2-0-ga"
-author: "Sheng Liang"
+authors: ["Sheng Liang"]
 products: ["Rancher Manager"]
 tags: []
 content_type: "release"

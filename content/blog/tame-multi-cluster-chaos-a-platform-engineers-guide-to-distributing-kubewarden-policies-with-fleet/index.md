@@ -2,7 +2,7 @@
 title: "Tame multi-cluster chaos. A Platform Engineer's guide to distributed Kubewarden Policies with Fleet"
 date: 2025-11-19T08:00:27
 slug: "tame-multi-cluster-chaos-a-platform-engineers-guide-to-distributing-kubewarden-policies-with-fleet"
-author: "Mario Manno"
+authors: ["Mario Manno"]
 image: "images/from-chaos-to-control.png"
 products: ["Kubewarden"]
 tags: ["policy", "gitops", "multi-cluster"]

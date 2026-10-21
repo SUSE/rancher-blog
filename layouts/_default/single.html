@@ -5,7 +5,7 @@
       {{- with .GetTerms "products" }}{{ range first 1 . }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}{{ else }}<a href="/blog/">Blog</a>{{ end -}}
     </p>
     <h1>{{ .Title }}</h1>
-    <p class="post-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>{{ with .Params.author }} · {{ . }}{{ end }} · {{ .ReadingTime }} min read</p>
+    <p class="post-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>{{ with partial "byline.html" (dict "page" . "link" true) }} · {{ . }}{{ end }} · {{ .ReadingTime }} min read</p>
   </header>
   {{- /* show the WordPress featured image only when the body does not already include it */ -}}
   {{- $feat := and .Params.image (not (strings.Contains .RawContent (path.Base .Params.image))) }}

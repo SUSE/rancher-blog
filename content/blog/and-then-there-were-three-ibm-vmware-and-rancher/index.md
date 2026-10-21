@@ -2,7 +2,7 @@
 title: "And Then There Were Three -- IBM, VMware, and Rancher"
 date: 2019-08-27T09:05:00
 slug: "and-then-there-were-three-ibm-vmware-and-rancher"
-author: "Sheng Liang"
+authors: ["Sheng Liang"]
 image: "images/rancher_blog_featured-images_storage.svg"
 products: ["Company/community"]
 tags: []

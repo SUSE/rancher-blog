@@ -2,7 +2,7 @@
 title: "How the kubernetes community responded to the k3s launch"
 date: 2019-03-06T09:06:00
 slug: "how-the-kubernetes-community-responded-to-the-k3s-launch"
-author: "Tom Callway"
+authors: ["Tom Callway"]
 image: "images/rancher_blog_k3s-feature.svg"
 products: ["K3s"]
 tags: ["edge"]

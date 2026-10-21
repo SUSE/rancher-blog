@@ -2,7 +2,7 @@
 title: "Network Policies in K3s"
 date: 2023-03-08T15:00:18
 slug: "k3s-network-policy"
-author: "Raif Ahmed"
+authors: ["Raif Ahmed"]
 products: ["K3s"]
 tags: ["networking", "security"]
 content_type: "tutorial"

@@ -2,7 +2,7 @@
 title: "Your favorite K8s free open-source application just sent you a five-figure invoice. Here's how to get more for less!"
 date: 2025-08-28T17:14:09
 slug: "your-favorite-k8s-free-open-source-application-just-sent-you-a-five-figure-invoice-heres-how-to-get-more-for-less"
-author: "François-Xavier \"FX\" Houard"
+authors: ["François-Xavier \"FX\" Houard"]
 image: "images/SUSE-Application-Collection-lighthouse.jpg"
 products: ["Rancher Prime"]
 tags: ["security"]

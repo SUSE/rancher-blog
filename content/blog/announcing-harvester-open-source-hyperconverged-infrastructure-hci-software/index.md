@@ -2,7 +2,7 @@
 title: "Announcing Harvester: Open Source Hyperconverged Infrastructure (HCI) Software"
 date: 2020-12-16T09:43:00
 slug: "announcing-harvester-open-source-hyperconverged-infrastructure-hci-software"
-author: "Sheng Yang"
+authors: ["Sheng Yang"]
 image: "images/rancher_blog_harvester-featured.png"
 products: ["Harvester"]
 tags: ["virtualization"]

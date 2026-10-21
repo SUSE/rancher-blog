@@ -2,7 +2,7 @@
 title: "Deciphering container complexity from operations to security"
 date: 2023-01-30T21:58:31
 slug: "deciphering-container-complexity-from-operations-to-security"
-author: "Wendie Cheung"
+authors: ["Wendie Cheung"]
 products: ["Company/community"]
 tags: ["security"]
 content_type: "opinion"

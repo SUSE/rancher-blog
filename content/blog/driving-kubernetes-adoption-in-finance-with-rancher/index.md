@@ -2,7 +2,7 @@
 title: "Driving Kubernetes Adoption in Finance with Rancher"
 date: 2020-09-08T09:48:00
 slug: "driving-kubernetes-adoption-in-finance-with-rancher"
-author: "Caroline Tarbett"
+authors: ["Caroline Tarbett"]
 image: "images/rancher_blog_inventx-featured.png"
 products: ["Rancher Manager"]
 tags: ["cloud"]

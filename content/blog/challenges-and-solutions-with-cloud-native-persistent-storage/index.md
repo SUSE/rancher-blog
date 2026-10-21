@@ -2,7 +2,7 @@
 title: "Challenges and Solutions with Cloud Native Persistent Storage"
 date: 2023-01-18T18:11:25
 slug: "challenges-and-solutions-with-cloud-native-persistent-storage"
-author: "James Konik"
+authors: ["James Konik"]
 image: "images/Cloud-Native.jpg"
 products: ["Kubernetes (generic)"]
 tags: ["storage"]

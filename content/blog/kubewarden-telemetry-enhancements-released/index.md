@@ -2,7 +2,7 @@
 title: "Kubewarden Telemetry Enhancements Released!"
 date: 2023-05-18T21:40:12
 slug: "kubewarden-telemetry-enhancements-released"
-author: "José Guilherme Vanz"
+authors: ["José Guilherme Vanz"]
 image: "images/kubewarden.webp"
 products: ["Kubewarden"]
 tags: ["policy", "observability"]

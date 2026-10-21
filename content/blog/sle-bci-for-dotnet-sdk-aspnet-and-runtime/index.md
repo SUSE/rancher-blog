@@ -2,7 +2,7 @@
 title: "SLE BCI for dotnet (sdk, aspnet, and runtime)    "
 date: 2021-12-01T14:42:14
 slug: "sle-bci-for-dotnet-sdk-aspnet-and-runtime"
-author: "Vincent Moutoussamy"
+authors: ["Vincent Moutoussamy"]
 products: ["Other"]
 tags: ["developer-experience"]
 content_type: "release"

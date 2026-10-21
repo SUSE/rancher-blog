@@ -2,7 +2,7 @@
 title: "Understanding and Optimizing CI/CD Pipelines"
 date: 2023-08-07T16:52:45
 slug: "understanding-and-optimizing-ci-cd-pipelines"
-author: "Kovid Rathee"
+authors: ["Kovid Rathee"]
 products: ["Kubernetes (generic)"]
 tags: ["ci-cd"]
 content_type: "explainer"

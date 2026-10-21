@@ -2,7 +2,7 @@
 title: "Kubernetes Adoption Hastens in EMEA"
 date: 2019-10-30T09:05:00
 slug: "kubernetes-adoption-hastens-in-emea"
-author: "Caroline Tarbett"
+authors: ["Caroline Tarbett"]
 image: "images/rancher_blog_featured-images_kubernetes.png"
 products: ["Rancher Manager"]
 tags: []

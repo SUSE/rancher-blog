@@ -2,7 +2,7 @@
 title: "Designing the New Workloads Dashboard for Rancher"
 date: 2026-07-02T08:40:43
 slug: "designing-the-new-workloads-dashboard-for-rancher"
-author: "Ovidiu Boc"
+authors: ["Ovidiu Boc"]
 products: ["Rancher Manager"]
 tags: ["developer-experience", "observability"]
 content_type: "explainer"

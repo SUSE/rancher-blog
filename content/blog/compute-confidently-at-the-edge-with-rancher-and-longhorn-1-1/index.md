@@ -2,7 +2,7 @@
 title: "Compute Confidently at the Edge with Rancher and Longhorn 1.1"
 date: 2021-01-26T10:13:00
 slug: "compute-confidently-at-the-edge-with-rancher-and-longhorn-1-1"
-author: "Wendie Cheung"
+authors: ["Wendie Cheung"]
 image: "images/rancher_blog_longhorn-1-1-featured.png"
 products: ["Longhorn"]
 tags: ["storage", "edge"]

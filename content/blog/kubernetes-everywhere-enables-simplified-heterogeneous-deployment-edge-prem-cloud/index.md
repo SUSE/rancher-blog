@@ -2,7 +2,7 @@
 title: "Kubernetes Everywhere Enables Simplified Heterogeneous Deployment: Edge, Prem, Cloud"
 date: 2020-06-26T09:52:00
 slug: "kubernetes-everywhere-enables-simplified-heterogeneous-deployment-edge-prem-cloud"
-author: "Mikhail Kozorovitskiy"
+authors: ["Mikhail Kozorovitskiy"]
 image: "images/rancher_blog_kubernetes-everywhere-featured.png"
 products: ["Kubernetes (generic)"]
 tags: ["edge", "multi-cluster"]

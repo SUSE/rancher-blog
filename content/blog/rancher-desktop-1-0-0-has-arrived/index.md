@@ -2,7 +2,7 @@
 title: "Rancher Desktop 1.0.0 Has Arrived"
 date: 2022-01-26T18:04:41
 slug: "rancher-desktop-1-0-0-has-arrived"
-author: "Matt Farina"
+authors: ["Matt Farina"]
 image: "images/rancher-desktop.jpeg"
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]

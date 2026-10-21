@@ -2,7 +2,7 @@
 title: "Rancher 2.5 Delivers Enhanced Full Lifecycle Management of EKS Clusters"
 date: 2020-10-06T09:56:00
 slug: "rancher-2-5-delivers-enhanced-full-lifecycle-management-of-eks-clusters"
-author: "Bill Maxwell"
+authors: ["Bill Maxwell"]
 image: "images/rancher_blog_rancher-2-5-lifecycle-featured.png"
 products: ["Rancher Manager"]
 tags: ["cloud", "aws"]

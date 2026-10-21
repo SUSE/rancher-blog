@@ -2,7 +2,7 @@
 title: "Shut Down Cryptojackers and Strengthen Kubernetes Security with NeuVector"
 date: 2025-05-09T21:37:10
 slug: "shut-down-cryptojackers-and-strengthen-kubernetes-security-with-neuvector"
-author: "jhuang@suse.com"
+author: ""
 image: "images/CryptoJacking.png"
 products: ["NeuVector"]
 tags: ["security"]

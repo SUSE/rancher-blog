@@ -2,7 +2,7 @@
 title: "Announcing lockc: Improving Container Security"
 date: 2022-01-18T21:46:50
 slug: "announcing-lockc-improving-container-security"
-author: "Michal Rostecki"
+authors: ["Michal Rostecki"]
 image: "images/icon-lockc-1.png"
 products: ["Other"]
 tags: ["security"]

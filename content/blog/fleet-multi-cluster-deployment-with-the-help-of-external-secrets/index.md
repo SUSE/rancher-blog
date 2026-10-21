@@ -2,7 +2,7 @@
 title: "Fleet: Multi-Cluster Deployment with the Help of External Secrets"
 date: 2023-06-21T16:00:09
 slug: "fleet-multi-cluster-deployment-with-the-help-of-external-secrets"
-author: "Mario Manno"
+authors: ["Mario Manno"]
 image: "images/fleet.png"
 products: ["Fleet"]
 tags: ["gitops", "multi-cluster", "security"]

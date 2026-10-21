@@ -2,7 +2,7 @@
 title: "Scanning Secrets in Environment Variables with Kubewarden"
 date: 2022-10-24T11:03:06
 slug: "scanning-secrets-in-environment-variables-with-kubewarden"
-author: "Raul Cabello"
+authors: ["Raul Cabello"]
 image: "images/m7brY_b9_400x400.jpg"
 products: ["Kubewarden"]
 tags: ["security", "policy"]

@@ -2,7 +2,7 @@
 title: "Meet Elemental: Cloud Native OS Management in Kubernetes"
 date: 2023-07-03T18:10:56
 slug: "meet-elemental-cloud-native-os-management-in-kubernetes"
-author: "Francesco Giudici"
+authors: ["Francesco Giudici"]
 image: "images/logo.svg"
 products: ["Elemental"]
 tags: ["edge", "installation"]

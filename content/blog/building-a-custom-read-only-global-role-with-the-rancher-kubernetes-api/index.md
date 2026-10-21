@@ -2,7 +2,7 @@
 title: "Building a Custom Read-only Global Role with the Rancher Kubernetes API"
 date: 2024-01-09T18:02:45
 slug: "building-a-custom-read-only-global-role-with-the-rancher-kubernetes-api"
-author: "Michael Bolot"
+authors: ["Michael Bolot"]
 image: "images/Kubernetes_logo_without_workmark.svg.png"
 products: ["Rancher Manager"]
 tags: ["security", "multi-cluster"]

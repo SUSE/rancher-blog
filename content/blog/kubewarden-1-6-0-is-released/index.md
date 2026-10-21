@@ -2,7 +2,7 @@
 title: "Kubewarden 1.6.0 is Released!"
 date: 2023-04-20T16:51:48
 slug: "kubewarden-1-6-0-is-released"
-author: "Flavio Castelli"
+authors: ["Flavio Castelli"]
 image: "images/kubewarden.webp"
 products: ["Kubewarden"]
 tags: ["security", "policy"]

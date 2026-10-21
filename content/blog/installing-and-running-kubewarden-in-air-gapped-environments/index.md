@@ -2,7 +2,7 @@
 title: "Installing and Running Kubewarden In Air-Gapped Environments"
 date: 2022-11-29T21:16:27
 slug: "installing-and-running-kubewarden-in-air-gapped-environments"
-author: "Raul Cabello"
+authors: ["Raul Cabello"]
 image: "images/m7brY_b9_400x400.jpg"
 products: ["Kubewarden"]
 tags: ["policy", "installation"]

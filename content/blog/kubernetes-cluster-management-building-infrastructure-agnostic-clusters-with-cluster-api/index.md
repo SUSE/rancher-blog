@@ -2,7 +2,7 @@
 title: "Efficient Kubernetes Cluster Management: Building Infrastructure-Agnostic Clusters with Cluster API"
 date: 2023-08-14T18:09:29
 slug: "kubernetes-cluster-management-building-infrastructure-agnostic-clusters-with-cluster-api"
-author: "Hrittik Roy"
+authors: ["Hrittik Roy"]
 image: "images/Kubernetes_logo_without_workmark.svg.png"
 products: ["Kubernetes (generic)"]
 tags: ["multi-cluster", "installation"]

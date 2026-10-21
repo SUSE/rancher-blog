@@ -2,7 +2,7 @@
 title: "Rancher Recognized as a Leader in Latest Forrester Wave"
 date: 2021-05-05T19:45:41
 slug: "rancher-recognized-as-a-leader-in-latest-forrester-wave"
-author: "Peter Smails"
+authors: ["Peter Smails"]
 products: ["Rancher Prime"]
 tags: ["multi-cluster"]
 content_type: "company-news"

@@ -2,7 +2,7 @@
 title: "Announcing Longhorn: an open source project for microservices-based distributed block storage"
 date: 2017-04-17T09:02:00
 slug: "announcing-longhorn-an-open-source-project-for-microservices-based-distributed-block-storage"
-author: "Sheng Liang"
+authors: ["Sheng Liang"]
 image: "images/rancher_blog_project-longhorn-logo-blue.png"
 products: ["Longhorn"]
 tags: ["storage"]

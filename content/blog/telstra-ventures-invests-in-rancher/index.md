@@ -2,7 +2,7 @@
 title: "Telstra Ventures Invests in Rancher!"
 date: 2020-03-16T10:11:00
 slug: "telstra-ventures-invests-in-rancher"
-author: "Sheng Liang"
+authors: ["Sheng Liang"]
 image: "images/rancher_blog_featured-images_rancher.png"
 products: ["Company/community"]
 tags: ["funding"]

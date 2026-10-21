@@ -2,7 +2,7 @@
 title: "How To Simplify Your Kubernetes Adoption Using Rancher"
 date: 2023-02-01T19:42:45
 slug: "how-to-simplify-your-kubernetes-adoption-using-rancher"
-author: "Andrés Valero"
+authors: ["Andrés Valero"]
 image: "images/download-1.png"
 products: ["Rancher Manager"]
 tags: ["multi-cluster", "security"]

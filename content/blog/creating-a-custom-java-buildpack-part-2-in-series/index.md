@@ -2,7 +2,7 @@
 title: "Creating a Custom Java Buildpack (part 2 in series)"
 date: 2021-09-15T18:26:17
 slug: "creating-a-custom-java-buildpack-part-2-in-series"
-author: "Matthew Casperson"
+authors: ["Matthew Casperson"]
 products: ["Docker/containers (generic)"]
 tags: ["developer-experience", "ci-cd"]
 content_type: "tutorial"

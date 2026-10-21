@@ -2,7 +2,7 @@
 title: "Project Snow Cow: A hat-tip to Apple’s MacOS Snow Leopard release that drove the inspiration for Stability, Reliability & Extensibility in Rancher  "
 date: 2023-04-18T00:27:52
 slug: "rancher-prime-spring-release-2023"
-author: "Utsav Sanghani"
+authors: ["Utsav Sanghani"]
 image: "images/rancher-prime-logo-vert-color-652x720-8d2bf12c-6089-454c-b915-8cbd92b1bff5.jpg"
 products: ["Rancher Manager"]
 tags: ["upgrades"]

@@ -2,7 +2,7 @@
 title: "Improve Security with this One-Liner"
 date: 2021-11-04T14:07:21
 slug: "improve-security-with-this-one-liner"
-author: "Brice Dekany"
+authors: ["Brice Dekany"]
 products: ["Other"]
 tags: ["security"]
 content_type: "tutorial"

@@ -2,7 +2,7 @@
 title: "Advanced Monitoring and Observability​ Tips for Kubernetes Deployments"
 date: 2023-08-28T17:37:57
 slug: "kubernetes-monitoring-advanced-tips-for-deployments"
-author: "James Konik"
+authors: ["James Konik"]
 image: "images/Kubernetes_logo_without_workmark.svg.png"
 products: ["Kubernetes (generic)"]
 tags: ["observability"]

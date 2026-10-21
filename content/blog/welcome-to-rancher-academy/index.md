@@ -2,7 +2,7 @@
 title: "Welcome to Rancher Academy"
 date: 2023-04-18T00:26:33
 slug: "welcome-to-rancher-academy"
-author: "Tom Callway"
+authors: ["Tom Callway"]
 image: "images/Rancher-Academy-Logo.png"
 products: ["Company/community"]
 tags: []

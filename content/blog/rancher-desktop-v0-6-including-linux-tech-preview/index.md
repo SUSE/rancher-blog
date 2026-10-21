@@ -2,7 +2,7 @@
 title: "Rancher Desktop v0.6 - Including Linux Tech Preview"
 date: 2021-10-11T19:48:15
 slug: "rancher-desktop-v0-6-including-linux-tech-preview"
-author: "Matt Farina"
+authors: ["Matt Farina"]
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]
 content_type: "release"

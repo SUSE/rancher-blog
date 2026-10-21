@@ -2,7 +2,7 @@
 title: "SUSE and RKE2 are introducing KubeSleep: Smart Kubernetes Scaling Based on Developer Inactivity"
 date: 2025-04-01T00:00:56
 slug: "suse-and-rke2-are-introducing-kubesleep-smart-kubernetes-scaling-based-on-developer-inactivity"
-author: "Andreas Prins"
+authors: ["Andreas Prins"]
 image: "images/kubeslep-logo-ghibli.png"
 products: ["Company/community"]
 tags: []

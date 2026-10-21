@@ -2,7 +2,7 @@
 title: "Kubewarden Reaches 1.0.0 Release"
 date: 2022-06-27T17:54:25
 slug: "92666"
-author: "Flavio Castelli"
+authors: ["Flavio Castelli"]
 image: "images/rancher_blog_kubewarden.jpeg"
 products: ["Kubewarden"]
 tags: ["policy", "security"]

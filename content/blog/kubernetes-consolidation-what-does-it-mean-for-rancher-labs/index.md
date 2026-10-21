@@ -2,7 +2,7 @@
 title: "Kubernetes Consolidation: What Does It Mean for Rancher Labs?"
 date: 2020-02-24T09:52:00
 slug: "kubernetes-consolidation-what-does-it-mean-for-rancher-labs"
-author: "Caroline Tarbett"
+authors: ["Caroline Tarbett"]
 image: "images/rancher_blog_tfir-kubernetes-consolidation-featured-image.jpeg"
 products: ["Company/community"]
 tags: []

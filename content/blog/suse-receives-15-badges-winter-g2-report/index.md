@@ -2,7 +2,7 @@
 title: "SUSE Receives 15 Badges in the Winter G2 Report Across its Product Portfolio"
 date: 2023-01-12T23:08:52
 slug: "suse-receives-15-badges-winter-g2-report"
-author: "Tom Callway"
+authors: ["Tom Callway"]
 image: "images/ContainerManagement_HighPerformer_HighPerformer-e1674209743632.png"
 products: ["Company/community"]
 tags: []

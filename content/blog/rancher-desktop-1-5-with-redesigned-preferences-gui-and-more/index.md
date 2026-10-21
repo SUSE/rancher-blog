@@ -2,7 +2,7 @@
 title: "Rancher Desktop 1.5.0: With Redesigned Preferences GUI and More"
 date: 2022-08-02T16:36:34
 slug: "rancher-desktop-1-5-with-redesigned-preferences-gui-and-more"
-author: "Gunasekhar Matamalam"
+authors: ["Gunasekhar Matamalam"]
 image: "images/rancher-desktop.jpeg"
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]

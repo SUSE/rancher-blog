@@ -2,7 +2,7 @@
 title: "Longhorn Simplifies Distributed Block Storage in Kubernetes"
 date: 2020-06-02T09:53:00
 slug: "longhorn-simplifies-distributed-block-storage-in-kubernetes"
-author: "Tom Callway"
+authors: ["Tom Callway"]
 image: "images/rancher_blog_longhorn-featured.png"
 products: ["Longhorn"]
 tags: ["storage"]

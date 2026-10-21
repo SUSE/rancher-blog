@@ -2,7 +2,7 @@
 title: "Migrate Your PSPs To Kubewarden Policies!"
 date: 2022-07-13T19:16:30
 slug: "migrate-your-psps-to-kubewarden-policies"
-author: "José Guilherme Vanz"
+authors: ["José Guilherme Vanz"]
 image: "images/rancher_blog_kubewarden.jpeg"
 products: ["Kubewarden"]
 tags: ["policy", "security"]

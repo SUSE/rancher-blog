@@ -2,7 +2,7 @@
 title: "SUSE Virtualization - Enforcing Admission Resource Integrity With Validating Admission Policy"
 date: 2025-03-26T19:34:22
 slug: "suse-virtualization-enforcing-admission-resource-integrity-with-validating-admission-policy"
-author: "Ivan Sim"
+authors: ["Ivan Sim"]
 image: "images/AdobeStock_588772865-2-scaled.jpeg"
 products: ["Harvester"]
 tags: ["virtualization", "policy", "security"]

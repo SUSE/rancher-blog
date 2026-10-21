@@ -2,7 +2,7 @@
 title: "Why K3s Is the Future of Kubernetes at the Edge"
 date: 2019-11-19T09:43:00
 slug: "why-k3s-is-the-future-of-kubernetes-at-the-edge"
-author: "Caroline Tarbett"
+authors: ["Caroline Tarbett"]
 image: "images/rancher_blog_header.png"
 products: ["K3s"]
 tags: ["edge"]

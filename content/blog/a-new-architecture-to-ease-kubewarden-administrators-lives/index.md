@@ -2,7 +2,7 @@
 title: "New Architecture to Ease Kubewarden Administrators' Lives"
 date: 2021-10-11T14:11:24
 slug: "a-new-architecture-to-ease-kubewarden-administrators-lives"
-author: "Víctor Cuadrado Juan"
+authors: ["Víctor Cuadrado Juan"]
 image: "images/icon-kubewarden.png"
 products: ["Kubewarden"]
 tags: ["policy"]

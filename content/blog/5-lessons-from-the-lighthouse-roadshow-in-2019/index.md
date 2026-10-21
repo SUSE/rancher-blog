@@ -2,7 +2,7 @@
 title: "5 lessons from the Lighthouse Roadshow in 2019"
 date: 2019-12-05T09:04:00
 slug: "5-lessons-from-the-lighthouse-roadshow-in-2019"
-author: "Tom Callway"
+authors: ["Tom Callway"]
 image: "images/rancher_blog_lighthouse-blog-header.png"
 products: ["Company/community"]
 tags: []

@@ -2,7 +2,7 @@
 title: "Kubernetes Clusters Break in the Weirdest Ways"
 date: 2025-07-18T19:52:46
 slug: "kubernetes-clusters-break-in-the-weirdest-ways"
-author: "Ivan Tarin"
+authors: ["Ivan Tarin"]
 image: "images/reddit-sco-blog.png"
 products: ["Other"]
 tags: ["observability"]

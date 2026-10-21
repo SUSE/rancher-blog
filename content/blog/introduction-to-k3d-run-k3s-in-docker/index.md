@@ -2,7 +2,7 @@
 title: "Introduction to k3d: Run K3s in Docker"
 date: 2021-03-03T10:13:00
 slug: "introduction-to-k3d-run-k3s-in-docker"
-author: "Thorsten Klein"
+authors: ["Thorsten Klein"]
 image: "images/rancher_blog_k3d-featured.png"
 products: ["K3s"]
 tags: ["installation", "developer-experience"]

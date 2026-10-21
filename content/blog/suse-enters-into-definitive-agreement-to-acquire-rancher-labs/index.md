@@ -2,7 +2,7 @@
 title: "SUSE Enters Into Definitive Agreement to Acquire Rancher Labs"
 date: 2020-07-08T10:10:00
 slug: "suse-enters-into-definitive-agreement-to-acquire-rancher-labs"
-author: "Sheng Liang"
+authors: ["Sheng Liang"]
 image: "images/rancher_blog_suse-rancher-stronger-together.png"
 products: ["Company/community"]
 tags: ["acquisition"]

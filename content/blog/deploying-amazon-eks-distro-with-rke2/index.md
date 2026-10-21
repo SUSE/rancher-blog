@@ -2,7 +2,7 @@
 title: "Deploying Amazon EKS Distro with RKE2"
 date: 2020-12-01T09:58:00
 slug: "deploying-amazon-eks-distro-with-rke2"
-author: "Bill Maxwell"
+authors: ["Bill Maxwell"]
 image: "images/rancher_blog_eksd-featured.png"
 products: ["RKE2"]
 tags: ["cloud", "aws", "installation"]

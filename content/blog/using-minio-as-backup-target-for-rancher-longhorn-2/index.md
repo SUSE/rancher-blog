@@ -2,7 +2,7 @@
 title: "Using MinIO as Backup Target for Rancher Longhorn"
 date: 2021-08-19T21:20:54
 slug: "using-minio-as-backup-target-for-rancher-longhorn-2"
-author: "Juan Herrera Utande"
+authors: ["Juan Herrera Utande"]
 products: ["Longhorn"]
 tags: ["storage", "backup"]
 content_type: "tutorial"

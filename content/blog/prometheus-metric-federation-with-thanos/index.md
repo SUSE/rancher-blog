@@ -2,7 +2,7 @@
 title: "Prometheus Metric Federation with Thanos"
 date: 2020-07-14T09:56:00
 slug: "prometheus-metric-federation-with-thanos"
-author: "Gaurav Mehta"
+authors: ["Gaurav Mehta"]
 image: "images/rancher_blog_prometheus-thanos-featured.png"
 products: ["Rancher Manager"]
 tags: ["observability", "multi-cluster"]

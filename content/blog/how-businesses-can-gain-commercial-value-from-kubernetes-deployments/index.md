@@ -2,7 +2,7 @@
 title: "How Businesses Can Gain Commercial Value from Kubernetes Deployments"
 date: 2020-06-17T09:49:00
 slug: "how-businesses-can-gain-commercial-value-from-kubernetes-deployments"
-author: "Caroline Tarbett"
+authors: ["Caroline Tarbett"]
 image: "images/rancher_blog_msb-commercial-featured.png"
 products: ["Company/community"]
 tags: ["podcast"]

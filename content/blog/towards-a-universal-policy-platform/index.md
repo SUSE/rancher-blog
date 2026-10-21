@@ -2,7 +2,7 @@
 title: "Towards a Universal Policy Platform"
 date: 2021-09-21T15:09:32
 slug: "towards-a-universal-policy-platform"
-author: "Flavio Castelli"
+authors: ["Flavio Castelli"]
 image: "images/icon-kubewarden.png"
 products: ["Kubewarden"]
 tags: ["policy", "security"]

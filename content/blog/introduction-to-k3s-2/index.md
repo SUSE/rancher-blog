@@ -2,7 +2,7 @@
 title: "Introduction to K3s"
 date: 2021-05-03T17:47:57
 slug: "introduction-to-k3s-2"
-author: "Hussein Galal"
+authors: ["Hussein Galal"]
 products: ["K3s"]
 tags: ["installation"]
 content_type: "explainer"

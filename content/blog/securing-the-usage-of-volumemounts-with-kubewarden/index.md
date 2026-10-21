@@ -2,7 +2,7 @@
 title: "Securing the Usage of volumeMounts with Kubewarden"
 date: 2022-11-07T16:33:00
 slug: "securing-the-usage-of-volumemounts-with-kubewarden"
-author: "Víctor Cuadrado Juan"
+authors: ["Víctor Cuadrado Juan"]
 image: "images/m7brY_b9_400x400.jpg"
 products: ["Kubewarden"]
 tags: ["security", "policy"]

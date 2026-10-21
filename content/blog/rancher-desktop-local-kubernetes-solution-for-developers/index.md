@@ -2,7 +2,7 @@
 title: "Rancher Desktop: The Ultimate Local Kubernetes Solution for Developers"
 date: 2023-06-06T19:41:38
 slug: "rancher-desktop-local-kubernetes-solution-for-developers"
-author: "Lizbert Zapanta"
+authors: ["Lizbert Zapanta"]
 image: "images/download-copy.png"
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]

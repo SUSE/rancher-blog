@@ -2,7 +2,7 @@
 title: "Rancher Desktop 0.7 - Now with Docker CLI Support, The Ability To Run On Apple Silicon, and More"
 date: 2021-12-16T16:32:44
 slug: "rancher-desktop-0-7-now-with-docker-cli-support-the-ability-to-run-on-apple-silicon-and-more-2"
-author: "Matt Farina"
+authors: ["Matt Farina"]
 image: "images/rancher-desktop.jpeg"
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]

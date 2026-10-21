@@ -2,7 +2,7 @@
 title: "Rancher Desktop 1.7.0: Introducing Allowed Images Feature and More"
 date: 2022-12-16T19:45:49
 slug: "rancher-desktop-1-7-0-introducing-allowed-images-feature-and-more"
-author: "Gunasekhar Matamalam"
+authors: ["Gunasekhar Matamalam"]
 image: "images/download-copy.png"
 products: ["Rancher Desktop"]
 tags: ["developer-experience", "security"]

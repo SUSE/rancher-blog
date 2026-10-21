@@ -2,7 +2,7 @@
 title: "What's New in Rancher Desktop 1.3.0?"
 date: 2022-04-29T20:18:46
 slug: "rancher-desktop-1-3-0"
-author: "Matt Farina"
+authors: ["Matt Farina"]
 image: "images/Screen-Shot-2022-04-29-at-3.21.25-PM.png"
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]

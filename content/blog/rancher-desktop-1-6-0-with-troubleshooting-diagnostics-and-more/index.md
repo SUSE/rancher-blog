@@ -2,7 +2,7 @@
 title: "Rancher Desktop 1.6.0: With Troubleshooting Diagnostics and More"
 date: 2022-10-06T21:03:08
 slug: "rancher-desktop-1-6-0-with-troubleshooting-diagnostics-and-more"
-author: "Gunasekhar Matamalam"
+authors: ["Gunasekhar Matamalam"]
 image: "images/download.png"
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]

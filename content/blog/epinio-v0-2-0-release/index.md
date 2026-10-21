@@ -2,7 +2,7 @@
 title: "Epinio v0.2.0 Release    "
 date: 2021-11-22T16:03:03
 slug: "epinio-v0-2-0-release"
-author: "Mario Manno"
+authors: ["Mario Manno"]
 products: ["Epinio"]
 tags: ["developer-experience"]
 content_type: "release"

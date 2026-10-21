@@ -2,7 +2,7 @@
 title: "Kubernetes on the Edge"
 date: 2018-12-11T09:03:00
 slug: "kubernetes-on-the-edge"
-author: "Sheng Liang"
+authors: ["Sheng Liang"]
 products: ["Rancher Manager"]
 tags: ["edge"]
 content_type: "company-news"

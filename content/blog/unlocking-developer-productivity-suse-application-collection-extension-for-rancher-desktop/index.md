@@ -2,7 +2,7 @@
 title: "Unlocking Developer Productivity: SUSE Application Collection extension for Rancher Desktop"
 date: 2025-06-23T12:47:48
 slug: "unlocking-developer-productivity-suse-application-collection-extension-for-rancher-desktop"
-author: "Nuno Do Carmo"
+authors: ["Nuno Do Carmo"]
 image: "images/rd-appco-apps.png"
 products: ["Rancher Desktop"]
 tags: ["developer-experience"]

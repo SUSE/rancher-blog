@@ -2,7 +2,7 @@
 title: "Kubewarden 1.4.0 Release"
 date: 2022-12-05T15:59:22
 slug: "kubewarden-1-4-0-release"
-author: "Flavio Castelli"
+authors: ["Flavio Castelli"]
 products: ["Kubewarden"]
 tags: ["security", "policy"]
 content_type: "release"

@@ -2,7 +2,7 @@
 title: "Announcing Project Longhorn v0.3.0 Release"
 date: 2018-08-23T12:20:22
 slug: "announcing-project-longhorn-v0-3-0-release"
-author: "Sheng Yang"
+authors: ["Sheng Yang"]
 products: ["Longhorn"]
 tags: ["storage"]
 content_type: "release"

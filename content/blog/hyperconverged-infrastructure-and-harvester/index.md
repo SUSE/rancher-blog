@@ -2,7 +2,7 @@
 title: "Hyperconverged Infrastructure and Harvester"
 date: 2021-08-02T20:40:42
 slug: "hyperconverged-infrastructure-and-harvester"
-author: "Matthew Casperson"
+authors: ["Matthew Casperson"]
 image: "images/Harvester-Symbol.png"
 products: ["Harvester"]
 tags: ["virtualization"]

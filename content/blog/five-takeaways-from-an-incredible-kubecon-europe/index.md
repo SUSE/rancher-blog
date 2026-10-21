@@ -2,7 +2,7 @@
 title: "Five takeaways from an incredible KubeCon Europe"
 date: 2018-05-09T09:02:00
 slug: "five-takeaways-from-an-incredible-kubecon-europe"
-author: "Shannon Williams"
+authors: ["Shannon Williams"]
 products: ["Company/community"]
 tags: []
 content_type: "event"

@@ -2,7 +2,7 @@
 title: "Addressing the Kubernetes dashboard and external IP proxying vulnerabilities"
 date: 2019-01-04T09:04:00
 slug: "addressing-the-kubernetes-dashboard-and-external-ip-proxying-vulnerabilities"
-author: "Will Chan"
+authors: ["Will Chan"]
 products: ["Rancher Manager"]
 tags: ["security"]
 content_type: "release"

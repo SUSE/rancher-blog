@@ -2,7 +2,7 @@
 title: "Customizing and Securing Your Epinio Installation"
 date: 2022-09-08T22:24:46
 slug: "customizing-and-securing-your-epinio-installation"
-author: "Andrew Gracey"
+authors: ["Andrew Gracey"]
 image: "images/icon-epinio.png"
 products: ["Epinio"]
 tags: ["security"]

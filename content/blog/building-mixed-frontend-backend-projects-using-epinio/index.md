@@ -2,7 +2,7 @@
 title: "Building mixed frontend/backend projects using Epinio"
 date: 2021-10-03T17:45:59
 slug: "building-mixed-frontend-backend-projects-using-epinio"
-author: "Andrew Gracey"
+authors: ["Andrew Gracey"]
 products: ["Epinio"]
 tags: ["developer-experience"]
 content_type: "tutorial"
