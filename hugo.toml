@@ -1,6 +1,6 @@
 baseURL = "https://www.rancher.com/"
 title = "Rancher Blog"
-languageCode = "en-us"
+locale = "en-US"
 enableRobotsTXT = true
 
 [permalinks]
