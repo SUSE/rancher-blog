@@ -1,0 +1,18 @@
+baseURL = "https://www.rancher.com/"
+title = "Rancher Blog"
+languageCode = "en-us"
+enableRobotsTXT = true
+
+[permalinks]
+  blog = "/blog/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  product = "products"
+
+[markup.goldmark.renderer]
+  # migrated WordPress posts keep a few raw HTML embeds (iframes, figures)
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
