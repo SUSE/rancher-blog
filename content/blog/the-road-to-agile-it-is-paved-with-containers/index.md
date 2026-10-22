@@ -115,13 +115,13 @@ of 2019 alone:
 
 - Customer Growth: We grew our customer base by 52% while YoY revenue grew 161%.
 - Product Innovation: We introduced major enhancements to Rancher with the [release of version 2.2](https://rancher.com/press/rancher-2.2-ga/) and also launched new open source projects:
-  - [Rio](https://rancher.com/blog/2019/introducing-rio)
+  - Rio
   - [Longhorn](https://www.youtube.com/watch?v=_s2Pnrz-CKM)
   - [k3s](https://rancher.com/press/2019-04-24-press-release-rancher-labs-introduces-lightweight-operating-system-for-k3s-improve-security-for-kubernetes/)
   - [k3OS](https://rancher.com/press/2019-04-24-press-release-rancher-labs-introduces-lightweight-operating-system-for-k3s-improve-security-for-kubernetes/)
 - Funding – we raised another $25M in Series C funding, bringing the total amount raised to $55M. That means we’ve got loads of cash to invest in continuing our rapid growth.
 
-You can read all about our momentum [here](https://rancher.com/blog/2019/kubernetes-adoption-driving-rancherlabs-momentum), or to learn more, jump to
+You can read all about our momentum [here](https://www.suse.com/c/rancher_blog/kubernetes-adoption-driving-rancher-labs-momentum/), or to learn more, jump to
 
 [www.rancher.com](https://rancher.com).
 

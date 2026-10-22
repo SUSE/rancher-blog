@@ -18,7 +18,7 @@ migration:
 
 ![kubernetes](images/rancher_blog_kubernetes-logo.png)
 
-Update: The topic of Role-Based Access Control (RBAC) was addressed again and updated by Craig Jellick [here](https://rancher.com/blog/2018/2018-05-04-authentication-authorization-rancher2/).
+Update: The topic of Role-Based Access Control (RBAC) was addressed again and updated by Craig Jellick [here](/blog/understanding-kubernetes-authentication-authorization-in-rancher-2-0/).
 
 With Kubernetes 1.6 came [the
 beta release of the role-based access control (RBAC)

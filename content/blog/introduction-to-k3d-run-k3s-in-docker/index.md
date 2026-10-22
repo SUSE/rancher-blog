@@ -21,7 +21,7 @@ In this blog post, we’re going to talk about k3d, a tool that allows you to ru
 
 ## What is k3d?
 
-k3d is a small program made for running a [K3s](https://k3s.io) cluster in Docker. K3s is a lightweight, CNCF-certified Kubernetes distribution and Sandbox project. Designed for low-resource environments, K3s is distributed as a single binary that uses under 512MB of RAM. To learn more about K3s, head over to [the documentation](https://rancher.com/docs/k3s/latest/en/) or check out some of our [blog posts](https://rancher.com/blog/2019/2019-02-26-introducing-k3s-the-lightweight-kubernetes-distribution-built-for-the-edge/) and [videos](https://www.youtube.com/watch?v=hMr3prm9gDM).
+k3d is a small program made for running a [K3s](https://k3s.io) cluster in Docker. K3s is a lightweight, CNCF-certified Kubernetes distribution and Sandbox project. Designed for low-resource environments, K3s is distributed as a single binary that uses under 512MB of RAM. To learn more about K3s, head over to [the documentation](https://rancher.com/docs/k3s/latest/en/) or check out some of our [blog posts](/blog/introducing-k3s-the-lightweight-kubernetes-distribution-built-for-the-edge/) and [videos](https://www.youtube.com/watch?v=hMr3prm9gDM).
 
 k3d uses a [Docker image](https://hub.docker.com/r/rancher/k3s/tags) built from the [K3s repository](https://github.com/rancher/k3s) to spin up multiple K3s nodes in Docker containers on any machine with Docker installed. That way, a single physical (or virtual) machine (let’s call it Docker Host) can run multiple K3s clusters, with multiple server and agent nodes each, simultaneously.
 
@@ -154,7 +154,7 @@ You can use k3d in even more ways, including:
   - both can alternatively make use of a k3d-managed registry to speed up your development loop
 - Use k3d in your CI system (we have a [PoC for that](https://github.com/iwilltry42/k3d-demo/blob/main/.drone.yml))
 - Integrate it in your vscode workflow using the awesome new [community-maintained vscode extension](https://github.com/inercia/vscode-k3d)
-- Use it to [set up K3s high availability](https://rancher.com/blog/2020/set-up-k3s-high-availability-using-k3d)
+- Use it to [set up K3s high availability](/blog/set-up-k3s-in-high-availability-using-k3d/)
 
 You can try all of these yourself by using prepared scripts in [this demo repository](https://github.com/iwilltry42/k3d-demo) or watch us showing them off in [one of our meetups](https://www.youtube.com/watch?v=d9JRb4fk5ag&feature=youtu.be).
 

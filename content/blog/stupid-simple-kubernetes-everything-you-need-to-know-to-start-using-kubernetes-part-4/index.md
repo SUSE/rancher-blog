@@ -16,7 +16,7 @@ migration:
   redirect_target: ""
 ---
 
-[![](images/8db554-1.png)](https://media1-production-mightynetworks.imgix.net/asset/23465956/1.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/8db554-1.png)
 In the era of **Microservices**, **Cloud Computing**and **Serverless**architecture, it's useful to understand **Kubernetes**and learn how to use it. However, the official Kubernetes documentation can be hard to decipher, especially for newcomers. In this blog series, I will present a **simplified view of Kubernetes** and give examples of how to use it for deploying microservices using different cloud providers, including **Azure**, **Amazon**, **Google Cloud** and even **IBM**.
 In this first article, we’ll talk about the most important concepts used in Kubernetes. Later in the series, we’ll learn how to **write configuration files**, use [**Helm**](https://helm.sh/docs/topics/charts/)as a package manager, **create a cloud infrastructure,** easily **orchestrate our services** using Kubernetes and create a **CI/CD pipeline**to automate the whole workflow. With this information, you can spin up any kind of project and create a solid infrastructure/architecture.
 First, I'd like to mention that containers have multiple benefits, from **increased deployment velocity** to delivery consistency with a **greater horizontal scale**. Even so, you should not use containers for everything because just putting any part of your application in a container comes with **overhead, like maintaining a container orchestration layer**. So, don’t jump to conclusions. Instead, create a cost/benefit analysis at the start of the project.
@@ -28,13 +28,13 @@ Now, let's start our journey in the world of Kubernetes.
 
 [**Nodes**](https://kubernetes.io/docs/concepts/architecture/nodes/)are worker machines in Kubernetes, which can be any device with CPU and RAM. For example, a node can be anything, from a smartwatch, smartphone, or laptop to a Raspberry Pi. A node is a virtual machine (VM) when we work with cloud providers. So, a node is an abstraction over a single device.
 As you will see in the next articles, the beauty of this abstraction is that we don’t need to know the underlying hardware structure. We will use nodes; this way, our infrastructure is platform-independent.
-[![](images/9c623c-2.png)](https://media1-production-mightynetworks.imgix.net/asset/23465974/2.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/9c623c-2.png)
 
 #### Cluster
 
 A [**cluster**](https://www.redhat.com/en/topics/containers/what-is-a-kubernetes-cluster)is **a group of nodes**. When you deploy programs onto the cluster, it automatically handles the distribution of work to the individual nodes. If more resources are required (for example, we need more memory), new nodes can be added to the cluster, and the work will be redistributed automatically.
 We run our code on a cluster and shouldn't care about which node. The distribution of the work is automatic.
-[![](images/168abe-3.png)](https://media1-production-mightynetworks.imgix.net/asset/23465977/3.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/168abe-3.png)
 
 #### Persistent Volumes
 
@@ -61,12 +61,12 @@ One of the goals of modern software development is to keep applications on the s
 
 A [**pod**](https://kubernetes.io/docs/concepts/workloads/pods/pod/)is **a group of containers**. In Kubernetes, the **smallest unit of work** is a pod. A pod can contain multiple containers, but usually, we use one container per pod because the **replication unit in Kubernetes is the pod**. If we want to scale each container independently, we add one container in a pod.
 
-[![](images/5986e5-1620199367884.png)](https://media1-production-mightynetworks.imgix.net/asset/23465988/1620199367884.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/5986e5-1620199367884.png)
 
 ### Deployments
 
 The primary role of [**deployment**](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) is to provide declarative updates to both the pod and the ReplicaSet (a set in which the same pod is replicated multiple times). Using the deployment, we can specify **how many replicas of the same pod should be running at any time**. The deployment is like a manager for the pods; it automatically spins up the number of pods requested, monitors the pods and recreates them in case of failure. Deployments are helpful because you don’t have to create and manage each pod separately.
-[![](images/e0249b-5.png)](https://media1-production-mightynetworks.imgix.net/asset/23465992/5.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/e0249b-5.png)
 We usually use deployments for stateless applications. However, you can save the deployment state by attaching a Persistent Volume to it and make it stateful.
 
 ### Stateful Sets
@@ -80,7 +80,7 @@ A [**DaemonSet**](https://kubernetes.io/docs/concepts/workloads/controllers/dae
 ### Services
 
 While deployment is responsible for keeping a set of pods running, the [**service**](https://kubernetes.io/docs/concepts/services-networking/service/)is **responsible for enabling network access to a set of pods**. Services provide standardized features across the cluster: load balancing, service discovery between applications and zero-downtime application deployments. Each service has a unique IP address and a DNS hostname. Applications that consume a service can be manually configured to use either the IP address or the hostname and the traffic will be load balanced to the correct pods. In the ***External Traffic*** section, we will learn more about the service types and how we can communicate between our internal services and the external world.
-[![](images/08af9f-6.png)](https://media1-production-mightynetworks.imgix.net/asset/23466002/6.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/08af9f-6.png)
 
 ### ConfigMaps
 
@@ -97,19 +97,19 @@ ClusterIP is the default service type in Kubernetes and lets you **communicate 
 ### NodePort
 
 As we saw in the first part of this article, pods are running on nodes. Nodes can be different devices, like laptops or virtual machines (when working in the cloud). Each node has a fixed IP address. By declaring a service as [**NodePort**](https://kubernetes.io/docs/concepts/services-networking/service/), the service will expose the **node’s IP address** so that you can access it from the outside. You can use NodePort in production, but for large applications, where you have many services, manually managing all the different IP addresses can be cumbersome.
-[![](images/f0012d-7.png)](https://media1-production-mightynetworks.imgix.net/asset/23466006/7.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/f0012d-7.png)
 
 ### LoadBalancer
 
 Declaring a service of type [**LoadBalancer**](https://kubernetes.io/docs/concepts/services-networking/)exposes it externally **using a cloud provider’s load balancer**. How the external load balancer routes traffic to the Service pods depends on the cluster provider. With this solution, you don’t have to manage all the IP addresses of every cluster node, but you will have one load balancer per service. The downside is that every service has a separate load balancer and you will be billed per load balancer instance.
-[![](images/6e1350-8.png)](https://media1-production-mightynetworks.imgix.net/asset/23466017/8.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/6e1350-8.png)
 This solution is good for production but can be a bit expensive. Let's look at a less expensive solution.
 
 ### Ingress
 
 [**Ingress**](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-ingress-guide-nginx-example.html)is not a service but an API object that manages external access to a cluster's services. It **acts as a**[**reverse proxy**](https://www.youtube.com/watch?v=ozhe__GdWC8)**and single entry-point to your cluster that routes the request to different services**. I usually use [**NGINX Ingress Controller**](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nginx-ingress-on-digitalocean-kubernetes-using-helm), which takes on reverse proxy while also functioning as SSL. The best production-ready solution to expose the ingress is to use a load balancer.
 With this solution, you can expose any number of services using a single load balancer to keep your bills as low as possible.
-[![](images/2105d4-9.png)](https://media1-production-mightynetworks.imgix.net/asset/23466020/9.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/2105d4-9.png)
 
 ## Next Steps
 

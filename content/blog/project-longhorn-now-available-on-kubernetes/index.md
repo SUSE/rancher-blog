@@ -118,7 +118,7 @@ spec:
 
 **Want expert guidance on Longhorn? Sign up for a demo.**
 
-[![Schedule a Demo](https://no-cache.hubspot.com/cta/default/468859/aa0477dc-3583-4bf0-ab24-5c008977aa82.png)](https://cta-redirect.hubspot.com/cta/redirect/468859/aa0477dc-3583-4bf0-ab24-5c008977aa82)
+[![Schedule a Demo](images/aa0477dc-3583-4bf0-ab24-5c008977aa82-30e6ea.png)](https://cta-redirect.hubspot.com/cta/redirect/468859/aa0477dc-3583-4bf0-ab24-5c008977aa82)
 
 Longhorn is a 100% open-source project. To this day, it’s still a work in progress. We appreciate your comments as we continue to work on it!
 

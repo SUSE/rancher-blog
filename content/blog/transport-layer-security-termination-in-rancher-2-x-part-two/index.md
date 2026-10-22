@@ -25,7 +25,7 @@ You can expect to walk away with an understanding of how TLS integrates into var
 
 ## Background
 
-In the [first article in this series](https://rancher.com/blog/2020/transport-layer-security), we explored the ways that Rancher uses TLS certificates. Recall that Rancher uses certificates in many locations. Two of these are of particular interest to users: UI security and agent<->API communication security. We also looked at one method of Rancher installation: using self-signed certificates.
+In the [first article in this series](/blog/transport-layer-security-termination-in-rancher-2-x-part-one/), we explored the ways that Rancher uses TLS certificates. Recall that Rancher uses certificates in many locations. Two of these are of particular interest to users: UI security and agent<->API communication security. We also looked at one method of Rancher installation: using self-signed certificates.
 
 In this article, we’ll explore two more Rancher installation methods and how they leverage TLS certificates:
 
@@ -83,7 +83,7 @@ This option is also a solid choice if you have a certificate that has been signe
 
 If you decide to do BYO certificates with single node installation, you need to ensure that the certificate (including any intermediates) and private key are present on the host machine where the Rancher container will run.
 
-Note: If you’re using a certificate signed by a private CA, you need the certificate of the root CA. Rancher requires this certificate to generate `CATTLE_CA_CHECKSUM`, as described in the [first article in this blog series](https://rancher.com/blog/2020/transport-layer-security).
+Note: If you’re using a certificate signed by a private CA, you need the certificate of the root CA. Rancher requires this certificate to generate `CATTLE_CA_CHECKSUM`, as described in the [first article in this blog series](/blog/transport-layer-security-termination-in-rancher-2-x-part-one/).
 
 When the Rancher container starts, it looks inside the container at `/etc/rancher/ssl` for the TLS files. To place those files in the correct location (and with the correct names), you must use the following `docker` bind mount arguments. Please note that ALL files must be PEM encoded.
 

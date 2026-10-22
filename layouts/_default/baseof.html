@@ -17,8 +17,10 @@
 <link rel="icon" href="/blog/assets/img/favicon.png">
 <link rel="preload" href="/blog/assets/fonts/poppins-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/blog/assets/css/rancher-blog.css">
+{{ partial "tracking.html" . }}
 </head>
 <body>
+{{- with site.Params.gtmID }}<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ . }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>{{ end }}
 <a class="skip" href="#main">Skip to content</a>
 {{ partial "header.html" . }}
 <main id="main">{{ block "main" . }}{{ end }}</main>

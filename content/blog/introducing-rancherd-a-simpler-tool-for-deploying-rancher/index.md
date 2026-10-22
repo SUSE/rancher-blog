@@ -17,7 +17,7 @@ migration:
   redirect_target: "docs.rancher.com"
 ---
 
-Discover what’s new in Rancher 2.5[Learn More](/products/rancher/2.5)
+Discover what’s new in Rancher 2.5[Learn More](https://www.rancher.com/products)
 
 As part of Rancher 2.5, we are excited to introduce a new, simpler way to install Rancher called RancherD.
 
@@ -131,4 +131,4 @@ RancherD allows you to bring your own self-signed or trusted certs by storing th
 
 That wraps up our introduction to RancherD. We’re very excited to preview this feature and look forward to hearing your feedback. To learn more about our new Kubernetes distribution that powers this, [visit here](https://docs.rke2.io/). If you find problems or have questions you can [reach us on Slack](https://slack.rancher.io/) or [open an issue](https://github.com/rancher/rancher/issues/new).
 
-Discover what’s new in Rancher 2.5[Learn More](/products/rancher/2.5)
+Discover what’s new in Rancher 2.5[Learn More](https://www.rancher.com/products)

@@ -21,7 +21,7 @@ Today, automation and configuration management tools are critical for operation 
 
 Harvester is an HCI solution based on Linux, KubeVirt, Kubernetes and Longhorn. It mixes the cloud native and traditional infrastructure worlds, providing virtualization inside Kubernetes, which eases the integration of containerized workloads and VMs. Harvester can benefit from IaC using tools like Terraform or, since it is based in Kubernetes, using methodologies such as GitOps with solutions like Fleet or ArgoCD. In this post, we will focus on the [Terraform provider for Harvester](https://github.com/harvester/terraform-provider-harvester) and how to manage Harvester with Terraform.  
 
-If you are unfamiliar with Harvester and want to know the basics of setting up a lab, read this blog post: [Getting Hands-on with Harvester HCI](https://www.suse.com/c/rancher_blog/getting-hands-on-with-harvester-hci/). 
+If you are unfamiliar with Harvester and want to know the basics of setting up a lab, read this blog post: [Getting Hands-on with Harvester HCI](/blog/getting-hands-on-with-harvester-hci/). 
 
 ## **Environment setup**
 

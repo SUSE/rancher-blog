@@ -17,7 +17,7 @@ migration:
   redirect_target: ""
 ---
 
-Discover what’s new in Rancher 2.5 [Learn More](/products/rancher/2.5) Despite the lockdown restrictions of the last six months, I'm delighted to announce that we've released Rancher 2.5 on schedule today. This latest release represents another major milestone of Rancher's "Computing Everywhere" strategy by delivering management capabilities that match the extraordinary popularity of Amazon EKS and our lightweight Kubernetes distribution, [K3s](https://landscape.cncf.io/selected=k3s).
+Discover what’s new in Rancher 2.5 [Learn More](https://www.rancher.com/products) Despite the lockdown restrictions of the last six months, I'm delighted to announce that we've released Rancher 2.5 on schedule today. This latest release represents another major milestone of Rancher's "Computing Everywhere" strategy by delivering management capabilities that match the extraordinary popularity of Amazon EKS and our lightweight Kubernetes distribution, [K3s](https://landscape.cncf.io/selected=k3s).
 
 When we released Rancher 2.4 in March 2020, we announced a series of significant under-the-hood changes that would pave the way for Rancher to support apps deployed across up to one million clusters. With Rancher 2.5, the inclusion of GitOps-based continuous delivery makes good on this promise. But more than that, Rancher now brings its industry-leading multi-cluster management capabilities to single cluster deployments everywhere.
 
@@ -73,4 +73,4 @@ Rancher 2.5 provides a built-in mechanism to customize bundles per target cluste
 
 As we draw closer to the acquisition of Rancher Labs by SUSE, we're excited to take our reputation of Kubernetes innovation and combining it with the significant engineering and go-to-market capabilities of one of the open source community's best-known brands. And as competitive platforms begin to adopt, in some cases very reluctantly, the inevitability of a heterogenous, multi-cluster future, I'm looking forward to how we will further strengthen our platform and developer services up the stack. One's thing's for sure – Rancher and SUSE will definitely be "Stronger. Together."
 
-[Learn more about Rancher 2.5's new features and capabilities.](https://rancher.com/products/rancher/2.5)Discover what’s new in Rancher 2.5 [Learn More](/products/rancher/2.5)
+[Learn more about Rancher 2.5's new features and capabilities.](https://rancher.com/products/rancher/2.5)Discover what’s new in Rancher 2.5 [Learn More](https://www.rancher.com/products)

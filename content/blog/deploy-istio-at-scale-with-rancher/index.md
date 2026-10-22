@@ -22,7 +22,7 @@ Traditional methods, like manually applying Helm charts or manifests per cluster
 
 While Rancher allows [managing Helm chart repositories](https://ranchermanager.docs.rancher.com/how-to-guides/new-user-guides/helm-charts-in-rancher#add-custom-git-repositories) and apps, this is done on a per-cluster basis via the UI. This approach lacks a centralized source of truth for managing application deployments across a fleet of clusters, making version tracking and consistent rollouts challenging.
 
-Rancher Continuous Delivery (Fleet) deploys applications to managed clusters. We know of users who deploy to a thousand clusters and discussed measuring the [performance aspects in a previous blog post](https://www.suse.com/c/rancher_blog/optimizing-rancher-continuous-delivery-with-benchmarks/).
+Rancher Continuous Delivery (Fleet) deploys applications to managed clusters. We know of users who deploy to a thousand clusters and discussed measuring the [performance aspects in a previous blog post](/blog/optimizing-rancher-continuous-delivery-with-benchmarks/).
 
 Fleet is a Continuous Delivery/Deployment open source tool built with a GitOps operator. It operates on a two-stage pull model: the controller pulls application configurations from a Git repository, and agents running on each downstream cluster pull those configurations from the management cluster. This architecture allows managed clusters to run on private networks or behind NATs, as communication is initiated from the agent in the managed cluster to the Fleet controller.
 
@@ -124,6 +124,6 @@ However, Fleet itself is also working on better pulling secret support in upcomi
 
 ## Continuous Fleet Journey
 
-If you want to learn more about Rancher Continuous Delivery (Fleet), there's the excellent [docs site](https://fleet.rancher.io/). And if resources consumption and optimization are an important subject, we have you covered with [this blog](https://www.suse.com/c/rancher_blog/optimizing-rancher-continuous-delivery-with-benchmarks/).
+If you want to learn more about Rancher Continuous Delivery (Fleet), there's the excellent [docs site](https://fleet.rancher.io/). And if resources consumption and optimization are an important subject, we have you covered with [this blog](/blog/optimizing-rancher-continuous-delivery-with-benchmarks/).
 
 Finally, you can follow and contribute to Fleet directly on the [GitHub repository](https://github.com/rancher/fleet).

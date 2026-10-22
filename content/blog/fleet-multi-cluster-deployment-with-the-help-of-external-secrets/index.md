@@ -24,7 +24,7 @@ To ensure Fleet deployments work seamlessly on downstream clusters, we need a st
 
 A wide variety of tools exists for Kubernetes to manage secrets, e.g., the SOPS operator and the external secrets operator.
 
-A previous blog post showed [how to use the external-secrets operator (ESO) together with the AWS secret manager](https://www.suse.com/c/rancher_blog/managing-sensitive-data-in-kubernetes-with-sealed-secrets-and-external-secrets-operator-eso/) to create sealed secrets.
+A previous blog post showed [how to use the external-secrets operator (ESO) together with the AWS secret manager](/blog/managing-sensitive-data-in-kubernetes-with-sealed-secrets-and-external-secrets-operator-eso/) to create sealed secrets.
 
 ESO supports a wide range of secret stores, from Vault to Google Cloud Secret Manager and Azure Key Vault. This article uses the Kubernetes secret store on the control plane cluster to create derivative secrets on a number of downstream clusters, which can be used when we deploy applications via Fleet. That way, we can manage secrets without any external dependency.
 

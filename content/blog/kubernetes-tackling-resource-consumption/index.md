@@ -59,7 +59,7 @@ The past two articles have offered some actionable steps organizations can take 
 
 To protect against other tenants monopolizing CPU, memory, storage and other resources dragging down the performance of clusters, Kubernetes provides features such as resource limitation and quotas to help operations teams manage and optimize Kubernetes resource utilization capabilities.
 
-Finally, there are some very efficient tools that can help with Kubernetes management and cluster protection beyond the available default settings. A platform like Rancher, a highly optimized container management solution built for organizations that deploy multiple clusters into production environments, makes it easier to manage and run Kubernetes everywhere. It can protect Kubernetes clusters from [outside hackers](https://rancher.com/blog/2019/kubernetes-security-outside-attacks), [insider threats](https://rancher.com/blog/2019/secure-kubernetes-from-inside-threads), and even noisy neighbors.
+Finally, there are some very efficient tools that can help with Kubernetes management and cluster protection beyond the available default settings. A platform like Rancher, a highly optimized container management solution built for organizations that deploy multiple clusters into production environments, makes it easier to manage and run Kubernetes everywhere. It can protect Kubernetes clusters from [outside hackers](/blog/understanding-kubernetes-rbac/), [insider threats](/blog/three-ways-to-secure-kubernetes-from-inside-threats/), and even noisy neighbors.
 
 ## Online Training in Kubernetes and Rancher
 

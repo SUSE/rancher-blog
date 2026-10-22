@@ -21,7 +21,7 @@ I mentioned about a month back that I was using [Harvester in my home lab](http
 
 ## **What is Harvester?**
 
-[![](images/1c5172-Harvester-Sticker-mockup.PNG)](https://media1-production-mightynetworks.imgix.net/asset/26851095/Harvester-Sticker-mockup.PNG?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/1c5172-Harvester-Sticker-mockup.PNG)
 
 [Harvester](https://harvesterhci.io/) is [Rancher’s](https://rancher.com/) open source answer to a hyperconverged infrastructure platform. Like most things Rancher is involved with, it is built on Kubernetes using tools like [KubeVirt](https://kubevirt.io/) and [Longhorn](https://rancher.com/products/longhorn/). KubeVirt is an exciting project that leverages [KVM](https://www.linux-kvm.org/page/Main_Page) and [libvirt](https://libvirt.org/) to run virtual machines inside Kubernetes; this allows you to run both containers and VMs in your cluster. It reduces operational overhead and provides consistency. This combination of tried and tested technologies provides an open source solution in this space.
 
@@ -41,7 +41,7 @@ $ wget https://releases.rancher.com/harvester/v0.2.0/harvester-amd64.iso
 
 Once you have it downloaded, you will need to create a bootable USB. I typically use [Balena Etcher](https://www.balena.io/etcher/) since it is cross-platform and intuitive. Once you have a bootable USB, place it in the machine you want to use and boot the drive. This screen should greet you:
 
-[![](images/832f3d-1627004471872.png)](https://media1-production-mightynetworks.imgix.net/asset/26686187/1627004471872.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/832f3d-1627004471872.png)
 
 Select “New Cluster”:
 
@@ -51,27 +51,27 @@ Select the drive you want to use.
 
 Enter your hostname, select your network interface, and make sure you use automatic DHCP.
 
-[![](images/6e5f59-1627004472178.png)](https://media1-production-mightynetworks.imgix.net/asset/26686190/1627004472178.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/6e5f59-1627004472178.png)
 
 You will then be prompted to enter your cluster token. This can be any phrase you want; I recommend using your password manager to generate one.
 
-[![](images/c30ebc-1627004471939.png)](https://media1-production-mightynetworks.imgix.net/asset/26686188/1627004471939.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/c30ebc-1627004471939.png)
 
 Set a password to use, and remember that the default user name is `rancher`.
 
-[![](images/a9829f-1627004472533.png)](https://media1-production-mightynetworks.imgix.net/asset/26686195/1627004472533.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/a9829f-1627004472533.png)
 
 The following several options are attractive, especially if you want to leverage your SSH keys used in GitHub. Since this is a home lab, I left the SSH keys, proxy and cloud-init setup blank. In an enterprise environment, this would be really useful. Now you will see the final screen before installation. Verify that everything is configured to your desires before proceeding.
 
-[![](images/5fe0e3-1627004472556.png)](https://media1-production-mightynetworks.imgix.net/asset/26686196/1627004472556.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/5fe0e3-1627004472556.png)
 
 If it all looks great, proceed with the installation. It will take a few minutes to complete; when it does, you will need to reboot.
 
 After the reboot, the system will startup, and you will see a screen letting you know the URL for Harvester and the system’s status. Wait until it reports that Harvester is ready before trying to connect.
 
-[![](images/0e2621-1627004472297.png)](https://media1-production-mightynetworks.imgix.net/asset/26686191/1627004472297.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/0e2621-1627004472297.png)
 
-[![](images/ab1ae9-1627004472097.png)](https://media1-production-mightynetworks.imgix.net/asset/26686192/1627004472097.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/ab1ae9-1627004472097.png)
 
 Great! It is now reporting that it is up and running, so it’s now time to set up Harvester.
 
@@ -81,13 +81,13 @@ We can navigate to the URL listed once the OS boots. Mine is [https://harvest:3
 
 Now you should see the dashboard and the health of the system.
 
-[![](images/90183f-1627004472586.png)](https://media1-production-mightynetworks.imgix.net/asset/26686197/1627004472586.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/90183f-1627004472586.png)
 
 I like to disable the default account and add my own account for authentication. Probably not necessary for a home lab, but a good habit to get into. First, you need to navigate to it.
 
-[![](images/05ce80-1627004472469.png)](https://media1-production-mightynetworks.imgix.net/asset/26686193/1627004472469.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/05ce80-1627004472469.png)
 
-[![](images/d729f0-1627004471960.png)](https://media1-production-mightynetworks.imgix.net/asset/26686189/1627004471960.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/d729f0-1627004471960.png)
 
 Now log out and back in with your new account. Once that's finished, we can create our first VM.
 
@@ -101,7 +101,7 @@ https://download.opensuse.org/distribution/leap/15.3/appliances/openSUSE-Leap-15
 
 The JeOS image for openSUSE is roughly 225MB, which is a perfect size for downloading and creating VMs quickly. Let’s make the image in Harvester.
 
-[![](images/712ac4-1627004472509.png)](https://media1-production-mightynetworks.imgix.net/asset/26686194/1627004472509.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/712ac4-1627004472509.png)
 
 Create a new image, and add the URL above as the image URL.
 
@@ -111,7 +111,7 @@ Now we can create a VM using that image. Navigate to the VM screen.
 
 Once we've made our way to the VM screen, we'll create a new VM.
 
-[![](images/2f8b66-1627004472608.png)](https://media1-production-mightynetworks.imgix.net/asset/26686198/1627004472608.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/2f8b66-1627004472608.png)
 
 When that is complete, the VM will show up in the list. Wait until it has been started, then you can start using it.
 

@@ -21,7 +21,7 @@ We’re on a mission to build the industry’s most open, secure and interoperab
 **Introducing the Rancher UI Extensions Framework**
 In November last year, we announced the release of v2.7.0, where we took our first steps into developing Rancher into a truly interoperable, extensible platform with the introduction of our extensions catalog. With the [release of Rancher v2.7.2](https://github.com/rancher/rancher/releases) today, we’re proud to announce that we’ve expanded our extensibility capabilities by releasing our ‘User Interface (UI) Extensions Framework.’
 Users can now customize their Kubernetes experience. They can build on their Rancher platform and manage their clusters using custom, peer-developed or Rancher-built extensions.
-![Image 1: Installation of Kubewarden Extension](https://ranchermanager.docs.rancher.com/assets/images/install-kubewarden-4e066a093d6ebbd86bc505762de350ee.png)
+![Image 1: Installation of Kubewarden Extension](images/install-kubewarden.png)
 
 *Image 1: Installation of Kubewarden Extension*
 
@@ -31,7 +31,7 @@ Supporting this, we’ve also now made three Rancher-built extensions available,
 > 3. Harvester Extension helps operators load their virtualized Harvester cluster into Rancher to aid in management
 
 Building a rich community remains our priority as we develop Rancher. That’s why as part of this release, the new UI Extensions Framework has also been implemented into the [SUSE One Partner Program](https://www.suse.com/partners/). Technology partners are key to our thriving ecosystem and by validating and supporting extensions, we’re eager to see the innovation from our partner community.
-You can learn more about the new [Rancher UI Extension Framework in this blog](https://www.suse.com/c/rancher_blog/utilizing-rancher-ui-extensions/) by Neil MacDougall, Director of UI/UX. Make sure to join him and our community team at our next [Global Online Meetup](https://more.suse.com/FY23Q1_CY_ECM_SR_ECMC_WEB_Global_Online_Meetup_Rancher_Extensions_RG_GLB_RegistrationPage-NEW.html) as he deep dives into the UI Framework.
+You can learn more about the new [Rancher UI Extension Framework in this blog](/blog/utilizing-rancher-ui-extensions/) by Neil MacDougall, Director of UI/UX. Make sure to join him and our community team at our next [Global Online Meetup](https://more.suse.com/FY23Q1_CY_ECM_SR_ECMC_WEB_Global_Online_Meetup_Rancher_Extensions_RG_GLB_RegistrationPage-NEW.html) as he deep dives into the UI Framework.
 **Adding more value to Rancher Prime and helping customers elevate their performance**
 In December 2022, we announced the launch of Rancher Prime – our new enterprise subscription, where we introduced the option to deploy Rancher from a trusted private registry. Today we announce the new components we’ve added to the subscription to help our customers improve their time-to-value across their teams, including:
 > 1. SLA-backed enterprise support for Policy and OS Management via the Kubewarden and Elemental Extensions
@@ -45,7 +45,7 @@ We’ve added these elements to help our customers improve their resiliency and 
 
 *Image 3: Rancher Academy Courses*
 
-Our community team also launched our free online education platform, Rancher Academy, at KubeCon Europe 2023. The cloud native community can now access expert-led courses on demand, covering important topics including fundamentals in containers, Kubernetes and Rancher to help accelerate their Kubernetes journey. [Check out this blog from Tom Callway](https://www.suse.com/c/rancher_blog/welcome-to-rancher-academy/), Vice President of Product Marketing, as he shares in detail the launch and future outlook for Rancher Academy.
+Our community team also launched our free online education platform, Rancher Academy, at KubeCon Europe 2023. The cloud native community can now access expert-led courses on demand, covering important topics including fundamentals in containers, Kubernetes and Rancher to help accelerate their Kubernetes journey. Check out this blog from Tom Callway, Vice President of Product Marketing, as he shares in detail the launch and future outlook for Rancher Academy.
 
 **Achieving milestones across our open source projects**
 Finally, we’ve also made milestones across our innovation projects, including these updates:

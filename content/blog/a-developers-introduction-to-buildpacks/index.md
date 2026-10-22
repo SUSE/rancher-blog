@@ -16,7 +16,7 @@ migration:
   redirect_target: ""
 ---
 
-[![](images/f95456-shutterstock_725658628.jpg)](https://media1-production-mightynetworks.imgix.net/asset/25089308/shutterstock_725658628.jpg?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/f95456-shutterstock_725658628.jpg)
 
 Compiling software is not glamorous but critical to every developer's workflow. The process of compiling software has evolved over the decades, moving from developers building artifacts locally, to centralized build servers, to multistage Docker images -- and now, to a relatively new process called buildpacks.
 
@@ -42,7 +42,7 @@ Still, Docker is a compelling platform for several reasons: its ability to preci
 
 ### Introducing Buildpacks
 
-This is where [buildpacks](https://community.suse.com/posts/%28https%3A//buildpacks.io/%29) come in. A buildpack implements an opinionated build process within a Docker container that takes care of all the fiddly aspects of managing SDKs, caching dependencies and reducing build times to create an executable Docker image from the supplied source code. This means developers can write their code as they always have (with no Docker build scripts), compile that code with a buildpack and have their compiled application embedded into an executable Docker image.
+This is where [buildpacks](https://buildpacks.io/) come in. A buildpack implements an opinionated build process within a Docker container that takes care of all the fiddly aspects of managing SDKs, caching dependencies and reducing build times to create an executable Docker image from the supplied source code. This means developers can write their code as they always have (with no Docker build scripts), compile that code with a buildpack and have their compiled application embedded into an executable Docker image.
 
 Buildpacks are:
 
@@ -118,7 +118,7 @@ docker run -p 8080:8080 myimage
 
 The resulting web application has been exposed on port 8080, so we can access it via the URL http://localhost:8080. The result is a web page that looks like this:
 
-[![](images/4f1662-upload_44ca1adef4b5110f9b1ad97cfb5ef3de.png)](https://media1-production-mightynetworks.imgix.net/asset/24838356/upload_44ca1adef4b5110f9b1ad97cfb5ef3de.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/4f1662-upload_44ca1adef4b5110f9b1ad97cfb5ef3de.png)
 
 It's worth taking a moment to appreciate what we just achieved here. With a single command, we compiled source code that had no Docker configuration into an executable Docker image. We never needed to install any Java tooling or configure any Java settings.
 

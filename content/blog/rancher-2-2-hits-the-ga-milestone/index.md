@@ -17,7 +17,7 @@ migration:
   redirect_target: ""
 ---
 
-Expert Training in Kubernetes and RancherJoin our free online training sessions to learn more about Kubernetes, containers, and Rancher. [Sign up here](https://rancher.com/training/) We released [version 2.2.0](/products/rancher/2.2/) of Rancher today, and we’re beyond excited. The latest release is the culmination of almost a year’s work and brings new features to the product that will make your Kubernetes installations more stable and easier to manage.
+Expert Training in Kubernetes and RancherJoin our free online training sessions to learn more about Kubernetes, containers, and Rancher. [Sign up here](https://rancher.com/training/) We released [version 2.2.0](https://www.rancher.com/products) of Rancher today, and we’re beyond excited. The latest release is the culmination of almost a year’s work and brings new features to the product that will make your Kubernetes installations more stable and easier to manage.
 
 When we released Preview 1 in December and Preview 2 in February, we
 
@@ -105,9 +105,9 @@ release enables Prometheus to reach even further into Kubernetes and
 
 deliver even more information back to you. One of the flagship features
 
-in Rancher is [single cluster multi-tenancy](/docs/rancher/v2.x/en/k8s-in-rancher/projects-and-namespaces/),
+in Rancher is [single cluster multi-tenancy](https://ranchermanager.docs.rancher.com/how-to-guides/new-user-guides/manage-clusters/projects-and-namespaces),
 
-where one or more users have access to a Project and [can only see the resources within that Project](/docs/rancher/v2.x/en/admin-settings/rbac/cluster-project-roles/#project-roles)
+where one or more users have access to a Project and [can only see the resources within that Project](https://ranchermanager.docs.rancher.com/how-to-guides/new-user-guides/authentication-permissions-and-global-configuration/manage-role-based-access-control-rbac/cluster-and-project-roles)
 
 even if there are other users or other Projects on the cluster.
 
@@ -189,9 +189,9 @@ about helping your developers accelerate innovation and drive value for
 
 your business.
 
-[Rancher 2.2](/products/rancher/2.2/) is available now for deployment in dev and staging environments as `rancher/rancher:latest`. Rancher recommends that production environments hold out for `rancher/rancher:stable` before upgrading, and that tag will be available in the coming days.
+[Rancher 2.2](https://www.rancher.com/products) is available now for deployment in dev and staging environments as `rancher/rancher:latest`. Rancher recommends that production environments hold out for `rancher/rancher:stable` before upgrading, and that tag will be available in the coming days.
 
-If you haven’t yet deployed Rancher, now is a great time to start! With [two easy steps](/quick-start/) you can have Rancher up and running, ready to help you manage Kubernetes.
+If you haven’t yet deployed Rancher, now is a great time to start! With [two easy steps](https://www.rancher.com/quick-start) you can have Rancher up and running, ready to help you manage Kubernetes.
 
 ### Join the Rancher 2.2 Online Meetup on April 3rd
 

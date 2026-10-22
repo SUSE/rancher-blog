@@ -62,7 +62,7 @@ Right at the point where the team starts launching containers, wiring them toget
 
 To sum up: Docker by itself is not enough to handle these resources demands at scale. Simple shell commands alone are not sufficient to handle tasks for a tremendous number of containers on a cluster of bare metal or virtual servers. Therefore, another solution is needed to handle all these hurdles for the NetPly team.
 
-This is where the magic starts with Kubernetes. [Kubernetes](https://rancher.com/blog/2018/2018-09-07-introduction-to-kubernetes/) is as container orchestration engine (COE), originally developed by Google and used to resolve NetPly’s **Issue 2**. Kubernetes allows you to handle fleets of containers. Kubernetes automatically manages the deployment, scaling and networking of containers, as well as container failovers by launching a new one with ease.
+This is where the magic starts with Kubernetes. [Kubernetes](/blog/introduction-to-kubernetes/) is as container orchestration engine (COE), originally developed by Google and used to resolve NetPly’s **Issue 2**. Kubernetes allows you to handle fleets of containers. Kubernetes automatically manages the deployment, scaling and networking of containers, as well as container failovers by launching a new one with ease.
 
 The following are some of the fundamental features of Kubernetes.
 

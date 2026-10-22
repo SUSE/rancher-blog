@@ -26,7 +26,7 @@ There's no upgrade path from Harvester 0.2.0 to 0.3.0, so the first step was rei
 
 Given that my previous Harvester 0.2.0 install included Rancher, I figured I'd install Rancher in a VM running on my newly installed Harvester 0.3.0 node - but which OS would I use? With Rancher being deployed using a single Docker container, I was looking for a small, [lightweight OS for the edge](https://www.suse.com/products/micro/) that included Docker. From past experience, I knew that openSUSE Leap had slimmed down images of its distribution available at <https://get.opensuse.org/leap/> - click the alternative downloads link immediately under the initial downloads. Known as Just enough OS (JeOS), these are available for both Leap and Tumbleweed (their rolling release). I opted for Leap, so I created an image using the URL for the OpenStack Cloud image (trust me - the KVM and XEN image hangs on boot).
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/30164176/Screenshot_from_2021-10-20_16-48-14_edited.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/30164176/Screenshot_from_2021-10-20_16-48-14_edited.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/30164176/Screenshot_from_2021-10-20_16-48-14_edited.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
 
 Knowing that I wanted to be able to access Rancher on the same network my Harvester node was attached to, I also enabled  Advanced | Settings | vlan (VLAN) and created a network using VLAN ID 1 (Advanced | Networks).
 
@@ -91,7 +91,7 @@ I won't go through all the lines above but will call out those you need to chang
 
 See <https://cloudinit.readthedocs.io/en/latest/topics/network-config-format-v1.html#> for information on the other lines.
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/30164166/Screenshot_from_2021-10-15_19-12-55_edited.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/30164166/Screenshot_from_2021-10-15_19-12-55_edited.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/30164166/Screenshot_from_2021-10-15_19-12-55_edited.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
 
 Unless you unticked the start virtual machine on creation, your VM should start booting once you click the Create button. If you open the Web Console in VNC, you'll be able to keep an eye on the progress of your VM. When you see the message **Rancher is ready,**you can try accessing Rancher in a web browser at the IP address you specified above. Depending on the web browser you're using and its configuration, you may see warning messages about the self-signed certificate Rancher is using.
 
@@ -101,21 +101,21 @@ The first time you log in to Rancher, you will be prompted for the random bootst
 sudo docker logs rancher 2>&1 | grep "Bootstrap Password:"
 ```
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/30163503/Screenshot_from_2021-10-20_18-54-28.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/30163503/Screenshot_from_2021-10-20_18-54-28.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/30163503/Screenshot_from_2021-10-20_18-54-28.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
 
 Copy the password and paste it into the password field of the Rancher login screen, then click the login with Local User button.
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/30163562/Screenshot_from_2021-10-20_18-55-21.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/30163562/Screenshot_from_2021-10-20_18-55-21.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/30163562/Screenshot_from_2021-10-20_18-55-21.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
 
 You're then prompted to set a password for the default admin user. Unless you can remember random strings or use a password manager, I'd set a specific password. You also need to agree to the terms and conditions for using Rancher!
 
 Finally, you're logged into Rancher, but we're not entirely done yet as we need to add our Harvester cluster. To do this, click on the hamburger menu and then the Virtualization Management tab. Don't panic if you see a failed whale error - just try reloading.
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/30164540/Screenshot_from_2021-10-20_19-00-30.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/30164540/Screenshot_from_2021-10-20_19-00-30.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/30164540/Screenshot_from_2021-10-20_19-00-30.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
 
 Clicking the Import Existing button will give you some registration commands to run on one of your Harvester node(s).
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/30164718/Screenshot_from_2021-10-20_19-00-57.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/30164718/Screenshot_from_2021-10-20_19-00-57.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/30164718/Screenshot_from_2021-10-20_19-00-57.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
 
 To do this, SSH to your Harvester node as the **rancher** user and then run the first kubectl command prefixed with **sudo**. Unless you've changed your Harvester installation, you'll also need to run the curl command, again prefixing the kubectl command with **sudo**. The webpage should refresh, showing your Harvester cluster's management page. If you click the Harvester Cluster link or tab, your Harvester cluster should be listed. Clicking on your cluster name should show something familiar!
 

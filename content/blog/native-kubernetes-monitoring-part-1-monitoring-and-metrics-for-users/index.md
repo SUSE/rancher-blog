@@ -21,7 +21,7 @@ migration:
 
 Kubernetes is an open-source orchestration platform for working with containers. At its core, it gives us the means to do deployments, easy ways to scale, and monitoring. In this article, we will talk about the built-in monitoring capabilities of Kubernetes and include some demos for better understanding.
 
-You may benefit from reading our Introduction to [Kubernetes Monitoring](https://www.suse.com/c/rancher_blog/introduction-to-kubernetes-monitoring/) which offers a more general primer on challenges and solutions for monitoring Kubernetes.
+You may benefit from reading our Introduction to [Kubernetes Monitoring](/blog/introduction-to-kubernetes-monitoring/) which offers a more general primer on challenges and solutions for monitoring Kubernetes.
 
 ## Brief Overview of Kubernetes Architecture
 
@@ -56,7 +56,7 @@ To help monitor the cluster and the many moving parts that form a deployment, Ku
 - **Liveness and Readiness Probes:** actively monitor the health of a container.
 - **Horizontal Pod Autoscaler:** increases the number of pods if needed based on information gathered by analyzing different metrics.
 
-In this article, we will be covering the first two built-in tools. A follow up article focusing on the remaining tools can be found [here](/blog/2019/native-kubernetes-monitoring-tools-part-2).
+In this article, we will be covering the first two built-in tools. A follow up article focusing on the remaining tools can be found [here](/blog/native-kubernetes-monitoring-part-2-scaling-and-life-cycle-management/).
 
 There are many Kubernetes metrics to monitor. As we’ve described the architecture in two separate ways (infrastructure and logical), we can do the same with monitoring and separate this into two main components: monitoring the cluster itself and monitoring the workloads running on it.
 
@@ -90,7 +90,7 @@ Use Rancher to set up and configure a Kubernetes cluster by following the how-to
 
 #### Fig. 3: Create kubernetes cluster with the help of Rancher
 
-As mentioned previously, in this guide we will be covering the first two built-in tools: the Kubernetes dashboard and cAdvisor. A follow up article that discusses probes and horizontal pod autoscalers can be found [here](/blog/2019/native-kubernetes-monitoring-tools-part-2).
+As mentioned previously, in this guide we will be covering the first two built-in tools: the Kubernetes dashboard and cAdvisor. A follow up article that discusses probes and horizontal pod autoscalers can be found [here](/blog/native-kubernetes-monitoring-part-2-scaling-and-life-cycle-management/).
 
 ## Kubernetes Dashboard
 
@@ -203,7 +203,7 @@ The Kubernetes Dashboard consists of few main views:
 - **Discover and Load Balancing view:** shows Kubernetes resources that expose services to the external world and enable discovery within the cluster.
 - **Config and storage view:** shows persistent volume claim resources used by applications. Config view is used to shows all of the Kubernetes resources used for live configuration of applications running in the cluster.
 
-Without any workloads running, the dashboard’s views will be mainly empty since there will be nothing deployed on top of Kubernetes. If you want to explore all of the views the dashboard has to offer, the best option is to deploy apps that use different workload types (stateful set, deployments, replica sets, etc.). You can check out [this article on deploying a Redis cluster](https://rancher.com/blog/2019/deploying-redis-cluster/) for an example that deploys a Redis cluster (a stateful set with volume claims and configMaps) and a testing app (a Kubernetes deployment) so the dashboard tabs will have some relevant info.
+Without any workloads running, the dashboard’s views will be mainly empty since there will be nothing deployed on top of Kubernetes. If you want to explore all of the views the dashboard has to offer, the best option is to deploy apps that use different workload types (stateful set, deployments, replica sets, etc.). You can check out [this article on deploying a Redis cluster](/blog/deploying-redis-cluster-on-top-of-kubernetes/) for an example that deploys a Redis cluster (a stateful set with volume claims and configMaps) and a testing app (a Kubernetes deployment) so the dashboard tabs will have some relevant info.
 
 After provisioning some workloads, we can take down one node and then check the different tabs to see some updates:
 
@@ -361,7 +361,7 @@ Similarly, logs can also be retrieved by visiting:
 
 Monitoring is vital in order to understand what is happening with our applications. Kubernetes helps us with a number of built-in tools and provides some great insights for both, infrastructure layer (nodes) and logical one (pods).
 
-This article concentrated on the tools that focus on providing monitoring and metrics for users. Continue on to the [second part of this series](/blog/2019/native-kubernetes-monitoring-tools-part-2) to learn about the included monitoring tools focused on workload scaling and life cycle management.
+This article concentrated on the tools that focus on providing monitoring and metrics for users. Continue on to the [second part of this series](/blog/native-kubernetes-monitoring-part-2-scaling-and-life-cycle-management/) to learn about the included monitoring tools focused on workload scaling and life cycle management.
 
 ## Kubernetes Monitoring in Rancher
 

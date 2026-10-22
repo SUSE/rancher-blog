@@ -83,7 +83,7 @@ $ curl -sfL https://get.rke2.io | sh -
 
 You should repeat any flags you supplied to the original installation command.
 
-Automated upgrades [are supported](https://docs.k3s.io/upgrades/automated) using Rancher's [system-upgrade-controller](https://github.com/rancher/system-upgrade-controller). After installing the controller, you can declaratively [create Plan objects](https://www.suse.com/c/rancher_blog/upgrade-a-k3s-kubernetes-cluster-with-system-upgrade-controller) that describe how to migrate the cluster to a new version. Plan is a [custom resource definition (CRD)](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources) provided by the controller.
+Automated upgrades [are supported](https://docs.k3s.io/upgrades/automated) using Rancher's [system-upgrade-controller](https://github.com/rancher/system-upgrade-controller). After installing the controller, you can declaratively [create Plan objects](/blog/upgrade-a-k3s-kubernetes-cluster-with-system-upgrade-controller/) that describe how to migrate the cluster to a new version. Plan is a [custom resource definition (CRD)](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources) provided by the controller.
 
 Backing up and restoring data is another common Kubernetes challenge. K3s and RKE2 also mirror each other in this field. Snapshots are automatically written and retained for a configurable period. You can easily restore a cluster from a snapshot by running the following command:
 
@@ -179,4 +179,4 @@ RKE2 takes the usability ethos from K3s and applies it to a fully conformant dis
 
 Which you should choose depends on where your cluster will run and the workloads you'll deploy. You should use RKE2 if you want a hardened distribution for security-critical workloads or if you need FIPS 140-2 compliance. It will help you establish and maintain a healthy security baseline. K3s remain an actively supported alternative for less sensitive situations and edge workloads. It's a batteries-included project for when you want to focus on your apps instead of the environment that runs them.
 
-Both distributions can be managed by [Rancher](https://www.rancher.com/) and integrated with your DevOps toolbox. You can use solutions [like Fleet](https://www.suse.com/c/rancher_blog/fleet-management-for-kubernetes-is-here) to deploy applications at scale with GitOps strategies, then head to the [Rancher dashboard](https://www.suse.com/c/rancher_blog/rancher-desktop-now-includes-the-rancher-dashboard) to monitor your workloads.
+Both distributions can be managed by [Rancher](https://www.rancher.com/) and integrated with your DevOps toolbox. You can use solutions [like Fleet](/blog/fleet-management-for-kubernetes-is-here/) to deploy applications at scale with GitOps strategies, then head to the [Rancher dashboard](/blog/rancher-desktop-now-includes-the-rancher-dashboard/) to monitor your workloads.

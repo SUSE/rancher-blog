@@ -6,14 +6,14 @@ author: "Rancher Admin"
 products: ["Kubernetes (generic)"]
 tags: ["observability"]
 content_type: "tutorial"
-draft: false
+draft: true
 migration:
   wp_id: 85821
   original_url: "https://www.suse.com/c/rancher_blog/the-metrics-that-matter-horizontal-pod-autoscaling-with-metrics-server/"
-  disposition: migrate_refresh
+  disposition: archive_redirect
   commercial: false
   outdated_reason: "Kubernetes 1.8 metrics server steps"
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/getting-started-with-cluster-autoscaling-in-kubernetes/"
 ---
 
 Take a deep dive into Best Practices in Kubernetes NetworkingFrom overlay networking and SSL to ingress controllers and network security policies, we've seen many users get hung up on Kubernetes networking challenges. In this video recording, we dive into Kubernetes networking, and discuss best practices for a wide variety of deployment options.[Watch the video](https://rancher.com/events/2018/kubernetes-networking-masterclass-june-online-meetup/)
@@ -42,7 +42,7 @@ This allows operators to set and monitor KPIs (Key Performance Indicators). Thes
 
 In addition, Metrics Server allows Kubernetes to enable [Horizontal Pod Autoscaling](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/). This capability allows Kubernetes autoscaling to scale pod instance count for a number of API objects based upon metrics reported by the Kubernetes Metrics API, reported by Metrics Server.
 
-If you’re just getting underway with Kubernetes, read the [Introduction to Kubernetes Monitoring](https://rancher.com/blog/2018/2018-10-18-monitoring-kubernetes/), which will help you get the most out of the rest of this article.
+If you’re just getting underway with Kubernetes, read the Introduction to Kubernetes Monitoring, which will help you get the most out of the rest of this article.
 
 ## Setting up Metrics Server in Rancher-Managed Kubernetes Clusters
 

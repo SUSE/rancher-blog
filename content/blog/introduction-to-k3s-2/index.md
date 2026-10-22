@@ -16,7 +16,7 @@ migration:
   redirect_target: ""
 ---
 
-[![](images/da6699-K3S-CNCF-Sandbox-Blog-Graphic-01__2_.png)](https://media1-production-mightynetworks.imgix.net/asset/24312742/K3S-CNCF-Sandbox-Blog-Graphic-01__2_.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/da6699-K3S-CNCF-Sandbox-Blog-Graphic-01__2_.png)
 
 Whether you're new to the cloud native space or an accomplished practitioner, you're probably aware of many Kubernetes distributions. Maybe you've heard about the challenges of getting up and running with Kubernetes. Guess what? It doesn't have to be hard. This blog provides an introduction to K3s, a lightweight CNCF-certified Kubernetes distribution. We'll look at what makes K3s different from other Kubernetes distributions. Built for resource-constrained environments like network edge devices, K3s is lightweight and simple yet ready for production from day one. Do I have your attention? Let's take a look.
 
@@ -55,7 +55,7 @@ In summary, K3s minimally include:
 ## K3s Architecture
 
 Now let's take a look at the K3s architecture. K3s supports two processes, the server and the agent. They can run separately, but by default, K3s runs one process that includes both.
-[![](images/80c08c-1620063195748.png)](https://media1-production-mightynetworks.imgix.net/asset/23383699/1620063195748.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/80c08c-1620063195748.png)
 
 **The K3s server** process runs several components that include:
 
@@ -77,18 +77,18 @@ Now that we understand the architecture let's see how you can actually deploy K3
 **Single node**
 
 The simplest way to deploy K3s is as a single node cluster, which runs one server with the embedded agent enabled. This simplified method is optimized for edge devices because you just run the curl command and it will deploy a complete Kubernetes cluster. Note that this deployment architecture doesn't provide high availability.
-[![](images/ad96e7-1620063194941.png)](https://media1-production-mightynetworks.imgix.net/asset/23383694/1620063194941.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/ad96e7-1620063194941.png)
 
 **Single server with multiple agents**
 
 This method also uses one server and doesn't provide HA support. However, you can add agents (workers) to the cluster. The agents connect securely using a token that the server generates on startup. Alternatively, you can specify your own custom token when starting the server.
 
-[![](images/d96a09-1620063195574.png)](https://media1-production-mightynetworks.imgix.net/asset/23383696/1620063195574.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/d96a09-1620063195574.png)
 
 **HA with External DB**
 
 The third deployment architecture installs K3s in a HA fashion. This doesn't work with Sqlite because it needs multiple servers. However, we can use Kine to support different external databases, including mysql, postgres and etcd.
-[![](images/75eed9-1620063204242.png)](https://media1-production-mightynetworks.imgix.net/asset/23383736/1620063204242.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/75eed9-1620063204242.png)
 
 The benefits of this method are that you have multiple database options and an embedded client load balancer. In addition, there's no quorum requirement since the database server handles data integrity. This means you can start with two servers; if one fails, the cluster will still work.
 
@@ -97,7 +97,7 @@ The only downside with this architecture is that you need to manually set up the
 **HA with Embedded DB**
 
 The fourth method uses a true embedded etcd server, with no extra steps to set up a database. It is also ridiculously simple to set up. These benefits make it perfect for edge devices. The only downside to this method is that it is quorum-based, so you need three servers to maintain quorum. If the quorum is lost, you can always reset the etcd cluster back to a single-node and expand the cluster from there. While you still have to maintain a quorum during normal operation, you won't lose your cluster in the case of quorum loss.
-[![](images/b64d63-1620063197380.png)](https://media1-production-mightynetworks.imgix.net/asset/23383708/1620063197380.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/b64d63-1620063197380.png)
 
 ## Bonus Controllers
 
@@ -123,4 +123,4 @@ The Helm Controller lets you deploy Helm charts without installing a helm tool o
 As you may know, Kubernetes has different types of Services. One popular type is called LoadBalancer service, which creates a load balancer on the cloud. Load balancers are cloud provider specific, so with upstream Kubernetes, you need a cloud provider to get a load balancer. But guess what? We created a workaround for this in K3s - are you seeing a pattern here?
 
 We created a Service Load Balancer Controller, also known as Klipper-LB, which is a NodePort-based load balancer. When you run a service with a load balancer type, you will get a daemonset of pods that are set up to proxy service from one pod to another. This controller supports the packaged Traefik Ingress Controller on small clusters. It has a lot of options, including letting you exclude or include nodes.
-[![](images/70bff3-1620063195630.png)](https://media1-production-mightynetworks.imgix.net/asset/23383697/1620063195630.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/70bff3-1620063195630.png)

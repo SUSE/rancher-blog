@@ -24,7 +24,7 @@ Runtime security for Rancher environments requires putting controls in place to 
 - Leaked or weak credentials
 - Insider threats
 
-Even with processes in place for vulnerability scanning and implementing [pod security policies](https://rancher.com/blog/2020/pod-security-policies-part-1) and network policies in Rancher, not every risk will be addressed. You still need mechanisms to confirm these security barriers are effective and provide a last line of defense when they fail.
+Even with processes in place for vulnerability scanning and implementing pod security policies and network policies in Rancher, not every risk will be addressed. You still need mechanisms to confirm these security barriers are effective and provide a last line of defense when they fail.
 
 ## Why Runtime Security?
 

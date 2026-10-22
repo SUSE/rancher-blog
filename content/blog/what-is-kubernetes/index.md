@@ -68,7 +68,7 @@ Similarly, Kubernetes offers a separate category for data that should be conside
 
 ### Easy Scalability
 
-One of the most valuable features provided by Kubernetes is the ability to easily scale. Horizontal scaling is a feature provided by Kubernetes Deployment objects, allowing you to manage the number of containers for each application you are running. By making scaling simple, you can react to fluctuations in demand and, with [Kubernetes monitoring](https://www.suse.com/c/rancher_blog/introduction-to-kubernetes-monitoring/) and autoscaling functionality, configure your Kubernetes cluster to automatically respond and scale your services appropriately.
+One of the most valuable features provided by Kubernetes is the ability to easily scale. Horizontal scaling is a feature provided by Kubernetes Deployment objects, allowing you to manage the number of containers for each application you are running. By making scaling simple, you can react to fluctuations in demand and, with [Kubernetes monitoring](/blog/introduction-to-kubernetes-monitoring/) and autoscaling functionality, configure your Kubernetes cluster to automatically respond and scale your services appropriately.
 
 ## How Kubernetes Works
 

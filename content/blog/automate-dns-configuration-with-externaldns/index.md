@@ -7,14 +7,14 @@ image: "images/rancher_blog_external-dns_site-feature.png"
 products: ["Kubernetes (generic)"]
 tags: ["networking"]
 content_type: "tutorial"
-draft: false
+draft: true
 migration:
   wp_id: 85820
   original_url: "https://www.suse.com/c/rancher_blog/automate-dns-configuration-with-externaldns/"
-  disposition: migrate_refresh
+  disposition: archive_redirect
   commercial: false
   outdated_reason: "2018 ExternalDNS versions"
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/run-your-first-secure-and-dns-with-rancher/"
 ---
 
 Take a deep dive into Best Practices in Kubernetes NetworkingFrom overlay networking and SSL to ingress controllers and network security policies, we've seen many users get hung up on Kubernetes networking challenges. In this video recording, we dive into Kubernetes networking, and discuss best practices for a wide variety of deployment options.[Watch the video](https://rancher.com/events/2018/kubernetes-networking-masterclass-june-online-meetup/)

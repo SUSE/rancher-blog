@@ -18,7 +18,7 @@ migration:
 
 In the [previous article](https://community.suse.com/posts/run-your-first-cicd-pipeline-with-rancher), we installed **Rancher** on the localhost and run the necessary CI/CD tools. This article will look at how to make our environment liveable on the Internet. We will use **Route53** - domain registration and DNS-zones hosting, **cert-manager** - **Let's Encrypt** wildcard certificates and **external-dns**- synchronizing Ingresses with DNS Route53.
 
-[![](images/44fccf-Rancher-Logo.jpeg)](https://media1-production-mightynetworks.imgix.net/asset/31541655/Rancher-Logo.jpeg?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/44fccf-Rancher-Logo.jpeg)
 
 # A little personal experience
 
@@ -40,13 +40,13 @@ The provider gives me a static IP-address and on the router, I made a forwarding
 
 In the IAM management console, create two policies with the following content:
 
-[![](images/f7c92d-cert-manager_policy.png)](https://media1-production-mightynetworks.imgix.net/asset/31620772/cert-manager_policy.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/f7c92d-cert-manager_policy.png)
 
-[![](images/380cfa-external-dns_policy.png)](https://media1-production-mightynetworks.imgix.net/asset/31620815/external-dns_policy.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/380cfa-external-dns_policy.png)
 
 Next, you need to create two users, assign them policies, and copy their credentials. In the documentation on cert-manager and external-dns, this is not an obvious point since they deal with cases with roles and this is misleading, but we will not use roles.
 
-[![](images/b5d34c-users_iam.png)](https://media1-production-mightynetworks.imgix.net/asset/31620912/users_iam.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/b5d34c-users_iam.png)
 
 There are many articles on the Internet on how to do this in the cloud in various variations, but if you install on your local server everything is a little different.
 
@@ -54,7 +54,7 @@ There are many articles on the Internet on how to do this in the cloud in variou
 
 Add helm-char repo for cert-manager:
 
-[![](images/16c3c6-cert-manager_repo.png)](https://media1-production-mightynetworks.imgix.net/asset/31621392/cert-manager_repo.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/16c3c6-cert-manager_repo.png)
 
 For cert-manager use default values.
 
@@ -94,7 +94,7 @@ spec:
 
 And repeat this for dev.domain.io, stage.domain.io, release.domain.io, change ClusterIssuer name, and dnsZone, change privateKeySecretRef:
 
-[![](images/5b1918-clusterissuers.png)](https://media1-production-mightynetworks.imgix.net/asset/31622289/clusterissuers.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/5b1918-clusterissuers.png)
 
 ## Request wildcard certificates for you Ingresses
 
@@ -120,13 +120,13 @@ And repeat this for \*.dev.domain.io, \*.stage.domain.io, \*.release.domain.io c
 
 Changes should occur in the section, certificates should appear, the normal status is Active and the color is green:
 
-[![](images/64c088-cert-manager--1.png)](https://media1-production-mightynetworks.imgix.net/asset/31622397/cert-manager--1.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/64c088-cert-manager--1.png)
 
 # Run Ingresses for Your App
 
 Since we issued wildcard certificates in advance and they will be updated independently, we can specify this secret for different domains in the settings. To synchronize secrets between namespaces, you can, for example, use a [kubed](https://github.com/kubeops/config-syncer).
 
-[![](images/110e2f-ingress.png)](https://media1-production-mightynetworks.imgix.net/asset/31622900/ingress.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/110e2f-ingress.png)
 
 # Secure access for non-production zones
 
@@ -139,15 +139,15 @@ You can use client certificate validation to secure your development and test en
     nginx.ingress.kubernetes.io/auth-tls-verify-depth: "1"
 ```
 
-[![](images/663fe5-selfsigned.png)](https://media1-production-mightynetworks.imgix.net/asset/31623051/selfsigned.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/663fe5-selfsigned.png)
 
-[![](images/a39dcd-ca.png)](https://media1-production-mightynetworks.imgix.net/asset/31623057/ca.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/a39dcd-ca.png)
 
 More details can be found [here](https://www.jetstack.io/blog/securing-mysql-with-cert-manager/).
 
 For convert pem and key copy to different files, then give the command:
 
-[![](images/620a32-developers-cert.png)](https://media1-production-mightynetworks.imgix.net/asset/31623294/developers-cert.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/620a32-developers-cert.png)
 
 ```
 openssl pkcs12 -export -out developer.pfx -inkey developer.key -in developer.pem
@@ -159,7 +159,7 @@ and add pfx to chrome in settings.
 
 Add helm-chart repo:
 
-[![](images/550b8b-external-dns_repo.png)](https://media1-production-mightynetworks.imgix.net/asset/31621370/external-dns_repo.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/550b8b-external-dns_repo.png)
 
 Values:
 
@@ -235,7 +235,7 @@ time="2021-11-25T23:54:57Z" level=info msg="Desired change: CREATE test1.dev.dom
 time="2021-11-25T23:54:57Z" level=info msg="2 record(s) in zone dev.domain.io. [Id: /hostedzone/ZXXXXXXXXXXXXXXXDN] were successfully updated"
 ```
 
-[![](images/22d0d4-dnsendpoint.png)](https://media1-production-mightynetworks.imgix.net/asset/31623857/dnsendpoint.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/22d0d4-dnsendpoint.png)
 
 Delete:
 

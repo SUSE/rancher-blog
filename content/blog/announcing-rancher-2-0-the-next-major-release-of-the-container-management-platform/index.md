@@ -18,7 +18,7 @@ migration:
 
 Expert Training in Kubernetes and RancherJoin our free online training sessions to learn more about Kubernetes, containers, and Rancher.[Sign up here](https://rancher.com/training/)
 
-Update: Rancher 2.0 Tech Preview has since gone to GA. Read the announcement [here](https://rancher.com/blog/2018/2018-05-01-rancher-ga-announcement-sheng-liang/).
+Update: Rancher 2.0 Tech Preview has since gone to GA. Read the announcement [here](/blog/announcing-rancher-2-0-ga/).
 
 [[![Rancher 2.0
 logo](images/rancher_blog_Pasted-image-at-2017_09_25-07_20-PM-300x136.png)](https://rancher.com/rancher2-0)
@@ -142,9 +142,9 @@ such as kops.
 
 ### A single point of control and visibility across multiple clusters
 
-![Rancher 2.0
+!Rancher 2.0
 Technical
-Architecture](https://cdn2.hubspot.net/hubfs/468859/Whitepapers/Rancher%202.0%20Technical%20Architecture%20-%20Sept%202017.pdf)
+Architecture
 
 Read the technical architecture paper for more details on the Rancher 2.0 enhancements. An IT administrator can create several
 Kubernetes clusters using the embedded Kubernetes master or import

@@ -16,7 +16,7 @@ migration:
   redirect_target: "docs.rancher.com"
 ---
 
-Update: Craig Jellick updated this topic of Kubernetes RBAC for Rancher 2.0 [here](https://rancher.com/blog/2018/2018-05-04-authentication-authorization-rancher2/).
+Update: Craig Jellick updated this topic of Kubernetes RBAC for Rancher 2.0 [here](/blog/understanding-kubernetes-authentication-authorization-in-rancher-2-0/).
 
 As of version 1.6.3, Rancher introduced the [Role-Based Access Control
 (RBAC) feature](https://rancher.com/rbac-kubernetes-rancher/) in

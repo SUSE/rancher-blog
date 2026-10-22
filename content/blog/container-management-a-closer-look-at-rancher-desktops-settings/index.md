@@ -69,7 +69,7 @@ An important aspect to understand is what is happening with your local cluster a
 
 ### **Install Extensions**
 
-Developers can customize their environment according to their needs by **installing extensions to increase its functionality**. This is the latest addition to the features provided by Rancher Desktop. In the Extensions tab, you can select **from our extensive catalog of extensions** that have been tested and proven. As of **[Rancher Desktop version 1.9](https://www.suse.com/c/rancher_blog/rancher-desktop-1-9-tech-preview-with-support-for-docker-extensions/),** Docker extensions will also be supported so developers can seamlessly adapt the application to what they are accustomed to.
+Developers can customize their environment according to their needs by **installing extensions to increase its functionality**. This is the latest addition to the features provided by Rancher Desktop. In the Extensions tab, you can select **from our extensive catalog of extensions** that have been tested and proven. As of **[Rancher Desktop version 1.9](/blog/rancher-desktop-1-9-tech-preview-with-support-for-docker-extensions/),** Docker extensions will also be supported so developers can seamlessly adapt the application to what they are accustomed to.
 
 If you would like to verify which extensions have been installed in your Rancher Desktop, the installed extensions will be displayed on the left side under the Extensions tab.
 

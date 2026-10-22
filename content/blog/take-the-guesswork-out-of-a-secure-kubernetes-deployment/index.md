@@ -17,7 +17,7 @@ migration:
   redirect_target: "rancher.com/blog (hub)"
 ---
 
-Discover what’s new in Rancher 2.5[Learn More](/products/rancher/2.5)
+Discover what’s new in Rancher 2.5[Learn More](https://www.rancher.com/products)
 
 As a Senior Solutions Engineer helping customers deploy cloud-native technologies, I have been using Docker and Rancher for more than five years. Heck, I even helped steer [Rancher](https://rancher.com/products/rancher/2.5) for offline use when it was the 0.19 release. I have loved the product and company for YEARS.
 
@@ -141,4 +141,4 @@ Anyone looking to simplify both the management and security of Kubernetes will f
 
 We’re happy to share more details on getting the most out of your Rancher plus StackRox deployment and how our joint customers are benefiting from the combination – reach out to [sdr@stackrox.com](mailto:sdr@stackrox.com) to get more details and your free trial license key.
 
-Discover what’s new in Rancher 2.5[Learn More](/products/rancher/2.5)
+Discover what’s new in Rancher 2.5[Learn More](https://www.rancher.com/products)

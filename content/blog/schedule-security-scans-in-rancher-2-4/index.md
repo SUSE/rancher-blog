@@ -19,7 +19,7 @@ migration:
 
 Read our free white paper: How to Build a Kubernetes Strategy[Download Now](https://more.suse.com/fy21-global-web-landing-page-how-to-build-enterprise-kubernetes-strategy)
 
-Rancher 2.4, the latest release of Rancher’s Kubernetes management platform, includes a [new CIS security scanning feature](https://rancher.com/blog/2020/enhance-security-with-cis).
+Rancher 2.4, the latest release of Rancher’s Kubernetes management platform, includes a [new CIS security scanning feature](https://ranchermanager.docs.rancher.com/).
 
 [The Center for Internet Security](https://www.cisecurity.org) publishes more than 100 benchmarks for Kubernetes, which are considered the default standard benchmark for defining security of Kubernetes clusters. With Rancher 2.4, CIS scanning is an integrated part of the Rancher UI itself for RKE clusters. If you create or import any RKE cluster via Rancher, CIS Scan will work flawlessly. In this tutorial, we will walk through how to schedule CIS scanning for an RKE cluster and then set up alerting.
 

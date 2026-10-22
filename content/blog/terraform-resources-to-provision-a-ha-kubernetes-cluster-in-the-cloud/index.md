@@ -6,14 +6,14 @@ author: "SUSE"
 products: ["Rancher Manager"]
 tags: ["installation", "cloud"]
 content_type: "tutorial"
-draft: false
+draft: true
 migration:
   wp_id: 97952
   original_url: "https://www.suse.com/c/rancher_blog/terraform-resources-to-provision-a-ha-kubernetes-cluster-in-the-cloud/"
-  disposition: migrate_refresh
+  disposition: archive_redirect
   commercial: false
   outdated_reason: "Course-era Rancher and Terraform links"
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/kubernetes-cloud-deployments-with-terraform/"
 ---
 
 In the most recent classes of the [Up & Running: Rancher course](https://community.suse.com/courses/5804003), I demonstrated how to provision both a single node and a highly available (HA) Kubernetes cluster on your local machine. However, it's equally important to understand how to carry this out in a cloud environment if your Rancher server will be managing K8s clusters in the cloud.
@@ -22,7 +22,7 @@ In practice, an optimal approach would be to make use of Infrastructure as Code 
 
 In this short post, I want to share some resources that make use of Terraform to automatically provision the necessary infrastructure to run Kubernetes in the cloud. Once your cluster is up and running, you can proceed to install Rancher using [helm](https://helm.sh/).
 
-[![](images/5f4156-Screenshot_2021-10-22_at_09.58.55.png)](https://media1-production-mightynetworks.imgix.net/asset/30232475/Screenshot_2021-10-22_at_09.58.55.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/5f4156-Screenshot_2021-10-22_at_09.58.55.png)
 
 ###
 

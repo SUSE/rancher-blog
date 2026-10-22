@@ -16,7 +16,7 @@ migration:
   redirect_target: ""
 ---
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/24728709/1622818705108.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/24728709/1622818705108.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/1622818705108-acbdb8.jpg)
 
 For those of us who need to get applications running in Kubernetes, having Kubernetes on the desktop is incredibly useful. When we want to focus on our applications, it’s especially useful when Kubernetes is easy to use. This is where [Rancher Desktop](https://rancherdesktop.io/) comes in. Rancher Desktop provides easy-to-use Kubernetes and container management (something we’ll look at in a moment) for Mac and Windows.
 
@@ -36,7 +36,7 @@ Out of the box, Rancher Desktop is set to use the latest minor version of Kubern
 
 This is just the default version. You can choose any Kubernetes version that you like since v1.16.
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/24645386/Screen_Shot_2021-06-02_at_6.22.57_AM.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/24645386/Screen_Shot_2021-06-02_at_6.22.57_AM.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/Screen_Shot_2021-06-02_at_6.22.57_AM-c07acd.jpg)
 
 The screenshot (above) shows the Kubernetes setting screen in Rancher Desktop for Mac. On this screen, you can choose the version of Kubernetes you want to use. After setting a new version, Rancher Desktop will download any needed components for the version and switch your local version over.
 
@@ -44,7 +44,7 @@ The screenshot (above) shows the Kubernetes setting screen in Rancher Desktop fo
 
 You can learn a lot by testing an upgrade of your application running in Kubernetes. Upgrades aren’t always seamless. For example, sometimes API versions go away -- especially if you are using a beta version of an API. Some of those have stayed around a long time and have been used as if they are stable APIs.
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/24645478/Screen_Shot_2021-06-02_at_6.40.38_AM.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/24645478/Screen_Shot_2021-06-02_at_6.40.38_AM.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/Screen_Shot_2021-06-02_at_6.40.38_AM-d7a45c.jpg)
 
 In the settings, when you change to a newer version of Kubernetes, your version will be upgraded while keeping your workloads around. This is a great way to test upgrading Kubernetes under your application. And, if you want to wipe out your workloads you can click the "Reset Kubernetes" button at any time to start fresh.
 
@@ -58,7 +58,7 @@ Working with container images is an important part of working with Kubernetes or
 
 The next image shows a terminal window and running *kim build* against a local directory with a *Dockerfile*. You can use the *kim* binary in place of other tools. What you see in the terminal output below is running *kim* and then seeing the output of [Buildkit](https://github.com/moby/buildkit) as the image is built. Buildkit is a common building block used by tools to create container images.
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/24730834/Screen_Shot_2021-06-04_at_11.52.10_AM.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/24730834/Screen_Shot_2021-06-04_at_11.52.10_AM.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/Screen_Shot_2021-06-04_at_11.52.10_AM-60dcce.jpg)
 
 Once the image is built it’s immediately available to use. If you refer to the image in a Kubernetes object or use *kubectl run* the image will be used without needing to download it from anywhere.
 

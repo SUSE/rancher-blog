@@ -32,7 +32,7 @@ Message queueing encompasses the entirety of this flow from the message being pu
 
 Messages that get added to queues don't prevent publisher applications from carrying out further tasks. Similarly, the recipient service can consume from the queue whenever it's ready. It can then proceed to process the message and immediately consume the next one.
 
-[![](images/4b16c5-1617709420081.png)](https://media1-production-mightynetworks.imgix.net/asset/22209952/1617709420081.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/4b16c5-1617709420081.png)
 
 ## **What is RabbitMQ?**
 
@@ -54,7 +54,7 @@ There are three entities required to route messages in the AMQP architecture suc
 - Bindings — route messages from the exchange to a particular queue
 - Queues — where consumers receive messages from
 
-[![](images/2c102c-1617709419779.png)](https://media1-production-mightynetworks.imgix.net/asset/22209950/1617709419779.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/2c102c-1617709419779.png)
 
 With this AMQP message model, the service that produces the messages doesn't publish directly to a queue. Instead, messages are published in an exchange, like the Post Office. It receives all the messages and distributes them according to how they're addressed. This type of pattern is significant because it consists of a broadcast type of message distribution, in which there is a one-to-many relationship between the message publisher and the consumers. The messages that are published to exchange are distributed to all the consumer applications subscribed to it.
 
@@ -62,7 +62,7 @@ An exchange can connect to many queues, which connect to the consuming services 
 
 Bindings are created based on application requirements. For example, if you wanted to route all messages with the routing key 'campus.students' to a queue named Students, the appropriate Binding should be made to bind the Students queue with the 'campus.students' routing key. A routing key is like an address that an exchange uses to decide where to route the message. The message goes to the queue whose binding key exactly matches the message’s routing key. In this case, that would be 'campus.students'. This particular scenario demonstrates what is known as a direct exchange. The various exchange types are covered later in this section.
 
-[![](images/566bc2-1617709576952.png)](https://media1-production-mightynetworks.imgix.net/asset/22210008/1617709576952.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/566bc2-1617709576952.png)
 
 What happens when a message fails to deliver to a consumer? This can occur due to a network or application failure. If either of these failures occurs, the system could potentially lose the message forever. To address this issue, AMQP has a delivery acknowledgment mechanism: a message is not completely removed from a queue unless the consumer acknowledges it. In the case of a negative acknowledgment, the message is either re-sent to the consumer or dropped, depending on the publisher’s configuration settings.
 
@@ -295,6 +295,6 @@ First and foremost, both RabbitMQ and Kafka are “publish/subscribe” messagin
 
 The table below compares RabbitMQ and Kafka in a few categories that pertain to messaging.
 
-[![](images/dd31f1-kafka-rabbitmq-table.png)](https://media1-production-mightynetworks.imgix.net/asset/22314066/kafka-rabbitmq-table.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/dd31f1-kafka-rabbitmq-table.png)
 
 As scenarios and requirements differ from project to project, so will the comparison categories that get used. If need be, additional things such as scaling, message timing, fault handling, and consumer complexity, to name a few, can be further explored. Irrespective of this, determining a winner is comparable to playing a Tetris game: the right tile match will depend on your particular application needs.

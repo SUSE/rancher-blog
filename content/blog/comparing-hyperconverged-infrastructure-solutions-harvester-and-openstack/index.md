@@ -115,7 +115,7 @@ Check out the resources!
 
 - [Harvester Product Page](https://www.suse.com/products/harvester/)
 
-- [Getting Hands on with Harvester HCI](https://www.suse.com/c/rancher_blog/getting-hands-on-with-harvester-hci/)
+- [Getting Hands on with Harvester HCI](/blog/getting-hands-on-with-harvester-hci/)
 
 You can also check this in-depth SUSECON session delivered by my colleague Guang Yee:
 

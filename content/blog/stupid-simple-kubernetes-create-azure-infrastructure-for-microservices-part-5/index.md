@@ -16,7 +16,7 @@ migration:
   redirect_target: ""
 ---
 
-[![](images/74ce16-AKS.png)](https://media1-production-mightynetworks.imgix.net/asset/24404668/AKS.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/74ce16-AKS.png)
 
 Welcome to the fourth post in our Stupid Simple Kubernetes series. In the [first article](https://community.suse.com/posts/13950530?utm_source=manual), we learned about the basic concepts used in Kubernetes and its hardware structure. We talked about the different software components, including Pods, Deployments, StatefulSets, and Services, and how to communicate between services and with the outside world.
 
@@ -24,7 +24,7 @@ In this blog, we're getting practical. We will create all the necessary configur
 
 The code used in this article can be found in my [StupidSimpleKubernetes-AKS](https://github.com/CzakoZoltan08/StupidSimpleKubernetes-AKS) git repository. If you like it, please leave a star!
 
-[![](images/b26a52-1.png)](https://media1-production-mightynetworks.imgix.net/asset/23566663/1.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/b26a52-1.png)
 
 **NOTE:** the scripts provided are **platform agnostic**, so you can follow the tutorial using other types of cloud providers or a local cluster with [**K3s**](https://k3s.io/)**.**I suggest using **K3s** because it is very lightweight, packed in a single binary with a size of less than 40MB. Furthermore, it is a highly available, certified Kubernetes distribution designed for production workloads in resource-constrained environments. For more information, you can review its well-written and easy-to-follow [**documentation**](https://rancher.com/docs/k3s/latest/en/).
 
@@ -48,7 +48,7 @@ For the Azure Kubernetes Service, we need to set up a [Service Principal](https
 
 After running the code, it will return a JSON response with the following structure:
 
-[![](images/20c1d9-2.png)](https://media1-production-mightynetworks.imgix.net/asset/23566684/2.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/20c1d9-2.png)
 
 Based on this information, you will have to update the ARM Template to use your Service Principal. For this, please copy the appId from the returned JSON to the clientId in the ARM Template. Also, copy the password and paste it into the ARM Template’s secret field.
 
@@ -56,7 +56,7 @@ In the next step, you should create a new Resource Group called “StupidSimpleK
 
 To import the ARM template, click on the Create a resource button in the Azure Portal, search for Template Deployment, and select Build your own template in the editor. Copy and paste the [template code](https://github.com/CzakoZoltan08/StupidSimpleKubernetes-AKS/tree/master/manifest/arm-templates) from our Git repository to the Azure template editor. Now you should see something like this in the following picture:
 
-[![](images/ce227a-3.png)](https://media1-production-mightynetworks.imgix.net/asset/23566686/3.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/ce227a-3.png)
 
 Hit the save button, select the StupidSimpleKubernetes resource group, and hit Purchase. This will take a while, and it will create all the necessary Azure resources for a production-ready microservices infrastructure.
 
@@ -68,11 +68,11 @@ az deployment group create --name testtemplate --resource-group StupidSimpleKube
 
 After the ARM Template Deployment is done, we should have the following Azure resources:
 
-[![](images/348a51-4.png)](https://media1-production-mightynetworks.imgix.net/asset/23566689/4.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/348a51-4.png)
 
 The next step is to authorize our Kubernetes service to pull images from the Container Registry. For this, select the container registry, select the Access Control (IAM) menu option from the left menu, click on the Add button and select Role Assignment.
 
-[![](images/f6af30-5.png)](https://media1-production-mightynetworks.imgix.net/asset/23566691/5.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/f6af30-5.png)
 
 In the right menu, search for the correct Service Principal (use the *display name* from the returned JSON object — see the Service Principal image above).
 
@@ -89,11 +89,11 @@ kubectl apply -f .\manifest\ingress-controller\ngnix-load-balancer-setup.yml
 
 This will create a new public IP, which you can see in the Azure Portal:
 
-[![](images/806065-6.png)](https://media1-production-mightynetworks.imgix.net/asset/23566696/6.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/806065-6.png)
 
 If we take a look over the details of this new Public IP resource, we can see that it does NOT have a DNS name.
 
-[![](images/e2c2be-7.png)](https://media1-production-mightynetworks.imgix.net/asset/23566697/7.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/e2c2be-7.png)
 
 To assign a human-readable DNS name to this Public IP, please run the following PowerShell script (replace the IP address with the correct IP address from your Public IP resource):
 

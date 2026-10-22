@@ -22,7 +22,7 @@ Are my dad jokes as bad as my daughters claim? Probably…
 
 Is WebAssembly spreading inside of the Cloud Native ecosystem? ? I have no doubts about that!
 
-[![](images/79f635-wasm_logo.png)](https://media1-production-mightynetworks.imgix.net/asset/26443053/wasm_logo.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/79f635-wasm_logo.png)
 
 First, why am I so excited about seeing WebAssembly flourish inside the Cloud Native ecosystem? Well, it’s no secret that I’m a huge fan of it. After all, WebAssembly is at the heart of Kubewarden.
 
@@ -48,7 +48,7 @@ Let’s take a closer look at them!
 
 ---
 
-[![](images/a82623-krustlet-logo.png)](https://media1-production-mightynetworks.imgix.net/asset/26442817/krustlet-logo.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/a82623-krustlet-logo.png)
 
 [Krustlet](https://krustlet.dev/) registers itself against a Kubernetes cluster as a Kubelet instance. However, the Krustlet Kubelet does not run regular containers; instead, it executes WebAssembly programs.
 
@@ -58,7 +58,7 @@ As a matter of fact, the Krustlet and Kubewarden teams are collaborating on the�
 
 ---
 
-[![](images/6abc1f-wasmcloud-logo.png)](https://media1-production-mightynetworks.imgix.net/asset/26442827/wasmcloud-logo.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/6abc1f-wasmcloud-logo.png)
 
 [wasmCloud](https://wasmcloud.com/) is a project with a strong focus on the developer experience. wasmCloud provides a way to write portable code that can be deployed everywhere: from the cloud to your edge devices. As the name of the project suggests, wasmCloud leverages WebAssembly, too.
 
@@ -66,7 +66,7 @@ Once more, as Kubewarden developers, we are also connected to the wasmCloud comm
 
 ---
 
-[![](images/2047bc-oras-logo.png)](https://media1-production-mightynetworks.imgix.net/asset/26442840/oras-logo.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/2047bc-oras-logo.png)
 
 Last but not least, let’s talk about [ORAS](https://oras.land/). This project turns [OCI container registries](https://opencontainers.org/) into generic artifact stores.
 

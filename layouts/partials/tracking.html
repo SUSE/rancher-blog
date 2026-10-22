@@ -1,0 +1,26 @@
+{{- /* Same GTM container, consent defaults and OneTrust banner as rancher.com. Loaded only on rancher.com,
+       so previews on the GitHub Pages origin do not count as traffic. IDs live in hugo.toml [params]. */ -}}
+{{- with site.Params.gtmID }}
+<script>
+(function (gtm, onetrust) {
+  if (!/(^|\.)rancher\.com$/.test(location.hostname)) return;
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('consent', 'default', { ad_storage: 'denied', analytics_storage: 'denied', functionality_storage: 'denied', personalization_storage: 'denied', security_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', wait_for_update: 500 });
+  dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+  var first = document.getElementsByTagName('script')[0];
+  var g = document.createElement('script');
+  g.async = true;
+  g.src = 'https://www.googletagmanager.com/gtm.js?id=' + gtm;
+  first.parentNode.insertBefore(g, first);
+  if (onetrust) {
+    var o = document.createElement('script');
+    o.src = 'https://cdn.cookielaw.org/scripttemplates/otSDKStub.js';
+    o.charset = 'UTF-8';
+    o.setAttribute('data-domain-script', onetrust);
+    first.parentNode.insertBefore(o, first);
+    window.OptanonWrapper = function () {};
+  }
+})({{ . }}, {{ site.Params.oneTrustID }});
+</script>
+{{- end }}

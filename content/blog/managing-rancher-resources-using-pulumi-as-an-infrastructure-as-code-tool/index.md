@@ -17,7 +17,7 @@ migration:
   redirect_target: ""
 ---
 
-[![](images/a6ae72-pulumi.png)](https://media1-production-mightynetworks.imgix.net/asset/30127408/pulumi.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/a6ae72-pulumi.png)
 
 Using an Infrastructure as Code (IaC) solution to automate the management of your cloud resources is one of the recommended ways to reduce the toil that results from repetitive operations to manage your infrastructure.
 
@@ -45,7 +45,7 @@ This article focuses on learning how to provision resources on a Rancher server 
 
 Pulumi is an open source project that provides an SDK for you to manage cloud resources using one of the four [supported programming languages](https://www.pulumi.com/docs/intro/languages/). Similar to Terraform, Pulumi provides the free Pulumi cloud service by default to better manage the state of your provisioned resources across a team.
 
-**Note**: The [Windows Containers With Rancher and Terraform](https://rancher.com/blog/2019/2019-10-17-zero-to-windows-containers-with-rancher-2-3-and-terraform/) post on the rancher blog explains how to provision an RKE cluster using Terraform.
+**Note**: The [Windows Containers With Rancher and Terraform](https://ranchermanager.docs.rancher.com/) post on the rancher blog explains how to provision an RKE cluster using Terraform.
 
 ## **Used Pulumi Concepts**
 
@@ -65,21 +65,21 @@ Your Rancher Management server will use an API token to authenticate the API req
 
 To create an API token, open your Rancher Management Console and click the profile avatar to reveal a dropdown. Click the Account & API Keys item from the dropdown to navigate to the account page.
 
-[![](images/1cc259-1633694224449.png)](https://media1-production-mightynetworks.imgix.net/asset/29683052/1633694224449.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/1cc259-1633694224449.png)
 
 From the account page, click the Create API Key button to create a new API Key.
 
-[![](images/78f38a-1633694224124.png)](https://media1-production-mightynetworks.imgix.net/asset/29683048/1633694224124.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/78f38a-1633694224124.png)
 
 Provide a preferred description for the API Key within the description text input on the next page. You can also set an expiry date for the API key by clicking the radio button for a preferred expiry period. Since the API key will create new resources, leave the scope dropdown at its default **No Scope** selection.
 
 Click the Create button to save and exit the current page.
 
-[![](images/924e87-1633694223425.png)](https://media1-production-mightynetworks.imgix.net/asset/29683047/1633694223425.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/924e87-1633694223425.png)
 
 An Access Key, Secret Key, and Bearer Token will be displayed on the next page. Ensure you note the Bearer Token within a secure notepad as you will reference it when working with Pulumi.
 
-[![](images/1857a7-1633694224504.png)](https://media1-production-mightynetworks.imgix.net/asset/29683053/1633694224504.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/1857a7-1633694224504.png)
 
 ### **Azure Service Principal Variables**
 
@@ -91,7 +91,7 @@ az ad sp create-for-rbac -n "rancherK3Pulumi" --sdk-auth
 
 As shown in the image below, the az command above returns a JSON response containing Client ID, Subscription ID, and Client Secret fields. Note the value of these fields in a secure location, as you will use them in the next step when storing credentials with Pulumi.
 
-[![](images/ed6269-1633694224392.png)](https://media1-production-mightynetworks.imgix.net/asset/29683055/1633694224392.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/ed6269-1633694224392.png)
 
 ## **Setting Configuration Secrets**
 
@@ -121,7 +121,7 @@ Now that you understand what Pulumi is, we will use Pulumi to provision a Ranche
 
 At a bird’s eye view, the image below shows a graph of all Rancher resources that will be provisioned within a Pulumi stack in this article.
 
-[![](images/31637f-1633694224266.png)](https://media1-production-mightynetworks.imgix.net/asset/29683050/1633694224266.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/31637f-1633694224266.png)
 
 Within the steps listed out below, you will gradually put together the resources for an RKE cluster.
 
@@ -143,7 +143,7 @@ The -n (name) flag passed to the command below will specify the Pulumi project n
 pulumi new -n rancher-pulumi-js javascript
 ```
 
-[![](images/2d7c46-1633694224165.png)](https://media1-production-mightynetworks.imgix.net/asset/29683049/1633694224165.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/2d7c46-1633694224165.png)
 
 Using the JavaScript template specified in the command above, the Pulumi CLI will generate the boilerplate files needed to build a stack using the Node.js library for Pulumi.
 
@@ -195,7 +195,7 @@ Similar to the [Terraform Plan](https://www.terraform.io/docs/cli/commands/plan
 
 The image below shows the diff log of the changes caused by adding the Rancher namespace resource.
 
-[![](images/30f5be-1633694224332.png)](https://media1-production-mightynetworks.imgix.net/asset/29683054/1633694224332.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/30f5be-1633694224332.png)
 
 2. Next, add the cluster resource within the code block below into the index.js file to provision an RKE cluster within the new namespace.
 
@@ -283,7 +283,7 @@ At this point, you have added all the Pulumi objects to build a Rancher Kubernet
 
 Execute the Pulumi up command to generate an interactive plan of the changes within the stack. Select the yes option to apply the changes and create the Rancher Kubernetes Cluster.
 
-[![](images/8667e7-1633694224217.png)](https://media1-production-mightynetworks.imgix.net/asset/29683051/1633694224217.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/8667e7-1633694224217.png)
 
 The RKE cluster will take some minutes before it is fully provisioned and active. In the meantime, you can view the underlying resources created by viewing them through your Rancher management dashboard and the Azure portal.
 

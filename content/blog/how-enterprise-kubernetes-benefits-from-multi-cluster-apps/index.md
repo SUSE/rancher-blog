@@ -49,7 +49,7 @@ In both, scale up and scale out, scenarios deployment of the application copy to
 
 This is where support for the multi-cluster applications becomes so important. Imagine pointing to the Helm chart for the application that needs to go into multiple Projects on the same (or multiple clusters), providing config values, overriding project/cluster specific settings and then clicking one button to get the application deployed.
 
-This [“how-to” blog](https://rancher.com/blog/2019/introducing-multi-cluster-apps/ "Introducing Multi-Cluster Applications on Kubernetes") post I wrote a few weeks ago goes into the details of this capability.
+This “how-to” blog post I wrote a few weeks ago goes into the details of this capability.
 
 The ability to choose your upgrade strategy (rolling or simultaneous update) for these applications further simplifies how your applications will remain up to date.
 

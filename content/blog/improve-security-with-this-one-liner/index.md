@@ -20,7 +20,7 @@ Picture this: You are searching through the backlog for a nice feature to develo
 
 That's when the infamous security team entered the room/slack channel with their usual complaint: We want more security!
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/30772071/1636038348140.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/30772071/1636038348140.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/30772071/1636038348140.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
 
 We know that security is essential. I am pretty sure you've read Project Unicorn and know this quote: "If a developer ever has a choice between working on a feature or security, they should always choose security."
 

@@ -16,7 +16,7 @@ migration:
   redirect_target: ""
 ---
 
-[![](images/f7013c-shutterstock_764263492.jpg)](https://media1-production-mightynetworks.imgix.net/asset/29006601/shutterstock_764263492.jpg?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/f7013c-shutterstock_764263492.jpg)
 This post will define and explain software scalability in Kubernetesand look at different scalability types. Then we will present three autoscaling methods in Kubernetes: **HPA** (Horizontal Pod Autoscaler), **VPA**(Vertical Pod Autoscaler), and **CA** (Cluster Autoscaler).
 
 ##
@@ -33,7 +33,7 @@ If you would like to **learn more about nodes, pods, clusters**, etc., please r
 
 ## **Horizontal Pod Autoscaling (HPA)**
 
-[![](images/3de3fd-HPA.drawio.png)](https://media1-production-mightynetworks.imgix.net/asset/28899644/HPA.drawio.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/3de3fd-HPA.drawio.png)
 **Horizontal scaling** or **scaling out** means that the number of running pods dynamically increases or decreases as your application usage changes. To know exactly when to increase or decrease the number of replicas, Kubernetes uses triggers based on the observed metrics (average CPU utilization, average memory utilization, or custom metrics defined by the user). [**HPA**](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/), a Kubernetes resource, runs in a loop (the loop duration can be configured, by default, it is set to 15 seconds) and fetches the resource metrics from the [**resource metrics API**](https://kubernetes.io/docs/tasks/debug-application-cluster/resource-metrics-pipeline/)for each pod. Using these metrics, it calculates the actual resource utilization values based on the mean values of all the pods and compares them to the metrics defined in the HPA definition. To calculate the desired number of replicas, HPA uses the following formula:
 
 ```
@@ -41,7 +41,7 @@ desiredReplicas = ceil[currentReplicas*(currentMetricValue/desiredMetricValue)]
 ```
 
 To understand this formula, let's take the following configuration:
-[![](images/f43d2c-1632056537816.png)](https://media1-production-mightynetworks.imgix.net/asset/28898560/1632056537816.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/f43d2c-1632056537816.png)
 The unit suffix `m` stands for “thousandth of a core,” so this resources object specifies that the container process needs 200/1000 of a core (20%) and is allowed to use, at most, 500/1000 of a core (50 percent).
 We can create an HPA that maintains between 1 and 10 replicas with the following command. It will increase or decrease the number of replicas to maintain an average CPU usage of 50 percent, or in this concrete example, 100 milli-cores.
 
@@ -63,14 +63,14 @@ When configuring HPA, make sure that:
 
 ## **Vertical Pod Autoscaling (VPA)**
 
-[![](images/10657e-VPA.drawio.png)](https://media1-production-mightynetworks.imgix.net/asset/28898040/VPA.drawio.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/10657e-VPA.drawio.png)
 **VPA****recommends optimized CPU and memory requests/limits values** (and automatically updates them for you so that the cluster resources are efficiently used).**VPA won’t add more replicas of a Pod, but it increases the memory or CPU limits**. This is useful when adding more replicas won’t help your solution. For example, sometimes you can’t scale a database (read [**Stupid Simple Kubernetes—Persistent Volumes Explained**](https://community.suse.com/posts/stupid-simple-kubernetes-persistent-volumes-explained)) just by adding more Pods. Still, you can make the database handle more connections by increasing the memory or CPU. You can use the VPA when your application serves heavyweight requests requiring higher resources.
 HPA can be useful when, for example, your application serves many lightweight (i.e., low resource-consuming) requests. In that case, scaling the number of replicas can distribute the workload on each pod. The VPA, on the other hand, can be useful when your application serves heavyweight requests requiring higher resources. 
 **HPA and VPA are incompatible**. Do not use both together for the same set of pods. HPA uses the resource request and limits to trigger scaling, and in the meantime, VPA modifies those limits, so it will be a mess unless you configure the HPA to use either custom or external metrics. Read more about VPA and HPA [**here**](https://www.velotio.com/engineering-blog/autoscaling-in-kubernetes-using-hpa-vpa).
 
 ## **Cluster Autoscaling (CA)**
 
-[![](images/f1739f-CA.drawio.png)](https://media1-production-mightynetworks.imgix.net/asset/28899342/CA.drawio.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/f1739f-CA.drawio.png)
 While HPA scales the number of Pods, the **CA changes the number of nodes**. When your cluster runs low on resources, the CA provision a new computation unit (physical or virtual machine) and adds it to the cluster. If too many empty nodes exist, the CA will remove them to reduce costs.
 Learn more about Cluster Autoscaling in [**Architecting Kubernetes Clusters—Choosing the Best Autoscaling Strategy**](https://learnk8s.io/kubernetes-autoscaling-strategies).
 

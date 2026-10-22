@@ -17,7 +17,7 @@ migration:
   redirect_target: ""
 ---
 
-Discover what’s new in Rancher 2.5[Learn More](/products/rancher/2.5)
+Discover what’s new in Rancher 2.5[Learn More](https://www.rancher.com/products)
 
 Amazon EKS is the most popular managed Kubernetes solution. DevOps teams can quickly spin up clusters in the cloud and get started with Kubernetes in a few clicks. As organizations embrace Kubernetes in the cloud, the challenge becomes managing clusters across multiple regions or accounts. At that point, organizations struggle to visualize all of their clusters. Additionally, security and operations teams have difficulty rolling out a consistent set of policies and configurations across the environment. This is where Rancher management can help ease the full lifecycle management of all your Amazon EKS clusters.
 
@@ -39,4 +39,4 @@ Amazon EKS out-of-the-box provides a solid Kubernetes foundation that eases the 
 
 ![CONTINUOUS DELIVERY CHART](images/rancher_blog_rancher-2-5-lifecycle.png)
 
-Discover what’s new in Rancher 2.5[Learn More](/products/rancher/2.5)
+Discover what’s new in Rancher 2.5[Learn More](https://www.rancher.com/products)

@@ -17,7 +17,7 @@ migration:
   redirect_target: ""
 ---
 
-In the first article in this series, we talked about [making Kubernetes essential to your DevOps pipeline](https://rancher.com/blog/2020/create-kubernetes-devops-pipeline). We reviewed CI/CD and DevOps and why their relationship with Kubernetes is so powerful.
+In the first article in this series, we talked about [making Kubernetes essential to your DevOps pipeline](/blog/kubernetes-devops-a-powerful-pair/). We reviewed CI/CD and DevOps and why their relationship with Kubernetes is so powerful.
 
 In this article, I’m going to dive into another term in the application development and management mix: **GitOps**. We’ll cover what GitOps is, how it affects an organization and how it aligns with Kubernetes.
 

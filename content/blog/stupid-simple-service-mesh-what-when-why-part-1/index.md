@@ -16,7 +16,7 @@ migration:
   redirect_target: ""
 ---
 
-[![](images/33a7a9-Service_Mesh-Blog-Graphic.png)](https://media1-production-mightynetworks.imgix.net/asset/23847351/Service_Mesh-Blog-Graphic.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/33a7a9-Service_Mesh-Blog-Graphic.png)
 
 Recently microservices-based applications became very popular, and with the rise of microservices, the concept of Service Mesh also became a very hot topic. Unfortunately, there are only a few articles about this concept and most of them are hard to digest.
 
@@ -26,7 +26,7 @@ To understand the concept of [**Service Mesh**](https://en.wikipedia.org/wiki/S
 
 Software architecture has evolved a lot in a short time, from classical monolithic architecture to microservices. Although many praise microservice architecture as the holy grail of software development, it introduces some serious challenges.
 
-[![](images/d6380d-1620929765989.png)](https://media1-production-mightynetworks.imgix.net/asset/23847386/1620929765989.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/d6380d-1620929765989.png)
 
 Overview of the sample application
 
@@ -44,13 +44,13 @@ On a stupidly oversimplified level, these are the responsibilities of each conce
 
 **Service Mesh** and **API Gateway** have overlapping functionalities, such as rate limiting, security, service discovery, tracing, etc. but they work on different levels and solve different problems. **Service Mesh** is responsible for the **flow of requests between services.** **API Gateway** is responsible for the **flow of requests between the client and the services**, aggregating multiple services and creating and sending the final response to the client.
 
-[![](images/1d0b8b-Gateway_vs_Service_Mesh.png)](https://media1-production-mightynetworks.imgix.net/asset/24216529/Gateway_vs_Service_Mesh.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/1d0b8b-Gateway_vs_Service_Mesh.png)
 
 The main responsibility of an API gateway is to accept traffic from outside your network and distribute it internally, while the main responsibility of a service mesh is to route and manage traffic within your network. They are complementary concepts, and a well-defined microservices-based system should combine them to ensure application uptime and resiliency while ensuring that your applications are easily consumable.
 
 ## What Does a Service Mesh Solve?
 
-[![](images/60dfd3-Service_Mesh_Theory.png)](https://media1-production-mightynetworks.imgix.net/asset/23660679/Service_Mesh_Theory.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/60dfd3-Service_Mesh_Theory.png)
 
 As an oversimplified and stupid simple definition, a Service Mesh is an *abstraction layer hiding away and separating networking-related logic from business logic*. This way developers can focus only on implementing business logic. We implement this abstraction using a **proxy**, which sits in the front of the service. It takes care of all the network-related problems. This allows the service to focus on what is really important: business logic. In a microservice-based architecture, we have multiple services, each with a proxy. Together, these *proxies are called Service Mesh*.
 
@@ -62,7 +62,7 @@ Multiple Service Mesh solutions exist, including [Istio](https://istio.io/), [L
 
 ### Ingress and Egress
 
-[![](images/081702-Ingress-Egress.png)](https://media1-production-mightynetworks.imgix.net/asset/23793521/Ingress-Egress.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/081702-Ingress-Egress.png)
 
 **Simple definitions:**
 
@@ -73,7 +73,7 @@ The **Ingress**and the **Egress**rules should be added to the **configuration
 
 ### The Structure of an Envoy Proxy Configuration File
 
-[![](images/b03d0f-Envoy_Config_Structure.png)](https://media1-production-mightynetworks.imgix.net/asset/23795496/Envoy_Config_Structure.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/b03d0f-Envoy_Config_Structure.png)
 
 Every Envoy configuration file has the following components:
 
@@ -178,7 +178,7 @@ static_resources:   
 
 The configuration file above translates into the following diagram:
 
-[![](images/89dabd-Envoy_Config_Translated.png)](https://media1-production-mightynetworks.imgix.net/asset/23799773/Envoy_Config_Translated.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/89dabd-Envoy_Config_Translated.png)
 
 This diagram did not include all configuration files for all the services, but it is enough to understand the basics. You can find this code in my [**Stupid Simple Service Mesh repository**](https://github.com/CzakoZoltan08/Stupid-Simple-Service-Mesh).
 

@@ -12,7 +12,7 @@ migration:
   original_url: "https://www.suse.com/c/rancher_blog/tools-to-develop-apps-on-kubernetes-2/"
   disposition: migrate_refresh
   commercial: false
-  outdated_reason: "Epinio discontinued, tool list dated"
+  outdated_reason: "KIM removed; Epinio now maintained by Krumware"
   redirect_target: ""
 ---
 
@@ -26,9 +26,9 @@ New open source projects are being developed that build on the lower-level cloud
 
 Application developers and operators do a lot of their work right on their desktops. This means they need to run Kubernetes locally and would prefer it be the same version that’s running in their production environments. Many of these people would like something as easy as running a desktop application and selecting the version of Kubernetes they need.
 
-[![](images/84ca90-Picture1.png)](https://media1-production-mightynetworks.imgix.net/asset/23431750/Picture1.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/84ca90-Picture1.png)
 
-[Rancher Desktop](https://rancherdesktop.io/) is a desktop application that provides Kubernetes on your local computer. It also leverages [KIM](https://github.com/rancher/kim) to build, push and pull container images.
+[Rancher Desktop](https://rancherdesktop.io/) is a desktop application that provides Kubernetes on your local computer. It also builds, pushes and pulls container images with nerdctl or the Docker CLI.
 
 The Rancher Desktop open source project aims to make working with Kubernetes and container images easy for most developers. It’s built using a variety of CNCF projects, including K3s, Helm and containerd.
 
@@ -36,9 +36,11 @@ You can get started with Rancher Desktop by [downloading the latest release](ht
 
 ## Epinio
 
+*Editor's note, October 2026: SUSE no longer leads Epinio. The project continues under [Krumware](https://github.com/epinio/epinio).*
+
 When developers need to take the time to learn and work with Kubernetes, it takes away from their time working on their applications. Many developers want an easy button so they can just run their code. We sometimes refer to this as Heroku in a box. The need for a simplified app developer experience that works well with Kubernetes has led numerous organizations to build their own platforms.
 
-[![](images/6ec721-Picture2.png)](https://media1-production-mightynetworks.imgix.net/asset/23431781/Picture2.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/6ec721-Picture2.png)
 
 [Epinio](https://epinio.io/) is a platform for app developers that works well with Kubernetes. It's for those who want a system that plays well with native Kubernetes and is light enough to use on their desktops. Epinio aims to make it easy for every organization to have a platform to satisfy developers.
 
@@ -50,7 +52,7 @@ The [quick start guide](https://github.com/epinio/epinio#quick-start) provides
 
 Often developers need to write and enforce policies in a Kubernetes cluster. Yet, they also want to codify policies in their (or their organization’s) programming language of choice. With their language of choice, developers can confidently leverage their expertise and toolchain to write policies.
 
-[![](images/81e6aa-Picture3.png)](https://media1-production-mightynetworks.imgix.net/asset/23431840/Picture3.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/81e6aa-Picture3.png)
 
 [Kubewarden](https://www.kubewarden.io/) leverages Web Assembly (WASM) to make this possible. Developers can write policies in various languages, compile to WASM and run them in a cluster. WASM is often known for bringing languages to web applications. A growing number of projects are leveraging WASM to enable programming language variety.
 

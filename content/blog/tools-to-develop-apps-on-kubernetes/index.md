@@ -7,14 +7,14 @@ image: "images/rancher_blog_kubernetes-app-tools-featured.png"
 products: ["Kubernetes (generic)"]
 tags: ["developer-experience"]
 content_type: "explainer"
-draft: false
+draft: true
 migration:
   wp_id: 86505
   original_url: "https://www.suse.com/c/rancher_blog/tools-to-develop-apps-on-kubernetes/"
-  disposition: migrate_refresh
+  disposition: archive_redirect
   commercial: false
   outdated_reason: "Epinio discontinued, tool list dated"
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/tools-to-develop-apps-on-kubernetes-2/"
 ---
 
 Containers and Kubernetes have changed the way we operate applications. This has been a boon for Site Reliability Engineers (SREs) and DevOps professionals who handle infrastructure management. Yet, it has come at a cost to many who develop and operate applications. Their experience has become more complicated and cumbersome.

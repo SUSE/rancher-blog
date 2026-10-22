@@ -47,7 +47,7 @@ One large German company shared how they were rolling out Neuvector with Rancher
 
 One architect from a university in Germany shared a story of how his team was considering replacing a large OpenStack deployment that is used by researchers with a new Kubernetes service. The key driver would be to reduce the overall costs of managing the platform and improving the utilization of massive amounts of bare metal infrastructure.
 
-One challenge the architect shared was the need to still provide some virtual machines to users. While most users would be able to use containers to run their workloads, there would be some need to provision VMs using Kubernetes. We talked about the latest release of [RancherVM](https://rancher.com/blog/2018/2018-04-27-ranchervm-now-available-on-kubernetes/), which runs on Kubernetes, and how it might be a possible solution for using Kubernetes as a platform for running both VMs and containers.
+One challenge the architect shared was the need to still provide some virtual machines to users. While most users would be able to use containers to run their workloads, there would be some need to provision VMs using Kubernetes. We talked about the latest release of [RancherVM](https://harvesterhci.io/), which runs on Kubernetes, and how it might be a possible solution for using Kubernetes as a platform for running both VMs and containers.
 ![](images/rancher_blog_kubecon-2018-4.jpg)
 
 #### Kubecon 2018

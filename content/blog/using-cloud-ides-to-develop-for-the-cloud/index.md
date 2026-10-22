@@ -20,7 +20,7 @@ Deploying changes rapidly is an important part of developing cloud native applic
 
 Disclaimer: I work at Coder, a cloud development platform and maintainers of code-server (cloud IDE).
 
-[![](images/b39553-cloud_ide_new.jpg)](https://media1-production-mightynetworks.imgix.net/asset/24831156/cloud_ide_new.jpg?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/b39553-cloud_ide_new.jpg)
 
 ## What Constitutes a Cloud IDE?
 
@@ -30,7 +30,7 @@ Cloud-based IDEs offer one pathway for improvement. When most people think of cl
 
 Also, many modern web IDEs are open source, fast, and provide a familiar development experience:
 
-[![](images/9e01c1-IDE_Comparison.png)](https://media1-production-mightynetworks.imgix.net/asset/24830660/IDE_Comparison.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/9e01c1-IDE_Comparison.png)
 
 - [code-server](https://github.com/cdr/code-server): VS Code in the web browser
 - [JetBrains Projector](https://jetbrains.github.io/projector-client/mkdocs/latest/): JetBrains IDEs in the web browser
@@ -48,7 +48,7 @@ Many of these platforms, including ours at [Coder](https://coder.com/docs), tak
 
 ## Try a Cloud IDE: code-server
 
-[![](images/602fe5-1622839343244.png)](https://media1-production-mightynetworks.imgix.net/asset/24742603/1622839343244.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/602fe5-1622839343244.png)
 
 Because code-server is built for the web, it's a popular choice for developing from an iPad or Chromebook. It's also used for secure remote development, so developers don't need to use a remote desktop or a VPN to access and test their code.
 

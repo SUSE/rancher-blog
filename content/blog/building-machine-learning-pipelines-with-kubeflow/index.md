@@ -19,7 +19,7 @@ migration:
 
 Read our free white paper: How to Build a Kubernetes Strategy[Download Now](https://more.suse.com/fy21-global-web-landing-page-how-to-build-enterprise-kubernetes-strategy)
 
-In [part one](/blog/2020/introduction-to-machine-learning-pipeline) of this series, I introduced you to Kubeflow, a machine learning platform for teams that need to build machine learning pipelines.
+In [part one](/blog/introduction-to-machine-learning-pipelines-with-kubeflow/) of this series, I introduced you to Kubeflow, a machine learning platform for teams that need to build machine learning pipelines.
 
 In this section, we will learn how to take an existing machine learning project and turn it into a Kubeflow machine learning pipeline, which in turn can be deployed onto Kubernetes. As you are going through this exercise, think about how you can convert your existing machine learning projects into a Kubeflow one.
 

@@ -16,7 +16,7 @@ migration:
   redirect_target: ""
 ---
 
-[![](images/4cdb8e-1624897813374.png)](https://media1-production-mightynetworks.imgix.net/asset/25679846/1624897813374.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/4cdb8e-1624897813374.png)
 
 If you are new to the term ‘GitOps,’ it can be quite challenging to imagine how the two models, Git and Ops, come together to function as a single framework. Git is a source code management tool introduced in 2005 that has become the go-to standard for many software development teams. On the other hand, Ops is a term typically used to describe the functions and practices that fall under the purview of IT operations teams and the more modern DevOps philosophies and methods. GitOps is a paradigm that Alexis Richardson from the Weaveworks team coined to describe the deployment of immutable infrastructure with Git as the single source of truth.
 
@@ -26,7 +26,7 @@ In this article, I will cover GitOps as a deployment pattern and its components,
 
 GitOps requires you to describe and observe systems with declarative configurations that will form the basis of continuous integration, delivery and deployment of your infrastructure. The desired state of the infrastructure or application is stored as code, then associated platforms like Kubernetes (K8s) reconcile the differences and update the infrastructure or application state. Kubernetes is the choice ecosystem for GitOps providers and practitioners because of this declarative requirement. [Fleet](https://fleet.rancher.io/), [FluxCD](https://fluxcd.io/), [ArgoCD](https://argoproj.github.io/argo-cd/) and [Jenkins X](https://jenkins-x.io/) are examples of GitOps tools or operators.
 
-[![](images/9c9de0-1624897946899.png)](https://media1-production-mightynetworks.imgix.net/asset/25679938/1624897946899.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/9c9de0-1624897946899.png)
 
 ## **Infrastructure as Code**
 
@@ -50,7 +50,7 @@ The GitOps model supports immutable architectures because all the infrastructure
 
 ### **Immutable vs. Mutable Architecture**
 
-[![](images/3fffc6-Screenshot_from_2021-06-28_18-35-49.png)](https://media1-production-mightynetworks.imgix.net/asset/25680079/Screenshot_from_2021-06-28_18-35-49.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/3fffc6-Screenshot_from_2021-06-28_18-35-49.png)
 
 ## The Declarative Deployment Model
 
@@ -64,9 +64,9 @@ Most cloud infrastructures that existed before Kubernetes was released provided 
 
 Below is a high-level sequence demonstrating what a GitOps CI/CD workflow would look like when deploying a containerized application to a Kubernetes environment. The diagrams below are a representation of this:
 
-[![](images/e95e56-1624898221263.png)](https://media1-production-mightynetworks.imgix.net/asset/25680127/1624898221263.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/e95e56-1624898221263.png)
 
-[![](images/06efc8-1624898221188.png)](https://media1-production-mightynetworks.imgix.net/asset/25680125/1624898221188.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/06efc8-1624898221188.png)
 
 ### **Pull Request & Code Review**
 
@@ -101,7 +101,7 @@ Fleet is essentially a set of K8s custom resource definitions (CRDs) and custom 
 - **Bundle**: When the relevant Git repository is pulled, the sourced configuration files produce a unit referred to as a Bundle. Bundles are the deployment units used in Fleet.
 - **Bundle Deployment:** A BundleDeployment represents the state of the deployed Bundle on a cluster with its specific customizations.
 
-[![](images/53d62f-1624898335741.png)](https://media1-production-mightynetworks.imgix.net/asset/25680211/1624898335741.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/53d62f-1624898335741.png)
 
 - **Scan Config Repository**: Based on polling configurations, Fleet detects the changes in the config repository before performing a Git pull (or scan) to fetch the latest manifests.
 - **Discover Manifests**: Fleet determines any differences between the manifests in the Kubernetes cluster versus the latest manifests in the repository. The discovered manifests or Helm charts will be used to produce a Bundle.
@@ -129,7 +129,7 @@ The declarative approach to programming in GitOps simplifies the process of crea
 
 Observability is an important element when describing the running state of a system and triggering alerts and notifications whenever unexpected behavioral changes occur. On this basis, any deployed environment should be observed by DevOps engineers. With GitOps, engineers can more easily verify if the running state matches that of the desired state in the source code repository.
 
-[![](images/54c4c8-1624898430637.png)](https://media1-production-mightynetworks.imgix.net/asset/25680270/1624898430637.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/54c4c8-1624898430637.png)
 
 ## **The Challenges with GitOps**
 

@@ -19,7 +19,7 @@ migration:
 
 ![](images/Kubernetes-Logo.wine_.jpg)
 
-In the [**first part**](https://www.suse.com/c/rancher_blog/91081/)of this series, we learned about the basic concepts used in Kubernetes, its hardware structure, the different software components like **Pods, Deployments, StatefulSets, Services, Ingresses and Persistent Volumes**and saw how to communicate between services and with the outside world.
+In the [**first part**](/blog/91081/)of this series, we learned about the basic concepts used in Kubernetes, its hardware structure, the different software components like **Pods, Deployments, StatefulSets, Services, Ingresses and Persistent Volumes**and saw how to communicate between services and with the outside world.
 
 In this article, we will:
 
@@ -30,7 +30,7 @@ In this article, we will:
 - deploy an **Ingress Controller**for request routing
 - write the **Kubernetes Ingress scripts**to define the communication with the outside world.
 
-[![](images/190190-1.png)](https://media1-production-mightynetworks.imgix.net/asset/23565756/1.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/190190-1.png)
 
 Because our code can be relocated from one node to another (for example, a node doesn’t have enough memory, so the work will be rescheduled on a different node with enough memory), **data saved on a node is volatile (so our MongoDB data will be volatile, too)**. In the next article, we will talk about the problem of data persistence and how to use **Kubernetes Persistent Volumes** to safely store our persistent data.
 
@@ -321,7 +321,7 @@ In this tutorial, we learned how to create different kinds of resources in Kuber
 
 In the next article,we will approach the problem of saving data persistently and we will learn about **Persistent Volumes in Kubernetes**.
 
-You can learn more about the **basic concepts** used in Kubernetes in [***this article***](https://www.suse.com/c/rancher_blog/91081/).
+You can learn more about the **basic concepts** used in Kubernetes in [***this article***](/blog/91081/).
 
 There is another ongoing **“Stupid Simple AI” series**. The first two articles can be found here: [**SVM and Kernel SVM**](https://towardsdatascience.com/svm-and-kernel-svm-fed02bef1200) and [**KNN in Python**](https://towardsdatascience.com/knn-in-python-835643e2fb53).
 

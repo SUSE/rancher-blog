@@ -16,7 +16,7 @@ migration:
   redirect_target: ""
 ---
 
-[![](images/c896c1-shutterstock_725658628.jpg)](https://media1-production-mightynetworks.imgix.net/asset/28706571/shutterstock_725658628.jpg?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/c896c1-shutterstock_725658628.jpg)
 
 ## **Introduction**
 

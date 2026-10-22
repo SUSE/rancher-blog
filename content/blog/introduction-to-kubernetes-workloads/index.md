@@ -28,7 +28,7 @@ Now that we have basic definition of a workload, let’s explore what Kubernetes
 
 ### Pods
 
-Pods are the most basic building block in Kubernetes when it comes to workloads. A Pod consists of one or more containers. The containers within a pod share networking and host storage, but are isolated in terms of [cgroups](https://documentation.suse.com/sles/html/SLES-all/cha-tuning-cgroups.html) and [kernel namespaces](https://www.suse.com/c/demystifying-containers-part-i-kernel-space/) ( not to confuse with [Kubernetes namespaces](https://www.suse.com/c/rancher_blog/introduction-to-kubernetes-namespaces/) ).
+Pods are the most basic building block in Kubernetes when it comes to workloads. A Pod consists of one or more containers. The containers within a pod share networking and host storage, but are isolated in terms of [cgroups](https://documentation.suse.com/sles/html/SLES-all/cha-tuning-cgroups.html) and [kernel namespaces](https://www.suse.com/c/demystifying-containers-part-i-kernel-space/) ( not to confuse with [Kubernetes namespaces](/blog/introduction-to-kubernetes-namespaces/) ).
 
 How many containers should you have in your Pod? There is no limit or restriction, but it’s generally a good practice to only have a single container in your pod when you are first getting started. As you’ll see later on, many Kubernetes constructs allow you to scale Pods, so the fewer containers you put in your Pods, the more granular control you have over scaling your infrastructure. As you advance your Kubernetes expertise, you can experiment with init and sidecar containers, but this is beyond the scope of this guide. In short, these containers assist the primary container without altering the main purpose of the Pod.
 

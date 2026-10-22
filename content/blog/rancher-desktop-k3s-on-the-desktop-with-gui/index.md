@@ -18,7 +18,7 @@ migration:
 
 # **Introduction**
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/26330299/Rancher_Desktop.jpeg?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/26330299/Rancher_Desktop.jpeg?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/26330299/Rancher_Desktop.jpeg?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
 
 K3s is probably the hottest Kubernetes distro right now. Everyone talks about it – whether compared with other Kubernetes distributions or in getting started guides. Still, as a normal Kubernetes distribution, the `control plane` needs to be hosted in a Linux OS. So what about Windows?
 
@@ -39,7 +39,7 @@ First, WSL2 will be required in some sort. It can **host** K3s directly or act
 
 Here is a small comparison of the current options for Windows:
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/25210999/Screen_Shot_2021-06-17_at_4.52.08_AM.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/25210999/Screen_Shot_2021-06-17_at_4.52.08_AM.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/25210999/Screen_Shot_2021-06-17_at_4.52.08_AM.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 > \*: K3s can be used in a multi-node setup. It’s even possible to do this in WSL2, but the work needed adds complexity from the out-of-the-box experience of K3s, which is to keep it fast and simple to install and use.
 > \*\*: K3s can be hosted in a remote location, such as a cloud provider. However, from the point of view of using the binary directly, we must connect to the hosting server(s) before installing it. This constraint is removed with K3sup.
 > \*\*\*: k3d runs on Docker, which in Windows will require the use of a VM (legacy) or WSL2 in order to run Linux based containers.
@@ -54,7 +54,7 @@ Before we discover the brand new Rancher Desktop, there are a few prerequisites 
 - [WSL2 feature installed](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-1---enable-the-windows-subsystem-for-linux)
 - [Optional] [Winget: the Windows package manager](https://github.com/microsoft/winget-cli)
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/25258600/winget-install.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/25258600/winget-install.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/25258600/winget-install.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 - [Optional] Windows Terminal
 
@@ -62,7 +62,7 @@ Before we discover the brand new Rancher Desktop, there are a few prerequisites 
   winget install Microsoft.WindowsTerminal
   ```
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/25211382/window-terminal-install.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/25211382/window-terminal-install.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/25211382/window-terminal-install.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 ## **Install Rancher Desktop**
 
@@ -70,11 +70,11 @@ With the prerequisites installed, we can install Rancher Desktop.
 
 The first step is to get the latest version from the [GitHub repo](https://github.com/rancher-sandbox/rancher-desktop). Once the installer downloads, we can install Rancher Desktop:
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/25211393/rancher-desktop-install.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/25211393/rancher-desktop-install.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/25211393/rancher-desktop-install.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 Once installed, it will request a reboot. Finally, once rebooted, we can launch Rancher Desktop:
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/25211502/rancher-desktop-launch.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/25211502/rancher-desktop-launch.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/25211502/rancher-desktop-launch.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 **Important note:** Rancher Desktop installation will enable the WSL2 features if not done already, and it will install and add to the Windows path the commands `kubectl.exe` and `kim.exe`:
 
@@ -85,7 +85,7 @@ get-command kubectl.exe
 get-command kim.exe
 ```
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/25211553/kubectl-kim-install.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/25211553/kubectl-kim-install.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/25211553/kubectl-kim-install.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 ## **Connect to Rancher Desktop**
 
@@ -102,7 +102,7 @@ kubectl cluster-info
 wsl -l -v
 ```
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/25211587/k3s-cluster-check.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/25211587/k3s-cluster-check.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/25211587/k3s-cluster-check.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 ## **Conclusion**
 
@@ -114,4 +114,4 @@ Kubernetes development is fast – **very** fast. And sometimes, our applicati
 
 Rancher knows that, so to make it easy on us, Rancher Desktop has the capability to switch versions. And the best part, it’s easy to use:
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/25211654/rancher-desktop-switch-version.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/25211654/rancher-desktop-switch-version.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/25211654/rancher-desktop-switch-version.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)

@@ -18,7 +18,7 @@ migration:
 
 This post will show you how to serve a Tensorflow model with KFServing on Kubeflow.
 
-In the [previous installment](https://rancher.com/blog/2020/ml-pipeline-kubeflow) in this series, we learned how to prepare a machine learning project for Kubeflow, construct a pipeline and execute the pipeline via the Kubeflow interface.
+In the [previous installment](/blog/building-machine-learning-pipelines-with-kubeflow/) in this series, we learned how to prepare a machine learning project for Kubeflow, construct a pipeline and execute the pipeline via the Kubeflow interface.
 
 This was where we left off:
 
@@ -71,7 +71,7 @@ In the project root directory, run the following command to launch TensorFlow Se
 
 This post will show you how to serve a Tensorflow model with KFServing on Kubeflow.
 
-In the [previous installment](https://rancher.com/blog/2020/ml-pipeline-kubeflow) in this series, we learned how to prepare a machine learning project for Kubeflow, construct a pipeline and execute the pipeline via the Kubeflow interface.
+In the [previous installment](/blog/building-machine-learning-pipelines-with-kubeflow/) in this series, we learned how to prepare a machine learning project for Kubeflow, construct a pipeline and execute the pipeline via the Kubeflow interface.
 
 This was where we left off:
 
@@ -134,7 +134,7 @@ If everything went well, you should see the following output near the end:
 
 Now, execute the script `serving_demo.py` and you should see the following result displayed:
 
-[![img](https://media1-production-mightynetworks.imgix.net/asset/22868651/1619020947078.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/22868651/1619020947078.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![img](https://media1-production-mightynetworks.imgix.net/asset/22868651/1619020947078.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 This script randomly picks an image from the test dataset (since it is already formatted nicely in the way the model expects), creates a request that the TensorFlow Serving API expects, performs the prediction, and returns the result as shown.
 
@@ -148,21 +148,21 @@ Before we get into writing the component, there are a few things that we need to
 
 KFServing provides a Custom Resource Definition to serve ML models on most of the popular frameworks and has excellent support for the popular ones such as TensorFlow, PyTorch and ScikitLearn. The following diagram is a good illustration:
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/22868660/1619020947611.jpeg?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/22868660/1619020947611.jpeg?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)In our case, model assets (represented by the grey cylinder on the right) are stored on MinIO.
+![](https://media1-production-mightynetworks.imgix.net/asset/22868660/1619020947611.jpeg?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)In our case, model assets (represented by the grey cylinder on the right) are stored on MinIO.
 
 A couple of things need to happen before this would work.
 
 1. First, in the Rancher UI, click on **Projects/Namespace**. Search for the `Kubeflow` namespace, then select **Edit** and move it to **Default** as shown in the diagram below. This will allow Rancher to manage Kubeflow’s `ConfigMaps` and `Secrets` among other things.
 
-[![0](https://media1-production-mightynetworks.imgix.net/asset/22868680/1619020964129.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/22868680/1619020964129.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![0](https://media1-production-mightynetworks.imgix.net/asset/22868680/1619020964129.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 Next, click on **Add Namespace**.  Create a namepace with `kfserving-inference-service` and label the namespace with the `serving.kubeflow.org/inferenceservice=enabled` label. Note that the namespace shouldn’t have a `control-plane` level. This could happen if you might be reusing an existing namespace. (If you are using `kfserving-inference-service` chances are you don’t have to worry about this.)  The Rancher UI makes this super simple without having to type any commands:
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/22868658/1619020947654.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/22868658/1619020947654.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/22868658/1619020947654.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 Just as you did with the `kubeflow`namespace, add the `kfserving-inference-service` to the `Default` project:
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/22868656/1619020947685.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/22868656/1619020947685.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/22868656/1619020947685.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 2. Within this namespace, you would need to create two things:
 
@@ -170,7 +170,7 @@ a) A Secret that would contain the MinIO credentials:
 
 Under **Resources**, select **Secrets**, followed by **Add Secret**. Fill in the following:
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/22868659/1619020948416.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/22868659/1619020948416.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/22868659/1619020948416.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 For the `awsSecretAccessKey` fill in the following value `minio123`, and for the `awsAccessKeyID`  fill in `minio`. These are the default values used by MinIO.
 
@@ -178,7 +178,7 @@ b) A ServiceAccount that points to this Secret.
 
 Since Rancher doesn’t have a menu option for Service Accounts, we will need to create it ourselves. No worries though, since the Rancher UI has `kubectl` baked in. In the top-level menu bar, select the **first** option. Under `clusters`, select `local`. Your page should look like this:
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/22868661/1619020949105.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/22868661/1619020949105.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/22868661/1619020949105.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 Now, select **Launch kubectl**:
 
@@ -194,7 +194,7 @@ secrets:
   - name: minio-s3-secret
 ```
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/22868665/1619020954517.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/22868665/1619020954517.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/22868665/1619020954517.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 Save the file, and run the following command:
 
@@ -208,29 +208,29 @@ You should see `serviceaccount/sa created` as the output. You need to create a 
 
 Go to the top-level menu, select the first option, and ensure that `Default` is selected. Then, select **Resources** followed by **Config**. Use the *Search* menu near the top right and search for `inferenceservice-config`:
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/22868667/1619020955263.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/22868667/1619020955263.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/22868667/1619020955263.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 Click on the `inferenceservice-config` link followed by `Edit`. Scroll down to the `predictors` section and make sure that it includes `1.14.0` and `1.14.0-gpu`. If there are other versions of TensorFlow that you want to use, this is the place to add it:
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/22868671/1619020955309.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/22868671/1619020955309.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/22868671/1619020955309.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 4. Next, we need to create a bucket in MinIO. This means that we need to access it first. Under **Resources**, select
 
 **Workloads**. Under the search, type in *minio* and click on the single result:
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/22868674/1619020955926.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/22868674/1619020955926.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/22868674/1619020955926.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 From here, we know that the port is `9000`. What about the IP address? Click on the link to the running MinIO pod:
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/22868676/1619020960295.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/22868676/1619020960295.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/22868676/1619020960295.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 Here, we can see the Pod IP. Go to your browser and enter `http://<pod_ip>:9000`:
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/22868681/1619020963265.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/22868681/1619020963265.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/22868681/1619020963265.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 Let’s create a bucket called `servedmodels`. Select the red `+` button and the bottom right followed by `Create Bucket` and type in `servedmodels`. This should be the result:
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/22868679/1619020963635.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/22868679/1619020963635.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/22868679/1619020963635.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 Now, before we write the pipeline, let’s ensure the inference service and our setup have worked. What we can do is upload the model that we have trained previously onto the bucket:
 
@@ -245,7 +245,7 @@ docker pull minio/mc docker run -it --entrypoint=/bin/bash -v $PWD:/kubeflow-mni
 
 If you refresh, you should see the copied files:
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/22868678/1619020963665.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/22868678/1619020963665.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/22868678/1619020963665.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 ### Serving Component
 

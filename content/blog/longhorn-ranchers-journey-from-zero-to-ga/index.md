@@ -27,7 +27,7 @@ It is natural to address a new storage system by regurgitating existing patterns
 
 ![Image 01](images/rancher_blog_longhorn-journey-01.jpg)
 
-[Longhorn](/blog/2020/longhorn-container-storage) is built on the principle that distributed storage should be cloud-native and container-first in its design. If applications can now be described entirely in containers, why should storage be any different? Now we can bring all the benefits of containers into the storage world. This mitigates many of the pain points of [traditional storage systems](/blog/2020/kubernetes-changing-storage).
+[Longhorn](/blog/longhorn-simplifies-distributed-block-storage-in-kubernetes/) is built on the principle that distributed storage should be cloud-native and container-first in its design. If applications can now be described entirely in containers, why should storage be any different? Now we can bring all the benefits of containers into the storage world. This mitigates many of the pain points of [traditional storage systems](/blog/why-kubernetes-is-changing-storage/).
 
 Examples of this include system and library dependency management. Storage engines typically have tight dependencies on specific libraries and binaries that need to be satisfied for different operating systems and their unique package managers. Longhorn’s distribution is all containers, so except for an iSCSI library, everything is self contained and agnostic to RHEL, Ubuntu, SUSE, etc.
 

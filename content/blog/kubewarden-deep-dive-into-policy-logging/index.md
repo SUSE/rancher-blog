@@ -18,7 +18,7 @@ migration:
 
 Policies are regular programs. As such, they often need to log information. In general, we are used to making our programs log into standard output (stdout) and standard error (stderr) outputs.However, policies run in a confined WebAssembly environment. For this mechanism to work per usual, Kubewarden would need to set up the runtime environment so the policy can write to stdout and stderr file descriptors. Upon completion, Kubewarden can check them – or stream log messages as they pop up.
 
-[![](images/a19a4a-kubewarden.jpeg)](https://media1-production-mightynetworks.imgix.net/asset/31486165/kubewarden.jpeg?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/a19a4a-kubewarden.jpeg)
 
 Given that Kubewarden uses [waPC](https://wapc.io/) for allowing intercommunication between the guest (the policy) and the host (Kubewarden – the `policy-server` or `kwctl` if we are running policies manually), we have extended our language SDK’s so that they can log messages by using waPC internally.
 

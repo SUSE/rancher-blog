@@ -16,7 +16,7 @@ migration:
   redirect_target: ""
 ---
 
-Today, it is crucial that an organization's application's scalability matches its growth tempo. If you want your client’s app to be robust and easy to scale, you have to make the right architectural decisions.[![](images/2655ea-shutterstock_2063722937-1.jpg)](https://media1-production-mightynetworks.imgix.net/asset/31059951/shutterstock_2063722937-1.jpg?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+Today, it is crucial that an organization's application's scalability matches its growth tempo. If you want your client’s app to be robust and easy to scale, you have to make the right architectural decisions.![](images/2655ea-shutterstock_2063722937-1.jpg)
 
 Cloud native applications are proven more efficient than their traditional counterparts and much easier to scale due to containerization and running in the cloud.
 
@@ -30,7 +30,7 @@ Each microservice can independently receive and transmit data through the servic
 
 ## **Scheme of Cloud Native Application**
 
-[![](images/3b9883-1636633922087.png)](https://media1-production-mightynetworks.imgix.net/asset/31044195/1636633922087.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/3b9883-1636633922087.png)
 
 Cloud native application architecture consists of frontend and backend. 
 

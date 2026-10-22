@@ -18,7 +18,7 @@ migration:
 
 Fleet, Rancher’s built-in GitOps engine, is designed to scale up to thousands of clusters. However, “how far” can it scale in a real world scenario, you might ask?
 
-Earlier this year, we [wrote about the Fleet benchmark tool](https://www.suse.com/c/rancher_blog/optimizing-rancher-continuous-delivery-with-benchmarks/) and we made a few discoveries that were very instructive, especially concerning resource consumption and its impact on deployments’ performances.
+Earlier this year, we [wrote about the Fleet benchmark tool](/blog/optimizing-rancher-continuous-delivery-with-benchmarks/) and we made a few discoveries that were very instructive, especially concerning resource consumption and its impact on deployments’ performances.
 
 To come up with some limits and a set of best practices to run the operators safely, I deployed Fleet on a four node RKE2 cluster on AWS.
 

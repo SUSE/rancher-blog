@@ -6,14 +6,14 @@ author: "Rancher Admin"
 products: ["NeuVector"]
 tags: ["security"]
 content_type: "explainer"
-draft: false
+draft: true
 migration:
   wp_id: 86823
   original_url: "https://www.suse.com/c/rancher_blog/how-to-monitor-and-secure-containers-in-production/"
-  disposition: migrate_refresh
+  disposition: archive_redirect
   commercial: false
   outdated_reason: "2017 tool suggestions and promo links"
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/how-neuvector-leverages-ebpf-to-improve-observability-and-security/"
 ---
 
 ![](images/rancher_blog_Neuvector-security-300x201.png)*Fei Huang is

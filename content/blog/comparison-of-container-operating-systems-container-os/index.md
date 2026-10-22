@@ -7,14 +7,14 @@ image: "images/rancher_blog_featured-images_containers.svg"
 products: ["Docker/containers (generic)"]
 tags: []
 content_type: "explainer"
-draft: false
+draft: true
 migration:
   wp_id: 85857
   original_url: "https://www.suse.com/c/rancher_blog/comparison-of-container-operating-systems-container-os/"
-  disposition: migrate_refresh
+  disposition: archive_redirect
   commercial: false
   outdated_reason: "2019 OS landscape, RancherOS era"
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/meet-elemental-cloud-native-os-management-in-kubernetes/"
 ---
 
 ## Introduction

@@ -17,7 +17,7 @@ migration:
   redirect_target: "rancher.com/blog (hub)"
 ---
 
-Discover what’s new in Rancher 2.5 [Learn More](/products/rancher/2.5) Are you or your team currently looking for your next-generation architecture? Or perhaps are you already there, but looking for the best way to automate and manage it. In this blog, we’re going to talk about deploying Rancher environments using the power of env0.
+Discover what’s new in Rancher 2.5 [Learn More](https://www.rancher.com/products) Are you or your team currently looking for your next-generation architecture? Or perhaps are you already there, but looking for the best way to automate and manage it. In this blog, we’re going to talk about deploying Rancher environments using the power of env0.
 
 ## Rancher: Kubernetes Management Platform
 
@@ -107,4 +107,4 @@ That’s all it takes!
 
 All done! We’ve gone over what Rancher and env0 are, why they are great together and how to set up env0 to deploy Rancher Kubernetes environments with Terraform in an automated fashion. If you followed along with this piece, you should have a great working Kubernetes lab to start deploying apps into. So grab your YAML manifests, and have fun!
 
-For more information about env0, you can find us on [Twitter](https://twitter.com/envZero), [LinkedIn](https://www.linkedin.com/company/env0), and on our [Website](https://www.env0.com/). Feel free to reach out for a personal intro or demo [here](https://www.env0.com/more-info).Discover what’s new in Rancher 2.5 [Learn More](/products/rancher/2.5)
+For more information about env0, you can find us on [Twitter](https://twitter.com/envZero), [LinkedIn](https://www.linkedin.com/company/env0), and on our [Website](https://www.env0.com/). Feel free to reach out for a personal intro or demo [here](https://www.env0.com/more-info).Discover what’s new in Rancher 2.5 [Learn More](https://www.rancher.com/products)

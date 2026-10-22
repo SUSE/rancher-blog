@@ -17,7 +17,7 @@ migration:
   redirect_target: ""
 ---
 
-Continue your education with Kubernetes Master ClassesLearn to navigate the modern development landscape with confidence and get started without leaving home. [Learn More](https://rancher.com/kubernetes-master-class/) *This is the second of a series of three articles focusing on Kubernetes security: [the outside attack](https://rancher.com/blog/2019/kubernetes-security-outside-attacks/), the inside attack, and dealing with resource consumption or noisy neighbors.*
+Continue your education with Kubernetes Master ClassesLearn to navigate the modern development landscape with confidence and get started without leaving home. [Learn More](https://rancher.com/kubernetes-master-class/) *This is the second of a series of three articles focusing on Kubernetes security: [the outside attack](/blog/understanding-kubernetes-rbac/), the inside attack, and dealing with resource consumption or noisy neighbors.*
 
 Inherently, Kubernetes clusters are multi-user. As a result, organizations want to ensure that cross-communication is protected via role-based access control, logical isolation and network policies.
 

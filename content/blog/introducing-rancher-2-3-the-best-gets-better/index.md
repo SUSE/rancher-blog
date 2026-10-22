@@ -36,7 +36,7 @@ Today, 70% of on-premises workloads are running on the Windows Server
 operating system, and in March of this year, Windows Server Container
 support was built into the release of Kubernetes v1.14
 
-Not surprisingly, Windows containers have been one of the most desired technologies within the Kubernetes ecosystem in recent years. We are proud to be partnering with Microsoft on this launch and are excited to be the first Kubernetes management platform to deliver GA support for Windows Containers and Kubernetes with Windows worker nodes! To get Microsoft’s perspective on Rancher 2.3, check out [this blog](https://rancher.com/blog/2019/windows-container-support-and-rancher2-3) from Mike Kostersitz, Principal Program Manager at Microsoft.
+Not surprisingly, Windows containers have been one of the most desired technologies within the Kubernetes ecosystem in recent years. We are proud to be partnering with Microsoft on this launch and are excited to be the first Kubernetes management platform to deliver GA support for Windows Containers and Kubernetes with Windows worker nodes! To get Microsoft’s perspective on Rancher 2.3, check out [this blog](/blog/windows-containers-and-rancher-2-3/) from Mike Kostersitz, Principal Program Manager at Microsoft.
 
 By bringing all the benefits of Kubernetes to Windows, Rancher 2.3 eases
 complexity and provides a fast and straightforward path for modernizing

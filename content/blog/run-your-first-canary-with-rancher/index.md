@@ -6,21 +6,21 @@ author: "SUSE"
 products: ["Rancher Manager"]
 tags: ["networking", "ci-cd"]
 content_type: "tutorial"
-draft: false
+draft: true
 migration:
   wp_id: 97926
   original_url: "https://www.suse.com/c/rancher_blog/run-your-first-canary-with-rancher/"
-  disposition: migrate_refresh
+  disposition: archive_redirect
   commercial: false
   outdated_reason: "Rancher 2.x era versions"
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/"
 ---
 
 In the [previous article](https://community.suse.com/posts/run-you-first-secure-and-dns-with-rancher), we looked at how you can ensure the issuance of certificates and the management of DNS. This article will examine how you can perform Canary Deployment of an application on a Rancher cluster.
 
 The historically *poor canary* has been involved in experiments to determine the dangerous levels of methane in coal mines. The cage with the canary was lowered for a while on a rope into the shaft and then raised. If the canary was alive, it was believed that coal mining could be done. In the case of the dead canary, no coal was mined. This approach is not used because it is inhumane towards animals.
 
-[![](images/401e59-scale_1200.jpeg)](https://media1-production-mightynetworks.imgix.net/asset/31796760/scale_1200.jpeg?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/401e59-scale_1200.jpeg)
 
 The canary cage was always near the miner and if she stopped singing it clearly indicated that it was necessary to leave the mine.
 
@@ -39,11 +39,11 @@ The disadvantage of this method is that we have to manage it manually. To automa
 
 Add helm-repo: <https://argoproj.github.io/argo-helm>
 
-[![](images/32fff9-argo_repo_add.png)](https://media1-production-mightynetworks.imgix.net/asset/31800054/argo_repo_add.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/32fff9-argo_repo_add.png)
 
 argo-rollouts chart:
 
-[![](images/6181ca-argo_repo_charts.png)](https://media1-production-mightynetworks.imgix.net/asset/31800096/argo_repo_charts.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/6181ca-argo_repo_charts.png)
 
 Helm-values:
 
@@ -55,7 +55,7 @@ installCRDs: true
 
 ScaleDown deployment, set Replicas 0:
 
-[![](images/4ac39c-scale_down_deployment.png)](https://media1-production-mightynetworks.imgix.net/asset/31800255/scale_down_deployment.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/4ac39c-scale_down_deployment.png)
 
 ## Run stable and canary services
 
@@ -101,19 +101,19 @@ spec:
 
 ## Run Rollouts CRD
 
-[![](images/3d0b51-rollouits.png)](https://media1-production-mightynetworks.imgix.net/asset/31800656/rollouits.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/3d0b51-rollouits.png)
 
 An important point, since we do not want to change the Deployment, we refer to it in the Rollout manifest: **workloadRef.kind: Deployment, workloadRef.name**
 
-[![](images/adf4ee-rollouts_manifest.png)](https://media1-production-mightynetworks.imgix.net/asset/31800693/rollouts_manifest.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/adf4ee-rollouts_manifest.png)
 
 After run manifest additional ingress will be created:
 
-[![](images/9efe9a-ingresses.png)](https://media1-production-mightynetworks.imgix.net/asset/31800806/ingresses.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/9efe9a-ingresses.png)
 
 ## Argo Rollouts Dashboard
 
-[![](images/c1a67e-argo-rollouts-dashboard-1.png)](https://media1-production-mightynetworks.imgix.net/asset/31800880/argo-rollouts-dashboard-1.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/c1a67e-argo-rollouts-dashboard-1.png)
 
 ![](images/cb8bfa-argo-rollouts-dashboard-2.png)
 
@@ -156,13 +156,13 @@ Add promotion step in .drone.yml:
     - production
 ```
 
-[![](images/8b7fa1-promote1.png)](https://media1-production-mightynetworks.imgix.net/asset/31801361/promote1.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/8b7fa1-promote1.png)
 
-[![](images/728c32-promote2.png)](https://media1-production-mightynetworks.imgix.net/asset/31801374/promote2.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/728c32-promote2.png)
 
 add keel approve:
 
-[![](images/c7ded3-keel_approve.png)](https://media1-production-mightynetworks.imgix.net/asset/31801409/keel_approve.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/c7ded3-keel_approve.png)
 
 # Conclusion
 

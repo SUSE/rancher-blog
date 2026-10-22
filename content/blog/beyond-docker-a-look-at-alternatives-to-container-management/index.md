@@ -16,7 +16,7 @@ migration:
   redirect_target: ""
 ---
 
-[![](images/3bdc75-docker_vertical-logo-monochromatic.png)](https://media1-production-mightynetworks.imgix.net/asset/24287101/docker_vertical-logo-monochromatic.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/3bdc75-docker_vertical-logo-monochromatic.png)
 
 ## A deep dive into container stacks and the choices the ecosystem provides
 
@@ -85,7 +85,7 @@ The *image*of a container is a template from which the application is formed on
 
 The true revolution that Docker brought was **creation of a registry of docker images** and **the development of Docker engine**, with which those images ran everywhere in the same manner. Being the first and widely adopted, an implicit world standard for container images was formed and all eventual competitors had to pay attention to it.
 
-[![](images/640115-oci-logo.png)](https://media1-production-mightynetworks.imgix.net/asset/24287195/oci-logo.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/640115-oci-logo.png)
 
 ### CRI and OCI
 
@@ -99,7 +99,7 @@ OCI also implements the specification It is called **runc**and dealsdirectly wit
 
 The software stack that runs containers will have Linux as its most basic part:
 
-[![](images/d03300-Screen_Shot_2021-05-24_at_2.11.21_PM.png)](https://media1-production-mightynetworks.imgix.net/asset/24287300/Screen_Shot_2021-05-24_at_2.11.21_PM.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/d03300-Screen_Shot_2021-05-24_at_2.11.21_PM.png)
 
 Note that **containerd** and **CRI-O** both adhere to the CRI and OCI specifications. For Kubernetes, it means that it can use either **containerd** or **CRI-O** without the user ever noticing the difference. It can also use any of the other alternatives that we are now going to mention – which was exactly the goal when software standards such as OCI and CRI were created and adopted.
 
@@ -117,13 +117,13 @@ The software stack for [Docker](https://www.docker.com/) is
 
 The software stack for Kubernetes is almost the same; instead of **containerd**, Kubernetes uses **CRI-O**, a CRI implementation created by Red Hat/IBM and others.
 
-[![](images/35e308-containerd_logo.png)](https://media1-production-mightynetworks.imgix.net/asset/24287365/containerd_logo.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/35e308-containerd_logo.png)
 
 ### containerd
 
 [containerd](https://containerd.io/docs/getting-started/) runs as a daemon on Linux and Windows. It loads images, executes them as containers, supervises low-level storage and takes care of the entire container runtime and lifecycle.
 
-[![](images/6db8fb-cncf_logo.png)](https://media1-production-mightynetworks.imgix.net/asset/24287401/cncf_logo.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/6db8fb-cncf_logo.png)
 
 Containerd started as a part of Docker in 2014 and in 2017 became a part of Cloud Native Computing Foundation ([CNCF](https://www.cncf.io/)). The CNCF is a vendor-neutral home for Kubernetes, Prometheus, Envoy, containerd, CRI-O, podman and other cloud-based software.
 
@@ -133,15 +133,15 @@ runc is a reference implementation for the OCI specification. It creates and run
 
 Alternatives to **runc** include kata-runtime, gVisor and CRI-O.
 
-[![](images/3017fa-katacontainers_logo.png)](https://media1-production-mightynetworks.imgix.net/asset/24293125/katacontainers_logo.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/3017fa-katacontainers_logo.png)
 
 [kata-runtime](https://github.com/kata-containers/runtime) implements the OCI specification using hardware virtualization as individual lightweight VMs. Its runtime is compatible with OCI, CRI-O and containerd, so it works seamlessly with Docker and Kubernetes.
 
-[![](images/39e0e1-gvisor_logo.png)](https://media1-production-mightynetworks.imgix.net/asset/24287448/gvisor_logo.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/39e0e1-gvisor_logo.png)
 
 [gVisor](https://gvisor.dev/docs/) from Google creates containers that have their own kernel. It implements OCI through a program called **runsc**, which integrates with Docker and Kubernetes. A container with its own kernel is more secure than without, but it is not a panacea, and there is a penalty to pay in resource usage with that approach.
 
-[![](images/c7bdfc-crio_logo.png)](https://media1-production-mightynetworks.imgix.net/asset/24287537/crio_logo.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/c7bdfc-crio_logo.png)
 
 ###
 
@@ -153,7 +153,7 @@ It is a CNCF incubating project.
 
 ## Podman
 
-[![](images/ce6cb3-podman_logo.png)](https://media1-production-mightynetworks.imgix.net/asset/24287518/podman_logo.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/ce6cb3-podman_logo.png)
 
 [Podman](https://podman.io/) is a daemon-less Docker alternative. Its commands are intentionally as compatible with Docker as possible, so you can make an alias and start using word “docker” instead of “podman” in a CLI interface.
 
@@ -177,7 +177,7 @@ Developed by RedHat, Podman is a player to watch in this space.
 
 ## Honorable Mention: LXC/LXD
 
-[![](images/229408-lxc.png)](https://media1-production-mightynetworks.imgix.net/asset/24289383/lxc.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/229408-lxc.png)
 
 Introduced in 2008, LXC (LinuX Containers) stack was the first upstream-kernel container on Linux. The first version of Docker used LXC but in a later development, they moved away, having implemented **runc**.
 

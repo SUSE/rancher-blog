@@ -35,9 +35,9 @@ Although adoption of containers and Kubernetes is growing, the ecosystem is stil
 
 ## The Role of Cloud-Native Persistent Storage Solutions
 
-Open source storage solutions such as [Longhorn](/blog/2020/longhorn-container-storage) provide organizations with an option to bridge some of these technical gaps when working in a Kubernetes environment. With no barrier to entry, Longhorn delivers a reliable, lightweight and easy-to-use platform that integrates with existing Kubernetes management platforms such as Rancher.
+Open source storage solutions such as [Longhorn](/blog/longhorn-simplifies-distributed-block-storage-in-kubernetes/) provide organizations with an option to bridge some of these technical gaps when working in a Kubernetes environment. With no barrier to entry, Longhorn delivers a reliable, lightweight and easy-to-use platform that integrates with existing Kubernetes management platforms such as Rancher.
 
-[Longhorn with Rancher](/blog/2020/longhorn-journey-to-ga) gives autonomy and control back to engineers without additional operational overlay. For teams working within enterprise organizations, storage solutions must often fit three criteria:
+[Longhorn with Rancher](/blog/longhorn-ranchers-journey-from-zero-to-ga/) gives autonomy and control back to engineers without additional operational overlay. For teams working within enterprise organizations, storage solutions must often fit three criteria:
 
 - Increased reliability, backed by professional support
 - Cost-effective yet scalable

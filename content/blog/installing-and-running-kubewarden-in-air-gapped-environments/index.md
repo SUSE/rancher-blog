@@ -7,14 +7,14 @@ image: "images/m7brY_b9_400x400.jpg"
 products: ["Kubewarden"]
 tags: ["policy", "installation"]
 content_type: "tutorial"
-draft: false
+draft: true
 migration:
   wp_id: 97783
   original_url: "https://www.suse.com/c/rancher_blog/installing-and-running-kubewarden-in-air-gapped-environments/"
-  disposition: migrate_refresh
+  disposition: archive_redirect
   commercial: false
   outdated_reason: "kwctl 1.3.1 era commands"
-  redirect_target: ""
+  redirect_target: "https://docs.kubewarden.io/admission-controller/1.39/en/howtos/airgap/01-requirements.html"
 ---
 
 We are excited to announce that deploying Kubewarden in air gap environments has been simplified and documented!

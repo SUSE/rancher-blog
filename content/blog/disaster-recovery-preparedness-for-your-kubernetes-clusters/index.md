@@ -25,7 +25,7 @@ Rancher provides a mechanism to automatically configure recurring backups of the
 
 As you can imagine, there are many other steps required to fully recover user workloads in a DR scenario. In this blog post, we’ll point out the major components of a DR scenario and how to implement them safely in a Kubernetes environment.
 
-There are different levels of DR preparedness, depending on a multitude of factors. These include the level of automation for providing infrastructure, app structure and deployment procedures, storage, networking, expertise in cloud-native apps and microservices, and Kubernetes management experience. However, the most critical component of a successful DR strategy, a Level 0 of sorts, is [testing and documenting your procedures](https://rancher.com/blog/2020/number-one-rule-disaster-recovery) as often as possible. Just like backups are useless without testing recovery procedures, so is a DR plan without solid documentation and repeated validation.
+There are different levels of DR preparedness, depending on a multitude of factors. These include the level of automation for providing infrastructure, app structure and deployment procedures, storage, networking, expertise in cloud-native apps and microservices, and Kubernetes management experience. However, the most critical component of a successful DR strategy, a Level 0 of sorts, is [testing and documenting your procedures](/blog/the-no-1-rule-of-disaster-recovery/) as often as possible. Just like backups are useless without testing recovery procedures, so is a DR plan without solid documentation and repeated validation.
 
 ## Components of a Successful Disaster Recovery Scenario
 

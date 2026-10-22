@@ -103,7 +103,7 @@ Running two monitoring solutions side-by-side can create some operational proble
 
 One solution to this problem is integrating the data of both systems. For example, you could feed the data collected by the secondary system into the primary monitoring solution, or vice-versa. There are tools available, like this [Zabbix exporter](https://github.com/MyBook/zabbix-exporter) to help load data from one system to another. Once that is configured, you’ll be able to use a single data source for alerting and dashboards.
 
-If your existing monitoring solution already provides integration with Kubernetes (for instance, if you are using Elastic Metricbeat), you might not have to introduce an additional component in your monitoring stack at all. In those situations, you can just configure additional checks and alerting rules to get your [Kubernetes monitoring](https://www.suse.com/c/rancher_blog/introduction-to-kubernetes-monitoring/) in place.
+If your existing monitoring solution already provides integration with Kubernetes (for instance, if you are using Elastic Metricbeat), you might not have to introduce an additional component in your monitoring stack at all. In those situations, you can just configure additional checks and alerting rules to get your [Kubernetes monitoring](/blog/introduction-to-kubernetes-monitoring/) in place.
 
 ## Conclusion
 

@@ -28,7 +28,7 @@ Dashboard in Longhorn 1.0’s standalone UI
 
 ## The Need for Persistent Container Storage
 
-As enterprises deploy more production applications in containers, the need for persistent container storage [is growing rapidly](/blog/2020/kubernetes-changing-storage). As Kubernetes workloads become stateful, they need an enterprise-grade persistent storage solution supporting them. Rancher Labs works closely with leading storage vendors, including NetApp, EMC and Pure Storage, whose solutions work well with Kubernetes. We also partner with container-native storage providers like Portworxs, StorageOS and OpenEBS. Yet there’s still demand for an open source, low-cost, easy-to-deploy storage solution that works with Rancher right out of the box. And that’s the role we envision for Longhorn – for organizations using Kubernetes, it’s an easy-to-use solution for getting started with persistent storage.
+As enterprises deploy more production applications in containers, the need for persistent container storage [is growing rapidly](/blog/why-kubernetes-is-changing-storage/). As Kubernetes workloads become stateful, they need an enterprise-grade persistent storage solution supporting them. Rancher Labs works closely with leading storage vendors, including NetApp, EMC and Pure Storage, whose solutions work well with Kubernetes. We also partner with container-native storage providers like Portworxs, StorageOS and OpenEBS. Yet there’s still demand for an open source, low-cost, easy-to-deploy storage solution that works with Rancher right out of the box. And that’s the role we envision for Longhorn – for organizations using Kubernetes, it’s an easy-to-use solution for getting started with persistent storage.
 
 With Longhorn, we took a fresh look at what’s required for stateful workloads in Kubernetes. We found that it comes down to reliable, fast block storage support. Since its beta release in 2019, thousands of users have stress-tested Longhorn. Today’s GA version includes a rich set of enterprise storage features, including
 
@@ -46,7 +46,7 @@ Longhorn makes persistent storage as easy to deploy as a single click – so it�
 
 ## The Longhorn and Rancher Connection
 
-[When combined with Rancher](/blog/2020/longhorn-journey-to-ga), our Kubernetes management platform, Longhorn makes the deployment of highly available persistent block storage in your Kubernetes environment easy, fast and reliable.
+[When combined with Rancher](/blog/longhorn-ranchers-journey-from-zero-to-ga/), our Kubernetes management platform, Longhorn makes the deployment of highly available persistent block storage in your Kubernetes environment easy, fast and reliable.
 
 Longhorn remains an open source CNCF project, and it’s free to download and use. If you’re an existing Rancher user, you can easily install Longhorn from our app catalog.
 

@@ -30,13 +30,13 @@ Longhorn’s V2 Data Engine harnesses the power of the SPDK to elevate its over
 
 Longhorn Performance - IOPS:
 
-![](https://longhorn.io/img/diagrams/v2-data-engine/equinix-iops.svg)
+![](images/equinix-iops-e78499.svg)
 
 In comparison to the V1 engine, Longhorn saw a 2 to 4 times improvement for write, 2 to 3 times improvement for random read, and single replica IOPS is comparable with that of the local disk.
 
 Longhorn Performance - Latency:
 
-![](https://longhorn.io/img/diagrams/v2-data-engine/equinix-latency.svg)
+![](images/equinix-latency-ccf8f1.svg)
 
 In comparison to the V1 engine, Longhorn saw a 50-70% decrement for latency and the single replica read/write latency was comparable with that of the local disk.
 

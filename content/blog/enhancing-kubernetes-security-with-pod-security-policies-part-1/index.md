@@ -256,7 +256,7 @@ The PodSecurityPolicy admission controller will not allow the creation of this p
 
 To recap, in part 1 of this blog series, we hardened your Kubernetes security posture by enabling a simple Pod Security Policy in your Rancher environment. By using the default *restricted* PSP, we ensured that a pod can only run as long as it doesn’t require extended security privileges. Finally, we tried to deploy an overly permissive pod and saw it fail because the existing PSP prevented it from being scheduled on the cluster.
 
-[In Part 2](/blog/2020/pod-security-policies-part-2), we’ll dig deeper into more advanced concepts of role-based access control (RBAC) and walk through how to set up specific roles and grant them access to both privileged and permissive Pod Security Policies. We’ll also cover how tools like Sysdig Secure and Rancher can help you simplify adoption of PSPs in your RKE clusters.
+In Part 2, we’ll dig deeper into more advanced concepts of role-based access control (RBAC) and walk through how to set up specific roles and grant them access to both privileged and permissive Pod Security Policies. We’ll also cover how tools like Sysdig Secure and Rancher can help you simplify adoption of PSPs in your RKE clusters.
 
 ## Don’t Miss the Master Class
 

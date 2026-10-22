@@ -19,7 +19,7 @@ migration:
 
 *Post originally published on*[*Kubewarden’s blog*](https://kubewarden.io/blog) *by Víctor Cuadrado Juan*
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/29546202/kubewarden.webp?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/29546202/kubewarden.webp?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/kubewarden-d879f3.jpg)
 
 We are pleased to announce a new architecture for the Kubewarden stack in line with its journey to maturity:
 
@@ -35,7 +35,7 @@ In previous versions, the Kubewarden Controller instantiated a single deployment
 
 With the addition of the new **PolicyServer** Custom Resource, administrators have a better UX since they can define as many policy servers as they need and get to select what PolicyServer each ClusterAdmissionPolicy targets. Let’s see a diagram of the new architecture:
 
-![new architecture diagram](https://www.kubewarden.io/images/how-it-works-kubewarden.svg)
+![new architecture diagram](images/how-it-works-kubewarden-4e0f3d.svg)
 
 On the diagram, notice the two separate PolicyServer Deployments in cyan and mauve (right), created as specified in the two PolicyServer resources (left).
 

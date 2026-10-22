@@ -45,6 +45,12 @@ Open a pull request against `main`. Merging publishes the post.
 
 ## Redirects
 
-`cloudfront/` holds the viewer-request function for the rancher.com `/blog/*` behaviour. It sends archived posts to their new home with a 301, using a CloudFront KeyValueStore loaded from `cloudfront/redirects-kvs.json`, and adds the trailing slash GitHub Pages would otherwise add with a redirect to its own host.
+`cloudfront/` holds the viewer-request function for the rancher.com `/blog/*` behaviour. It sends archived posts and pre-2021 rancher.com URLs (`/blog/YYYY/<old-slug>`) to their new home with a 301, using a CloudFront KeyValueStore loaded from `cloudfront/redirects-kvs.json`, and adds the trailing slash GitHub Pages would otherwise add with a redirect to its own host.
 
 To archive another post, set `draft: true` on it, add its slug and target to `redirects-kvs.json` (or regenerate it with `tools/make_redirects.py` from the redirect map), run `node cloudfront/test.mjs`, and reload the KeyValueStore.
+
+To check every old URL after a change to the redirects, run `python3 tools/check_redirects.py <redirect-map.csv>`. Before the CloudFront switch, add `--origin https://opensource.suse.com/rancher-blog` to check the posts on the Pages origin instead.
+
+## Analytics and consent
+
+`layouts/partials/tracking.html` loads the rancher.com Google Tag Manager container and OneTrust banner, with the IDs in `hugo.toml`. They load only when the page is served on rancher.com, so the Pages origin does not count as traffic.

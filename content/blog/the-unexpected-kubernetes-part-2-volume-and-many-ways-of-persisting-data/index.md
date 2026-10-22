@@ -18,7 +18,7 @@ migration:
 
 ## Recap
 
-[Last time we talked about PV, PVC, Storage Class and Provisioner.](https://rancher.com/blog/2018/2018-09-20-unexpected-kubernetes-part-1/)
+Last time we talked about PV, PVC, Storage Class and Provisioner.
 
 To quickly recap:
 

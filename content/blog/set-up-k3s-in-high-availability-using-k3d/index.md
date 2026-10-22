@@ -271,7 +271,7 @@ Let’s clean up the resource our HA cluster used :
 
 While we created a single node and an HA cluster locally, inside containers, we can still see how K3s behaves with the new etcd embedded DB. If we deployed K3s on bare metal or virtual machines, it would act the same way.
 
-That being said, k3d helped a lot in terms of management. It created a load balancer by default that allowed permanent connectivity to the K3s cluster while abstracting all the tasks that we would have done manually if it was [deployed outside containers](https://rancher.com/blog/2020/k3s-high-availability).
+That being said, k3d helped a lot in terms of management. It created a load balancer by default that allowed permanent connectivity to the K3s cluster while abstracting all the tasks that we would have done manually if it was [deployed outside containers](/blog/set-up-your-k3s-cluster-for-high-availability-on-digitalocean/).
 
 In this post, we’ve seen how easy it is to set up high availability K3s clusters using k3d. If you haven’t tried K3s or k3d, what are you waiting for? They are both free and easy to use.
 

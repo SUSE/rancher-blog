@@ -19,7 +19,7 @@ migration:
 
 # Introducing Kubewarden, an Open Source Policy Engin
 
-[![](images/6339b1-kubewarden.png)](https://media1-production-mightynetworks.imgix.net/asset/23394753/kubewarden.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/6339b1-kubewarden.png)
 
 Security has always been a wide and complex topic. A [recent survey](https://security.stackrox.com/state-of-container-and-kubernetes-security-fall-2020.html) from StackRox about the state of containers and Kubernetes security provides some interesting data on these topics. In this blog post, I'll dive into some of the findings of that survey and introduce you to Kubewarden, an open source policy engine.
 
@@ -69,7 +69,7 @@ If you're unfamiliar with WebAssembly, it's a portable binary execution format.
 
 This is summarized by the drawing below: 
 
-[![](images/e3ccf4-1620055894097.png)](https://media1-production-mightynetworks.imgix.net/asset/23377454/1620055894097.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format) 
+![](images/e3ccf4-1620055894097.png) 
 
 WebAssembly started as a solution to expand the capabilities of modern web browsers. However, it's gone beyond the browser, with many interesting use cases emerging. 
 

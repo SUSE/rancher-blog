@@ -6,17 +6,17 @@ author: "SUSE"
 products: ["K3s"]
 tags: ["edge"]
 content_type: "tutorial"
-draft: false
+draft: true
 migration:
   wp_id: 93087
   original_url: "https://www.suse.com/c/rancher_blog/k3s-and-beaglebone-on-iot-powerful-yet-lightweight/"
-  disposition: migrate_refresh
+  disposition: archive_redirect
   commercial: false
   outdated_reason: "Old K3s version and Beaglebone setup"
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/introducing-k3s-the-lightweight-kubernetes-distribution-built-for-the-edge/"
 ---
 
-[![](images/f3e060-shutterstock_356541488-1.jpg)](https://media1-production-mightynetworks.imgix.net/asset/31341718/shutterstock_356541488-1.jpg?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/f3e060-shutterstock_356541488-1.jpg)
 
 Internet of Things (IoT) is a network of physical objects embedded with electronics, software, sensors, and connectivity. These things interoperate in the existing internet infrastructure.
 

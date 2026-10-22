@@ -18,7 +18,7 @@ migration:
 
 The v0.5 release comes with many new changes. The most prominent of those is the addition of [nerdctl](https://github.com/containerd/nerdctl), a "Docker-compatible CLI". This is the first of our changes to Rancher Desktop to provide more container features.
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/29226402/render1632768243645.gif?ixlib=rails-0.3.0&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/29226402/render1632768243645.gif?ixlib=rails-0.3.0&auto=format)
+![](images/render1632768243645-1cfda1.gif)
 
 ## **Docker Compatible CLI**
 
@@ -30,7 +30,7 @@ Rancher Desktop now provides[nerdctl](https://github.com/containerd/nerdctl), a 
 
 ### **Namespaces and nerdctl**
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/29227765/render1632770506338.gif?ixlib=rails-0.3.0&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/29227765/render1632770506338.gif?ixlib=rails-0.3.0&auto=format)Nerdctl uses namespaces, just like Kubernetes; they are just a separate set of namespaces. If you run nerdctl ps, it will show the containers running in the default namespace. To see what's running in Kubernetes, you need to use the *--namespace* flag and set it to *k8s.io*. Kubernetes namespaces are separate from those used by nerdctl and containerd.
+![](images/render1632770506338-c92f12.gif)Nerdctl uses namespaces, just like Kubernetes; they are just a separate set of namespaces. If you run nerdctl ps, it will show the containers running in the default namespace. To see what's running in Kubernetes, you need to use the *--namespace* flag and set it to *k8s.io*. Kubernetes namespaces are separate from those used by nerdctl and containerd.
 
 If you want to build a container image and make it available to Kubernetes, you need to set the namespace.
 
@@ -54,7 +54,7 @@ When future releases of Rancher Desktop come out, you won't need to go to the Ra
 
 ## **More Reset Options**
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/29228418/Screen_Shot_2021-09-27_at_3.41.10_PM.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/29228418/Screen_Shot_2021-09-27_at_3.41.10_PM.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/Screen_Shot_2021-09-27_at_3.41.10_PM-25b691.jpg)
 
 Rancher Desktop now allows resetting Kubernetes separately from the container images. This makes it easy to reset Kubernetes to a default environment while keeping any pulled or built container images.
 

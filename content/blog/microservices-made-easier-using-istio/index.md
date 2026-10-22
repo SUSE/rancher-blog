@@ -18,7 +18,7 @@ migration:
 
 Expert Training in Kubernetes and RancherJoin our free online training sessions to learn more about Kubernetes, containers, and Rancher.[Sign up here](https://rancher.com/training/)
 
-Update: This tutorial on Istio was updated for Rancher 2.0 [here](https://rancher.com/blog/2018/2018-07-31-deploying-istio/).
+Update: This tutorial on Istio was updated for Rancher 2.0 here.
 
 One of the recent open source initiatives that has caught our interest
 at Rancher Labs is [*Istio*](https://istio.io/), the micro-services

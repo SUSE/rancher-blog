@@ -23,7 +23,7 @@ This week Rancher Labs announced a record 161% year-on-year revenue growth, alon
 - Doubling of international headcount as we continue our expansion into 12 countries
 - Software downloads surpassed 100 million making Rancher the industry’s most widely adopted Kubernetes software platform
 - General availability of [Rancher 2.2](https://rancher.com/press/rancher-2.2-ga/)
-- Continued investment in open source projects including [Rio](https://rancher.com/blog/2019/introducing-rio), [Longhorn](https://www.youtube.com/watch?v=_s2Pnrz-CKM), [k3s](https://rancher.com/press/2019-04-24-press-release-rancher-labs-introduces-lightweight-operating-system-for-k3s-improve-security-for-kubernetes/), and [k3OS](https://rancher.com/blog/2019/announcing-k3os-kubernetes-operating-system)
+- Continued investment in open source projects including Rio, [Longhorn](https://www.youtube.com/watch?v=_s2Pnrz-CKM), [k3s](https://rancher.com/press/2019-04-24-press-release-rancher-labs-introduces-lightweight-operating-system-for-k3s-improve-security-for-kubernetes/), and [k3OS](/blog/announcing-k3os-a-kubernetes-operating-system/)
 
 You can find the complete release [here](/press/2019-07-23-rancher-labs-accelerates-momentum-release).
 

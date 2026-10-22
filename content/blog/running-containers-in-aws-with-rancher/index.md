@@ -29,7 +29,7 @@ However, if you choose only AWS services for all your Kubernetes needs, you’re
 
 ## The Benefits of a Truly Multi-Cloud Strategy for Kubernetes
 
-[As discussed previously](https://rancher.com/blog/2020/running-containers-in-azure-with-rancher), multi-cloud has become the “new normal” of enterprise IT. But what does “multi-cloud” mean to you? Does it mean supporting the same vendor-specific Kubernetes distribution on multiple clouds? Wouldn’t that just swap out one vendor monoculture for another? Or does it mean choosing an open source management control plane that treats any CNCF-certified Kubernetes distribution as a first-class citizen, enabling true application portability across multiple providers with zero lock-in?
+As discussed previously, multi-cloud has become the “new normal” of enterprise IT. But what does “multi-cloud” mean to you? Does it mean supporting the same vendor-specific Kubernetes distribution on multiple clouds? Wouldn’t that just swap out one vendor monoculture for another? Or does it mean choosing an open source management control plane that treats any CNCF-certified Kubernetes distribution as a first-class citizen, enabling true application portability across multiple providers with zero lock-in?
 
 Don’t get me wrong – there are use cases where a decision-maker will see placing all their Kubernetes business with a single vendor as the path of least resistance. However, the desire for short-term convenience shouldn’t blind you to the inherent risks of locking yourself into a long-term relationship with just one provider. Given how far the Kubernetes ecosystem has come in the past six months, are you sure that you want to put down all your chips on red?
 

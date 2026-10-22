@@ -119,11 +119,11 @@ cp /usr/share/applications/org.opensuse.YaST.desktop ~/.local/share/applications
 
 You can now search for YaST (and add to Favorites if needed), start YaST, highlight System and select Boot Loader in the right-hand panel:
 
-[![page4image31721712](https://media1-production-mightynetworks.imgix.net/asset/31940721/1638556984036.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/31940721/1638556984036.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![page4image31721712](https://media1-production-mightynetworks.imgix.net/asset/31940721/1638556984036.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
 
 Now select the 'Boolader Options' tab. If the system is a single boot, uncheck the 'Probe Foreign OS' and reduce the Timeout seconds to 1.
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/31942356/YaST_figure2.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/31942356/YaST_figure2.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/31942356/YaST_figure2.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
 
 Press 'OK' and reboot the system to see the effect by running the**systemd-analyze** command:
 
@@ -135,7 +135,7 @@ The loader time is now down to *1.651s*, an approximate 6-second improvement. Y
 
 You can also switch to just the text GRUB via unchecking the option from the Kernel Parameters tab *Graphical Console.*
 
-[![page5image31777104](https://media1-production-mightynetworks.imgix.net/asset/31940722/1638556984211.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/31940722/1638556984211.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![page5image31777104](https://media1-production-mightynetworks.imgix.net/asset/31940722/1638556984211.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
 
 ```
 Startup finished in 4.453s (firmware) + 1.427s (loader) + 3.538s (kernel) + 3.188s (initrd) + 31.334s (userspace) = 43.941s graphical.target reached after 31.314s in userspace
@@ -236,7 +236,7 @@ vi /etc/postfix/main.cf
 
 Fire up YaST -> System -> Network Settings and under the Global Options tab and under **IPv6 Protocol Settings**, uncheck the Enable IPv6 box, press ok, and say ok to the warning about a reboot required.
 
-[![page8image31838272](https://media1-production-mightynetworks.imgix.net/asset/31942708/1638560270825.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/31942708/1638560270825.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![page8image31838272](https://media1-production-mightynetworks.imgix.net/asset/31942708/1638560270825.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
 
 This setting is in /etc/sysctl.d/70-yast.conf and changes net.ipv6.conf.all.disable\_ipv6 = 0 to 1.
 
@@ -620,7 +620,7 @@ This was approximately a 36-second improvement, with around 25 of those seconds 
 
 You may also be interested in YaST -> System -> Services Manager to peruse all the systemd services running and status as there may be others you wish to disable and/or mask.
 
-[![page17image31722752](https://media1-production-mightynetworks.imgix.net/asset/31942709/1638560271025.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/31942709/1638560271025.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![page17image31722752](https://media1-production-mightynetworks.imgix.net/asset/31942709/1638560271025.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
 
 *Only for advanced users:* As a test, you can consider setting the option to zero and hide grub, but I would suggest the 1-second delay until you're sure after a few update cycles (especially kernel updates) that nothing unfavorable may occur. This reduced the loader time from 1.4 seconds to 370ms, and the overall warm boot time of 13.390s.
 

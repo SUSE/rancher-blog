@@ -19,7 +19,7 @@ migration:
 
 [Epinio](https://epinio.io/)is a build and application hosting platform running on Kubernetes. Developers push their source code to Epinio with a simple CLI command, Epinio builds an Open Container Initiative (OCI) image using Buildpacks, and the image is deployed within the Kubernetes cluster.
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/31258499/epinio.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/31258499/epinio.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/31258499/epinio.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
 
 The process is mostly transparent thanks to the wide range of languages supported by the default [Paketo buildpacks](https://paketo.io/) utilized by Epinio. But not every codebase can be built by Paketo, or you may want to build your code with your own custom buildpacks, which requires using a custom builder.
 

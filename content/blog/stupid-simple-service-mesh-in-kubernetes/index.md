@@ -17,7 +17,7 @@ migration:
   redirect_target: ""
 ---
 
-We covered the what, when and why of Service Mesh in a [previous post](https://www.suse.com/c/rancher_blog/stupid-simple-service-mesh-what-when-why/). Now I’d like to talk about why they are critical in Kubernetes. 
+We covered the what, when and why of Service Mesh in a [previous post](/blog/stupid-simple-service-mesh-what-when-why/). Now I’d like to talk about why they are critical in Kubernetes. 
 
 To understand the importance of using service meshes when working with microservices-based applications, let's start with a story.  
 

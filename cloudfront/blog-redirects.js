@@ -1,5 +1,6 @@
 // CloudFront Function (cloudfront-js-2.0), viewer request, on the rancher.com /blog/* behaviour.
-// Associate the KeyValueStore loaded from redirects-kvs.json: key = old post slug, value = target URL.
+// Associate the KeyValueStore loaded from redirects-kvs.json: key = old post slug (or YYYY/old-slug for
+// pre-2021 rancher.com URLs), value = target URL.
 import cf from 'cloudfront';
 
 const kvs = cf.kvs();
@@ -19,6 +20,16 @@ async function handler(event) {
       return redirect(await kvs.get(match[1].toLowerCase()));
     } catch (err) {
       // not an archived slug, serve it from the origin
+    }
+  }
+
+  // pre-2021 rancher.com URLs, /blog/YYYY/<old-slug>: key "YYYY/old-slug", unknown ones go to the blog home
+  const dated = uri.match(/^\/blog\/(\d{4}\/[^\/]+)\/?$/);
+  if (dated) {
+    try {
+      return redirect(await kvs.get(dated[1].toLowerCase()));
+    } catch (err) {
+      return redirect('/blog/');
     }
   }
 

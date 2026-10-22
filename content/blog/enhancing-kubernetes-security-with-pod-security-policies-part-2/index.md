@@ -17,7 +17,7 @@ migration:
   redirect_target: ""
 ---
 
-In [Part 1 of this series](https://rancher.com/blog/2020/pod-security-policies-part-1), we demonstrated how to enable PSPs in Rancher, using restricted PSP policy as default. We also showed how this prevented a privileged pod from being admitted to the cluster.
+In Part 1 of this series, we demonstrated how to enable PSPs in Rancher, using restricted PSP policy as default. We also showed how this prevented a privileged pod from being admitted to the cluster.
 
 ![Enforcement capabilities of a Pod Security Policy](images/rancher_blog_picture1.png)
 
@@ -52,7 +52,7 @@ Letâ€™s illustrate that with some examples.
 
 ## Real Example with RBAC
 
-Assuming [you have a cluster with PSPs enabled](https://rancher.com/blog/2020/pod-security-policies-part-1), a common approach for adopting PSPs to create a restrictive PSP that **can be used by any pod**. Then you would add more specific PSPs with additional privileges that are **binded to specific service accounts**. Having a default, safe and restrictive policy **facilitates management of the cluster** because most pods require no special privileges or capabilities and will run by default. Then, in case some of your workloads require additional privileges, we can create a custom PSP and bind the specific service account of that workload to the less restrictive PSP.
+Assuming you have a cluster with PSPs enabled, a common approach for adopting PSPs to create a restrictive PSP that **can be used by any pod**. Then you would add more specific PSPs with additional privileges that are **binded to specific service accounts**. Having a default, safe and restrictive policy **facilitates management of the cluster** because most pods require no special privileges or capabilities and will run by default. Then, in case some of your workloads require additional privileges, we can create a custom PSP and bind the specific service account of that workload to the less restrictive PSP.
 
 But how can we bind a pod to a specific PSP instead of the default restricted one? And how can we do that with a vanilla Kubernetes cluster, where RoleBindings are not added automatically?
 
@@ -93,7 +93,7 @@ $ kubectl -n psp-test describe rs
   Warning  FailedCreate  4s (x12 over 15s)  replicaset-controller  Error creating: pods "not-privileged-deploy-684696d5b5-" is forbidden: unable to validate against any pod security policy: []
 ```
 
-As there is no RoleBinding in the namespace psp-test binding to a role that allows using any PSP, the pod cannot be created. We are going to fix this by creating clusterwide ClusterRole and ClusterRoleBinding to allow any service account to use restricted-psp by default. Rancher created the restricted-psp when enabling PSPs in [Part 1](https://rancher.com/blog/2020/pod-security-policies-part-1).
+As there is no RoleBinding in the namespace psp-test binding to a role that allows using any PSP, the pod cannot be created. We are going to fix this by creating clusterwide ClusterRole and ClusterRoleBinding to allow any service account to use restricted-psp by default. Rancher created the restricted-psp when enabling PSPs in Part 1.
 
 ```
 $ cat clusterrole-use-restricted.yaml
@@ -255,7 +255,7 @@ You noticed that *restricted-psp* and *default-psp* existed out of the box. Letâ
 
 ## Default PSPs on Rancher
 
-Enable PSP admission controller in Rancher by editing the cluster settings (as we did in [Part 1](https://rancher.com/blog/2020/pod-security-policies-part-1)), and select one of the defined PSPs as the default:
+Enable PSP admission controller in Rancher by editing the cluster settings (as we did in Part 1), and select one of the defined PSPs as the default:
 
 ![](images/rancher_blog_picture3.png)
 

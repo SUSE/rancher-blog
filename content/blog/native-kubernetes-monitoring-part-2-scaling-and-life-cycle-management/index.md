@@ -17,11 +17,11 @@ migration:
   redirect_target: ""
 ---
 
-This article is a follow up to [Native Kubernetes Monitoring, Part One](/blog/2019/native-kubernetes-monitoring-tools-part-1). In this chapter we’ll finish the two remaining demos for the other built-in tools, Probes and Horizontal Pod Autoscaler (HPA).
+This article is a follow up to [Native Kubernetes Monitoring, Part One](/blog/native-kubernetes-monitoring-part-1-monitoring-and-metrics-for-users/). In this chapter we’ll finish the two remaining demos for the other built-in tools, Probes and Horizontal Pod Autoscaler (HPA).
 
 ## Prerequisites for the Demo
 
-If you were following [previous chapter](/blog/2019/native-kubernetes-monitoring-tools-part-1) then your Rancher instance and Kubernetes cluster should be both up and running. If not, please check the [article](/blog/2019/native-kubernetes-monitoring-tools-part-1/#prerequisites-for-the-demo) in order to setup the environment.
+If you were following [previous chapter](/blog/native-kubernetes-monitoring-part-1-monitoring-and-metrics-for-users/) then your Rancher instance and Kubernetes cluster should be both up and running. If not, please check the [article](/blog/native-kubernetes-monitoring-part-1-monitoring-and-metrics-for-users/#prerequisites-for-the-demo) in order to setup the environment.
 
 As a short reminder, we previously mentioned that Kubernetes ships with some built-in tools to monitor the cluster and the many moving parts that form a deployment:
 

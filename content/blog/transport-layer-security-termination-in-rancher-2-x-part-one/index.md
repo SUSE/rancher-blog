@@ -19,7 +19,7 @@ migration:
 
 ## Introduction
 
-In this blog series, we’ll explore a few different ways that Rancher uses TLS certificates. Here in in part one, we’ll look at UI security, agent<->API communication security and using self-signed certificates. In [part two](https://rancher.com/blog/2020/transport-layer-security-p2), we’ll look at Let’s Encrypt and Bring-your-own certificates.
+In this blog series, we’ll explore a few different ways that Rancher uses TLS certificates. Here in in part one, we’ll look at UI security, agent<->API communication security and using self-signed certificates. In [part two](/blog/transport-layer-security-termination-in-rancher-2-x-part-two/), we’ll look at Let’s Encrypt and Bring-your-own certificates.
 
 TLS, or Transport Layer Security, is a cryptographic protocol used to secure network communication. It is the successor to the now-deprecated Secure Sockets Layer, or SSL.
 
@@ -140,7 +140,7 @@ Then `cert-manager` generates a certificate. This certificate is stored as a sec
 
 ## Next Post: More Tranport Layer Security Termination Options
 
-In [Part Two](https://rancher.com/blog/2020/transport-layer-security-p2) in this series we’ll examine two more TLS termination types:
+In [Part Two](/blog/transport-layer-security-termination-in-rancher-2-x-part-two/) in this series we’ll examine two more TLS termination types:
 
 1. Using Let’s Encrypt
 2. Bringing your own certificates

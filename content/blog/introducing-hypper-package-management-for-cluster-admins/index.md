@@ -20,7 +20,7 @@ migration:
 
 Yet, cluster administrators have some slightly different needs. They deal with a cluster scope and have privileges to the cluster as a whole. Their use cases often deal with installing and managing cluster services. While Helm is great with packages in general, cluster administrators have long been outside Helm's scope. Helm focuses on application operators and distributors.
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/23733833/icon-hypper.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/23733833/icon-hypper.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/23733833/icon-hypper.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 With that in mind, we (at SUSE) created [Hypper](https://hypper.io/). Hypper is a package manager for cluster administrators.
 
@@ -30,7 +30,7 @@ Hypper is pronounced hip-er and inspired by Zypper, the package manager for SUSE
 
 Hypper is built on Helm and charts. This means that once a workload has been installed with Hypper, it can later be managed with Helm or Hypper -- though we hope mostly with Hypper. Tools built to visualize instances of charts or otherwise work with them will also work with Hypper-installed charts.
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/23687826/Hypper_Source_Layout_1_.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/23687826/Hypper_Source_Layout_1_.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/23687826/Hypper_Source_Layout_1_.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 This diagram highlights how Hypper works internally. Hypper has a client and SDK. Under the hood, they both use the Helm SDK. This means Hypper uses the same code as Helm to interact with repositories, charts, templates, releases, and Kubernetes.
 
@@ -66,7 +66,7 @@ In this case, *mychart* is the one with these annotations. Hypper will read the
 
 Sometimes you have multiple systems services that depend on other services. When you install one, you want to ensure another one is already installed. Yet, you don't want it installed like a typical Helm dependency because it's a system service. You want it set apart and managed as its own release. As a cluster singleton. Hypper makes this possible.
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/23689550/Picture1.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)](https://media1-production-mightynetworks.imgix.net/asset/23689550/Picture1.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/23689550/Picture1.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max)
 
 To define these dependencies, you again use annotations.
 

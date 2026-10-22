@@ -6,14 +6,14 @@ author: "Rancher Admin"
 products: ["Kubernetes (generic)"]
 tags: ["security"]
 content_type: "explainer"
-draft: false
+draft: true
 migration:
   wp_id: 85817
   original_url: "https://www.suse.com/c/rancher_blog/getting-acquainted-with-gvisor/"
-  disposition: migrate_refresh
+  disposition: archive_redirect
   commercial: false
   outdated_reason: "2018 gVisor first look"
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/introduction-to-container-security/"
 ---
 
 Like many of us in the Kubernetes space, I’m excited to check out the

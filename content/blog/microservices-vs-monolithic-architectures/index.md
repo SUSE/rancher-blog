@@ -91,7 +91,7 @@ The development organization can focus on developer productivity and still bring
 
 Like any approach to IT, the adoption of a microservices architecture will include challenges as well as benefits.
 
-[Monitoring](/blog/2018/2018-10-18-monitoring-kubernetes/) and managing many “moving parts” can be more challenging than dealing with a few monolithic applications. The adoption of an enterprise management framework can help address these challenges. Security in this type of distributed computing needs to be top of mind as well. As the number of independent functions grows on the network, each must be analyzed and protected.
+Monitoring and managing many “moving parts” can be more challenging than dealing with a few monolithic applications. The adoption of an enterprise management framework can help address these challenges. Security in this type of distributed computing needs to be top of mind as well. As the number of independent functions grows on the network, each must be analyzed and protected.
 
 ## Should All Monolithic Applications Migrate to Microservices?
 

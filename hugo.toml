@@ -11,6 +11,9 @@ removePathAccents = true
 
 [params]
   description = "Hands-on posts from the Rancher community: Kubernetes, K3s, RKE2, Longhorn, Fleet, Harvester, NeuVector and more."
+  # rancher.com tracking, same IDs as the rest of the site (layouts/partials/tracking.html)
+  gtmID = "GTM-57KS2MW"
+  oneTrustID = "0f98beb0-fc4c-417d-a42e-564e2cae42d2"
   enterpriseURL = "https://www.suse.com/products/rancher/"
   # filter pills on the blog home: current projects only
   featuredProducts = ["Rancher Manager", "K3s", "RKE2", "Longhorn", "Fleet", "Harvester", "NeuVector", "Rancher Desktop", "Kubewarden", "Elemental"]

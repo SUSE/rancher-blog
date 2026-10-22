@@ -16,7 +16,7 @@ migration:
   redirect_target: ""
 ---
 
-[![](images/81e80e-Survey-Blog-Graphic-4.png)](https://media1-production-mightynetworks.imgix.net/asset/24083552/Survey-Blog-Graphic-4.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/81e80e-Survey-Blog-Graphic-4.png)
 
 Welcome back to our series, where we introduce you to the basic concepts of Kubernetes. In the [**first article**](https://community.suse.com/posts/13950530?utm_source=manual),we provided a brief introduction to **Persistent Volumes.** Today we will learn how to set up data persistence and will write Kubernetes scripts to connect our Pods to a Persistent Volume. In this example, we will use **Azure File Storage** to store the data from our **MongoDB**database, but you can use any volume to achieve to same results (such as [Azure Disk](https://kubernetes.io/docs/concepts/storage/volumes/#azuredisk), [GCE Persistent Disk](https://kubernetes.io/docs/concepts/storage/volumes/#gcepersistentdisk), [AWS Elastic Block Store](https://kubernetes.io/docs/concepts/storage/volumes/#awselasticblockstore), etc.).
 
@@ -36,7 +36,7 @@ Through this tutorial, we will use [**Visual Studio Code**](https://code.visual
 
 ## What Problem Does Kubernetes Volume Solve?
 
-[![](images/4d0a25-2.png)](https://media1-production-mightynetworks.imgix.net/asset/23566576/2.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/4d0a25-2.png)
 
 Remember that we have a **Node**(an actual hardware device or a virtual machine); inside**the Nodes, we have a Pod**(or multiple Pods) and **inside the Pod, we have the Container.** **Pods are ephemeral**, so they can often come and go (they can be deleted, rescheduled, etc.). In this case, if you have data that you must keep even if the Pod goes down you have to **move it outside the Pod**. This way it can exist independently of any Pod. This external place is called **Volume** and it is an **abstraction of a storage system**. Using the Volume, you can persist state across multiple Pods.
 
@@ -82,7 +82,7 @@ Based on the **way the volumes are provisioned**, we can have:
 
 ### Direct Access Persistent Volumes
 
-[![](images/9f72e9-3.png)](https://media1-production-mightynetworks.imgix.net/asset/23566583/3.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/9f72e9-3.png)
 
 In this case, the pod will be **directly coupled with the volume**, so it will know the storage system (for example, the Pod will be coupled with the Azure Storage Account). This solution is **not cloud-agnostic** and depends on a concrete implementation, not**an abstraction.** So if possible, please avoid this solution. The only advantage is that it is easy and fast. Create the Secret in the Pod and specify the Secret and the exact storage type that should be used.
 
@@ -172,7 +172,7 @@ Kubernetes predefines the value for the provisioner property (see [Kubernetes S
 
 ### Persistent Volume and Persistent Volume Claim
 
-[![](images/58476c-4.png)](https://media1-production-mightynetworks.imgix.net/asset/23566605/4.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/58476c-4.png)
 
 Kubernetes has a matching primitive for each of the traditional storage operational activities (provisioning/configuring/attaching). **Persistent Volume is Provisioning**, **Storage Class is Configuring** and **Persistent Volume Claim is Attaching**.
 
@@ -188,7 +188,7 @@ The **difference between Static and Dynamic provisioning** is that if **there
 
 #### **Dynamic Provisioning**
 
-[![](images/c5f847-5.png)](https://media1-production-mightynetworks.imgix.net/asset/23566609/5.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/c5f847-5.png)
 
 In this case, **there is NO PersistentVolume and Secret created manually**, so Kubernetes will try to **generate**them. The StorageClass is mandatory, and we will use the one created earlier.
 
@@ -253,7 +253,7 @@ The most important **advantage**of this approach is that you **don’t have to
 
 #### Static Provisioning
 
-[![](images/5fd98f-6.png)](https://media1-production-mightynetworks.imgix.net/asset/23566619/6.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/5fd98f-6.png)
 
 The only difference between Static and Dynamic provisioning is that **we manually create the PersistentVolume and the Secret**in Static Provisioning. This way we have full control over the resource that will be created in our cluster.
 

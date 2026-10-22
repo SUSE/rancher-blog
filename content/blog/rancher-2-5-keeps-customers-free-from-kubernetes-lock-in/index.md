@@ -17,7 +17,7 @@ migration:
   redirect_target: ""
 ---
 
-Discover what’s new in Rancher 2.5 [Learn More](/products/rancher/2.5) Rancher Labs has launched its much-anticipated Rancher version 2.5 into the cloud-native space, and we at LSD couldn't be more excited. Before highlighting some of the new features, here is some context as to how we think Rancher is innovating.
+Discover what’s new in Rancher 2.5 [Learn More](https://www.rancher.com/products) Rancher Labs has launched its much-anticipated Rancher version 2.5 into the cloud-native space, and we at LSD couldn't be more excited. Before highlighting some of the new features, here is some context as to how we think Rancher is innovating.
 
 Kubernetes has become one of the most important technologies adopted by companies in their quest to modernize. While the container orchestrator, a fundamental piece of the cloud-native journey, has many advantages, it can also be frustratingly complex and challenging to architect, build, manage and maintain. One of the considerations is the deployment architecture, which leads many companies to want to deploy a hybrid cloud solution often due to cost, redundancy and latency reasons. This is often on premises and multi cloud.
 
@@ -56,4 +56,4 @@ With the release of Rancher 2.5, enhancements enhanced of the EKS platform suppo
 
 In our opinion, Rancher has done a spectacular job with the new additions in 2.5 by addressing critical areas that are important to customers. They have also shown that you absolutely can get the best of both EKS and fully-supported features.
 
-LSD was founded in 2001 and wants to inspire the world by embracing open philosophy and technology, empowering people to be their authentic best selves, all while having fun. Specializing in containers and cloud native, the company aims to digitally accelerate clients through a framework called the LSDTrip. To learn more about the LSDTrip, [visit us](https://www.lsdopen.io) or [email us](mailto:rancher@lsdopen.io).Discover what’s new in Rancher 2.5 [Learn More](/products/rancher/2.5)
+LSD was founded in 2001 and wants to inspire the world by embracing open philosophy and technology, empowering people to be their authentic best selves, all while having fun. Specializing in containers and cloud native, the company aims to digitally accelerate clients through a framework called the LSDTrip. To learn more about the LSDTrip, [visit us](https://www.lsdopen.io) or [email us](mailto:rancher@lsdopen.io).Discover what’s new in Rancher 2.5 [Learn More](https://www.rancher.com/products)

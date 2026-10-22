@@ -18,7 +18,7 @@ migration:
 
 ## What And whys of IDEs
 
-[![](images/0d5eca-IDEs-Blog-Graphic-3-01_1_.png)](https://media1-production-mightynetworks.imgix.net/asset/24961433/IDEs-Blog-Graphic-3-01_1_.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/0d5eca-IDEs-Blog-Graphic-3-01_1_.png)
 
 Before we jump right in and start comparing IDEs, it is important to understand why you need an IDE in the first place. An Integrated Development Environment (IDE) is an application that makes your life easy when writing code. While you can write code in your favorite programming language in a simple text editor, IDEs come with a set of useful features that assist you in this process. These features range from things like formatting your code each time you make changes to creating custom snippets for your codebase.
 
@@ -34,11 +34,11 @@ While we will focus on the above-mentioned things, our primary metric for compar
 
 ## [VS Code](https://code.visualstudio.com/)
 
-[![](images/c8df90-vscode_logo.png)](https://media1-production-mightynetworks.imgix.net/asset/24727267/vscode_logo.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/c8df90-vscode_logo.png)
 
 VS Code is one IDE that probably doesn’t need much introduction. It is free, open source and highly customizable. It is maintained by the folks at Microsoft but being an open source project, it also sees a lot of external contributors. The beauty of VS Code lies in that it provides you with the bare minimum you need to get started and gives you a wide range of options to customize and add extensions for anything you want. This keeps it as lightweight as you’d like while ensuring that you don’t miss the features you need. It also comes with many useful features right out of the box, like built-in Git integration and debugging tools. With the official Golang extension installed, you get all the cool features like auto-completion, code information on hover, code navigation shortcuts, and much more. Certain areas where some users feel it lacks are debugging options and compatibility with some languages like Ruby on Rails. However, for the purpose of cloud-native development, these areas aren’t that problematic. With the official Docker extension installed, working with containers is also a breeze in VS Code. The extension provides a whole bunch of useful features like IntelliSense while writing Docker files, seeing all images and containers from within VS Code, interacting with the container via VS Code, and much more!
 
-[![](images/e1b022-1622807566057.png)](https://media1-production-mightynetworks.imgix.net/asset/24721949/1622807566057.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/e1b022-1622807566057.png)
 
 *Working With Images And Containers In VS Code*
 
@@ -50,7 +50,7 @@ Sublime Text is another popular choice in lightweight IDEs and the awesome peopl
 
 Next up, an IDE that is significantly different from others on this list. Coder tries to solve the problem of setting up a local development environment for each project. It does so by moving all the developer tools to the cloud. You can choose how many resources you want to give to this development machine you will be working on in the cloud much as you do with a virtual machine. Coder definitely has some really neat features packed in. It supports running VS Code and JetBrains’ IDEs from your browser. This means you get all the features those IDEs provide right from the browser. Pretty cool, no? Coder also removes the need for laptops and allows you to basically code from anything with an internet connection, even an iPad! But it’s got some downsides – it’s pricey, and because it’s still very new and experimental, it’s not ideal for large teams working on enterprise projects. However, it looks really promising and ideal for those looking to start or experiment.
 
-[![](images/bcf8f2-1622807566200.png)](https://media1-production-mightynetworks.imgix.net/asset/24721952/1622807566200.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/bcf8f2-1622807566200.png)
 
 *Development Environment In Coder*
 
@@ -66,7 +66,7 @@ Next up is an IDE famous for Java development: Eclipse, which the Eclipse Founda
 
 GoLand is an IDE built by the folks at JetBrains specifically for Go development. It won’t come as a surprise that an IDE built especially for a language outperforms almost every other IDE out there in terms of features. It comes with more reliable code completion and better auto-suggestions. It also has a better debugger compared to the VS Code. Its code format works without any hiccups and is very fast. Just like VS Code, GoLand comes with a handy Docker plugin that makes working with containers super convenient. The only downside to GoLand is that it is not free like VSCode. It isn’t really that cheap either if you’re looking to tinker with Go. But, then again, if you work primarily work with Go, then GoLand is without a doubt worth the price!
 
-[![](images/fea1a9-1622807565943.png)](https://media1-production-mightynetworks.imgix.net/asset/24721948/1622807565943.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/fea1a9-1622807565943.png)
 
 *Working With Docker In GoLand*
 
@@ -78,4 +78,4 @@ GoLand and VS Code had a tough neck-to-neck fight. We still think that there are
 
 VS Code might not have that great IntelliSense and debugging options compared to GoLand, but they are still pretty great. Where it really takes the lead is in its flexibility. GoLand is built just for Go and struggles to do well if you switch your language. Other languages like Rust do seem to be making their impact in cloud native development and VS Code provides the flexibility to switch. To top all this off, VS Code is free and open source, so it takes away the crown jewel among IDEs and becomes our top pick!
 
-[![](images/a27320-1622817041989.png)](https://media1-production-mightynetworks.imgix.net/asset/24727504/1622817041989.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/a27320-1622817041989.png)

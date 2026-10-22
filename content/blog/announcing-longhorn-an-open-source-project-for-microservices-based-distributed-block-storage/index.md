@@ -17,7 +17,7 @@ migration:
   redirect_target: ""
 ---
 
-*Editor’s note: On June 2, 2020, Rancher Labs announced the [general availability of Longhorn](https://rancher.com/blog/2020/longhorn-container-storage), an enterprise-grade, cloud-native container storage solution. Longhorn directly answers the need for an enterprise-grade, vendor-neutral persistent storage solution that supports the easy development of stateful applications within Kubernetes.*
+*Editor’s note: On June 2, 2020, Rancher Labs announced the [general availability of Longhorn](/blog/longhorn-simplifies-distributed-block-storage-in-kubernetes/), an enterprise-grade, cloud-native container storage solution. Longhorn directly answers the need for an enterprise-grade, vendor-neutral persistent storage solution that supports the easy development of stateful applications within Kubernetes.*
 
 I’m super excited to unveil [Project Longhorn](https://github.com/rancher/longhorn), a new way to build distributed block storage for container and cloud deployment models. Following the principles of microservices, we have leveraged containers to build distributed block storage out of small independent components, and use container orchestration to coordinate these components to form a resilient distributed system.
 

@@ -33,7 +33,7 @@ You can use Rancher and Longhorn together with Kubernetes to take advantage of b
 
 ### **How Kubernetes handles persistent storage**
 
-In Kubernetes, [files only last as long as the container](https://www.suse.com/c/rancher_blog/stupid-simple-kubernetes-persistent-volumes-explained-part-3/), and they're lost if the container crashes. That's a problem when you need to store data long-term. You can't afford to lose everything when the container disappears.
+In Kubernetes, [files only last as long as the container](/blog/stupid-simple-kubernetes-persistent-volumes-explained-part-3/), and they're lost if the container crashes. That's a problem when you need to store data long-term. You can't afford to lose everything when the container disappears.
 
 [Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) are the solution to these issues. You can provision them separately from the containers they use and then attach them to containers [using a PersistentVolumeClaim](https://kubevious.io/blog/post/kubernetes-storage-architecture-challenges-and-solutions), which allows applications to access the storage:
 
@@ -95,7 +95,7 @@ Persistent storage volumes have various properties. Their size is an obvious one
 
 When creating persistent storage, make sure that the parameters used reflect what you need to use it for. A service that needs to respond quickly, such as a login service, can be optimized for speed.
 
-Using different storage classes for different purposes is easier when using a provider like Longhorn. [Longhorn storage classes](https://www.suse.com/c/rancher_blog/getting-started-with-longhorn-distributed-block-storage-and-cloud-native-distributed-sql/) can specify different disk technologies, such as NVME, SSD, or rotation, and these can be linked to specific nodes allowing you to match storage to your requirements closely.
+Using different storage classes for different purposes is easier when using a provider like Longhorn. [Longhorn storage classes](/blog/getting-started-with-longhorn-distributed-block-storage-and-cloud-native-distributed-sql/) can specify different disk technologies, such as NVME, SSD, or rotation, and these can be linked to specific nodes allowing you to match storage to your requirements closely.
 
 ### **Stability**
 
@@ -131,7 +131,7 @@ The observability these metrics provide has several uses. You should log any det
 
 #### **Get the infrastructure right for large products**
 
-For enterprise-grade products that require fast, reliable distributed block storage, Longhorn is ideal. It provides a highly resilient storage infrastructure. It [has features like application-aware snapshots and backups](https://www.suse.com/c/rancher_blog/longhorn-simplifies-distributed-block-storage-in-kubernetes/) as well as remote replication, meaning you can protect your data at scale.
+For enterprise-grade products that require fast, reliable distributed block storage, Longhorn is ideal. It provides a highly resilient storage infrastructure. It [has features like application-aware snapshots and backups](/blog/longhorn-simplifies-distributed-block-storage-in-kubernetes/) as well as remote replication, meaning you can protect your data at scale.
 
 Longhorn provides enterprise-grade distributed block storage and facilitates deploying a highly resilient storage infrastructure. It lets you provision storage on the major cloud providers, with built-in support for [Azure](https://azure.microsoft.com/en-us/), [Google Cloud Platform (GCP)](https://cloud.google.com/) and [Amazon Web Services (AWS)](https://aws.amazon.com/).
 

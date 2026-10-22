@@ -16,7 +16,7 @@ migration:
   redirect_target: ""
 ---
 
-The 'digital transformation' revolution across industries enables businesses to develop and deploy applications faster and simplify the management of such applications in a cloud environment. These applications are designed to embrace new technological changes with flexibility.[![](images/64872e-cloud_native_dev.jpg)](https://media1-production-mightynetworks.imgix.net/asset/31341991/cloud_native_dev.jpg?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+The 'digital transformation' revolution across industries enables businesses to develop and deploy applications faster and simplify the management of such applications in a cloud environment. These applications are designed to embrace new technological changes with flexibility.![](images/64872e-cloud_native_dev.jpg)
 
 The idea behind cloud native app development is to design applications that leverage the power of the cloud, take advantage of its ability to scale, and quickly recover in the event of infrastructure failure. Developers and architects are increasingly using a set of tools and design principles to support the development of modern applications that run on public, private, and hybrid cloud environments.
 

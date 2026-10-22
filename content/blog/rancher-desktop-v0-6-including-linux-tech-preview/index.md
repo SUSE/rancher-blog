@@ -18,7 +18,7 @@ migration:
 
 The [v0.6.0 release of Rancher Desktop](https://github.com/rancher-sandbox/rancher-desktop/releases/tag/v0.6.0) brings something completely new. It provides a technical preview of Rancher Desktop on Linux.
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/29798050/Screenshot_from_2021-10-11_14-44-38.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/29798050/Screenshot_from_2021-10-11_14-44-38.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/Screenshot_from_2021-10-11_14-44-38-92c322.jpg)
 
 Rancher Desktop on Linux runs similarly to Mac. In a virtual machine, containerd and Kubernetes have their own environment. Running in a virtual machine was a design decision we made to separate the container and Kubernetes environment from the rest of the Linux desktop environment. This enables Rancher Desktop users on Linux to control how many system resources to use for containers and makes it easy and safe to reset the environment.
 

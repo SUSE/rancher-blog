@@ -23,7 +23,7 @@ Test this feature in your lab or dev environment[Install Rancher 2.2 Preview 2](
 
 I’m excited to announce the release of Rancher 2.2 Preview 2, which contains a number of powerful features for day two operations on Kubernetes clusters.
 
-Please visit our [release page](/products/rancher/2.2/) or the [release notes](https://github.com/rancher/rancher/releases/tag/v2.2.0-alpha6) to learn more about all of the features we shipped today.
+Please visit our [release page](https://www.rancher.com/products) or the [release notes](https://github.com/rancher/rancher/releases/tag/v2.2.0-alpha6) to learn more about all of the features we shipped today.
 
 In this article I introduce one of the features: multi-cluster applications. Read on to learn how this will dramatically reduce your workload and increase the reliability of multi-cluster operations.
 
@@ -44,7 +44,7 @@ Beginning with Rancher 2.2 Preview 2, available from the `2.2.0-alpha6` [release
 
 This feature extends our powerful Application Catalog, built on top of the rock-solid Helm package manager for Kubernetes. Before today the Application Catalog features only applied to individual clusters. We’ve added an additional section at the Global level where those with the correct privileges can deploy apps to any cluster managed by Rancher.
 
-For a full demonstration of this feature and other features released with Rancher 2.2 Preview 2, join us for the [upcoming online meetup](/events/2019/meetup-multi-cluster-apps/), where we’ll give a live demo of the features and answer any questions you have.
+For a full demonstration of this feature and other features released with Rancher 2.2 Preview 2, join us for the upcoming online meetup, where we’ll give a live demo of the features and answer any questions you have.
 
 Read on for a quick introduction to how multi-cluster applications work in Rancher.
 
@@ -77,7 +77,7 @@ Read on for a quick introduction to how multi-cluster applications work in Ranch
 
 - If you need to make adjustments to account for the differences between each cluster, you can do so in the **Answer Overrides** section.
 
-![Setting Unique Answers for Clusters](https://rancher.com/img/blog/2019/introducing-multi-cluster-apps/08_hue7675818a3389c57848535d886465b31_281868_1000x0_resize_box_2.png)
+![Setting Unique Answers for Clusters](images/multi-cluster-apps-08.png)
 
 - When you’re ready, click **Launch** at the bottom of the page. You will then see a page that shows all of the deployed multi-cluster apps for your installation. Each will show its current status and a list of the target clusters and projects.
 
@@ -97,6 +97,6 @@ If you navigate to the Workloads tab of the target clusters, you’ll see one of
 
 Multi-cluster applications will reduce the workload of operations teams and make it possible to deploy and upgrade applications quickly and reliably across all clusters.
 
-To test these features in your lab or development environment, install [the latest alpha release](/docs/rancher/v2.x/en/installation/server-tags/#helm-chart-repositories). If you have any feedback, please [open an issue on Github](https://github.com/rancher/rancher/issues), or join us in [the forums](https://forums.rancher.com/) or [on Slack](https://slack.rancher.io).
+To test these features in your lab or development environment, install [the latest alpha release](https://ranchermanager.docs.rancher.com/getting-started/installation-and-upgrade/resources/choose-a-rancher-version). If you have any feedback, please [open an issue on Github](https://github.com/rancher/rancher/issues), or join us in [the forums](https://forums.rancher.com/) or [on Slack](https://slack.rancher.io).
 
 Test this feature in your lab or dev environment[Install Rancher 2.2 Preview 2](https://rancher.com/docs/rancher/v2.x/en/installation/server-tags/#helm-chart-repositories)

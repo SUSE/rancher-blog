@@ -24,4 +24,11 @@ r = await run('/blog/assets/css/rancher-blog.css');
 assert.equal(r.uri, '/blog/assets/css/rancher-blog.css');
 r = await run('/blog/tags/k3s/');
 assert.equal(r.uri, '/blog/tags/k3s/');
+const dated = [...store.keys()].find((k) => k.includes('/'));
+if (dated) {
+  r = await run(`/blog/${dated}/`);
+  assert.equal(r.headers.location.value, store.get(dated));
+}
+r = await run('/blog/2018/no-such-old-post');
+assert.equal(r.headers.location.value, '/blog/');
 console.log(`ok: ${store.size} redirects, all checks passed`);

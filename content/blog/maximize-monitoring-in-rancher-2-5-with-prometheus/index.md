@@ -17,7 +17,7 @@ migration:
   redirect_target: ""
 ---
 
-Discover what’s new in Rancher 2.5[Learn More](/products/rancher/2.5)
+Discover what’s new in Rancher 2.5[Learn More](https://www.rancher.com/products)
 
 We dedicate a lot of space in our blog to the topic of monitoring. That’s because when you’re managing Kubernetes clusters, things can change quickly. It’s important that you have tools to monitor the health and resource metrics of your clusters.
 
@@ -453,4 +453,4 @@ hey -c 10 -n 5000 http://hpa.demo
 
 In this blog, we can explored the flexibility of the new monitoring in Rancher 2.5. Developers and cluster administrators can leverage the stack to monitor their workloads, deploy visualization and leverage the advanced workload management capabilities available within Kubernetes.
 
-Discover what’s new in Rancher 2.5[Learn More](/products/rancher/2.5)
+Discover what’s new in Rancher 2.5[Learn More](https://www.rancher.com/products)

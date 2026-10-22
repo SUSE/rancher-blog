@@ -31,7 +31,9 @@ The management of clusters using CAPI is facilitated through custom resources. T
 
 To apply these manifests, you need to provision a [management cluster](https://cluster-api.sigs.k8s.io/user/concepts.html#management-cluster) where the CAPI components have been installed, providers, such as infrastructure and bootstrap, and resources, such as machines and state data, are stored. The management cluster acts as the control plane for the [workload clusters](https://cluster-api.sigs.k8s.io/user/concepts.html#workload-cluster) and provides a centralized location for managing and maintaining the cluster's health. In addition, it helps generate the manifest:
 
-![Architecture diagram courtesy of [*The Cluster API Book*](https://cluster-api.sigs.k8s.io/user/concepts.html)](https://i.imgur.com/LIe0Z7m.png)
+![Cluster API architecture diagram](images/capi-architecture.png)
+
+*Diagram from [The Cluster API Book](https://cluster-api.sigs.k8s.io/user/concepts.html).*
 
 Using the providers available through CAPI, you can provision a new workload cluster on your desired infrastructure without interacting with Infrastructure as a Service (IaaS) providers, whether it be on the cloud or in an on-premises data center. Once the workload cluster is provisioned, you can manage and create additional clusters using the management cluster, essentially using Kubernetes to deploy and manage Kubernetes.
 

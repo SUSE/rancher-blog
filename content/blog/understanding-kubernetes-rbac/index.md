@@ -16,7 +16,7 @@ migration:
   redirect_target: ""
 ---
 
-A Detailed Overview of Rancher's ArchitectureThis newly-updated, in-depth guidebook provides a detailed overview of the features and functionality of the new Rancher: an open-source enterprise Kubernetes platform. [Get the eBook](https://more.suse.com/fy21-global-web-landing-page-rancher2-technical-architecture) Update: This topic was addressed again and updated by Craig Jellick in [“Understanding Authentication & Authorization in Rancher 2.0”](https://rancher.com/blog/2018/2018-05-04-authentication-authorization-rancher2/).
+A Detailed Overview of Rancher's ArchitectureThis newly-updated, in-depth guidebook provides a detailed overview of the features and functionality of the new Rancher: an open-source enterprise Kubernetes platform. [Get the eBook](https://more.suse.com/fy21-global-web-landing-page-rancher2-technical-architecture) Update: This topic was addressed again and updated by Craig Jellick in [“Understanding Authentication & Authorization in Rancher 2.0”](/blog/understanding-kubernetes-authentication-authorization-in-rancher-2-0/).
 
 The general availability (GA) release of [Rancher 2.0](https://rancher.com/rancher2-0/) draws closer by the day. In this
 

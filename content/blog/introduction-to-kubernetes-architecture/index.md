@@ -109,7 +109,6 @@ This type of cluster is really only suitable for development work, running a few
 
 This topology begins to spread out the roles by separating the worker node components from the master components. So all of the master components such as `kube-apiserver`, etcd, `kube-scheduler`, and the `controller-manager` will run on a single master node, as before. However, one or more dedicated nodes will be used to run the worker components.
 
-![single node cluster](../03-introduction-to-kubernetes-architecture/media/single_node_cluster.png)
 
 This topology is more fault tolerant than a single node cluster, but is still not recommended for production. It can handle greater workloads, but it is still not fault tolerant when it comes to the `kube-apiserver` or etcd, without which the cluster can’t function.
 
@@ -125,7 +124,6 @@ Etcd stores the Kubernetes cluster configuration and state. In order to make you
 
 In this type of cluster, a single control-plane master is scaled horizontally, so you have multiple master nodes. Each runs all of the master components including control-plane and etcd. The `kube-apiserver` on each node communicates with the local etcd member. To bring up HA cluster with this topology, you will need at least 3 master nodes and one or more dedicated worker nodes. This is also known as the stacked etcd topology:
 
-![stacked etcd cluster](../03-introduction-to-kubernetes-architecture/media/stacked_etcd_cluster.png)
 
 #### External Etcd Cluster
 
@@ -133,7 +131,6 @@ In this topology, there are dedicated etcd nodes running separately from the nod
 
 In this topology, each control-plane node runs `kube-apiserver`, `kube-scheduler` and `kube-controller-manager`. Etcd members are run on separate nodes. Each etcd member can communicate with the apiserver on each of the control-plane nodes. With this design, even if a control plane node goes down, etcd nodes are not impacted and vice versa. This way the data redundancy isn’t impacted as much as it would in the first HA topology. The only downside to this architecture is that this setup requires twice the number of nodes:
 
-![external etcd cluster](../03-introduction-to-kubernetes-architecture/media/external_etcd.png)
 
 ## Conclusion
 

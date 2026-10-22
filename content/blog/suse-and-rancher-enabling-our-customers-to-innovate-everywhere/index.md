@@ -17,7 +17,7 @@ migration:
   redirect_target: ""
 ---
 
-In July, I [announced](https://rancher.com/blog/2020/suse-to-acquire-rancher/) SUSE's intent to acquire Rancher Labs, and now that the acquisition is [final](https://www.suse.com/imagine/?utm_source=rancher.com&utm_medium=referral&utm_campaign=suse_rancher_d1c&utm_content=website_eng&utm_term=rancher), today we embark on a new journey with SUSE. I couldn't be more excited about our future and what this means for our customers around the world.
+In July, I announced SUSE's intent to acquire Rancher Labs, and now that the acquisition is [final](https://www.suse.com/imagine/?utm_source=rancher.com&utm_medium=referral&utm_campaign=suse_rancher_d1c&utm_content=website_eng&utm_term=rancher), today we embark on a new journey with SUSE. I couldn't be more excited about our future and what this means for our customers around the world.
 
 Just as Rancher made computing everywhere a possibility for our customers, with SUSE, we will empower our customers to [**innovate everywhere**](https://www.forbes.com/sites/suse/2020/12/01/innovate-everywhere-how-suse-and-rancher-are-powering-the-future-of-enterprise/?sh=4ad6c1404235&utm_source=rancher.com&utm_medium=referral&utm_campaign=suse_rancher_d1c&utm_content=website_eng&utm_term=rancher_sheng). Together we will offer our customers possibilities that know no limitations from the data center to the cloud, to the edge and beyond. This is our purpose; this is our mission.
 

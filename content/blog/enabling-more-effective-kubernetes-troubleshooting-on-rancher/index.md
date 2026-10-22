@@ -7,14 +7,14 @@ image: "images/rancher_blog_kubernetes-troubleshooting-featured.png"
 products: ["Rancher Manager"]
 tags: ["networking", "observability"]
 content_type: "tutorial"
-draft: false
+draft: true
 migration:
   wp_id: 86070
   original_url: "https://www.suse.com/c/rancher_blog/enabling-more-effective-kubernetes-troubleshooting-on-rancher/"
-  disposition: migrate_refresh
+  disposition: archive_redirect
   commercial: false
   outdated_reason: "Rancher 2.x and Calico tooling from 2020"
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/debugging-your-rancher-kubernetes-cluster-the-genai-way-with-k8sgpt-ollama-rancher-desktop/"
 ---
 
 As a leading, open-source multi-cluster orchestration platform, Rancher lets operations teams deploy, manage and secure enterprise Kubernetes. Rancher also gives users a set of container network interface (CNI) options to choose from, including open source [Project Calico](https://www.projectcalico.org/). Calico provides native Layer 3 routing capability for Kubernetes pods, which simplifies the networking architecture, increases networking performance and provides a rich network policy model makes it easy to lock down communication so the only traffic that flows is the traffic you want to flow.

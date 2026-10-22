@@ -18,7 +18,7 @@ migration:
 
 In this article, we will take a working TODO application written in Flask and JavaScript, with a MongoDB database, and learn how to deploy it onto Kubernetes. This post is geared toward beginners; if you do not have access to a Kubernetes cluster, fear not!
 
-[![](images/067fca-shutterstock_1178132038.jpg)](https://media1-production-mightynetworks.imgix.net/asset/24830096/shutterstock_1178132038.jpg?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/067fca-shutterstock_1178132038.jpg)
 
 We'll use K3s, a lightweight Kubernetes distribution that is excellent for getting started quickly.
 
@@ -216,7 +216,7 @@ flask-app   |  * Debugger PIN: 183-021-098
 
 Now head to `http://localhost:5000` in your browser:
 
-[![](images/2aae13-1623077689442.png)](https://media1-production-mightynetworks.imgix.net/asset/24825111/1623077689442.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)If you see this, congratulations! Flask and Mongo are working properly together. Feel free to play around with the application to get a feel of it.
+![](images/2aae13-1623077689442.png)If you see this, congratulations! Flask and Mongo are working properly together. Feel free to play around with the application to get a feel of it.
 
 Now let’s make a tiny change to `app.py`in the title of the application:
 
@@ -230,7 +230,7 @@ index d322672..1c447ba 100644
 
 Save the file and reload the app:
 
-[![](images/65dc71-1623077689573.png)](https://media1-production-mightynetworks.imgix.net/asset/24825112/1623077689573.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)Once you are done, you can issue the following command:
+![](images/65dc71-1623077689573.png)Once you are done, you can issue the following command:
 
 ```
 docker-compose down

@@ -17,7 +17,7 @@ migration:
   redirect_target: ""
 ---
 
-It has been five months since we [announced](https://rancher.com/blog/2020/announcing-harvester-open-source-hyperconverged-infrastructure-software) project Harvester, open source hyperconverged infrastructure (HCI) software built using Kubernetes. Since then, we’ve received a lot of feedback from the early adopters. This feedback has encouraged us and helped in shaping Harvester’s roadmap. Today, I am excited to announce the Harvester v0.2.0 release, along with the Beta availability of the project!
+It has been five months since we [announced](/blog/announcing-harvester-open-source-hyperconverged-infrastructure-hci-software/) project Harvester, open source hyperconverged infrastructure (HCI) software built using Kubernetes. Since then, we’ve received a lot of feedback from the early adopters. This feedback has encouraged us and helped in shaping Harvester’s roadmap. Today, I am excited to announce the Harvester v0.2.0 release, along with the Beta availability of the project!
 
 Let’s take a look at what’s new in [Harvester v0.2.0](https://github.com/harvester/harvester).
 

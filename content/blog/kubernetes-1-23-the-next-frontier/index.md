@@ -20,7 +20,7 @@ I had the honor and privilege to lead the Kubernetes 1.23 release on December 7,
 
 The 1.23 release cycle started on August 23, 2021, and ran for 16 weeks. For 1.23, there were contributions from 1,084 contributors.
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/32036991/kubernetes-1.23-the-next-frontier.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/32036991/kubernetes-1.23-the-next-frontier.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/32036991/kubernetes-1.23-the-next-frontier.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
 
 Since Kubernetes 1.10, each release has a theme and logo.
 

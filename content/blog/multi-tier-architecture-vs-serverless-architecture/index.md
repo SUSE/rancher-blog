@@ -34,7 +34,7 @@ Let’s say you work at a bank and you need to write a software application for 
 - **Application Tier**: This tier passes information to the presentation tier. It processes how we manipulate the data to services. For example, if we need to show a list of banking transactions by date, the application tier handles the date sort and other business logic our application requires.
 - **Data Tier**: This tier handles getting and storing the data that we are manipulating within our application.
 
-[![](images/418195-1618246007226.png)](https://media1-production-mightynetworks.imgix.net/asset/22484871/1618246007226.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/418195-1618246007226.png)
 *Multi-Tier Application Architecture*
 I’ve outlined the basics of multi-tier,  a common approach for software development. Understanding where we come from makes it easier to understand the benefits of serverless. Historically, if we were writing software, we’d have to think about database servers, application servers and front-end servers and how they handle different tiers of our application. We’d also have to think about the network paths between those servers and how many servers we need to perform the necessary functions. For example, your application tier may need a substantial number of servers to have the computing power to do the business logic processing. Data tiers also historically have extensive resource needs.
 Meanwhile, your front end might not need many servers. These are all considerations in a multi-tier software design approach. With serverless, this is not necessarily the case. Let’s find out why.
@@ -54,7 +54,7 @@ Functions are just some code that performs a super-specific task, whether it be 
 ## Serverless Architecture:
 
 Serverless is a runtime architecture where cloud service providers manage the resources and dynamically allocate infrastructure on demand for a given business logic unit. The key to a serverless application is the application runs on a seemingly ethereal phantom infrastructure that exists yet doesn't. Serverless uses servers, but the beautiful part is you don't have to manage or maintain them. You don't have to configure or set up a VPC, set up complex routing rules, or install regular patches to the system to get high-performance and robust applications. The cloud providers take care of all these details, leaving you to focus on developing your application.
-[![](images/fe4e88-1618246217206.png)](https://media1-production-mightynetworks.imgix.net/asset/22485023/1618246217206.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/fe4e88-1618246217206.png)
 *Basic Serverless Architecture*
 Developing an application with serverless takes a lot of overhead. You pay every time your code is triggered and for the time it runs to the cloud provider.
 When creating a serverless application, take appropriate measures to protect it from unwanted high traffic, such as a DDOS (Distributed Denial Of Service) attack that could spin up a lot of copies of your code and increase your bill.

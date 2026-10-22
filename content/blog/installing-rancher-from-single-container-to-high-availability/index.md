@@ -16,7 +16,7 @@ migration:
   redirect_target: "https://rancher.com/blog (hub)"
 ---
 
-Update: This tutorial was updated for Rancher 2.x in 2019 [here](https://rancher.com/blog/2019/2019-01-10-migrating-single-node-2-1-x-to-high-availability/)
+Update: This tutorial was updated for Rancher 2.x in 2019 here
 
 Any time an organization, team or developer adopts a new platform, there
 are certain challenges during the setup and configuration process. Often

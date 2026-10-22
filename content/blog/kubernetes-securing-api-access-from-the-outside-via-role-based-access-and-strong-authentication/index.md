@@ -7,14 +7,14 @@ image: "images/rancher_blog_featured-images-role-access-and-auth.svg"
 products: ["Kubernetes (generic)"]
 tags: ["security"]
 content_type: "explainer"
-draft: false
+draft: true
 migration:
   wp_id: 85882
   original_url: "https://www.suse.com/c/rancher_blog/kubernetes-securing-api-access-from-the-outside-via-role-based-access-and-strong-authentication/"
-  disposition: migrate_refresh
+  disposition: archive_redirect
   commercial: false
   outdated_reason: "Kubernetes 1.8 and 1.11 details"
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/understanding-kubernetes-rbac/"
 ---
 
 Continue your education with Kubernetes Master ClassesLearn to navigate the modern development landscape with confidence and get started without leaving home.[Learn More](https://rancher.com/kubernetes-master-class/)

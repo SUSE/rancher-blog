@@ -41,4 +41,4 @@ When the dust of the pandemic settles, I can’t wait to be sitting in the sun a
 
 Similarly, when the dust from yesterday’s announcement settles and the SUSE acquisition is finalized, I can’t wait to join what I think will become the world’s most innovative and truly ‘open’ enterprise open source software company.
 
-Learn more here: [SUSE Enters Into Definitive Agreement to Acquire Rancher Labs](https://rancher.com/blog/2020/suse-to-acquire-rancher)
+Learn more here: SUSE Enters Into Definitive Agreement to Acquire Rancher Labs

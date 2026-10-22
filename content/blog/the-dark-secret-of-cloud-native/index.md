@@ -20,7 +20,7 @@ migration:
 
 *[Register here to watch the replay!](https://www.crowdcast.io/e/accelerate-dev-workflows?utm_source=MN&utm_medium=post&utm_campaign=ADW)*
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/31496895/shutterstock_1266304357.jpg?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/31496895/shutterstock_1266304357.jpg?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/31496895/shutterstock_1266304357.jpg?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
 
 ### Cloud Native Is Great, Right?
 

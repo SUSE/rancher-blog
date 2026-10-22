@@ -7,17 +7,17 @@ image: "images/rancher-logo-stacked-color.png"
 products: ["Rancher Manager"]
 tags: ["ci-cd", "installation"]
 content_type: "tutorial"
-draft: false
+draft: true
 migration:
   wp_id: 93334
   original_url: "https://www.suse.com/c/rancher_blog/run-your-first-ci-cd-pipeline-with-rancher/"
-  disposition: migrate_refresh
+  disposition: archive_redirect
   commercial: false
   outdated_reason: "Ubuntu 20.04 and Rancher 2.x era tooling"
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/understanding-and-optimizing-ci-cd-pipelines/"
 ---
 
-This article describes how to run a very simple CI/CD toolkit based on the Rancher platform. We will use tools like Gitea, Drone, and Keel to ensure our application's continuous integration and delivery. We will pre-configure one host to run Rancher. We will only do simple manual operations in the Rancher interface.[![](images/21a0dd-Rancher-Logo.png)](https://media1-production-mightynetworks.imgix.net/asset/31249936/Rancher-Logo.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+This article describes how to run a very simple CI/CD toolkit based on the Rancher platform. We will use tools like Gitea, Drone, and Keel to ensure our application's continuous integration and delivery. We will pre-configure one host to run Rancher. We will only do simple manual operations in the Rancher interface.![](images/21a0dd-Rancher-Logo.png)
 
 # **Prepare Host**
 
@@ -36,7 +36,7 @@ sudo apt install ubuntu-desktop && sudo shutdown -r now
 You will be able to work in the GUI and copy-pasting commands with Terminal.
 > ***You do not need to disable the swap file, because if you have little RAM, then you will encounter frequent host freezes. Rancher can work with swap enabled. Example VM (Rancher M&C) and host (cluster):***
 
-[![](images/1ec6c6-rnacher_swap_on1.png)](https://media1-production-mightynetworks.imgix.net/asset/31303630/rnacher_swap_on1.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/1ec6c6-rnacher_swap_on1.png)
 
 To change the network interface configuration, we will use bridge:
 
@@ -750,45 +750,45 @@ To 172.16.77.113:gitea_admin/test_drone.git
 
 In drone interface:
 
-[![](images/59fd45-drone1.png)](https://media1-production-mightynetworks.imgix.net/asset/31134917/drone1.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/59fd45-drone1.png)
 
 In gitea interface:
 
-[![](images/5bddce-gitea1.png)](https://media1-production-mightynetworks.imgix.net/asset/31135121/gitea1.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/5bddce-gitea1.png)
 
 In docker-registry an image with tag "feature-feature-1-cbebf353" will be added:
 
-[![](images/211558-dr1.png)](https://media1-production-mightynetworks.imgix.net/asset/31135177/dr1.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/211558-dr1.png)
 
 Create PR in Gitea:
 
-[![](images/28a029-gitea2.png)](https://media1-production-mightynetworks.imgix.net/asset/31135433/gitea2.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/28a029-gitea2.png)
 
 Drone PR:
 
-[![](images/b321bd-drone2.png)](https://media1-production-mightynetworks.imgix.net/asset/31135448/drone2.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/b321bd-drone2.png)
 
 SonarQube PR:
 
-[![](images/5809f1-sq1.png)](https://media1-production-mightynetworks.imgix.net/asset/31135456/sq1.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/5809f1-sq1.png)
 
 Release:
 
-[![](images/66d414-drone3.png)](https://media1-production-mightynetworks.imgix.net/asset/31135707/drone3.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/66d414-drone3.png)
 
 ## Continuous Delivery
 
 Create 3 deployments: test2-dev, test2-stage, test2-release, and use keel annotations for policy (you only need to add annotations to the deployment, on the keel side, you don't need to do anything, everything that you add to annotations will be displayed in the dashboard keel):
 
-[![](images/c36251-keel1.png)](https://media1-production-mightynetworks.imgix.net/asset/31135924/keel1.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/c36251-keel1.png)
 
-[![](images/8c4489-rancher1.png)](https://media1-production-mightynetworks.imgix.net/asset/31135909/rancher1.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/8c4489-rancher1.png)
 
-[![](images/0cc1dd-rancher2.png)](https://media1-production-mightynetworks.imgix.net/asset/31135932/rancher2.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/0cc1dd-rancher2.png)
 
-[![](images/b7116a-rancher3.png)](https://media1-production-mightynetworks.imgix.net/asset/31135948/rancher3.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/b7116a-rancher3.png)
 
-[![](images/9a02a2-rancher4.png)](https://media1-production-mightynetworks.imgix.net/asset/31136060/rancher4.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/9a02a2-rancher4.png)
 
 # Cleanup
 

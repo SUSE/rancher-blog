@@ -21,7 +21,7 @@ Don’t miss the Computing on the Edge with Kubernetes conference on October 21.
 
 ### Introduction
 
-This article is a follow up to [What Is Etcd and How Do You Set Up an Etcd Cluster](https://rancher.com/blog/2019/2019-01-29-what-is-etcd/). In this article, we will install an Etcd cluster and configure monitoring using Prometheus and Grafana, all with the help of Rancher.
+This article is a follow up to What Is Etcd and How Do You Set Up an Etcd Cluster. In this article, we will install an Etcd cluster and configure monitoring using Prometheus and Grafana, all with the help of Rancher.
 
 We’ll see how easy it is to accomplish this without the need of dependencies, as we can take full advantage of Rancher’s App Catalog. We won’t need:
 

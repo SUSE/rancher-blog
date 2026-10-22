@@ -16,7 +16,7 @@ migration:
   redirect_target: ""
 ---
 
-Take a deep dive into Best Practices in Kubernetes NetworkingFrom overlay networking and SSL to ingress controllers and network security policies, we've seen many users get hung up on Kubernetes networking challenges. In this video recording, we dive into Kubernetes networking, and discuss best practices for a wide variety of deployment options. [Watch the video](https://rancher.com/events/2018/kubernetes-networking-masterclass-june-online-meetup/) Update (June 2018): Engineer Alena Prokharchyk revisited this topic and showed useful and easy ways to load balance with Kubernetes in a [recent blog post](https://rancher.com/blog/2018/load-balancing-user-apps-with-rancher/).
+Take a deep dive into Best Practices in Kubernetes NetworkingFrom overlay networking and SSL to ingress controllers and network security policies, we've seen many users get hung up on Kubernetes networking challenges. In this video recording, we dive into Kubernetes networking, and discuss best practices for a wide variety of deployment options. [Watch the video](https://rancher.com/events/2018/kubernetes-networking-masterclass-june-online-meetup/) Update (June 2018): Engineer Alena Prokharchyk revisited this topic and showed useful and easy ways to load balance with Kubernetes in a recent blog post.
 
 Kubernetes is the container orchestration system of choice for many
 

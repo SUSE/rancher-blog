@@ -18,7 +18,7 @@ migration:
 
 # Introduction
 
-[![](images/284f8f-couch_DB.png)](https://media1-production-mightynetworks.imgix.net/asset/23804952/couch_DB.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/284f8f-couch_DB.png)
 
 [CouchDB](https://couchdb.apache.org/) is an open source NoSQL database that stores highly available data accessed through HTTP requests to its REST API server. Among many notable features of CouchDB, here are some you might consider for your needs:
 
@@ -26,7 +26,7 @@ migration:
 - Being a document-oriented database, Couchdb provides flexible data models for structuring your stored data.
 - CouchDB makes it easier to work with data by providing a REST-like interface for making operations without the need for drivers or extra configurations.
 
-In this article, we'll use Rancher to provision a [Kubernetes](https://kubernetes.io/) cluster on the [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine) (GKE) with two statefulsets workloads running a distributed CouchDB database. Further operations on the cluster will be done using the new Rancher [Cluster Explorer](https://rancher.com/blog/2020/rancher-2-5-partner-perspective-from-sva).
+In this article, we'll use Rancher to provision a [Kubernetes](https://kubernetes.io/) cluster on the [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine) (GKE) with two statefulsets workloads running a distributed CouchDB database. Further operations on the cluster will be done using the new Rancher [Cluster Explorer](/blog/whats-cool-in-rancher-2-5-a-partner-perspective-from-sva/).
 
 ## Prerequisites:
 
@@ -39,16 +39,16 @@ Although they are briefly explained in this guide, you should be familiar with t
 
 Here are the resources you would need to follow along with this article: -
 
-- [RancherD](https://rancher.com/blog/2020/rancherd-simplifies-rancher-deployment) to launch the Rancher Kubernetes Cluster- A CouchDB installation
+- [RancherD](https://ranchermanager.docs.rancher.com/) to launch the Rancher Kubernetes Cluster- A CouchDB installation
 - An active billing plan on the [Google Cloud Platform](https://console.cloud.google.com/) account. You can sign up for a new account [here](https://console.cloud.google.com/) to receive free trial credits for this project.
 - [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine)
 - [Google Compute Persistent Disks](https://cloud.google.com/persistent-disk)
 
 ### Step 1 -- Set Up Rancher on A VM Instance using RancherD
 
-If this is your first time using Rancher, you can get Rancher installed in the quickest time possible using [RancherD](https://rancher.com/blog/2020/rancherd-simplifies-rancher-deployment), a single binary that you can launch to bring up a Kubernetes cluster bundled with the deployment of Rancher itself.
+If this is your first time using Rancher, you can get Rancher installed in the quickest time possible using [RancherD](https://ranchermanager.docs.rancher.com/), a single binary that you can launch to bring up a Kubernetes cluster bundled with the deployment of Rancher itself.
 
-For this use case, you would install [RancherD](https://rancher.com/blog/2020/rancherd-simplifies-rancher-deployment) on a [Debian-based](https://www.debian.org/) virtual machine instance on the [Google Compute Engine](https://cloud.google.com/compute) using the command below;
+For this use case, you would install [RancherD](https://ranchermanager.docs.rancher.com/) on a [Debian-based](https://www.debian.org/) virtual machine instance on the [Google Compute Engine](https://cloud.google.com/compute) using the command below;
 
 ```
 curl -sfL https://get.rancher.io | sh -
@@ -92,7 +92,7 @@ From your Rancher dashboard, click the **Create Cluster** button to create a n
 
 After adding a name and a cluster label to the input fields, copy the content of the generated service account key into the Service account field.
 
-[![](images/4e9aec-1.png)](https://media1-production-mightynetworks.imgix.net/asset/23109831/1.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/4e9aec-1.png)
 
 Click **Configure Nodes** to authenticate with Google Cloud. Then configure your cluster nodes.
 
@@ -100,17 +100,17 @@ For Node Options, modify the Node Count to 2 and Root Disk Size to 50 GB, leavin
 
 The configuration file in YAML format used to create the nodes can be found here:
 
-[![](images/1a0948-2.png)](https://media1-production-mightynetworks.imgix.net/asset/23109889/2.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/1a0948-2.png)
 
 Using the configuration above, we can configure a 2-node cluster with a 50 GB root disk size Ubuntu image.
 
-[![](images/2b2b3e-3.png)](https://media1-production-mightynetworks.imgix.net/asset/23110006/3.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/2b2b3e-3.png)
 
 Click the **Create** button to begin provisioning the cluster (this takes a few minutes.)
 
 With the opened cluster in an **active** state, we can switch from the Cluster Manager in Rancher to the new Cluster Explorer to view and work further with this cluster.
 
-[![](images/f57b36-4.png)](https://media1-production-mightynetworks.imgix.net/asset/23110132/4.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/f57b36-4.png)
 
 The new Cluster Explorer dashboard gives us full analytics of the Kubernetes cluster without needing to fetch resource details using the *kubectl ge*t command. Useful, right?
 
@@ -122,7 +122,7 @@ Statefulsets provide a unique identifier of the pods and also an ordering when d
 
 From the left navigation menu, navigate to the StatefulSets page to create a [StatefulSet](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/#:~:text=StatefulSet%20is%20the%20workload%20API,on%20an%20identical%20container%20spec) with the configurations in the image below; The configuration file in YAML format used to create this StatefulSet looks like this:
 
-[![](images/adedc3-5.png)](https://media1-production-mightynetworks.imgix.net/asset/23110363/5.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/adedc3-5.png)
 
 **Attention**: As you can see in the above image, we are not using the official  [CouchDB Image](https://hub.docker.com/_/couchdb) on [DockerHub](https://hub.docker.com/), but [one managed](https://bitnami.com/stack/couchdb) by Bitnami.
 
@@ -136,7 +136,7 @@ Using the Cluster Explorer shell, run the command below to view the logs from th
 kubectl logs -f pod/couchdb-statefulset-0
 ```
 
-[![](images/634073-6.png)](https://media1-production-mightynetworks.imgix.net/asset/23110571/6.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/634073-6.png)
 
 The shell in the image above shows the installer running to set up CouchDB after the replica was created.
 
@@ -160,7 +160,7 @@ From the Storage section in the top-bar navigation menu, click the **Storage Cl
 
 Let’s create a new PVC that uses the previously created Storage Class from Cluster Explorer. The configuration file in YAML format used to create this Persistent Volume Claim can be found [here](https://github.com/vickywane/rancher-couchdb-cluster/blob/main/pvc-config.yaml):
 
-[![](images/6031c2-8.png)](https://media1-production-mightynetworks.imgix.net/asset/23111376/8.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/6031c2-8.png)
 
 Clicking the **C****reate** button would save this PVC and immediately create a Persistent Volume using the Storage Class referenced in it and bind it.
 
@@ -176,7 +176,7 @@ You can also get more details about the persistent volume claim using the comman
  kubectl describe coucdb-pvc
 ```
 
-[![](images/73f700-9.png)](https://media1-production-mightynetworks.imgix.net/asset/23111560/9.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/73f700-9.png)
 
 **Attention:** We can see by the random values used that the volume name was auto-generated.
 
@@ -192,13 +192,13 @@ You can also get more details about the persistent volume using the *describe*�
 kubectl describe PV_NAME
 ```
 
-[![](images/316deb-10.png)](https://media1-production-mightynetworks.imgix.net/asset/23111637/10.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/316deb-10.png)
 
 **Attention:** The bound PV above has a Reclaim Policy set to delete, meaning it is automatically deleted when the PVC is deleted.
 
 If we check the Disk section within the GCE, we can see the two disks created for the two replicas.
 
-[![](images/ae49c0-11.png)](https://media1-production-mightynetworks.imgix.net/asset/23111659/11.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/ae49c0-11.png)
 
 At this stage, our pods are persisting data to the persistent disk on the GCE so that we can worry less about a sudden restart.
 
@@ -208,11 +208,11 @@ From the side menu, navigate to the **Services** page and select the **LoadBa
 
 - **Selectors**: statefulset.kubernetes.io/pod-name : couchdb-statefulset-0
 
-[![](images/ea7119-12.png)](https://media1-production-mightynetworks.imgix.net/asset/23111727/12.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/ea7119-12.png)
 
 - **Service Ports**: Leaving the **Protocol** and Node Port as their defaults, set the listening port to *5984* and target port to *5984*.
 
-[![](images/2b9208-13.png)](https://media1-production-mightynetworks.imgix.net/asset/23111757/13.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/2b9208-13.png)
 
 Leave the rest options as their defaults and create the service.
 
@@ -226,7 +226,7 @@ To access [Fauxton](https://couchdb.apache.org/fauxton-visual-guide/index.html)
 
 To access the Fauxton web application, append ***/\_utils*** to the endpoint address. Then input the username and password defined in the cluster environment variables. <!-- Where do we find the endpoint address? -->
 
-[![](images/6815a5-14.png)](https://media1-production-mightynetworks.imgix.net/asset/23111796/14.png?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format)
+![](images/6815a5-14.png)
 
 **Attention:** The databases in the image above were created by default during the installation process using the CouchDB Installer.
 
@@ -236,6 +236,6 @@ Now the Couch Database is fully operational, and we can make HTTP requests to yo
 
 While we provisioned a distributed containerized Couch database on GKE, the main focus of the article was showing how we could provision and manage the resources using the Rancher and the new Cluster Explorer with ease.
 
-That said, Rancher provides many features which help to simplify your Kubernetes operations. If you are forwarding to using Rancher, you can get started by using the [RancherD](https://rancher.com/blog/2020/rancherd-simplifies-rancher-deployment) installation script as it is the easiest way to get Rancher up and running on your machine.
+That said, Rancher provides many features which help to simplify your Kubernetes operations. If you are forwarding to using Rancher, you can get started by using the [RancherD](https://ranchermanager.docs.rancher.com/) installation script as it is the easiest way to get Rancher up and running on your machine.
 
 Note that the cluster built within this article is not production-ready as it is missing several important configurations, including the [liveness and readiness probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) for Health checks. However, this post should show you how to set up a production-ready cluster using Rancher.

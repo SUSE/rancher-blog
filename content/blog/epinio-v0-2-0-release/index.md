@@ -20,7 +20,7 @@ The new [Epinio v0.2.0](https://github.com/epinio/epinio/releases) is out and 
 
 This release adds Epinio to the Rancher UI dashboard, but that is not the only significant change; many more features have been added.
 
-[![](https://media1-production-mightynetworks.imgix.net/asset/31483644/epinio-screenshot-4.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)](https://media1-production-mightynetworks.imgix.net/asset/31483644/epinio-screenshot-4.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](https://media1-production-mightynetworks.imgix.net/asset/31483644/epinio-screenshot-4.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
 
 A future blog post might talk more about the new UI, but in short, once you install Epinio on your cluster, it shows up automatically in Rancher’s web interface. Then you can upload your app sources, which will automatically deploy. Please look at [Epinio UI installation instructions](https://github.com/epinio/ui/blob/beta2/README.md) for more instructions.
 

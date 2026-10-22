@@ -16,7 +16,7 @@ migration:
   redirect_target: ""
 ---
 
-[![](images/368119-a4.png)](https://media1-production-mightynetworks.imgix.net/asset/27696551/a4.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/368119-a4.png)
 
 [Longhorn](https://longhorn.io/) is an open source rock solid container native storage solution created by [Rancher](https://rancher.com/) and donated to the [CNCF](https://www.cncf.io/sandbox-projects/). One of its key features is the full support for volume backups as it implements the CSI volume snapshot API. Longhorn includes native support to use S3 or NFS external storage systems as backup targets.
 
@@ -124,17 +124,17 @@ Now we need to build our backup target endpoint URL that should follow this form
 
 Once we have the backup target URL and the backup target secret can go to Longhorn's web interface and configure the backup options:
 
-[![](images/904719-a1.png)](https://media1-production-mightynetworks.imgix.net/asset/27696506/a1.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/904719-a1.png)
 
 Now the backup option will be enabled for our volumes.
 
 We'll be able to manage our backups using the UI:
 
-[![](images/09f077-a2.png)](https://media1-production-mightynetworks.imgix.net/asset/27696526/a2.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/09f077-a2.png)
 
 And we can check the backup status and define schedules for all our volumes in the Volume menu:
 
-[![](images/67ac77-a3.png)](https://media1-production-mightynetworks.imgix.net/asset/27696536/a3.png?ixlib=rails-0.3.0&fm=jpg&q=75&auto=format)
+![](images/67ac77-a3.png)
 
 If there's any error in the configuration, it will be shown in the UI. The most common errors that can happen are:
 

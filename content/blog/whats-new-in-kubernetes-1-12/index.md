@@ -74,7 +74,7 @@ This feature introduced in 1.8 as early alpha has been [promoted to beta](https:
 ### Horizontal pod autoscaler with custom metrics
 
 While support for custom metrics in HPA [continuous to be in beta status](https://github.com/kubernetes/features/issues/117), version 1.12 adds various enhancements like the the ability to select metrics based on the labels available in your monitoring pipeline. If you are interested in autoscaling pods based on application-level metrics provided by monitoring systems such as Prometheus, Sysdig or Datadog, I recommend to checkout the [design proposal for external metrics](https://github.com/kubernetes/community/blob/master/contributors/design-proposals/autoscaling/hpa-external-metrics.md) in HPA.
-If you are new to Kubernetes monitoring, check out our Intro to Kuberentes Monitoring. If you’re just getting underway with Kubernetes, read the [Introduction to Kubernetes Monitoring](https://rancher.com/blog/2018/2018-10-18-monitoring-kubernetes/), which will help you get the most out of the rest of this article. for a good primer.
+If you are new to Kubernetes monitoring, check out our Intro to Kuberentes Monitoring. If you’re just getting underway with Kubernetes, read the Introduction to Kubernetes Monitoring, which will help you get the most out of the rest of this article. for a good primer.
 
 ### RuntimeClass
 

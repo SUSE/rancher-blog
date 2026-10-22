@@ -17,7 +17,7 @@ migration:
   redirect_target: ""
 ---
 
-Discover what’s new in Rancher 2.5[Learn More](/products/rancher/2.5)
+Discover what’s new in Rancher 2.5[Learn More](https://www.rancher.com/products)
 
 Since 2014, Rancher Labs has been making it easier for IT professionals to handle containers. Until now, every release of their flagship product, Rancher, brought features that you wouldn’t want to be without. But the latest releases have really taken things up a few notches.
 
@@ -43,7 +43,7 @@ These features weren’t just moved from one UI to another. This release fundame
 
 Multi-cluster apps won’t move to the Cluster Explorer: now you can roll them out via Rancher Continuous Delivery. For pipelines that were previously made available via Jenkins, Rancher recommends migrating them to Rancher Continuous Delivery. Note that Continuous Delivery is a solution for delivering applications. For the upstream part of Continuous Integration, you should use a preferred CI tool, such as Gitlab CI, Travis CI, Tekton or one of the other numerous solutions.
 
-And what is Rancher Continuous Delivery? Powered by [Fleet](https://rancher.com/blog/2020/scaling-fleet-kubernetes-million-clusters), a project that Rancher announced in April, Continuous Delivery makes it possible to distribute applications with everything that goes with them to one or more clusters using a classic GitOps approach. The challenge so far has been to provide the necessary capabilities on different clusters and configure them accordingly. With Continuous Delivery, applications from the Git repo and all their policies are distributed over several clusters.
+And what is Rancher Continuous Delivery? Powered by Fleet, a project that Rancher announced in April, Continuous Delivery makes it possible to distribute applications with everything that goes with them to one or more clusters using a classic GitOps approach. The challenge so far has been to provide the necessary capabilities on different clusters and configure them accordingly. With Continuous Delivery, applications from the Git repo and all their policies are distributed over several clusters.
 
 # Push-Button Backups and a New K8s Distro
 
@@ -59,7 +59,7 @@ To add more flavor, Rancher includes a few more experimental features.
 
 The version status of the OPA Gatekeeper, which Rancher included in version 2.4, can now be managed directly via Rancher. However, make sure you uninstall the older version of the Gatekeeper before the update.
 
-A new cluster provisioning binary called [RancherD](https://rancher.com/blog/2020/rancherd-simplifies-rancher-deployment) comes into play. RancherD is a single binary you can launch on a host to bring up a Kubernetes cluster bundled with a deployment of Rancher itself. This is a welcome solution, especially for installing Rancher Management Servers or single clusters. This has worked pretty well with RKE so far. However, afterwards, you had to install important services such as “cert-manager” and, above all, the Rancher management services using a helm chart or Kubernetes manifests.
+A new cluster provisioning binary called [RancherD](https://ranchermanager.docs.rancher.com/) comes into play. RancherD is a single binary you can launch on a host to bring up a Kubernetes cluster bundled with a deployment of Rancher itself. This is a welcome solution, especially for installing Rancher Management Servers or single clusters. This has worked pretty well with RKE so far. However, afterwards, you had to install important services such as “cert-manager” and, above all, the Rancher management services using a helm chart or Kubernetes manifests.
 
 ## Installation Notes for Rancher 2.5
 
@@ -79,4 +79,4 @@ Especially when updating, it’s a good idea to look at the [Rancher release](ht
 
 Rancher developers and the community behind them were hard working and did an excellent job on Rancher 2.5. I am curious to see how things will continue and, above all, how much the UI design will develop with Cluster Explorer. As far as the functionality, Rancher leaves nothing to be desired. So, you should all be excited to see what will be sorted out in the current minor release and, above all, what will follow in the next release.
 
-Discover what’s new in Rancher 2.5[Learn More](/products/rancher/2.5)
+Discover what’s new in Rancher 2.5[Learn More](https://www.rancher.com/products)

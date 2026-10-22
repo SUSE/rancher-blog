@@ -27,13 +27,13 @@ Let's dive into the 1.3.0 release and the standout features...
 
 Starting with Harvester v1.3.0, you now have the capability to share NVIDIA GPU's supporting SRIOV based virtualisation as vGPU (virtual GPU) devices. In Kubernetes, a vGPU is a type of mediated device that allows multiple VMs to share the compute capability of a physical GPU. You can assign a vGPU to one or more VMs created by Harvester. See the [documentation](https://docs.harvesterhci.io/v1.3/advanced/vgpusupport) for more information.
 
-![](https://docs.harvesterhci.io/assets/images/vgpuattachment-9e6a68d02bd0f694c6d67102800cba8e.png)
+![](images/vgpuattachment-9e6a68d02bd0f694c6d67102800cba8e-c92c3e.png)
 
 ### Two-Node Clusters with a Witness node for High Availability
 
 Harvester v1.3.0 supports two-node clusters (with a witness node) for implementations that require high availability but without the footprint and resources associated with larger deployments. You can assign the witness role to a node to create a high-availability cluster with two management nodes and one witness node. See the [documentation](https://docs.harvesterhci.io/v1.3/advanced/witness) for more information.
 
-![new storageclass replica 2](https://docs.harvesterhci.io/assets/images/new-storageclass-rep-2-72240608567a3dbf98c303937954a676.png)
+![new storageclass replica 2](images/new-storageclass-rep-2-72240608567a3dbf98c303937954a676-2b0259.png)
 
 ### Optimization for Frequent Device Power-Off/Power-On
 
@@ -43,7 +43,7 @@ Harvester v1.3.0 is optimized for environments wherein devices are frequently po
 
 Harvester v1.3.0 allows you to configure IP pool information and serve IP addresses to VMs running on Harvester clusters using the embedded Managed DHCP feature. Managed DHCP, which is an alternative to the standalone DHCP server, leverages the *vm-dhcp-controller* add-on to simplify cluster deployment. The *vm-dhcp-controller* add-on reconciles CRD objects and syncs the IP pool objects that serve DHCP requests. See the [documentation](https://docs.harvesterhci.io/v1.3/advanced/addons/managed-dhcp) for more information.
 
-![](https://docs.harvesterhci.io/assets/images/enable-addon-15e8398f6027a8250b21cbb3c3799a6c.png)
+![](images/enable-addon-15e8398f6027a8250b21cbb3c3799a6c-b87154.png)
 
 ### ARM Support (Technical Preview)
 

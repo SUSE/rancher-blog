@@ -6,14 +6,14 @@ author: "Rancher Admin"
 products: ["Kubernetes (generic)"]
 tags: ["installation", "multi-cluster"]
 content_type: "tutorial"
-draft: false
+draft: true
 migration:
   wp_id: 87321
   original_url: "https://www.suse.com/c/rancher_blog/building-a-highly-available-kubernetes-cluster/"
-  disposition: migrate_refresh
+  disposition: archive_redirect
   commercial: false
   outdated_reason: "Older kubeadm-era HA guidance"
-  redirect_target: ""
+  redirect_target: "https://docs.rke2.io/install/ha"
 ---
 
 ## Introduction
