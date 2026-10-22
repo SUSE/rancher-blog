@@ -6,14 +6,14 @@ author: "SUSE"
 products: ["Other"]
 tags: ["developer-experience"]
 content_type: "opinion"
-draft: false
+draft: true
 migration:
   wp_id: 97119
   original_url: "https://www.suse.com/c/rancher_blog/the-battle-of-ides/"
-  disposition: migrate
+  disposition: archive_redirect
   commercial: false
   outdated_reason: ""
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/"
 ---
 
 ## What And whys of IDEs

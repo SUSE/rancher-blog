@@ -7,14 +7,14 @@ image: "images/rancher-prime-logo-vert-color-652x720-8d2bf12c-6089-454c-b915-8cb
 products: ["Rancher Manager"]
 tags: ["upgrades"]
 content_type: "release"
-draft: false
+draft: true
 migration:
   wp_id: 104663
   original_url: "https://www.suse.com/c/rancher_blog/whats-new-in-the-rancher-spring-release/"
-  disposition: migrate
+  disposition: archive_redirect
   commercial: false
   outdated_reason: "Rancher 2.7.2 Spring 2023 release"
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/driving-innovation-with-extensible-interoperability-in-ranchers-spring-23-release/"
 ---
 
 We’re on a mission to build the industry’s most open, secure and interoperable Kubernetes management platform. Over the past few months, the team has made significant advancements across the entire Rancher portfolio that we are excited to share today with our community and customers.

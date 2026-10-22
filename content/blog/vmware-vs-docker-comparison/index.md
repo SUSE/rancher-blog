@@ -7,14 +7,14 @@ image: "images/rancher_blog_featured-images_storage.svg"
 products: ["Docker/containers (generic)"]
 tags: ["virtualization"]
 content_type: "explainer"
-draft: false
+draft: true
 migration:
   wp_id: 85847
   original_url: "https://www.suse.com/c/rancher_blog/vmware-vs-docker-comparison/"
-  disposition: migrate_refresh
+  disposition: archive_redirect
   commercial: false
   outdated_reason: "Generic dated comparison"
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/"
 ---
 
 ## Introduction

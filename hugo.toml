@@ -2,6 +2,8 @@ baseURL = "https://www.rancher.com/"
 title = "Rancher Blog"
 locale = "en-US"
 enableRobotsTXT = true
+# root sitemap.xml is outside /blog/, so CloudFront never serves it: layouts/index.blogsitemap.xml writes /blog/sitemap.xml instead
+disableKinds = ["sitemap"]
 # relative links so the same build works on rancher.com/blog and on the Pages origin (opensource.suse.com/rancher-blog)
 relativeURLs = true
 capitalizeListTitles = false
@@ -12,6 +14,16 @@ removePathAccents = true
   enterpriseURL = "https://www.suse.com/products/rancher/"
   # filter pills on the blog home: current projects only
   featuredProducts = ["Rancher Manager", "K3s", "RKE2", "Longhorn", "Fleet", "Harvester", "NeuVector", "Rancher Desktop", "Kubewarden", "Elemental"]
+
+[outputFormats.blogsitemap]
+  mediaType = "application/xml"
+  baseName = "sitemap"
+  path = "blog"
+  isPlainText = true
+  notAlternative = true
+
+[outputs]
+  home = ["html", "blogsitemap"]
 
 [pagination]
   pagerSize = 12

@@ -6,14 +6,14 @@ authors: ["Gaurav Mehta"]
 products: ["Fleet"]
 tags: ["gitops", "ci-cd"]
 content_type: "tutorial"
-draft: false
+draft: true
 migration:
   wp_id: 98150
   original_url: "https://www.suse.com/c/rancher_blog/canary-releases-with-rancher-continuous-delivery/"
-  disposition: migrate_refresh
+  disposition: archive_redirect
   commercial: false
   outdated_reason: "Rancher 2.5 era Continuous Delivery UI"
-  redirect_target: ""
+  redirect_target: "https://www.suse.com/c/canary-releases-rancher-continuous-delivery-src/"
 ---
 
 Rancher Continuous Delivery, available since Rancher version 2.5.x, brings the ability to perform GitOps at scale on Rancher-managed clusters. Continuous Delivery, powered by [Fleet,](https://community.suse.com/posts/%3Ca%20href='http%3A//fleet.rancher.io/'%3Ehttp%3A//fleet.rancher.io/%3C/a%3E) allows users to manage the state of their clusters using a GitOps-based approach.

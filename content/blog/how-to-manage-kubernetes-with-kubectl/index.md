@@ -129,15 +129,15 @@ Within Rancher, you can download a`kubeconfig` file through the web UI and use i
 
 From the Rancher UI, click on the cluster you would like to connect to via`kubectl`. On the top right-hand side of the page, click the **Kubeconfig File** button:
 
-![Kubeconfig file button in Rancher UI](https://rancher.com/img/blog/2019/kubectl-intro/rancher_kubeconfig_file_button_hu49a299f8b62fd5c71b6f3029b0190fcd_41766_200x0_resize_box.gif)
+![Kubeconfig file button in Rancher UI](images/rancher_kubeconfig_file_button.gif)
 
 Click on the button for a detailed look at your config file as well as directions to place in`~/.kube/config`.
 
-![Instructions for adding Kubeconfig file in Rancher UI](https://rancher.com/img/blog/2019/kubectl-intro/rancher_kubeconfig_instructions_hu08acb4c74d33e686312cc8d80398586c_587079_200x0_resize_box_2.png)
+![Instructions for adding Kubeconfig file in Rancher UI](images/rancher_kubeconfig_instructions.png)
 
 Upon copying your configuration to`~/.kube/config`, you will be able to run`kubectl` commands without having to specify the`–-kube-config` file location:
 
-![Testing kubectl with a command](https://rancher.com/img/blog/2019/kubectl-intro/test_kubectl_command_hu296e57a574fa5713f4fe61bfb7f06003_167545_200x0_resize_box_2.png)
+![Testing kubectl with a command](images/test_kubectl_command.png)
 
 ## Examples of Some Basic Commands
 

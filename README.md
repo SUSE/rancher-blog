@@ -42,3 +42,9 @@ Open a pull request against `main`. Merging publishes the post.
 ## Publishing
 
 `.github/workflows/hugo.yml` builds the site on every push to `main` and deploys it to GitHub Pages at https://opensource.suse.com/rancher-blog/blog/. Links are relative, so the same build is served on https://www.rancher.com/blog/ through CloudFront.
+
+## Redirects
+
+`cloudfront/` holds the viewer-request function for the rancher.com `/blog/*` behaviour. It sends archived posts to their new home with a 301, using a CloudFront KeyValueStore loaded from `cloudfront/redirects-kvs.json`, and adds the trailing slash GitHub Pages would otherwise add with a redirect to its own host.
+
+To archive another post, set `draft: true` on it, add its slug and target to `redirects-kvs.json` (or regenerate it with `tools/make_redirects.py` from the redirect map), run `node cloudfront/test.mjs`, and reload the KeyValueStore.

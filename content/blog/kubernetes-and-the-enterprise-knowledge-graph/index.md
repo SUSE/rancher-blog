@@ -7,14 +7,14 @@ image: "images/rancher_blog_knowledge-graph-featured.png"
 products: ["Kubernetes (generic)"]
 tags: ["ai"]
 content_type: "opinion"
-draft: false
+draft: true
 migration:
   wp_id: 86187
   original_url: "https://www.suse.com/c/rancher_blog/kubernetes-and-the-enterprise-knowledge-graph/"
-  disposition: migrate
+  disposition: archive_redirect
   commercial: false
   outdated_reason: ""
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/"
 ---
 
 Read our free white paper: How to Build a Kubernetes Strategy[Download Now](https://more.suse.com/fy21-global-web-landing-page-how-to-build-enterprise-kubernetes-strategy)

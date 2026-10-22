@@ -6,14 +6,14 @@ author: "Rancher Admin"
 products: ["Docker/containers (generic)"]
 tags: ["installation"]
 content_type: "explainer"
-draft: false
+draft: true
 migration:
   wp_id: 86591
   original_url: "https://www.suse.com/c/rancher_blog/container-registries-you-might-have-missed/"
-  disposition: migrate
+  disposition: archive_redirect
   commercial: false
   outdated_reason: ""
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/"
 ---
 
 Registries are one of the key components that make working with

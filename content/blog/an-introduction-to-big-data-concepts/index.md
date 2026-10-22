@@ -7,14 +7,14 @@ image: "images/rancher_blog_featured-images_monitoring.svg"
 products: ["Other"]
 tags: []
 content_type: "explainer"
-draft: false
+draft: true
 migration:
   wp_id: 85843
   original_url: "https://www.suse.com/c/rancher_blog/an-introduction-to-big-data-concepts/"
-  disposition: migrate
+  disposition: archive_redirect
   commercial: false
   outdated_reason: ""
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/"
 ---
 
 Gigantic amounts of data are being generated at high speeds by a variety of sources such as mobile devices, social media, machine logs, and multiple sensors surrounding us. All around the world, we produce vast amount of data and the volume of generated data is growing exponentially at a unprecedented rate. The pace of data generation is even being accelerated by the growth of new technologies and paradigms such as Internet of Things (IoT).

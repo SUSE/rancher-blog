@@ -6,14 +6,14 @@ author: "Rancher Admin"
 products: ["Docker/containers (generic)"]
 tags: ["multi-cluster", "policy"]
 content_type: "explainer"
-draft: false
+draft: true
 migration:
   wp_id: 87308
   original_url: "https://www.suse.com/c/rancher_blog/top-5-challenges-with-deploying-docker-containers-in-production/"
-  disposition: migrate
+  disposition: archive_redirect
   commercial: false
   outdated_reason: ""
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/"
 ---
 
 ![](images/rancher_blog_Docker-swarm.png)

@@ -7,14 +7,14 @@ image: "images/rancher_blog_featured-images_containers.svg"
 products: ["Docker/containers (generic)"]
 tags: []
 content_type: "opinion"
-draft: false
+draft: true
 migration:
   wp_id: 85856
   original_url: "https://www.suse.com/c/rancher_blog/the-business-case-for-container-adoption/"
-  disposition: migrate
+  disposition: archive_redirect
   commercial: false
   outdated_reason: ""
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/"
 ---
 
 Developers often believe that demonstrating the need for an IT-based solution should be very easy. They should be able to point to the business problem that needs a solution, briefly explain what technology should be selected, and the funds, staff, and computer resources will be provided by the organization. Unfortunately, this is seldom the actual process that is followed.

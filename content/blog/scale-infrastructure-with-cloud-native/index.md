@@ -6,14 +6,14 @@ author: "SUSE"
 products: ["Kubernetes (generic)"]
 tags: ["cloud"]
 content_type: "explainer"
-draft: false
+draft: true
 migration:
   wp_id: 89886
   original_url: "https://www.suse.com/c/rancher_blog/scale-infrastructure-with-cloud-native/"
-  disposition: migrate
+  disposition: archive_redirect
   commercial: false
   outdated_reason: ""
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/"
 ---
 
 When business is growing rapidly, the necessity to scale the processes is obvious. If your initial infrastructure hasn’t been thought through with scalability in mind, growing your infrastructure may be quite painful. The common tactic, in this case, is to transition to cloud native architecture.

@@ -6,14 +6,14 @@ author: "Rancher Admin"
 products: ["Docker/containers (generic)"]
 tags: ["installation"]
 content_type: "explainer"
-draft: false
+draft: true
 migration:
   wp_id: 86856
   original_url: "https://www.suse.com/c/rancher_blog/playing-catch-up-with-docker-and-containers/"
-  disposition: migrate
+  disposition: archive_redirect
   commercial: false
   outdated_reason: ""
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/"
 ---
 
 This article is essentially a guide to getting started with Docker for

@@ -7,14 +7,14 @@ image: "images/download.png"
 products: ["K3s"]
 tags: ["storage", "cloud", "installation"]
 content_type: "tutorial"
-draft: false
+draft: true
 migration:
   wp_id: 100610
   original_url: "https://www.suse.com/c/rancher_blog/deploy-s3gw-in-digital-ocean/"
-  disposition: migrate_refresh
+  disposition: archive_redirect
   commercial: false
   outdated_reason: "s3gw on Digital Ocean, 2023 versions"
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/"
 ---
 
 ## Introduction

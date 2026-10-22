@@ -6,14 +6,14 @@ author: "SUSE"
 products: ["Other"]
 tags: ["developer-experience", "cloud"]
 content_type: "opinion"
-draft: false
+draft: true
 migration:
   wp_id: 97961
   original_url: "https://www.suse.com/c/rancher_blog/using-cloud-ides-to-develop-for-the-cloud/"
-  disposition: migrate
+  disposition: archive_redirect
   commercial: false
   outdated_reason: ""
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/"
 ---
 
 Deploying changes rapidly is an important part of developing cloud native applications. Because of this, many teams strive to build development environments that have close parity with their production environments to simplify and speed up testing. Whether it is a remote staging server or a local cluster, developers are looking for better development workflows.

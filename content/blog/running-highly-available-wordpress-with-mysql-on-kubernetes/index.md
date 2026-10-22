@@ -6,14 +6,14 @@ author: "Rancher Admin"
 products: ["Kubernetes (generic)"]
 tags: ["storage"]
 content_type: "tutorial"
-draft: false
+draft: true
 migration:
   wp_id: 87022
   original_url: "https://www.suse.com/c/rancher_blog/running-highly-available-wordpress-with-mysql-on-kubernetes/"
-  disposition: migrate_refresh
+  disposition: archive_redirect
   commercial: false
   outdated_reason: "Kubernetes 1.8 manifests"
-  redirect_target: ""
+  redirect_target: "https://www.rancher.com/blog/"
 ---
 
 Take a deep dive into Best Practices in Kubernetes NetworkingFrom overlay networking and SSL to ingress controllers and network security policies, we've seen many users get hung up on Kubernetes networking challenges. In this video recording, we dive into Kubernetes networking, and discuss best practices for a wide variety of deployment options. [Watch the video](https://rancher.com/events/2018/kubernetes-networking-masterclass-june-online-meetup/) WordPress is a popular platform for editing and publishing content for

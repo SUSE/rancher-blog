@@ -1,0 +1,23 @@
+{{- /* Served for any missing URL, at any depth, so every link is absolute (relativeURLs would resolve them against the wrong folder) */ -}}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Page not found | {{ site.Title }}</title>
+<link rel="icon" href="https://www.rancher.com/blog/assets/img/favicon.png">
+<link rel="stylesheet" href="https://www.rancher.com/blog/assets/css/rancher-blog.css">
+</head>
+<body>
+<header class="site-header"><div class="wrap header-row">
+  <a class="logo" href="https://www.rancher.com/"><img src="https://www.rancher.com/blog/assets/img/rancher-logo.svg" alt="Rancher by SUSE" width="230" height="55"></a>
+</div></header>
+<main class="wrap hero">
+  <p class="eyebrow">404</p>
+  <h1>This post is not here anymore</h1>
+  <p class="lede">It may have been archived, or the link has a typo. The latest posts are on the blog home.</p>
+  <a class="btn primary" href="https://www.rancher.com/blog/">Go to the Rancher blog</a>
+</main>
+</body>
+</html>
