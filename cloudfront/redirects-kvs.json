@@ -90,7 +90,7 @@
   },
   {
    "key": "2018/2018-10-22-forrester-rancher-leader-enterprise-container-management",
-   "value": "https://www.suse.com/c/rancher_blog/forrester-identifies-rancher-as-a-leader-in-enterprise-container-management/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2018/2018-11-14-rancher-announces-china-cloud-provider-support",
@@ -174,7 +174,7 @@
   },
   {
    "key": "2019/automating-cluster-infrastructure-management",
-   "value": "https://www.suse.com/c/rancher_blog/automating-container-infrastructure-management-with-spotinst-rancher/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2019/business-case-for-container-adoption",
@@ -194,11 +194,11 @@
   },
   {
    "key": "2019/emea-hastens-kubernetes-adoption",
-   "value": "https://www.suse.com/c/rancher_blog/kubernetes-adoption-hastens-in-emea/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2019/expanding-sql-server-support",
-   "value": "https://www.suse.com/c/rancher_blog/expanding-sql-server-support/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2019/first-impressions-managed-k3s",
@@ -250,7 +250,7 @@
   },
   {
    "key": "2019/kubernetes-adoption-driving-rancherlabs-momentum",
-   "value": "https://www.suse.com/c/rancher_blog/kubernetes-adoption-driving-rancher-labs-momentum/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2019/kubernetes-certificate-expiry-and-rotation-in-rancher-kubernetes-clusters",
@@ -258,7 +258,7 @@
   },
   {
    "key": "2019/kubernetes-code-commits-only-half-the-story",
-   "value": "https://www.suse.com/c/rancher_blog/code-commits-only-half-the-story/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2019/kubernetes-in-the-region-observations-and-an-offer",
@@ -302,7 +302,7 @@
   },
   {
    "key": "2019/rancher-2_3-ga-announcement",
-   "value": "https://www.suse.com/c/rancher_blog/introducing-rancher-2-3-the-best-gets-better/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2019/rancher-security-2019-recap",
@@ -326,7 +326,7 @@
   },
   {
    "key": "2019/what-do-people-love-about-rancher",
-   "value": "https://www.suse.com/c/rancher_blog/what-do-people-love-about-rancher/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2019/why-k3s-is-the-future-of-k8s-at-the-edge",
@@ -342,7 +342,7 @@
   },
   {
    "key": "2020/achieving-major-efficiencies-migration-openshift-to-rancher",
-   "value": "https://www.suse.com/c/rancher_blog/achieving-major-efficiencies-through-migration-from-openshift-to-rancher/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/ai-meets-kubernetes",
@@ -350,7 +350,7 @@
   },
   {
    "key": "2020/albert-heijn",
-   "value": "https://www.suse.com/c/rancher_blog/delivering-inspiring-retail-experiences-with-rancher/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/announcing-harvester-open-source-hyperconverged-infrastructure-software",
@@ -358,7 +358,7 @@
   },
   {
    "key": "2020/announcing-hosted-rancher",
-   "value": "https://www.suse.com/c/rancher_blog/announcing-hosted-rancher-with-rancher-2-4/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/automate-k3os-cluster-registration",
@@ -374,11 +374,11 @@
   },
   {
    "key": "2020/cardano",
-   "value": "https://www.suse.com/c/rancher_blog/kubernetes-drives-growth-and-innovation-in-financial-services/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/citrix-rancher-integration",
-   "value": "https://www.suse.com/c/rancher_blog/citrix-and-rancher-integration-cloud-native-stack-on-kubernetes/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/clear-path-to-automated-optimization",
@@ -394,7 +394,7 @@
   },
   {
    "key": "2020/continental-evolves-manufacturing-kubernetes",
-   "value": "https://www.suse.com/c/rancher_blog/continental-evolves-manufacturing-with-kubernetes/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/create-kubernetes-devops-pipeline",
@@ -406,7 +406,7 @@
   },
   {
    "key": "2020/customer-happiness-awards",
-   "value": "https://www.suse.com/c/rancher_blog/rancher-ranked-3-in-2020-customer-happiness-awards/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/deploy-an-ingress-controllers",
@@ -430,7 +430,7 @@
   },
   {
    "key": "2020/dimoco",
-   "value": "https://www.suse.com/c/rancher_blog/driving-agility-and-scale-in-mobile-payments/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/disaster-recovery-preparedness-kubernetes-clusters",
@@ -438,7 +438,7 @@
   },
   {
    "key": "2020/driving-kubernetes-adoption-finance-rancher",
-   "value": "https://www.suse.com/c/rancher_blog/driving-kubernetes-adoption-in-finance-with-rancher/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/enabling-kubernetes-troubleshooting",
@@ -466,7 +466,7 @@
   },
   {
    "key": "2020/gain-commercial-value",
-   "value": "https://www.suse.com/c/rancher_blog/how-businesses-can-gain-commercial-value-from-kubernetes-deployments/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/gitops-kubernetes-connection",
@@ -486,7 +486,7 @@
   },
   {
    "key": "2020/hotelbeds",
-   "value": "https://www.suse.com/c/rancher_blog/connecting-the-worlds-travel-trade-with-kubernetes/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/hybrid-multi-cloud-service-mesh-based-applications-distributed-deployments",
@@ -502,7 +502,7 @@
   },
   {
    "key": "2020/introducing-rancher-on-hci",
-   "value": "https://www.suse.com/c/rancher_blog/introducing-rancher-on-netapp-hci-hybrid-cloud-multicluster-kubernetes-management-with-push-button-ease/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/introduction-k3d-run-k3s-docker-src",
@@ -582,7 +582,7 @@
   },
   {
    "key": "2020/mpac",
-   "value": "https://www.suse.com/c/rancher_blog/mpac-cuts-cloud-costs-by-40-percent-with-rancher/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/multi-cluster-vulnerability-scanning-alcide-rancher",
@@ -594,7 +594,7 @@
   },
   {
    "key": "2020/optoro",
-   "value": "https://www.suse.com/c/rancher_blog/driving-sustainability-in-retail-with-kubernetes/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/os-agnostic",
@@ -602,7 +602,7 @@
   },
   {
    "key": "2020/partner-perspective",
-   "value": "https://www.suse.com/c/rancher_blog/rancher-partner-program-a-partner-perspective/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/pod-security-policies-part-1",
@@ -622,7 +622,7 @@
   },
   {
    "key": "2020/privacy-protection",
-   "value": "https://www.suse.com/c/rancher_blog/privacy-protections-pci-compliance-and-vulnerability-management-for-kubernetes/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/prometheus-metric-federation",
@@ -646,11 +646,11 @@
   },
   {
    "key": "2020/rancher-recognized-as-leader-latest-forrester-wave",
-   "value": "https://www.suse.com/c/rancher_blog/rancher-recognized-as-a-leader-in-latest-forrester-wave-2/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/rancher-vs-openshift",
-   "value": "https://www.suse.com/c/rancher_blog/rancher-vs-openshift-a-consultants-view-2/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/rancherd-simplifies-rancher-deployment",
@@ -666,7 +666,7 @@
   },
   {
    "key": "2020/running-containers-in-aws-with-rancher",
-   "value": "https://www.suse.com/c/rancher_blog/running-containers-in-aws-with-rancher/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/running-containers-in-azure-with-rancher",
@@ -690,15 +690,15 @@
   },
   {
    "key": "2020/schneider-electric",
-   "value": "https://www.suse.com/c/rancher_blog/global-energy-leader-transforms-technology-and-culture-with-kubernetes/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/securing-financial-transactions-rancher",
-   "value": "https://www.suse.com/c/rancher_blog/securing-financial-transactions-with-rancher/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/sera4",
-   "value": "https://www.suse.com/c/rancher_blog/protecting-critical-infrastructure-in-kubernetes-and-rancher/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/set-up-k3s-high-availability-using-k3d",
@@ -734,11 +734,11 @@
   },
   {
    "key": "2020/telstra-ventures-invests-rancher",
-   "value": "https://www.suse.com/c/rancher_blog/telstra-ventures-invests-in-rancher/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/three-reasons-to-try-hosted-rancher-manage-kubernetes",
-   "value": "https://www.suse.com/c/rancher_blog/three-reasons-why-hosted-rancher-makes-your-life-easier/"
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "2020/three-way-to-run-aws",
@@ -877,8 +877,16 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "accelerating-devops-adoption-in-the-nordics",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "accelerating-machine-learning-with-mlops-and-fuseml-part-one",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "achieving-major-efficiencies-through-migration-from-openshift-to-rancher",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "adding-custom-nodes-to-your-kubernetes-cluster-in-rancher-2-0-tech-preview-2",
@@ -911,6 +919,10 @@
   {
    "key": "announcing-a-new-terraform-module-for-gce",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "announcing-hosted-rancher-with-rancher-2-4",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "announcing-lockc-improving-container-security",
@@ -955,6 +967,10 @@
   {
    "key": "automate-k3os-cluster-registration-to-rancher-with-argo-workflows-and-scripting-magic",
    "value": "https://k3s.io/"
+  },
+  {
+   "key": "automating-container-infrastructure-management-with-spotinst-rancher",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "aws-and-rancher-building-a-resilient-stack",
@@ -1045,6 +1061,10 @@
    "value": "https://www.suse.com/c/canary-releases-rancher-continuous-delivery-src/"
   },
   {
+   "key": "canonical-announces-cloud-native-platform-powered-by-rancher",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "checking-out-rancher-2-0-with-kops-aws-clusters",
    "value": "https://ranchermanager.docs.rancher.com/"
   },
@@ -1057,6 +1077,10 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "citrix-and-rancher-integration-cloud-native-stack-on-kubernetes",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "clean-install-rancher-desktop",
    "value": "https://rancherdesktop.io/"
   },
@@ -1067,6 +1091,10 @@
   {
    "key": "cncf-projects-you-may-have-missed",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "code-commits-only-half-the-story",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "comparing-10-docker-container-monitoring-solutions-for-rancher",
@@ -1093,6 +1121,10 @@
    "value": "https://k3s.io/"
   },
   {
+   "key": "connecting-the-worlds-travel-trade-with-kubernetes",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "container-ecosystem-trends-you-need-to-know",
    "value": "https://www.rancher.com/blog/"
   },
@@ -1115,6 +1147,10 @@
   {
    "key": "containers-and-postgresql-vs-mysql-vs-mariadb",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "continental-evolves-manufacturing-with-kubernetes",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "continuous-delivery-of-everything-with-rancher-drone-and-terraform",
@@ -1149,6 +1185,10 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "creating-memorable-gaming-experiences-with-kubernetes",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "creating-microservices-deployments-on-kubernetes-with-rancher-part-2",
    "value": "https://www.rancher.com/blog/"
   },
@@ -1171,6 +1211,14 @@
   {
    "key": "deciphering-common-misconceptions-about-security-across-kubernetes",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "deciphering-container-complexity-from-operations-to-security",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "delivering-inspiring-retail-experiences-with-rancher",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "deploy-a-nodejs-app-on-kubernetes-and-rancher",
@@ -1249,6 +1297,18 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "driving-agility-and-scale-in-mobile-payments",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "driving-kubernetes-adoption-in-finance-with-rancher",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "driving-sustainability-in-retail-with-kubernetes",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "easy-ingress-management-on-the-edge-with-k3s-lightweight-kubernetes-and-traefik",
    "value": "https://k3s.io/"
   },
@@ -1257,12 +1317,20 @@
    "value": "https://www.rancher.com/blog/debugging-your-rancher-kubernetes-cluster-the-genai-way-with-k8sgpt-ollama-rancher-desktop/"
   },
   {
+   "key": "ending-the-ingressnightmare-how-suse-secures-your-kubernetes-clusters-from-external-and-internal-threats",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "enhancing-kubernetes-security-with-pod-security-policies-part-1",
    "value": "https://www.rancher.com/blog/"
   },
   {
    "key": "enhancing-kubernetes-security-with-pod-security-policies-part-2",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "enterprise-and-edge-scale-security-with-neuvector-container-security-5-1",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "epinio-and-crossplane-the-perfect-kubernetes-fit",
@@ -1285,6 +1353,10 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "expanding-sql-server-support",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "fighting-covid-19-one-kubernetes-cluster-at-a-time",
    "value": "https://www.rancher.com/blog/"
   },
@@ -1297,8 +1369,24 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "fix-what-matters-suse-application-collection-adds-real-context-to-cves-with-openvex",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "forrester-identifies-rancher-as-a-leader-in-enterprise-container-management",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "from-the-dockercon-hackathon-introducing-sherdock-docker-image-management-simplified",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "g2-ranks-suse-in-top-25-german-companies",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "gain-competitive-advantage-through-cloud-native-technology",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "getting-acquainted-with-gvisor",
@@ -1317,6 +1405,10 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "global-energy-leader-transforms-technology-and-culture-with-kubernetes",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "guest-blog-sysdig-announces-integrated-docker-monitoring-in-rancher",
    "value": "https://www.rancher.com/blog/"
   },
@@ -1333,6 +1425,14 @@
    "value": "https://harvesterhci.io/"
   },
   {
+   "key": "how-businesses-can-gain-commercial-value-from-kubernetes-deployments",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "how-codezero-suse-transform-development",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "how-enterprise-kubernetes-benefits-from-multi-cluster-apps",
    "value": "https://www.rancher.com/blog/"
   },
@@ -1343,6 +1443,10 @@
   {
    "key": "how-the-open-container-project-will-transform-computing-infrastructure",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "how-to-explain-zero-trust-tech-leadership-gartner-report",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "how-to-manage-harvester-0-3-0-with-rancher-2-6-1-running-in-a-vm-within-harvester",
@@ -1365,6 +1469,14 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "improve-boot-times-in-suse-linux-enterprise-desktop-15-sp3-with-these-tweaks",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "improve-security-with-this-one-liner",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "install-sap-data-intelligence-3-0-on-an-rke-cluster",
    "value": "https://ranchermanager.docs.rancher.com/"
   },
@@ -1383,6 +1495,10 @@
   {
    "key": "introducing-epinio-0-6-smaller-faster-and-more-capable",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "introducing-hyper-converged-infrastructure-for-containers-powered-by-rancher-and-redapt",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "introducing-hypper-package-management-for-cluster-admins",
@@ -1405,8 +1521,16 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "introducing-rancher-2-3-the-best-gets-better",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "introducing-rancher-academy",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "introducing-rancher-on-netapp-hci-hybrid-cloud-multicluster-kubernetes-management-with-push-button-ease",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "introducing-rancherd-a-simpler-tool-for-deploying-rancher",
@@ -1429,8 +1553,16 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "introducing-the-rancher-partner-network",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "introduction-to-s3gw",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "is-observing-tls-traffic-through-ebpf-a-security-risk",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "it-takes-a-village",
@@ -1449,6 +1581,14 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "kubernetes-adoption-driving-rancher-labs-momentum",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "kubernetes-adoption-hastens-in-emea",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "kubernetes-and-the-enterprise-knowledge-graph",
    "value": "https://www.rancher.com/blog/"
   },
@@ -1457,8 +1597,16 @@
    "value": "https://ranchermanager.docs.rancher.com/"
   },
   {
+   "key": "kubernetes-clusters-break-in-the-weirdest-ways",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "kubernetes-consolidation-what-does-it-mean-for-rancher-labs",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "kubernetes-drives-growth-and-innovation-in-financial-services",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "kubernetes-in-docker-desktop-just-got-easier-with-epinio",
@@ -1577,12 +1725,20 @@
    "value": "https://ranchermanager.docs.rancher.com/"
   },
   {
+   "key": "mpac-cuts-cloud-costs-by-40-percent-with-rancher",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "multi-cloud-kubernetes-era-has-arrived",
    "value": "https://www.rancher.com/blog/"
   },
   {
    "key": "multi-cluster-vulnerability-scanning-with-alcide-and-rancher",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "neuvector-ui-extension-for-rancher-enhances-secure-cloud-native-stack",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "new-ideas-on-how-to-install-epinio",
@@ -1605,6 +1761,10 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "optimizing-applications-and-infrastructure-with-atlantis-computing-and-rancher",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "playing-catch-up-with-docker-and-containers",
    "value": "https://www.rancher.com/blog/"
   },
@@ -1617,8 +1777,32 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "press-release-rancher-labs-launches-rancher-2-0-the-first-container-management-platform-to-work-with-any-kubernetes-cluster",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "press-release-rancher-labs-named-a-cool-vendor-in-cloud-infrastructure-by-gartner",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "press-release-rancher-labs-partners-with-docker-to-embed-docker-enterprise-edition-into-rancher-platform",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "preview-rancher-at-aws-reinvent-2016",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "privacy-protections-pci-compliance-and-vulnerability-management-for-kubernetes",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "protecting-critical-infrastructure-in-kubernetes-and-rancher",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "qa-how-to-find-value-at-the-edge-featuring-michele-pelino",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "rancher-0-3-demo-video",
@@ -1673,6 +1857,10 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "rancher-and-spotinst-partner-to-introduce-a-new-model-for-utilizing-docker-orchestration-tools-on-spot-instances",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "rancher-and-the-moby-project",
    "value": "https://www.rancher.com/blog/"
   },
@@ -1701,6 +1889,14 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "rancher-innovations-2022",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "rancher-istio-will-be-deprecated-in-upcoming-rancher-releases",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "rancher-joins-the-cncf-kubernetes-software-conformance-certification-program",
    "value": "https://www.rancher.com/blog/"
   },
@@ -1709,8 +1905,16 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "rancher-labs-and-neuvector-partner-to-deliver-management-and-security-for-containers",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "rancher-labs-industry-survey-shows-rapid-adoption-of-containers-and-kubernetes-but-challenges-remain",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "rancher-labs-introduces-global-partner-network",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "rancher-now-supports-docker-logs",
@@ -1719,6 +1923,26 @@
   {
    "key": "rancher-now-supports-kubernetes",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "rancher-partner-program-a-partner-perspective",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "rancher-prime-spring-release-2023",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "rancher-ranked-3-in-2020-customer-happiness-awards",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "rancher-recognized-as-a-leader-in-latest-forrester-wave",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "rancher-recognized-as-a-leader-in-latest-forrester-wave-2",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "rancher-security-2019-recap",
@@ -1735,6 +1959,14 @@
   {
    "key": "rancher-v1-3-experimental-windows-containers-support",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "rancher-vs-openshift-a-consultants-view",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "rancher-vs-openshift-a-consultants-view-2",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "rancher-vs-rke-what-is-the-difference",
@@ -1829,6 +2061,10 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "running-containers-in-aws-with-rancher",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "running-containers-in-azure-with-rancher",
    "value": "https://www.rancher.com/blog/"
   },
@@ -1869,6 +2105,10 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "securing-financial-transactions-with-rancher",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "security-for-your-container-environment",
    "value": "https://www.rancher.com/blog/"
   },
@@ -1893,6 +2133,10 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "sle-bci-for-dotnet-sdk-aspnet-and-runtime",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "speed-up-development-with-automated-kubernetes-deployments",
    "value": "https://www.rancher.com/blog/"
   },
@@ -1905,8 +2149,28 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "suse-awarded-16-badges-in-g2-spring-2023-report",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "suse-edge-2-0-a-cloud-native-solution-to-manage-edge",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "suse-enters-into-definitive-agreement-to-acquire-rancher-labs",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "suse-launches-dedicated-rancher-prime-knowledgebase",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "suse-rancher-prime-meets-cluster-api-what-you-need-to-know",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "suse-receives-15-badges-winter-g2-report",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "take-the-guesswork-out-of-a-secure-kubernetes-deployment",
@@ -1915,6 +2179,10 @@
   {
    "key": "tapping-native-controls-in-kubernetes-to-protect-your-cloud-native-apps",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "telstra-ventures-invests-in-rancher",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "terraform-resources-to-provision-a-ha-kubernetes-cluster-in-the-cloud",
@@ -1961,6 +2229,10 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "three-reasons-why-hosted-rancher-makes-your-life-easier",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "tools-to-develop-apps-on-kubernetes",
    "value": "https://www.rancher.com/blog/tools-to-develop-apps-on-kubernetes-2/"
   },
@@ -1979,6 +2251,14 @@
   {
    "key": "understanding-cattle-swarm-and-kubernetes-in-rancher",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "unlocking-developer-productivity-suse-application-collection-extension-for-rancher-desktop",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
+   "key": "unlocking-the-business-value-of-docker",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "up-and-running-windows-containers-with-rancher-2-3-and-terraform",
@@ -2061,6 +2341,10 @@
    "value": "https://www.rancher.com/blog/"
   },
   {
+   "key": "what-do-people-love-about-rancher",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "whats-new-in-kubernetes-1-12",
    "value": "https://www.rancher.com/blog/"
   },
@@ -2081,8 +2365,16 @@
    "value": "https://www.rancher.com/blog/driving-innovation-with-extensible-interoperability-in-ranchers-spring-23-release/"
   },
   {
+   "key": "whats-new-rancher-2-8",
+   "value": "https://www.suse.com/blog/"
+  },
+  {
    "key": "where-is-docker-headed",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "why-is-open-source-important-to-enterprise-it-leaders",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "why-k3s-is-the-future-of-kubernetes-at-the-edge",
@@ -2095,6 +2387,10 @@
   {
    "key": "winning-hackathons-devops-style",
    "value": "https://www.rancher.com/blog/"
+  },
+  {
+   "key": "your-favorite-k8s-free-open-source-application-just-sent-you-a-five-figure-invoice-heres-how-to-get-more-for-less",
+   "value": "https://www.suse.com/blog/"
   },
   {
    "key": "zero-trust-for-containerized-environments-infographic",
