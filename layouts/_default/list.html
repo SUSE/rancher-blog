@@ -14,9 +14,13 @@
     {{- else }}
     <p class="eyebrow">Rancher blog</p>
     <h1><span class="light">Notes from the people</span> who run Rancher</h1>
-    <p class="lede">How-tos, engineering deep dives and release notes for Rancher Manager, K3s, RKE2, Longhorn, Fleet, Harvester, NeuVector and the rest of the stack.</p>
+    <p class="lede">How-tos, engineering write-ups and release notes for Rancher Manager, K3s, RKE2, Longhorn, Fleet, Harvester, NeuVector and the rest of the stack.</p>
     {{- end }}
-    {{- if and (ne .Kind "taxonomy") (ne .Data.Plural "authors") }}
+    {{- /* home: projects and topics; project page: projects; tag page: topics. The current one is active */ -}}
+    {{- $showProducts := or $isBlog (eq .Data.Plural "products") }}
+    {{- $showTopics := or $isBlog (eq .Data.Plural "tags") }}
+    {{- if and (ne .Kind "taxonomy") $showProducts }}
+    {{- if $isBlog }}<p class="filter-label">Projects</p>{{ end }}
     <nav class="pills" aria-label="Projects">
       <a class="pill{{ if $isBlog }} active{{ end }}" href="/blog/">All</a>
       {{- range site.Params.featuredProducts }}
@@ -25,6 +29,16 @@
       {{- end }}
       {{- end }}
       <a class="pill more" href="/blog/products/">More</a>
+    </nav>
+    {{- end }}
+    {{- if and (ne .Kind "taxonomy") $showTopics }}
+    {{- if $isBlog }}<p class="filter-label">Topics</p>{{ end }}
+    <nav class="pills" aria-label="Topics">
+      {{- if not $isBlog }}<a class="pill" href="/blog/">All</a>{{ end }}
+      {{- range first 12 site.Taxonomies.tags.ByCount }}
+      <a class="pill{{ if eq $.RelPermalink .Page.RelPermalink }} active{{ end }}" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+      {{- end }}
+      <a class="pill more" href="/blog/tags/">More</a>
     </nav>
     {{- end }}
   </div>

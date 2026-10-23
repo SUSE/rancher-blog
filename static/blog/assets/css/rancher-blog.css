@@ -54,9 +54,11 @@ h1,h2,h3,h4{font-weight:500;line-height:1.17;margin:0 0 20px;color:var(--ink)}
 .lede{font-size:18px;line-height:1.66;max-width:var(--narrow);margin:0 0 30px}
 .pills{display:flex;flex-wrap:wrap;gap:12px;list-style:none;padding:0;margin:0}
 .pill{display:inline-block;padding:7px 20px;border-radius:var(--pill);border:2px solid var(--blue);color:var(--blue);font-size:15px;font-weight:500;background:#fff}
-.pill:hover{text-decoration:none;background:var(--blue);color:#fff}
+.pill:hover{text-decoration:none;background:var(--tint)}
 .pill.active{background:var(--blue);color:#fff}
 .pill span{opacity:.7;font-weight:400;margin-left:4px}
+.filter-label{font-size:13px;font-weight:700;letter-spacing:1.17px;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+.pills + .filter-label{margin-top:26px}
 
 /* cards: no border, soft shadow, square corners */
 .section{padding:30px 40px 90px}
