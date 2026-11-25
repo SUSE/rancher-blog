@@ -2,7 +2,7 @@
 title: "Upstream Momentum: A Technical Spotlight on K3s, Kubewarden, and Longhorn"
 date: 2026-11-24T12:00:00
 slug: "upstream-momentum-technical-spotlight"
-authors: ["Davide Iori", "François-Xavier Houard", "Matthew Denham"]
+authors: ["Davide Iori", "Alex Settle", "Matthew Denham"]
 products: ["Kubewarden", "K3s", "Longhorn"]
 tags: ["open source"]
 description: "An overview of the recent technical achievements and upstream momentum of CNCF cornerstone projects K3s, Kubewarden, and Longhorn."
