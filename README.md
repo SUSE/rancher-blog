@@ -43,6 +43,15 @@ Open a pull request against `main`. Merging publishes the post.
 
 `.github/workflows/hugo.yml` builds the site on every push to `main` and deploys it to GitHub Pages at https://opensource.suse.com/rancher-blog/blog/. Links are relative, so the same build is served on https://www.rancher.com/blog/ through CloudFront.
 
+## Publishing a post (maintainers)
+
+1. Review the pull request against its checklist and the mistakes list in `CONTRIBUTING.md`. Fix small things (slug, authors, links) with a commit on the contributor's branch, or with a follow-up pull request after merging.
+2. Merge to `main`. The "Deploy blog to GitHub Pages" workflow runs and takes a few minutes.
+3. Hugo skips posts dated in the future, and nothing rebuilds on a timer. For a scheduled post, merge after its `date`, or open Actions > Deploy blog to GitHub Pages > Run workflow once the time has passed.
+4. Check the post at `https://www.rancher.com/blog/<slug>/` and on the blog home. If it is on the Pages origin (`https://opensource.suse.com/rancher-blog/blog/<slug>/`) but not on rancher.com, the CloudFront cache has not refreshed yet.
+
+To take a post down, set `draft: true` and merge. If the URL was shared, also add a redirect (below).
+
 ## Redirects
 
 `cloudfront/` holds the viewer-request function for the rancher.com `/blog/*` behaviour. It sends archived posts and pre-2021 rancher.com URLs (`/blog/YYYY/<old-slug>`) to their new home with a 301, using a CloudFront KeyValueStore loaded from `cloudfront/redirects-kvs.json`, and adds the trailing slash GitHub Pages would otherwise add with a redirect to its own host.

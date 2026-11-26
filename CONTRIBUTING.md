@@ -68,6 +68,18 @@ title: "Your Name"
 One or two sentences about what you work on.
 ```
 
+## Common mistakes to check before you open the pull request
+
+- **One name per author.** `authors: ["Ana Pérez", "Li Wei"]`, never `["Ana Pérez, Li Wei"]`. A single string with commas creates one author page with all the names in it.
+- **The slug is the URL.** It becomes `rancher.com/blog/<slug>/` and is hard to change after people share it. Check the spelling and keep it short.
+- **Every `image:` and `![...](images/...)` points to a file that exists** in your post's `images/` folder. A missing card image shows an empty card on the blog home.
+- **No empty links.** `[GitHub]()` renders as text that goes nowhere. Search your file for `]()` before you push.
+- **Write the date in the past or today.** A post dated later than the moment it is merged stays hidden until the site builds again (see below).
+
 ## Review and publishing
 
 A maintainer reviews every pull request for accuracy, tone and links. Merging to `main` publishes the post within a few minutes.
+
+The site only builds when something is pushed to `main`. If your post has a future `date`, it does not go live at that time on its own: tell the reviewer the time you want, and they will merge or rebuild then. Dates use Madrid time (Europe/Madrid).
+
+Your post is live when it shows on https://www.rancher.com/blog/ and at `https://www.rancher.com/blog/<slug>/`.
