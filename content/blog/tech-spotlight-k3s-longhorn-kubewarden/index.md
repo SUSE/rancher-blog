@@ -1,5 +1,6 @@
 ---
 title: "Upstream Momentum: A Technical Spotlight on K3s, Kubewarden, and Longhorn"
+image: "images/featured.png"
 date: 2026-11-24T12:00:00
 slug: "upstream-momentum-technical-spotlight"
 authors: ["Davide Iori", "François-Xavier Houard", "Matthew Denham"]

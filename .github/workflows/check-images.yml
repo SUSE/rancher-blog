@@ -1,0 +1,17 @@
+name: Featured images
+
+on:
+  pull_request:
+    paths:
+      - "content/blog/**"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: New posts have a featured image
+        run: python3 tools/check_images.py

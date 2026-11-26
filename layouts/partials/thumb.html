@@ -1,4 +1,4 @@
-{{- /* Returns a webp of the post's featured image (or, unless featuredOnly, its first raster image), or nothing.
+{{- /* Returns a webp of the post's featured image (or, unless featuredOnly, its first raster image), or, for cards, a branded fallback.
      h > 0 crops to w x h for cards; h = 0 scales down to width w without cropping. */ -}}
 {{- $p := .page -}}
 {{- $src := "" -}}
@@ -14,5 +14,12 @@
       {{- if .Err }}{{ warnf "thumb skipped for %s: %s" $p.RelPermalink .Err }}{{ else }}{{ $out = .Value }}{{ end -}}
     {{- end -}}
   {{- end -}}
+{{- end -}}
+{{- /* no image at all (cards only): the branded base from tools/make_hero.py with the product name */ -}}
+{{- if and (not $out) (not $.featuredOnly) (gt $.h 0) -}}
+  {{- $label := index ($p.Params.products | default (slice "Rancher")) 0 | replaceRE ` \(.*\)$` "" -}}
+  {{- $font := resources.Get "blog/fonts/Poppins-Light.ttf" -}}
+  {{- $txt := images.Text $label (dict "font" $font "size" 76 "color" "#ffffff" "x" 640 "y" 250 "alignx" "center") -}}
+  {{- with resources.Get "blog/hero-base.png" }}{{ $out = (.Filter $txt).Process (printf "fill %dx%d Center webp q75" $.w $.h) }}{{ end -}}
 {{- end -}}
 {{- return $out -}}

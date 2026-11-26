@@ -55,7 +55,8 @@ Commercial content (Rancher Prime, SUSE Rancher for AWS, pricing, support, custo
 - Put them in your post's `images/` folder and reference them as `![What the image shows](images/file.png)`.
 - Always write alt text that describes the image.
 - PNG or JPG, under 1 MB each. Screenshots at 2x are fine, Hugo resizes the thumbnails.
-- To set the card image, add `image: "images/file.png"` to the front matter.
+- Every new post needs a card image: add `image: "images/file.png"` to the front matter. A check on the pull request fails without one.
+- No image of your own? Run `python3 tools/make_hero.py content/blog/<your-post>` (needs `pip install pillow`). It writes a Rancher-branded `images/featured.png` with your title and sets `image:` for you.
 
 ## Author pages
 

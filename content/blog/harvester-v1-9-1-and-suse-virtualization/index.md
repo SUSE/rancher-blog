@@ -1,5 +1,6 @@
 ---
 title: "Harvester v1.9.1 and what changes with SUSE Virtualization"
+image: "images/featured.png"
 date: 2026-11-13T09:00:00
 slug: "harvester-v1-9-1-and-suse-virtualization"
 authors: ["Alex Settle"]
